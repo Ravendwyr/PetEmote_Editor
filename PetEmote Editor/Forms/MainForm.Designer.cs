@@ -28,9 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.ToolStripContainer_EmoteEditing = new System.Windows.Forms.ToolStripContainer();
-            this.TreeView_Main = new System.Windows.Forms.TreeView();
+            this.TabControl_EmoteConfigurations = new System.Windows.Forms.TabControl();
+            this.TabPage_RandomEmotes = new System.Windows.Forms.TabPage();
+            this.TreeView_RandomEmotes = new System.Windows.Forms.TreeView();
+            this.TabPage_CombatEmotes = new System.Windows.Forms.TabPage();
+            this.Panel_Keywords = new System.Windows.Forms.Panel();
+            this.Panel_KeywordsTextBox = new System.Windows.Forms.Panel();
+            this.TextBox_Keywords = new System.Windows.Forms.TextBox();
+            this.Panel_KeywordsLabel = new System.Windows.Forms.Panel();
+            this.Label_Keywords = new System.Windows.Forms.Label();
+            this.Panel_KeywordsCheckBox = new System.Windows.Forms.Panel();
+            this.CheckBox_KeywordsAutoFill = new System.Windows.Forms.CheckBox();
             this.ToolStrip_Tools = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton_TestConfiguration = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton_CheckForProblems = new System.Windows.Forms.ToolStripButton();
@@ -71,17 +82,22 @@
             this.ToolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripLabel_Chance = new System.Windows.Forms.ToolStripLabel();
             this.ToolStripComboBox_Chance = new System.Windows.Forms.ToolStripComboBox();
-            this.ToolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripLabel_Keywords = new System.Windows.Forms.ToolStripLabel();
-            this.ToolStripTextBox_Keywords = new System.Windows.Forms.ToolStripTextBox();
             this.SplitContainer_TopBottom = new System.Windows.Forms.SplitContainer();
             this.ListView_Output = new System.Windows.Forms.ListView();
             this.ColumnHeader_EmoteText = new System.Windows.Forms.ColumnHeader();
             this.ColumnHeader_Condition = new System.Windows.Forms.ColumnHeader();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.ToolTip_Help = new System.Windows.Forms.ToolTip(this.components);
+            this.ImageList_TreeView = new System.Windows.Forms.ImageList(this.components);
             this.ToolStripContainer_EmoteEditing.ContentPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.SuspendLayout();
+            this.TabControl_EmoteConfigurations.SuspendLayout();
+            this.TabPage_RandomEmotes.SuspendLayout();
+            this.Panel_Keywords.SuspendLayout();
+            this.Panel_KeywordsTextBox.SuspendLayout();
+            this.Panel_KeywordsLabel.SuspendLayout();
+            this.Panel_KeywordsCheckBox.SuspendLayout();
             this.ToolStrip_Tools.SuspendLayout();
             this.ToolStrip_Main.SuspendLayout();
             this.ToolStrip_EmoteEditing.SuspendLayout();
@@ -95,7 +111,8 @@
             // 
             // ToolStripContainer_EmoteEditing.ContentPanel
             // 
-            this.ToolStripContainer_EmoteEditing.ContentPanel.Controls.Add(this.TreeView_Main);
+            this.ToolStripContainer_EmoteEditing.ContentPanel.Controls.Add(this.TabControl_EmoteConfigurations);
+            this.ToolStripContainer_EmoteEditing.ContentPanel.Controls.Add(this.Panel_Keywords);
             resources.ApplyResources(this.ToolStripContainer_EmoteEditing.ContentPanel, "ToolStripContainer_EmoteEditing.ContentPanel");
             resources.ApplyResources(this.ToolStripContainer_EmoteEditing, "ToolStripContainer_EmoteEditing");
             this.ToolStripContainer_EmoteEditing.LeftToolStripPanelVisible = false;
@@ -108,21 +125,91 @@
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_Main);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_EmoteEditing);
             // 
-            // TreeView_Main
+            // TabControl_EmoteConfigurations
             // 
-            this.TreeView_Main.AllowDrop = true;
-            resources.ApplyResources(this.TreeView_Main, "TreeView_Main");
-            this.TreeView_Main.HideSelection = false;
-            this.TreeView_Main.HotTracking = true;
-            this.TreeView_Main.LabelEdit = true;
-            this.TreeView_Main.Name = "TreeView_Main";
-            this.TreeView_Main.PathSeparator = " ";
-            this.TreeView_Main.ShowNodeToolTips = true;
-            this.TreeView_Main.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.TreeView_Main_AfterLabelEdit);
-            this.TreeView_Main.DragDrop += new System.Windows.Forms.DragEventHandler(this.TreeView_Main_DragDrop);
-            this.TreeView_Main.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView_Main_AfterSelect);
-            this.TreeView_Main.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.TreeView_Main_ItemDrag);
-            this.TreeView_Main.DragOver += new System.Windows.Forms.DragEventHandler(this.TreeView_Main_DragOver);
+            this.TabControl_EmoteConfigurations.Controls.Add(this.TabPage_RandomEmotes);
+            this.TabControl_EmoteConfigurations.Controls.Add(this.TabPage_CombatEmotes);
+            resources.ApplyResources(this.TabControl_EmoteConfigurations, "TabControl_EmoteConfigurations");
+            this.TabControl_EmoteConfigurations.HotTrack = true;
+            this.TabControl_EmoteConfigurations.Multiline = true;
+            this.TabControl_EmoteConfigurations.Name = "TabControl_EmoteConfigurations";
+            this.TabControl_EmoteConfigurations.SelectedIndex = 0;
+            // 
+            // TabPage_RandomEmotes
+            // 
+            this.TabPage_RandomEmotes.Controls.Add(this.TreeView_RandomEmotes);
+            resources.ApplyResources(this.TabPage_RandomEmotes, "TabPage_RandomEmotes");
+            this.TabPage_RandomEmotes.Name = "TabPage_RandomEmotes";
+            this.TabPage_RandomEmotes.UseVisualStyleBackColor = true;
+            // 
+            // TreeView_RandomEmotes
+            // 
+            this.TreeView_RandomEmotes.AllowDrop = true;
+            this.TreeView_RandomEmotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.TreeView_RandomEmotes, "TreeView_RandomEmotes");
+            this.TreeView_RandomEmotes.HideSelection = false;
+            this.TreeView_RandomEmotes.HotTracking = true;
+            this.TreeView_RandomEmotes.ImageList = this.ImageList_TreeView;
+            this.TreeView_RandomEmotes.LabelEdit = true;
+            this.TreeView_RandomEmotes.Name = "TreeView_RandomEmotes";
+            this.TreeView_RandomEmotes.PathSeparator = " ";
+            this.TreeView_RandomEmotes.ShowNodeToolTips = true;
+            this.TreeView_RandomEmotes.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.TreeView_Main_AfterLabelEdit);
+            this.TreeView_RandomEmotes.DragDrop += new System.Windows.Forms.DragEventHandler(this.TreeView_Main_DragDrop);
+            this.TreeView_RandomEmotes.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView_Main_AfterSelect);
+            this.TreeView_RandomEmotes.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.TreeView_Main_ItemDrag);
+            this.TreeView_RandomEmotes.DragOver += new System.Windows.Forms.DragEventHandler(this.TreeView_Main_DragOver);
+            // 
+            // TabPage_CombatEmotes
+            // 
+            resources.ApplyResources(this.TabPage_CombatEmotes, "TabPage_CombatEmotes");
+            this.TabPage_CombatEmotes.Name = "TabPage_CombatEmotes";
+            this.TabPage_CombatEmotes.UseVisualStyleBackColor = true;
+            // 
+            // Panel_Keywords
+            // 
+            this.Panel_Keywords.Controls.Add(this.Panel_KeywordsTextBox);
+            this.Panel_Keywords.Controls.Add(this.Panel_KeywordsLabel);
+            this.Panel_Keywords.Controls.Add(this.Panel_KeywordsCheckBox);
+            resources.ApplyResources(this.Panel_Keywords, "Panel_Keywords");
+            this.Panel_Keywords.Name = "Panel_Keywords";
+            // 
+            // Panel_KeywordsTextBox
+            // 
+            this.Panel_KeywordsTextBox.Controls.Add(this.TextBox_Keywords);
+            resources.ApplyResources(this.Panel_KeywordsTextBox, "Panel_KeywordsTextBox");
+            this.Panel_KeywordsTextBox.Name = "Panel_KeywordsTextBox";
+            // 
+            // TextBox_Keywords
+            // 
+            resources.ApplyResources(this.TextBox_Keywords, "TextBox_Keywords");
+            this.TextBox_Keywords.Name = "TextBox_Keywords";
+            this.ToolTip_Help.SetToolTip(this.TextBox_Keywords, resources.GetString("TextBox_Keywords.ToolTip"));
+            this.TextBox_Keywords.TextChanged += new System.EventHandler(this.TextBox_Keywords_TextChanged);
+            // 
+            // Panel_KeywordsLabel
+            // 
+            this.Panel_KeywordsLabel.Controls.Add(this.Label_Keywords);
+            resources.ApplyResources(this.Panel_KeywordsLabel, "Panel_KeywordsLabel");
+            this.Panel_KeywordsLabel.Name = "Panel_KeywordsLabel";
+            // 
+            // Label_Keywords
+            // 
+            resources.ApplyResources(this.Label_Keywords, "Label_Keywords");
+            this.Label_Keywords.Name = "Label_Keywords";
+            // 
+            // Panel_KeywordsCheckBox
+            // 
+            this.Panel_KeywordsCheckBox.Controls.Add(this.CheckBox_KeywordsAutoFill);
+            resources.ApplyResources(this.Panel_KeywordsCheckBox, "Panel_KeywordsCheckBox");
+            this.Panel_KeywordsCheckBox.Name = "Panel_KeywordsCheckBox";
+            // 
+            // CheckBox_KeywordsAutoFill
+            // 
+            resources.ApplyResources(this.CheckBox_KeywordsAutoFill, "CheckBox_KeywordsAutoFill");
+            this.CheckBox_KeywordsAutoFill.Name = "CheckBox_KeywordsAutoFill";
+            this.ToolTip_Help.SetToolTip(this.CheckBox_KeywordsAutoFill, resources.GetString("CheckBox_KeywordsAutoFill.ToolTip"));
+            this.CheckBox_KeywordsAutoFill.UseVisualStyleBackColor = true;
             // 
             // ToolStrip_Tools
             // 
@@ -162,7 +249,6 @@
             this.ToolStripSeparator2,
             this.ToolStripDropDownButton_Import});
             this.ToolStrip_Main.Name = "ToolStrip_Main";
-            this.ToolStrip_Main.Stretch = true;
             // 
             // ToolStripComboBox_Source
             // 
@@ -249,12 +335,8 @@
             this.ToolStripMenuItem_Options,
             this.ToolStripSeparator7,
             this.ToolStripLabel_Chance,
-            this.ToolStripComboBox_Chance,
-            this.ToolStripSeparator8,
-            this.ToolStripLabel_Keywords,
-            this.ToolStripTextBox_Keywords});
+            this.ToolStripComboBox_Chance});
             this.ToolStrip_EmoteEditing.Name = "ToolStrip_EmoteEditing";
-            this.ToolStrip_EmoteEditing.Stretch = true;
             // 
             // ToolStripButton_AddNode
             // 
@@ -451,22 +533,6 @@
             resources.ApplyResources(this.ToolStripComboBox_Chance, "ToolStripComboBox_Chance");
             this.ToolStripComboBox_Chance.TextChanged += new System.EventHandler(this.ToolStripComboBox_Chance_TextChanged);
             // 
-            // ToolStripSeparator8
-            // 
-            this.ToolStripSeparator8.Name = "ToolStripSeparator8";
-            resources.ApplyResources(this.ToolStripSeparator8, "ToolStripSeparator8");
-            // 
-            // ToolStripLabel_Keywords
-            // 
-            this.ToolStripLabel_Keywords.Name = "ToolStripLabel_Keywords";
-            resources.ApplyResources(this.ToolStripLabel_Keywords, "ToolStripLabel_Keywords");
-            // 
-            // ToolStripTextBox_Keywords
-            // 
-            this.ToolStripTextBox_Keywords.Name = "ToolStripTextBox_Keywords";
-            resources.ApplyResources(this.ToolStripTextBox_Keywords, "ToolStripTextBox_Keywords");
-            this.ToolStripTextBox_Keywords.TextChanged += new System.EventHandler(this.ToolStripTextBox_Keywords_TextChanged);
-            // 
             // SplitContainer_TopBottom
             // 
             resources.ApplyResources(this.SplitContainer_TopBottom, "SplitContainer_TopBottom");
@@ -509,6 +575,23 @@
             resources.ApplyResources(this.folderBrowserDialog, "folderBrowserDialog");
             this.folderBrowserDialog.ShowNewFolderButton = false;
             // 
+            // ToolTip_Help
+            // 
+            this.ToolTip_Help.AutomaticDelay = 100;
+            this.ToolTip_Help.AutoPopDelay = 10000;
+            this.ToolTip_Help.InitialDelay = 100;
+            this.ToolTip_Help.ReshowDelay = 20;
+            this.ToolTip_Help.ShowAlways = true;
+            this.ToolTip_Help.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.ToolTip_Help.ToolTipTitle = "PetEmote Hilfe";
+            this.ToolTip_Help.UseFading = false;
+            // 
+            // ImageList_TreeView
+            // 
+            this.ImageList_TreeView.ColorDepth = System.Windows.Forms.ColorDepth.Depth16Bit;
+            resources.ApplyResources(this.ImageList_TreeView, "ImageList_TreeView");
+            this.ImageList_TreeView.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -521,6 +604,15 @@
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.PerformLayout();
             this.ToolStripContainer_EmoteEditing.ResumeLayout(false);
             this.ToolStripContainer_EmoteEditing.PerformLayout();
+            this.TabControl_EmoteConfigurations.ResumeLayout(false);
+            this.TabPage_RandomEmotes.ResumeLayout(false);
+            this.Panel_Keywords.ResumeLayout(false);
+            this.Panel_KeywordsTextBox.ResumeLayout(false);
+            this.Panel_KeywordsTextBox.PerformLayout();
+            this.Panel_KeywordsLabel.ResumeLayout(false);
+            this.Panel_KeywordsLabel.PerformLayout();
+            this.Panel_KeywordsCheckBox.ResumeLayout(false);
+            this.Panel_KeywordsCheckBox.PerformLayout();
             this.ToolStrip_Tools.ResumeLayout(false);
             this.ToolStrip_Tools.PerformLayout();
             this.ToolStrip_Main.ResumeLayout(false);
@@ -536,7 +628,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TreeView TreeView_Main;
+        private System.Windows.Forms.TreeView TreeView_RandomEmotes;
         private System.Windows.Forms.ToolStrip ToolStrip_Main;
         private System.Windows.Forms.ToolStripButton ToolStipButton_Load;
         private System.Windows.Forms.ToolStripButton ToolStipButton_Save;
@@ -583,9 +675,18 @@
         private System.Windows.Forms.ToolStripComboBox ToolStripComboBox_Chance;
         private System.Windows.Forms.ToolStripSeparator ToolStripSeparator7;
         private System.Windows.Forms.ToolStripLabel ToolStripLabel_Chance;
-        private System.Windows.Forms.ToolStripSeparator ToolStripSeparator8;
-        private System.Windows.Forms.ToolStripLabel ToolStripLabel_Keywords;
-        private System.Windows.Forms.ToolStripTextBox ToolStripTextBox_Keywords;
+        private System.Windows.Forms.Panel Panel_Keywords;
+        private System.Windows.Forms.TabControl TabControl_EmoteConfigurations;
+        private System.Windows.Forms.TabPage TabPage_RandomEmotes;
+        private System.Windows.Forms.TabPage TabPage_CombatEmotes;
+        private System.Windows.Forms.TextBox TextBox_Keywords;
+        private System.Windows.Forms.Label Label_Keywords;
+        private System.Windows.Forms.CheckBox CheckBox_KeywordsAutoFill;
+        private System.Windows.Forms.Panel Panel_KeywordsTextBox;
+        private System.Windows.Forms.Panel Panel_KeywordsLabel;
+        private System.Windows.Forms.Panel Panel_KeywordsCheckBox;
+        private System.Windows.Forms.ToolTip ToolTip_Help;
+        private System.Windows.Forms.ImageList ImageList_TreeView;
     }
 }
 

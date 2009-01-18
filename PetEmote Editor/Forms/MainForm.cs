@@ -76,22 +76,22 @@ namespace PetEmote.Forms
         private void ToolStripButton_AddNode_Click (object sender, EventArgs e)
         {
             if (this.ToolStripComboBox_Configuration.SelectedItem == null) return;
-            this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewEmote);
-            this.TreeView_Main.SelectedNode.BeginEdit();
+            this.TreeView_RandomEmotes.SelectedNode = this.AddTreeNode(Resources.Other_NewEmote);
+            this.TreeView_RandomEmotes.SelectedNode.BeginEdit();
         }
 
         private void ToolStripButton_AddChildNode_Click(object sender, EventArgs e)
         {
-            if (this.TreeView_Main.SelectedNode == null) return;
-            this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewSubordinaryEmote, this.TreeView_Main.SelectedNode);
-            this.TreeView_Main.SelectedNode.BeginEdit();
+            if (this.TreeView_RandomEmotes.SelectedNode == null) return;
+            this.TreeView_RandomEmotes.SelectedNode = this.AddTreeNode(Resources.Other_NewSubordinaryEmote, this.TreeView_RandomEmotes.SelectedNode);
+            this.TreeView_RandomEmotes.SelectedNode.BeginEdit();
         }
 
         private void ToolStripButton_Save_Click(object sender, EventArgs e)
         {
             if (this.currentEmoteConfiguration != null)
             {
-                this.currentEmoteConfiguration.RandomMessages = this.ConvertTreeNodesToEmotesNodes(this.TreeView_Main.Nodes);
+                this.currentEmoteConfiguration.RandomMessages = this.ConvertTreeNodesToEmotesNodes(this.TreeView_RandomEmotes.Nodes);
             }
 
             this.currentEmotes.EmoteConfigurations.Clear();
@@ -122,13 +122,13 @@ namespace PetEmote.Forms
         {
             if (this.currentEmoteConfiguration != null)
             {
-                this.currentEmoteConfiguration.RandomMessages = this.ConvertTreeNodesToEmotesNodes(this.TreeView_Main.Nodes);
+                this.currentEmoteConfiguration.RandomMessages = this.ConvertTreeNodesToEmotesNodes(this.TreeView_RandomEmotes.Nodes);
             }
 
             this.currentEmoteConfiguration = (EmoteConfiguration) this.ToolStripComboBox_Configuration.SelectedItem;
             this.ClearTreeView();
             
-            this.TreeView_Main.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(this.currentEmoteConfiguration.RandomMessages));
+            this.TreeView_RandomEmotes.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(this.currentEmoteConfiguration.RandomMessages));
         }
 
         private void TreeView_Main_AfterSelect (object sender, TreeViewEventArgs e)
@@ -139,7 +139,7 @@ namespace PetEmote.Forms
             this.ToolStripMenuItem_MustContinue.Enabled = e.Node.Nodes.Count > 0;
 
             this.ToolStripComboBox_Chance.Text = properties.Chance.ToString();
-            this.ToolStripTextBox_Keywords.Text = String.Join(" ", properties.Keywords);
+            this.TextBox_Keywords.Text = String.Join(" ", properties.Keywords);
             
             this.SetSelectedMenuItem(this.ToolStripMenuItem_Conditions.DropDownItems, properties.Condition.ToString());
             
@@ -159,9 +159,9 @@ namespace PetEmote.Forms
 
         private void ToolStripButton_RemoveNode_Click (object sender, EventArgs e)
         {
-            if (this.TreeView_Main.SelectedNode != null)
+            if (this.TreeView_RandomEmotes.SelectedNode != null)
             {
-                this.TreeView_Main.SelectedNode.Remove();
+                this.TreeView_RandomEmotes.SelectedNode.Remove();
             }
         }
 
@@ -184,7 +184,7 @@ namespace PetEmote.Forms
         {
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
             EmoteConfiguration config = (EmoteConfiguration)menuItem.Tag;
-            int oldNodesCount = this.TreeView_Main.Nodes.Count;
+            int oldNodesCount = this.TreeView_RandomEmotes.Nodes.Count;
             this.AddTreeNodeRange(config.RandomMessages);
         }
 
@@ -250,8 +250,8 @@ namespace PetEmote.Forms
 
         private void ToolStripMenuItem_MustContinue_CheckedChanged (object sender, EventArgs e)
         {
-            if (this.TreeView_Main.SelectedNode == null) return;
-            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
+            if (this.TreeView_RandomEmotes.SelectedNode == null) return;
+            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_RandomEmotes.SelectedNode.Tag;
             config.MustContinue = this.ToolStripMenuItem_MustContinue.Checked;
         }
 
@@ -261,8 +261,8 @@ namespace PetEmote.Forms
 
             if (menuItem.CheckState == CheckState.Checked)
             {
-                if (this.TreeView_Main.SelectedNode == null) return;
-                EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
+                if (this.TreeView_RandomEmotes.SelectedNode == null) return;
+                EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_RandomEmotes.SelectedNode.Tag;
                 config.Condition = (EmoteNodeProperties.EmoteCondition)Enum.Parse(config.Condition.GetType(), menuItem.Tag.ToString());
                 this.UncheckAllMenuItemsExcept(this.ToolStripMenuItem_Conditions.DropDownItems, menuItem);
             }
@@ -270,8 +270,8 @@ namespace PetEmote.Forms
 
         private void ToolStripComboBox_Chance_TextChanged (object sender, EventArgs e)
         {
-            if (this.TreeView_Main.SelectedNode == null) return;
-            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
+            if (this.TreeView_RandomEmotes.SelectedNode == null) return;
+            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_RandomEmotes.SelectedNode.Tag;
 
             try {
                 config.Chance = int.Parse(this.ToolStripComboBox_Chance.Text);
@@ -279,17 +279,17 @@ namespace PetEmote.Forms
             catch (FormatException) { }
         }
 
-        private void ToolStripTextBox_Keywords_TextChanged (object sender, EventArgs e)
+        private void TextBox_Keywords_TextChanged (object sender, EventArgs e)
         {
-            if (this.TreeView_Main.SelectedNode == null) return;
-            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
-            config.Keywords = EmoteNodeProperties.StringToKeywords(this.ToolStripTextBox_Keywords.Text);
+            if (this.TreeView_RandomEmotes.SelectedNode == null) return;
+            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_RandomEmotes.SelectedNode.Tag;
+            config.Keywords = EmoteNodeProperties.StringToKeywords(this.TextBox_Keywords.Text);
         }
 
         private void TreeView_Main_AfterLabelEdit (object sender, NodeLabelEditEventArgs e)
         {
-            if (this.ToolStripTextBox_Keywords.Text.Length == 0 && e.Label != null)
-                this.ToolStripTextBox_Keywords.Text = String.Join(" ", EmoteNodeProperties.StringToKeywords(e.Label));
+            if (this.TextBox_Keywords.Text.Length == 0 && e.Label != null)
+                this.TextBox_Keywords.Text = String.Join(" ", EmoteNodeProperties.StringToKeywords(e.Label));
         }
     }
 }

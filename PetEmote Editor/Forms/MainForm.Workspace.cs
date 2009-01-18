@@ -15,7 +15,7 @@ namespace PetEmote.Forms
             TreeNode node = new TreeNode(text);
             node.Tag = new EmoteNodeProperties();
 
-            this.TreeView_Main.Nodes.Add(node);
+            this.TreeView_RandomEmotes.Nodes.Add(node);
 
             return node;
         }
@@ -26,7 +26,7 @@ namespace PetEmote.Forms
             node.Tag = emoteNode.Properties;
             node.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(emoteNode.ChildNodes));
 
-            this.TreeView_Main.Nodes.Add(node);
+            this.TreeView_RandomEmotes.Nodes.Add(node);
 
             return node;
         }
@@ -60,7 +60,7 @@ namespace PetEmote.Forms
         
         private void AddTreeNodeRange (EmoteNodeSet emoteNodeSet)
         {
-            this.TreeView_Main.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(emoteNodeSet));
+            this.TreeView_RandomEmotes.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(emoteNodeSet));
         }
 
         private void ClearWorkspace ()
@@ -70,7 +70,7 @@ namespace PetEmote.Forms
 
         private void ClearTreeView ()
         {
-            this.TreeView_Main.Nodes.Clear();
+            this.TreeView_RandomEmotes.Nodes.Clear();
         }
 
         private EmoteNodeSet ConvertTreeNodesToEmotesNodes (TreeNodeCollection treeNodes)

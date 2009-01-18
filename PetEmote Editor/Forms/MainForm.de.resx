@@ -117,6 +117,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ToolStripContainer_EmoteEditing.BottomToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeView_RandomEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage_RandomEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage_CombatEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl_EmoteConfigurations.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox_Keywords.ToolTip" xml:space="preserve">
+    <value>Vermeide schlechten Satzbau, indem du Stichworte für jedes Emote vergibst. PetEmote wird die
+Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emotes gut zusammen
+passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
+Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
+  </data>
+  <data name="Panel_KeywordsTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="Label_Keywords.Text" xml:space="preserve">
+    <value>Stichworte</value>
+  </data>
+  <data name="Label_Keywords.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel_KeywordsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox_KeywordsAutoFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="CheckBox_KeywordsAutoFill.Text" xml:space="preserve">
+    <value>auto</value>
+  </data>
+  <data name="CheckBox_KeywordsAutoFill.ToolTip" xml:space="preserve">
+    <value>Wenn ausgewählt, werden die Stichworte automatisch
+angepasst, wenn ein Emote bearbeitet wird.</value>
+  </data>
+  <data name="Panel_KeywordsCheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel_Keywords.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.ContentPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.LeftToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.RightToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStrip_Tools.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
     <value>Quelle wählen</value>
   </data>
@@ -132,7 +200,6 @@
   <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
     <value>Alle Konfigurationen speichern</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 22</value>
   </data>
@@ -171,6 +238,9 @@
   </data>
   <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
     <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
+  </data>
+  <data name="ToolStrip_Main.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
     <value>Emote hinzufügen</value>
@@ -351,8 +421,26 @@ Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emote
 passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
 Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
   </data>
+  <data name="ToolStrip_EmoteEditing.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.TopToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="ColumnHeader_Condition.Text" xml:space="preserve">
     <value>Bedingung</value>
+  </data>
+  <data name="ListView_Output.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -854,5 +942,8 @@ Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwen
         2O69ioCpf424xK60ddTn0+Ds3OPQljqvyp3FybPh8ebf17GGxuvZwG+gzqfS6eLdzc8AAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
@@ -10,14 +11,21 @@ namespace PetEmote.Emotes
     {
         private XmlDocument doc;
 
-        public XmlVersionConverter (string filename) {
-            this.doc = new XmlDocument();
-            this.doc.Load(filename);
+        public XmlVersionConverter (string filename)
+        {
+            FileInfo file = new FileInfo(filename);
+
+            if (file.Exists)
+            {
+                this.doc = new XmlDocument();
+                this.doc.Load(file.FullName);
+            }
         }
 
         public bool IsObsolete
         {
             get {
+                if (this.doc == null) return false;
                 if (this.doc.DocumentElement.FirstChild.Name != "Version") return true;
                 return this.doc.DocumentElement.FirstChild.InnerText != Version.Latest;
             }
