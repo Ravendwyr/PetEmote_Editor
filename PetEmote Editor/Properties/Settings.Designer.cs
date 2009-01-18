@@ -22,5 +22,29 @@ namespace PetEmote.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool KeywordsAutoFill {
+            get {
+                return ((bool)(this["KeywordsAutoFill"]));
+            }
+            set {
+                this["KeywordsAutoFill"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public int KeywordsMinLength {
+            get {
+                return ((int)(this["KeywordsMinLength"]));
+            }
+            set {
+                this["KeywordsMinLength"] = value;
+            }
+        }
     }
 }

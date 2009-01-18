@@ -117,20 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ToolStripContainer_EmoteEditing.BottomToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStrip_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 25</value>
   </data>
-  <data name="TreeView_RandomEmotes.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>525, 25</value>
   </data>
-  <data name="TabPage_RandomEmotes.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
+    <value>Zufällige Emotes</value>
   </data>
-  <data name="TabPage_CombatEmotes.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
+    <value>Emotes im Kampf</value>
   </data>
-  <data name="TabControl_EmoteConfigurations.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TabPage_FeedingEmotes.Text" xml:space="preserve">
+    <value>Emotes beim Füttern</value>
+  </data>
+  <data name="Panel_KeywordsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 0</value>
+  </data>
+  <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 20</value>
+  </data>
+  <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 20</value>
   </data>
   <data name="TextBox_Keywords.ToolTip" xml:space="preserve">
     <value>Vermeide schlechten Satzbau, indem du Stichworte für jedes Emote vergibst. PetEmote wird die
@@ -138,115 +148,44 @@ Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emote
 passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
 Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
   </data>
-  <data name="Panel_KeywordsTextBox.ToolTip" xml:space="preserve">
-    <value />
+  <data name="NumericUpDown_KeywordsMinLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 0</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Label_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
+  <data name="NumericUpDown_KeywordsMinLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
   </data>
-  <data name="Label_Keywords.Text" xml:space="preserve">
-    <value>Stichworte</value>
+  <data name="NumericUpDown_KeywordsMinLength.ToolTip" xml:space="preserve">
+    <value>Hier kannst du die minimale Wortlänge für
+automatisch generierte Stichworte festlegen.</value>
   </data>
-  <data name="Label_Keywords.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Panel_KeywordsLabel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Panel_KeywordsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 17</value>
+    <value>76, 17</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.Text" xml:space="preserve">
-    <value>auto</value>
+    <value>Stichworte</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.ToolTip" xml:space="preserve">
     <value>Wenn ausgewählt, werden die Stichworte automatisch
 angepasst, wenn ein Emote bearbeitet wird.</value>
-  </data>
-  <data name="Panel_KeywordsCheckBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Panel_Keywords.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.ContentPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.LeftToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.RightToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStrip_Tools.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
-    <value>Quelle wählen</value>
-  </data>
-  <data name="ToolStipButton_Load.Text" xml:space="preserve">
-    <value>Wiederherstellen</value>
-  </data>
-  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
-    <value>Die zuletzt gespeicherte Version der Emotes wiederherstellen</value>
-  </data>
-  <data name="ToolStipButton_Save.Text" xml:space="preserve">
-    <value>Speichern</value>
-  </data>
-  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
-    <value>Alle Konfigurationen speichern</value>
-  </data>
-  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 22</value>
-  </data>
-  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
-    <value>Konfiguration</value>
-  </data>
-  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
-    <value>Konfiguration auswählen</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Name eines Tieres</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
-    <value>Hinzufügen</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
-    <value>Neue Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
-    <value>Ausgewählte Konfiguration löschen</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
-    <value>Importieren</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
-    <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStrip_Main.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
     <value>Emote hinzufügen</value>
   </data>
   <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
     <value>Fügt einen neuen Emote-Knoten am Ende der Liste ein</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
+        CRp3CwpPAxJnBymLFAlOAyeHFAlPA0KPMTmfHg5bBRl0C1OfQAlNAw5cBQ5eBR58Dh59DrW/xv///2Vv
+        ePn39AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACUALAAAAAAQABAAAAZxwJJQGBoZj6PQcFgMkZ7P
+        5rKUJBWNTulwBO1GR0wktgu+OqFma7Lq/TbZYq5aKW+ThfCjExBgJDYlTW18GCITIAuBbFAHCg4iHw8e
+        REYkRwYimZkRYZZCFQMQIh0WCEtaFxoSIhQCDVNGQwQZHAIFJUEAOw==
+</value>
   </data>
   <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
     <value>Untergeordnetes Emote hinzufügen</value>
@@ -259,6 +198,15 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
   </data>
   <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
     <value>Löscht den ausgewählten Emote-Knoten</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Bedingung</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Bedingung zum ausgewählten Emote</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 22</value>
@@ -356,6 +304,27 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
   <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
     <value>Das Geschlecht des Spielercharakters muss weiblich sein</value>
   </data>
+  <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
   <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
   </data>
@@ -368,14 +337,14 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
   <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
     <value>Das Emote kann jederzeit erscheinen</value>
   </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
+  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
   </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Bedingung</value>
+  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
+    <value>Optionen</value>
   </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Bedingung zum ausgewählten Emote</value>
+  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
+    <value>Einstellungen zum ausgewählten Emote</value>
   </data>
   <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -387,15 +356,6 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
     <value>Wenn ausgewählt, wird das Emote garantiert mit
 einem der untergeordneten Texte fortgesetzt.</value>
   </data>
-  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
-    <value>Einstellungen zum ausgewählten Emote</value>
-  </data>
   <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
     <value>Wähle eine Zahl von 1 bis 200, die die prozentuale Chance angibt, wie oft
 das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
@@ -406,41 +366,117 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
 - ein Wert von 200 verdoppelt die Chance, dass das Emote erscheint
 - mit einem Wert von 1 erscheint das Emote extrem selten</value>
   </data>
-  <data name="ToolStripLabel_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 22</value>
+  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
+    <value>Quelle wählen</value>
   </data>
-  <data name="ToolStripLabel_Keywords.Text" xml:space="preserve">
-    <value>Stichworte</value>
+  <data name="ToolStipButton_Load.Text" xml:space="preserve">
+    <value>Wiederherstellen</value>
   </data>
-  <data name="ToolStripTextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 25</value>
+  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
+    <value>Die zuletzt gespeicherte Version der Emotes wiederherstellen</value>
   </data>
-  <data name="ToolStripTextBox_Keywords.ToolTipText" xml:space="preserve">
-    <value>Vermeide schlechten Satzbau, indem du Stichworte für jedes Emote vergibst. PetEmote wird die
-Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emotes gut zusammen
-passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
-Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
+  <data name="ToolStipButton_Save.Text" xml:space="preserve">
+    <value>Speichern</value>
   </data>
-  <data name="ToolStrip_EmoteEditing.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
+    <value>Alle Konfigurationen speichern</value>
   </data>
-  <data name="ToolStripContainer_EmoteEditing.TopToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
   </data>
-  <data name="SplitContainer_TopBottom.Panel1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
+    <value>Konfiguration auswählen</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
+    <value>Neue Konfiguration hinzufügen</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Name eines Tieres</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
+    <value>Ausgewählte Konfiguration löschen</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
+    <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
+  </data>
+  <data name="ImageList_TreeView.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAG
+        CwAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEQBgABCB4AAfgBWgHPATEEAAHkARkBYAEFASABBQEAAQEBQQEJDAABrwExAa8BMQYA
+        AeQBGQFgAQUBIAEFAQABAQFBAQkOAAH4AVoBzwExBAABhAFYAWMBRAFCATwBQgE4AWMBRC4AAY4BLQHP
+        ATECAAEmASIBwQENAYABCQH/AX8BIAEFAQABAQFBAQkIAAH4AVoBrwExAfgBWgQAASYBIgHBAQ0BgAEJ
+        Af8BfwEgAQUBAAEBAUEBCQwAAY4BLQHPATECAAGEAWQBawFxAYQBZAFjAUgBhAFkAWsBcQFjAUQqAAH4
+        AVoBrgExAc8BNQIAAQIBEgECARIBwQENAf8BfwFgAQUBIAEFAQABAQYAAfgBWgGvATEB3gF/Aa8BMQQA
+        AQIBEgECARIBwQENAf8BfwFgAQUBIAEFAQABAQoAAfgBWgGuATEBzwE1AgABhAFYAYQBZAH/AX8BawFx
+        Af8BfwGEAWQBQgE4KAAB+AFaAa4BMQHdAXsB8AE5AToBYwFDARoB/wF/Af8BfwH/AX8B/wF/Af8BfwEg
+        AQUEAAH4AVoBrwExAa8BMQHeAX8BrwExAa8BMQGvATEBQwEaAf8BfwH/AX8B/wF/Af8BfwH/AX8BIAEF
+        CAAB+AFaAa4BMQHdAXsB8AE5AToBYwGEAWABhAFkAWsBcQH/AX8BawFxAWMBRAFCAUAkAAH4AVoBrwEx
+        Ac8BMQHQATUB3gF7AToBYwEyAUIBhAEeAWMBGgFDARoB/wF/AeEBDQGhAQkBYAEFAgAB+AFaAa8BMQH4
+        AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwGEAR4BYwEaAUMBGgH/AX8B4QENAaEBCQFgAQUEAAH4AVoBrwEx
+        Ac8BMQHQATUB3gF7AToBYwEyAUIBhAFkAWsBcQH/AX8BawFxAf8BfwGEAWQBYwFEIgAB+AFaAc8BMQEZ
+        AV8B3gF7Ad4BfwHeAX8B3gF/Ad4BfwHrAToBhAEeAWMBHgH/AX8BIgEWAeEBDQEFARoB+AFaAa8BMQH4
+        AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B6wE6AYQBHgFjAR4B/wF/ASIBFgHhAQ0BBQEaAgAB+AFa
+        Ac8BMQEZAV8B3gF7Ad4BfwHeAX8B3gF/Ad4BfwHvAXEBawFxAWsBcQGEAWQBawFxAWsBcQGEAWAiAAGu
+        AS0BGQFfAd4BewHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHrAToBhAEeAYMBHgFjARoBaAEqAgABrwEx
+        AfgBWgHeAX8B3gF/Aa8BMQGvATEBrwExAa8BMQH4AVoB3gF/AesBOgGEAR4BgwEeAWMBGgFoASoEAAGu
+        AS0BGQFfAd4BewHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHvAXEBhAFoAYQBZAGEAWABxgFsIgAB+AFW
+        Aa4BLQHdAXsBEQE+ATIBQgEyAUIBMgFCAVMBQgFTAUIB3gF/Ad4BfwHeAX8B3gF/Ad4BfwFaAWcBMgFC
+        Aa8BMQHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwGvATEEAAH4
+        AVYBrgEtAd0BewERAT4BMgFCATIBQgEyAUIBUwFCAVMBQgHeAX8B3gF/Ad4BfwHeAX8B3gF/AVoBZwEy
+        AUIgAAGNASkB+AFaAd4BewHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/
+        Ad4BfwERAT4BrwExAfgBWgHeAX8B3gF/Aa8BMQGvATEBrwExAa8BMQGvATEBrwExAd4BfwHeAX8B+AFa
+        Aa8BMQH4AVoCAAGNASkB+AFaAd4BewHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHe
+        AX8B3gF/Ad4BfwERAT4gAAGNASkB3QF7Ad4BewERAT4BMgFCAVMBQgFTAUIBUwFCAVMBQgFTAUIBUwFC
+        AVMBQgEyAUIB3gF/Ad4BfwERAToB+AFaAa8BMQH4AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/
+        Ad4BfwH4AVoBrwExAfgBWgGvATEB+AFaAY0BKQHdAXsB3gF7AREBPgEyAUIBUwFCAVMBQgFTAUIBUwFC
+        AVMBQgFTAUIBUwFCATIBQgHeAX8B3gF/AREBOiAAAY0BLQHdAXsB3gF7Ad4BfwHeAX8B3gF/Ad4BfwHe
+        AX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/AfABOQIAAfgBWgGvATEBrwExAfgBWgHeAX8B3gF/
+        Ad4BfwHeAX8B+AFaAa8BMQGvATEB+AFaAd4BfwH4AVoBrwExAY0BLQHdAXsB3gF7Ad4BfwHeAX8B3gF/
+        Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/AfABOSAAAY4BLQEYAVsB3gF7AREBOgEy
+        AT4BMgFCATIBQgFTAUIBUwFCAVMBQgEyAUIBMgFCATIBQgHeAX8BOQFjAc8BNQYAAfgBWgGvATEBrwEx
+        Aa8BMQGvATEBrwExAa8BMQH4AVoB3gF/Ad4BfwHeAX8B3gF/Aa8BMQGOAS0BGAFbAd4BewERAToBMgE+
+        ATIBQgEyAUIBUwFCAVMBQgFTAUIBMgFCATIBQgEyAUIB3gF/ATkBYwHPATUgAAH4AVoBrwExARkBXwHe
+        AXsB3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8BOgFjAfABNQEZAV8IAAGvATEB3gF/
+        Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B+AFaAa8BMQH4AVoBrwExARkBXwHeAXsB3gF/
+        Ad4BfwHeAX8B3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8BOgFjAfABNQEZAV8iAAEZAV8B8AE1AfABOQE6
+        AWMB3gF/Ad4BfwHeAX8B3gF/Ad4BfwHeAX8BOgFjAfEBOQHwATkBGQFfCgABrwExAfgBWgHeAX8B+AFa
+        Aa8BMQGvATEBrwExAfgBWgHeAX8B+AFaAa8BMQH4AVoCAAEZAV8B8AE1AfABOQE6AWMB3gF/Ad4BfwHe
+        AX8B3gF/Ad4BfwHeAX8BOgFjAfEBOQHwATkBGQFfKAABOgFjAREBOgERAT4BEQE+AREBPgERAT4BEQE+
+        AREBOgERAT4BOgFjDgAB+AFaAa8BMQH4AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwH4AVoBrwExAfgBWggA
+        AToBYwERAToBEQE+AREBPgERAT4BEQE+AREBPgERAToBEQE+AToBYzIAAToBYwE6AWMBOgFjAToBYxYA
+        AfgBWgGvATEBrwExAa8BMQGvATEBrwExAa8BMQGvATEB+AFaEAABOgFjAToBYwE6AWMBOgFjLAABQgFN
+        AT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8
+        AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGAAQABwAMAAYADAAGAAwABgAEBAQABAQGA
+        AQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEBAgAB4AEHAfABAQHgAQcCAAH8AT8B+AED
+        AfwBPwIACw==
+</value>
   </data>
   <data name="ColumnHeader_Condition.Text" xml:space="preserve">
     <value>Bedingung</value>
-  </data>
-  <data name="ListView_Output.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="SplitContainer_TopBottom.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="SplitContainer_TopBottom.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -942,8 +978,5 @@ Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwen
         2O69ioCpf424xK60ddTn0+Ds3OPQljqvyp3FybPh8ebf17GGxuvZwG+gzqfS6eLdzc8AAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

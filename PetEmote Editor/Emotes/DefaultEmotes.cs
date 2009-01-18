@@ -80,8 +80,8 @@ namespace PetEmote.Emotes
         {
             try
             {
-                //if (this.DataFile.Exists)
-                //    this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
+                if (this.DataFile.Exists)
+                    this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
 
                 this.Version = PetEmote.Version.Latest;
 
@@ -111,19 +111,39 @@ namespace PetEmote.Emotes
         {
             try
             {
-                //if (this.ExportFile.Exists)
-                //    this.ExportFile.CopyTo(this.ExportFile.FullName + ".bak", true);
-
                 LuaTableWriter writer = new LuaTableWriter(this.ExportFile.FullName);
 
                 foreach (EmoteConfiguration configuration in this.EmoteConfigurations)
                 {
-                    string[] table = LuaTableWriter.Table(
-                        "PetEmote_" + Enum.GetName(configuration.RandomMessages.Type.GetType(),
-                        configuration.RandomMessages.Type), configuration.Name + (appendLanguage ? "-" + configuration.Language : string.Empty),
-                        this.ExportNodeSetContent(configuration.RandomMessages)
-                    );
-                    writer.Write(table);
+                    if (configuration.DefaultEmotes.Nodes.Count > 0)
+                    {
+                        string[] table = LuaTableWriter.Table(
+                            "PetEmote_DefaultEmotes",
+                            configuration.Name + (appendLanguage ? "-" + configuration.Language : string.Empty),
+                            this.ExportNodeSetContent(configuration.DefaultEmotes)
+                        );
+                        writer.Write(table);
+                    }
+
+                    if (configuration.CombatEmotes.Nodes.Count > 0)
+                    {
+                        string[] table = LuaTableWriter.Table(
+                            "PetEmote_CombatEmotes",
+                            configuration.Name + (appendLanguage ? "-" + configuration.Language : string.Empty),
+                            this.ExportNodeSetContent(configuration.CombatEmotes)
+                        );
+                        writer.Write(table);
+                    }
+
+                    if (configuration.FeedingEmotes.Nodes.Count > 0)
+                    {
+                        string[] table = LuaTableWriter.Table(
+                            "PetEmote_FeedingEmotes",
+                            configuration.Name + (appendLanguage ? "-" + configuration.Language : string.Empty),
+                            this.ExportNodeSetContent(configuration.FeedingEmotes)
+                        );
+                        writer.Write(table);
+                    }
                 }
 
                 writer.Close();

@@ -40,11 +40,13 @@ namespace PetEmote.Emotes
                 this.doc.DocumentElement.InsertBefore(node, this.doc.DocumentElement.FirstChild);
             }
 
+            XmlNodeList nodes;
+
             switch (this.doc.DocumentElement.FirstChild.InnerText)
             {
                 case "0.0.0":
 
-                    XmlNodeList nodes = this.doc.SelectNodes("//*/Node");
+                    nodes = this.doc.SelectNodes("//*/Node");
 
                     foreach (XmlNode node in nodes)
                     {
@@ -70,11 +72,21 @@ namespace PetEmote.Emotes
                         }
                     }
 
-                // Hier dann der Block für die nächste Konvertierung
+                    goto case "1.5.2";
 
-                    //goto case "1.5.2";
+                case "1.5.2":
 
-                //case "1.5.2":
+                    nodes = this.doc.SelectNodes("//*/RandomMessages");
+                    
+                    foreach (XmlNode node in nodes)
+                    {
+                        XmlNode newNode = this.doc.CreateElement("DefaultEmotes");
+
+                        while (node.HasChildNodes)
+                            newNode.AppendChild(node.FirstChild);
+                        
+                        node.ParentNode.ReplaceChild(newNode, node);
+                    }
 
                     goto default;
                     

@@ -26,7 +26,12 @@ namespace PetEmote.Emotes
             PetIsFemale,
             PlayerIsMale,
             PlayerIsFemale,
-            TargetIsSpider
+            TargetIsSpider,
+            FoodAccepted,
+            FoodRefused,
+            IsFirstCall,
+            IsSecondCall,
+            IsThirdCall,
         }
 
         public EmoteCondition Condition
@@ -62,7 +67,7 @@ namespace PetEmote.Emotes
             foreach (string keyword in source)
             {
                 string k = keyword.Trim(' ', '.', '!', '?', ',', '-');
-                if (k.Length >= minKeywordLength) result.Add(k);
+                if (k.Length >= minKeywordLength || k.StartsWith("%")) result.Add(k);
             }
 
             return (string[])result.ToArray(typeof(string));

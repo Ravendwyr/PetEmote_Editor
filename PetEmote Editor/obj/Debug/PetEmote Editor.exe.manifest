@@ -53,26 +53,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="292352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="329216">
       <assemblyIdentity name="PetEmote Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>q4FcWbtsj7DDRncb/kzHyDqP51s=</dsig:DigestValue>
+        <dsig:DigestValue>K1TWzZnamlyTG8N/rMQYOkZxqaM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PetEmote Editor.resources.dll" size="61440">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PetEmote Editor.resources.dll" size="69632">
       <assemblyIdentity name="PetEmote Editor.resources" version="1.0.0.0" language="de" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4S7Q1MW/4tMaCcR+lRYo3zATUJQ=</dsig:DigestValue>
+        <dsig:DigestValue>T7lyz9SUwn3a1hMnS7IcYWU2OQo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -83,6 +83,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>CRnZYYcQ8pu/WL11icFSNTEWbIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PetEmote Editor.exe.config" size="943">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9pdOoq4qelcYQFlbvqxHgz2XU4w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PetEmote.ico" size="29814">

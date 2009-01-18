@@ -101,12 +101,15 @@ PetEmote[!!-~]Editor/Properties/Settings.Designer.cs -text
 PetEmote[!!-~]Editor/Properties/Settings.settings -text
 PetEmote[!!-~]Editor/Properties/app.manifest -text
 PetEmote[!!-~]Editor/Version.cs -text
+PetEmote[!!-~]Editor/app.config -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.application -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe -text
+PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe.config -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe.manifest -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.pdb -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.vshost.application -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.vshost.exe -text
+PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.vshost.exe.config -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.exe -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.pdb -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.vshost.exe -text

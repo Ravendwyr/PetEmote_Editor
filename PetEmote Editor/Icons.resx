@@ -289,4 +289,34 @@
   <data name="Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Icons\Options.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AddChildNode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddChildNode.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddConfiguration1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddConfiguration.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddNode.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Condition1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Condition.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportConfiguration1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\ImportConfiguration.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Load1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Load.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Options1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Options.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveConfiguration1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\RemoveConfiguration.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveNode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\RemoveNode.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Save.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

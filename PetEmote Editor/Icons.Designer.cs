@@ -249,10 +249,24 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon AddChildNode1 {
+            get {
+                object obj = ResourceManager.GetObject("AddChildNode1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap AddConfiguration {
             get {
                 object obj = ResourceManager.GetObject("AddConfiguration", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon AddConfiguration1 {
+            get {
+                object obj = ResourceManager.GetObject("AddConfiguration1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -263,6 +277,13 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon AddNode1 {
+            get {
+                object obj = ResourceManager.GetObject("AddNode1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Condition {
             get {
                 object obj = ResourceManager.GetObject("Condition", resourceCulture);
@@ -270,10 +291,24 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon Condition1 {
+            get {
+                object obj = ResourceManager.GetObject("Condition1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap ImportConfiguration {
             get {
                 object obj = ResourceManager.GetObject("ImportConfiguration", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon ImportConfiguration1 {
+            get {
+                object obj = ResourceManager.GetObject("ImportConfiguration1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -368,10 +403,24 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon Load1 {
+            get {
+                object obj = ResourceManager.GetObject("Load1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Options {
             get {
                 object obj = ResourceManager.GetObject("Options", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon Options1 {
+            get {
+                object obj = ResourceManager.GetObject("Options1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -382,6 +431,13 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon RemoveConfiguration1 {
+            get {
+                object obj = ResourceManager.GetObject("RemoveConfiguration1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap RemoveNode {
             get {
                 object obj = ResourceManager.GetObject("RemoveNode", resourceCulture);
@@ -389,10 +445,24 @@ namespace PetEmote {
             }
         }
         
+        internal static System.Drawing.Icon RemoveNode1 {
+            get {
+                object obj = ResourceManager.GetObject("RemoveNode1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Save {
             get {
                 object obj = ResourceManager.GetObject("Save", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon Save1 {
+            get {
+                object obj = ResourceManager.GetObject("Save1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

@@ -274,6 +274,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default-emotes.xml" />
+    <None Include="app.config" />
+    <None Include="Icons\AddChildNode.ico" />
+    <None Include="Icons\AddConfiguration.ico" />
+    <None Include="Icons\AddNode.ico" />
+    <None Include="Icons\Condition.ico" />
+    <None Include="Icons\ImportConfiguration.ico" />
+    <None Include="Icons\Load.ico" />
+    <None Include="Icons\Options.ico" />
+    <None Include="Icons\RemoveConfiguration.ico" />
+    <None Include="Icons\RemoveNode.ico" />
+    <None Include="Icons\Save.ico" />
     <Content Include="PetEmote.ico" />
   </ItemGroup>
   <ItemGroup>
