@@ -17,3 +17,4 @@ D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.Trus
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.exe.manifest
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.application
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.exe.config
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Graphics.IconsWoW.resources

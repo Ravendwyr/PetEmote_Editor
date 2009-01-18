@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Xml.Serialization;
 using System.Drawing;
+using PetEmote.Graphics;
 
 namespace PetEmote.Emotes
 {
@@ -66,38 +67,38 @@ namespace PetEmote.Emotes
 
             this.imagesTable = new Hashtable();
 
-            this.imagesTable.Add(PetFamilyTypes.Unknown, Icons.INV_Misc_QuestionMark);
+            this.imagesTable.Add(PetFamilyTypes.Unknown, IconsWoW.INV_Misc_QuestionMark);
 
-            this.imagesTable.Add(PetFamilyTypes.Bat, Icons.Ability_Hunter_Pet_Bat);
-            this.imagesTable.Add(PetFamilyTypes.Bear, Icons.Ability_Hunter_Pet_Bear);
-            this.imagesTable.Add(PetFamilyTypes.Boar, Icons.Ability_Hunter_Pet_Boar);
-            this.imagesTable.Add(PetFamilyTypes.Cat, Icons.Ability_Hunter_Pet_Cat);
-            this.imagesTable.Add(PetFamilyTypes.Crab, Icons.Ability_Hunter_Pet_Crab);
-            this.imagesTable.Add(PetFamilyTypes.Crocolisk, Icons.Ability_Hunter_Pet_Crocolis);
-            this.imagesTable.Add(PetFamilyTypes.DragonHawk, Icons.Ability_Hunter_Pet_DragonHa);
-            this.imagesTable.Add(PetFamilyTypes.Gorilla, Icons.Ability_Hunter_Pet_Gorilla);
-            this.imagesTable.Add(PetFamilyTypes.Hyena, Icons.Ability_Hunter_Pet_Hyena);
-            this.imagesTable.Add(PetFamilyTypes.NetherRay, Icons.Ability_Hunter_Pet_NetherRa);
-            this.imagesTable.Add(PetFamilyTypes.Owl, Icons.Ability_Hunter_Pet_Owl);
-            this.imagesTable.Add(PetFamilyTypes.Raptor, Icons.Ability_Hunter_Pet_Raptor);
-            this.imagesTable.Add(PetFamilyTypes.Ravager, Icons.Ability_Hunter_Pet_Ravager);
-            this.imagesTable.Add(PetFamilyTypes.Scorpid, Icons.Ability_Hunter_Pet_Scorpid);
-            this.imagesTable.Add(PetFamilyTypes.Serpent, Icons.Ability_Hunter_Pet_Serpent);
-            this.imagesTable.Add(PetFamilyTypes.Spider, Icons.Ability_Hunter_Pet_Spider);
-            this.imagesTable.Add(PetFamilyTypes.Sporebat, Icons.Ability_Hunter_Pet_Sporebat);
-            this.imagesTable.Add(PetFamilyTypes.TallStrider, Icons.Ability_Hunter_Pet_TallStri);
-            this.imagesTable.Add(PetFamilyTypes.Turtle, Icons.Ability_Hunter_Pet_Turtle);
-            this.imagesTable.Add(PetFamilyTypes.Vulture, Icons.Ability_Hunter_Pet_Vulture);
-            this.imagesTable.Add(PetFamilyTypes.WarpStalker, Icons.Ability_Hunter_Pet_WarpStal);
-            this.imagesTable.Add(PetFamilyTypes.WindSerpent, Icons.Ability_Hunter_Pet_WindSerp);
-            this.imagesTable.Add(PetFamilyTypes.Wolf, Icons.Ability_Hunter_Pet_Wolf);
+            this.imagesTable.Add(PetFamilyTypes.Bat, IconsWoW.Ability_Hunter_Pet_Bat);
+            this.imagesTable.Add(PetFamilyTypes.Bear, IconsWoW.Ability_Hunter_Pet_Bear);
+            this.imagesTable.Add(PetFamilyTypes.Boar, IconsWoW.Ability_Hunter_Pet_Boar);
+            this.imagesTable.Add(PetFamilyTypes.Cat, IconsWoW.Ability_Hunter_Pet_Cat);
+            this.imagesTable.Add(PetFamilyTypes.Crab, IconsWoW.Ability_Hunter_Pet_Crab);
+            this.imagesTable.Add(PetFamilyTypes.Crocolisk, IconsWoW.Ability_Hunter_Pet_Crocolisk);
+            this.imagesTable.Add(PetFamilyTypes.DragonHawk, IconsWoW.Ability_Hunter_Pet_DragonHawk);
+            this.imagesTable.Add(PetFamilyTypes.Gorilla, IconsWoW.Ability_Hunter_Pet_Gorilla);
+            this.imagesTable.Add(PetFamilyTypes.Hyena, IconsWoW.Ability_Hunter_Pet_Hyena);
+            this.imagesTable.Add(PetFamilyTypes.NetherRay, IconsWoW.Ability_Hunter_Pet_NetherRay);
+            this.imagesTable.Add(PetFamilyTypes.Owl, IconsWoW.Ability_Hunter_Pet_Owl);
+            this.imagesTable.Add(PetFamilyTypes.Raptor, IconsWoW.Ability_Hunter_Pet_Raptor);
+            this.imagesTable.Add(PetFamilyTypes.Ravager, IconsWoW.Ability_Hunter_Pet_Ravager);
+            this.imagesTable.Add(PetFamilyTypes.Scorpid, IconsWoW.Ability_Hunter_Pet_Scorpid);
+            this.imagesTable.Add(PetFamilyTypes.Serpent, IconsWoW.Ability_Druid_PrimalPrecision);
+            this.imagesTable.Add(PetFamilyTypes.Spider, IconsWoW.Ability_Hunter_Pet_Spider);
+            this.imagesTable.Add(PetFamilyTypes.Sporebat, IconsWoW.Ability_Hunter_Pet_Sporebat);
+            this.imagesTable.Add(PetFamilyTypes.TallStrider, IconsWoW.Ability_Hunter_Pet_TallStrider);
+            this.imagesTable.Add(PetFamilyTypes.Turtle, IconsWoW.Ability_Hunter_Pet_Turtle);
+            this.imagesTable.Add(PetFamilyTypes.Vulture, IconsWoW.Ability_Hunter_Pet_Vulture);
+            this.imagesTable.Add(PetFamilyTypes.WarpStalker, IconsWoW.Ability_Hunter_Pet_WarpStalker);
+            this.imagesTable.Add(PetFamilyTypes.WindSerpent, IconsWoW.Ability_Hunter_Pet_WindSerpent);
+            this.imagesTable.Add(PetFamilyTypes.Wolf, IconsWoW.Ability_Hunter_Pet_Wolf);
             
-            this.imagesTable.Add(PetFamilyTypes.FelGuard, Icons.Spell_Shadow_SummonFelGuard);
-            this.imagesTable.Add(PetFamilyTypes.FelHunter, Icons.Spell_Shadow_SummonFelHunte);
-            this.imagesTable.Add(PetFamilyTypes.Imp, Icons.Spell_Shadow_SummonImp);
-            this.imagesTable.Add(PetFamilyTypes.Infernal, Icons.Spell_Shadow_SummonInfernal);
-            this.imagesTable.Add(PetFamilyTypes.Succubus, Icons.Spell_Shadow_SummonSuccubus);
-            this.imagesTable.Add(PetFamilyTypes.VoidWalker, Icons.Spell_Shadow_SummonVoidWalk);
+            this.imagesTable.Add(PetFamilyTypes.FelGuard, IconsWoW.Spell_Shadow_SummonFelGuard);
+            this.imagesTable.Add(PetFamilyTypes.FelHunter, IconsWoW.Spell_Shadow_SummonFelHunter);
+            this.imagesTable.Add(PetFamilyTypes.Imp, IconsWoW.Spell_Shadow_SummonImp);
+            this.imagesTable.Add(PetFamilyTypes.Infernal, IconsWoW.Spell_Shadow_SummonInfernal);
+            this.imagesTable.Add(PetFamilyTypes.Succubus, IconsWoW.Spell_Shadow_SummonSuccubus);
+            this.imagesTable.Add(PetFamilyTypes.VoidWalker, IconsWoW.Spell_Shadow_SummonVoidWalker);
         }
 
         public string Name { get; set; }

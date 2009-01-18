@@ -111,6 +111,11 @@
     <Compile Include="Forms\MainForm.Workspace.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Graphics\IconsWoW.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IconsWoW.resx</DependentUpon>
+    </Compile>
     <Compile Include="Icons.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -125,6 +130,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphics\IconsWoW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IconsWoW.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Icons.resx">
@@ -285,6 +295,70 @@
     <None Include="Icons\RemoveConfiguration.ico" />
     <None Include="Icons\RemoveNode.ico" />
     <None Include="Icons\Save.ico" />
+    <Content Include="Graphics\IconsWoW\Ability_Druid_PrimalPrecision.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bat.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bear.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Boar.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Cat.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Chimera.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_CoreHound.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Crab.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Crocolisk.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Devilsaur.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_DragonHawk.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Gorilla.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Hyena.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Moth.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_NetherRay.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Owl.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Raptor.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Ravager.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Rhino.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Scorpid.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Silithid.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Spider.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Sporebat.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_TallStrider.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Turtle.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Vulture.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_WarpStalker.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Wasp.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_WindSerpent.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Wolf.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Worm.jpg" />
+    <Content Include="Graphics\IconsWoW\INV_Misc_QuestionMark.jpg" />
+    <Content Include="Graphics\IconsWoW\INV_Weapon_Bow_07.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Nature_Drowsy.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Nature_GuardianWard.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonFelGuard.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonFelHunter.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonImp.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonInfernal.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonSuccubus.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonVoidWalker.jpg" />
+    <Content Include="Graphics\Icons\AddChildNode.gif" />
+    <Content Include="Graphics\Icons\AddChildNode.ico" />
+    <Content Include="Graphics\Icons\AddConfiguration.gif" />
+    <Content Include="Graphics\Icons\AddConfiguration.ico" />
+    <Content Include="Graphics\Icons\AddNode.gif" />
+    <Content Include="Graphics\Icons\AddNode.ico" />
+    <Content Include="Graphics\Icons\Condition.gif" />
+    <Content Include="Graphics\Icons\Condition.ico" />
+    <Content Include="Graphics\Icons\ImportConfiguration.gif" />
+    <Content Include="Graphics\Icons\ImportConfiguration.ico" />
+    <Content Include="Graphics\Icons\INV_Misc_Spyglass_03.jpg" />
+    <Content Include="Graphics\Icons\INV_Musket_02.jpg" />
+    <Content Include="Graphics\Icons\Load.gif" />
+    <Content Include="Graphics\Icons\Load.ico" />
+    <Content Include="Graphics\Icons\Options.gif" />
+    <Content Include="Graphics\Icons\Options.ico" />
+    <Content Include="Graphics\Icons\PetEmote.ico" />
+    <Content Include="Graphics\Icons\RemoveConfiguration.gif" />
+    <Content Include="Graphics\Icons\RemoveConfiguration.ico" />
+    <Content Include="Graphics\Icons\RemoveNode.gif" />
+    <Content Include="Graphics\Icons\RemoveNode.ico" />
+    <Content Include="Graphics\Icons\Save.gif" />
+    <Content Include="Graphics\Icons\Save.ico" />
     <Content Include="PetEmote.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="329216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="440832">
       <assemblyIdentity name="PetEmote Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>K1TWzZnamlyTG8N/rMQYOkZxqaM=</dsig:DigestValue>
+        <dsig:DigestValue>9+aTSfkXov2CERFPnTH+w25YJ0M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,7 +72,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>T7lyz9SUwn3a1hMnS7IcYWU2OQo=</dsig:DigestValue>
+        <dsig:DigestValue>1Hpx9jPwn7qgY67MNliI+Q3iIjM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -83,6 +83,582 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>CRnZYYcQ8pu/WL11icFSNTEWbIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddChildNode.gif" size="340">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7YC0BwkIr4+ku2FxLBZ7vrDqJwQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddChildNode.ico" size="534">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oHKlDsHffvQrR8zVbmy+jfoCltw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddConfiguration.gif" size="655">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nGp1FCRF8W8Vi83b1X8HTdP8HsQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddConfiguration.ico" size="894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Gu7S3gEdYNYYVVO0TYzFIvwry74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddNode.gif" size="616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xYGvtfdWcQPJ1siHEJEwmclf5m0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\AddNode.ico" size="834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aYWibNEhUVvUtGhudjmx9t5DHOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Condition.gif" size="596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QqkKxbWYwdcMc3AFjIH96g71FVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Condition.ico" size="782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pT6CnCV2J3duJFyYWNJHlGlfdF8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\ImportConfiguration.gif" size="651">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PxMf5f59sQapWfLoXWE0weQSTg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\ImportConfiguration.ico" size="894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2kQUhqFicuQSVMqdeiZQ5ZevaP4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\INV_Misc_Spyglass_03.jpg" size="1429">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4dMKuS7tS7AY50Qs5X+1xMuRxNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\INV_Musket_02.jpg" size="1310">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Cn+7HIX5o8CQ8hFhwFtYliuJ6po=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Load.gif" size="541">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5EXqj0YnZVJTAEEHsH9t4l6tJsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Load.ico" size="670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CgfqsU46xK1cSxz5yQ7bFz+QA3M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Options.gif" size="599">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r9qbU3scL6LB7x1iodXDI03Qftg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Options.ico" size="1118">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CmSL9dWVEHKdAi8E8MjM+81jrGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\PetEmote.ico" size="29814">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tElpHfcT5YnybXvQIQUuelbx3rA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\RemoveConfiguration.gif" size="652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZjGA2rsOo04ZrPKFaomIt0xrQio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\RemoveConfiguration.ico" size="894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yAKBN/E70d9cAt3uJOAd7T9iLYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\RemoveNode.gif" size="612">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6sU9NWvLca0EavAIdziST6Nb/h8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\RemoveNode.ico" size="782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kyiCKBArfPbMlb3ymdi/Afl4XjE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Save.gif" size="619">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n0wT2gnUbx9+iOfMOt/cygiMujw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\Icons\Save.ico" size="826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2TyoS2EZCEt+jjNJ53yLzQRo0ic=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Druid_PrimalPrecision.jpg" size="2370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SaMobFz8R33dE5P0ReDqlcKKBhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Bat.jpg" size="2190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LVcGO1PGyJMB94vUiEZgOVXNKIk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Bear.jpg" size="2257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>La0ZE96mVNQX/CypgDI79UxNoRc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Boar.jpg" size="2224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kHZj1ln22ldGodCASjWfTEKXCVw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Cat.jpg" size="2255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I4HNqiSyhxyF9/LLtfhm8XOGPto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Chimera.jpg" size="2255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ma50kol/cOzBlE+RlETYTWDvL+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_CoreHound.jpg" size="2342">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tLlRIzyy+CViOL9soLFnwRqoKYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Crab.jpg" size="2304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eOhGWyzohjDTEd/BbzU+gPZzyQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Crocolisk.jpg" size="2184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eSwX/P47290hJfC60O9fvANidAk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Devilsaur.jpg" size="2383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PKR7ATjqVtIpOE7GoX6C7nrLfmU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_DragonHawk.jpg" size="2243">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sZbpMOjRV9V5Vci0IxTDTww08to=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Gorilla.jpg" size="2197">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LhqsH7xhy6M1Ii7HLM55vlx6MGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Hyena.jpg" size="2277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DOhWK8rHQSYuXL4C/6Kt+Lwi86A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Moth.jpg" size="2387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a/sUZia5HlGywFOc4I4ExS3UBUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_NetherRay.jpg" size="2268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L6Hji2Ydvq49Nd+ykSNHXoSmVVE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Owl.jpg" size="2256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VHI6VuZuF94GS7P7f5SSIdUbSbY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Raptor.jpg" size="2217">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jf0xMKE4N/l4r73H3KyuvMPsgMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Ravager.jpg" size="2363">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PaNpHNYfjBNFufE+jBnjPtiPBZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Rhino.jpg" size="2252">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X46bIlTUAqmHPTPteXZ6p3jusVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Scorpid.jpg" size="2301">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>o9tBOhLn7AmeA8jK/IxZdezYQj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Silithid.jpg" size="2311">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KKRxO/wTaeJSo4hUhAZkZ0QaIWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Spider.jpg" size="2272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1Wnl9MYchfBYipmTbFUySJpPZBE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Sporebat.jpg" size="2320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fIEhghaOFWvkxXbfHmx043BTTeo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_TallStrider.jpg" size="2274">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MmxDZZexVU2JvCNBHhsE55qHVHo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Turtle.jpg" size="2245">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jAx5B2f0J8hKkFzYRoiQiIC+g2I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Vulture.jpg" size="2295">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fuXS5DK45sTTm+/5HRss35IjLEA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_WarpStalker.jpg" size="2312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QcJhzj25WFrt3uu45BLRUnf++wg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Wasp.jpg" size="2313">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mDrf66YMTP8tbVEem0YP6P4oej4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_WindSerpent.jpg" size="2329">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Zq+/IVNGK5SR8+b62RZuDaflEks=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Wolf.jpg" size="2208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PyrOXmuEuw4WLmQeCjpGbtU/GBk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Ability_Hunter_Pet_Worm.jpg" size="2369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>V5EVDBrAjFhlIZaFo4nWcHoYZkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\INV_Misc_QuestionMark.jpg" size="2260">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ws7inN4t0Dzr2wrYaKhCUgpoOGk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\INV_Weapon_Bow_07.jpg" size="2297">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hbt/Pbi8ec4f4WolOcCcy9w+2h0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Nature_Drowsy.jpg" size="2281">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/fwssdcsGuZHL9n2mGz0MHKl7fs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Nature_GuardianWard.jpg" size="2299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v3x5UaB2z2iy/svk96Nw3B7Lois=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonFelGuard.jpg" size="2425">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kEE47s7PGZ0UWLgxybeFi/QcFYA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonFelHunter.jpg" size="2269">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cO7H1IZwgV67c+19aHrwPPKKl5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonImp.jpg" size="2362">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>A461YcJ/9DjdJiLuvaYlMKTW7hU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonInfernal.jpg" size="2323">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OxORK5BbJrFmP0oJZqAyF9Iy8+M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonSuccubus.jpg" size="2246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>P7AmYToJ2+zeoki0WlpS97288aM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Shadow_SummonVoidWalker.jpg" size="2294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>f74v4o0PYgiNxdLGDul6OuDkSbk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PetEmote Editor.exe.config" size="943">
