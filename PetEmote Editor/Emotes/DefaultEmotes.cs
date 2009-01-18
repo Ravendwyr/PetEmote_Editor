@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Text;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace PetEmote.Emotes
@@ -18,6 +19,8 @@ namespace PetEmote.Emotes
         {
             this.Directory = directory;
         }
+
+        public virtual string Version { get; set; }
 
         [XmlIgnore]
         public DirectoryInfo Directory { get; set; }
@@ -80,6 +83,8 @@ namespace PetEmote.Emotes
                 if (this.DataFile.Exists)
                     this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
 
+                this.Version = PetEmote.Version.Latest;
+
                 XmlSerializer xs = new XmlSerializer(this.GetType());
                 TextWriter tw = new StreamWriter(this.DataFile.FullName);
                 xs.Serialize(tw, this);
@@ -106,8 +111,8 @@ namespace PetEmote.Emotes
         {
             try
             {
-                if (this.ExportFile.Exists)
-                    this.ExportFile.CopyTo(this.ExportFile.FullName + ".bak", true);
+                //if (this.ExportFile.Exists)
+                //    this.ExportFile.CopyTo(this.ExportFile.FullName + ".bak", true);
 
                 LuaTableWriter writer = new LuaTableWriter(this.ExportFile.FullName);
 
@@ -147,11 +152,14 @@ namespace PetEmote.Emotes
 
                 contents.Add(LuaTableWriter.Item("text", node.Text));
 
+                if (node.Properties.Chance != 100)
+                    contents.Add(LuaTableWriter.Item("chance", node.Properties.Chance));
+
                 if (node.Properties.Condition != EmoteNodeProperties.EmoteCondition.None)
                     contents.Add(LuaTableWriter.Item("condition", node.Properties.Condition));
-                
-                if (node.Properties.Disallow.Count > 0)
-                    contents.Add(LuaTableWriter.Item("disallow", (int[])node.Properties.Disallow.ToArray(typeof(int))));
+
+                if (node.Properties.Keywords.Length > 0)
+                    contents.Add(LuaTableWriter.Item("keywords", node.Properties.Keywords));
 
                 if (node.ChildNodes.Nodes.Count > 0) {
                     string[] childContents = LuaTableWriter.List(node.Properties.MustContinue ? "continues" : "optional", this.ExportNodeSetContent(node.ChildNodes));

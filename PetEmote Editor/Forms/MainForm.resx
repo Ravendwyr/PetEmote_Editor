@@ -211,7 +211,7 @@
     <value>toolStripContainer1</value>
   </data>
   <metadata name="ToolStrip_Tools.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>0, 0</value>
   </metadata>
   <data name="ToolStrip_Tools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -247,7 +247,7 @@
     <value>0</value>
   </data>
   <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>145, 17</value>
+    <value>0, 0</value>
   </metadata>
   <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -367,7 +367,7 @@
     <value>1</value>
   </data>
   <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>270, 17</value>
+    <value>0, 25</value>
   </metadata>
   <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -532,18 +532,6 @@
     <value>If selected, the emote will be continued with
 one of the subordinary texts guaranteed.</value>
   </data>
-  <data name="ToolStripMenuItem_DisallowAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_DisallowAll.Text" xml:space="preserve">
-    <value>No further emotes</value>
-  </data>
-  <data name="ToolStripMenuItem_DisallowAll.ToolTipText" xml:space="preserve">
-    <value>If selected, this emote will finish the output. No more text
-modules will be attached. To disallow the usage of only one
-or more certain emote nodes after the selected one, check
-the checkboxes within the tree view.</value>
-  </data>
   <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -555,6 +543,73 @@ the checkboxes within the tree view.</value>
   </data>
   <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
     <value>Options for the selected emote</value>
+  </data>
+  <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripLabel_Chance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="ToolStripLabel_Chance.Text" xml:space="preserve">
+    <value>Chance</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items1" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items2" xml:space="preserve">
+    <value>150</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items3" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items4" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items5" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items6" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items7" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
+    <value>Choose a number from 1 to 200, which represents a percental chance, that the
+selected emote occurs in comparison with other emotes of the same level.
+
+- with a value of 100, the emote occurs as often as any other emote
+- a value greater than 100 increases the chance, that the emote occurs
+- a value lower than 100 decreases the chance, that the emote occurs
+- a value of 200 doubles the chance, that the emote occurs
+- with a value of 1 the emote occurs extremely rare</value>
+  </data>
+  <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripLabel_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 22</value>
+  </data>
+  <data name="ToolStripLabel_Keywords.Text" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="ToolStripTextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="ToolStripTextBox_Keywords.ToolTipText" xml:space="preserve">
+    <value>Obviate bad sentence structures by defining keywords for your emotes. PetEmote will compare
+the keywords of all emotes to each other, to see which emotes go together with others well and
+which do not. Using the same keyword for different emotes, no matter on which level, will prevent
+PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="ToolStrip_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 25</value>
@@ -1417,11 +1472,41 @@ the checkboxes within the tree view.</value>
   <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_DisallowAll</value>
+  <data name="&gt;&gt;ToolStripSeparator7.Name" xml:space="preserve">
+    <value>ToolStripSeparator7</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Chance.Name" xml:space="preserve">
+    <value>ToolStripLabel_Chance</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Chance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripComboBox_Chance.Name" xml:space="preserve">
+    <value>ToolStripComboBox_Chance</value>
+  </data>
+  <data name="&gt;&gt;ToolStripComboBox_Chance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Name" xml:space="preserve">
+    <value>ToolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Keywords.Name" xml:space="preserve">
+    <value>ToolStripLabel_Keywords</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Keywords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBox_Keywords.Name" xml:space="preserve">
+    <value>ToolStripTextBox_Keywords</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBox_Keywords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ColumnHeader_EmoteText.Name" xml:space="preserve">
     <value>ColumnHeader_EmoteText</value>

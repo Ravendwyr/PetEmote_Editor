@@ -14,8 +14,7 @@ namespace PetEmote.Forms
         private CustomEmotes customEmotes;
         private DefaultEmotes currentEmotes;
         private EmoteConfiguration currentEmoteConfiguration;
-        private Hashtable disallowNodesContainer = new Hashtable();
-
+        
         public MainForm()
         {
             InitializeComponent();
@@ -45,9 +44,23 @@ namespace PetEmote.Forms
             }
             
             this.defaultEmotes = new DefaultEmotes(dir);
-            this.defaultEmotes.Load();
-
             this.customEmotes = new CustomEmotes(dir);
+
+            XmlVersionConverter defaultConverter = new XmlVersionConverter(this.defaultEmotes.DataFile.FullName);
+            
+            if (defaultConverter.IsObsolete) {
+                defaultConverter.ConvertToLatest();
+                defaultConverter.Save(this.defaultEmotes.DataFile.FullName);
+            }
+
+            XmlVersionConverter customConverter = new XmlVersionConverter(this.customEmotes.DataFile.FullName);
+            
+            if (customConverter.IsObsolete) {
+                customConverter.ConvertToLatest();
+                customConverter.Save(this.customEmotes.DataFile.FullName);
+            }
+
+            this.defaultEmotes.Load();
             this.customEmotes.Load();
 
             if (this.ToolStripComboBox_Source.SelectedIndex == 0) {
@@ -62,12 +75,14 @@ namespace PetEmote.Forms
 
         private void ToolStripButton_AddNode_Click (object sender, EventArgs e)
         {
+            if (this.ToolStripComboBox_Configuration.SelectedItem == null) return;
             this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewEmote);
             this.TreeView_Main.SelectedNode.BeginEdit();
         }
 
         private void ToolStripButton_AddChildNode_Click(object sender, EventArgs e)
         {
+            if (this.TreeView_Main.SelectedNode == null) return;
             this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewSubordinaryEmote, this.TreeView_Main.SelectedNode);
             this.TreeView_Main.SelectedNode.BeginEdit();
         }
@@ -114,7 +129,6 @@ namespace PetEmote.Forms
             this.ClearTreeView();
             
             this.TreeView_Main.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(this.currentEmoteConfiguration.RandomMessages));
-            this.FillDisallowNodesContainer(this.TreeView_Main.Nodes);
         }
 
         private void TreeView_Main_AfterSelect (object sender, TreeViewEventArgs e)
@@ -124,18 +138,11 @@ namespace PetEmote.Forms
             this.ToolStripMenuItem_MustContinue.Checked = properties.MustContinue;
             this.ToolStripMenuItem_MustContinue.Enabled = e.Node.Nodes.Count > 0;
 
+            this.ToolStripComboBox_Chance.Text = properties.Chance.ToString();
+            this.ToolStripTextBox_Keywords.Text = String.Join(" ", properties.Keywords);
+            
             this.SetSelectedMenuItem(this.ToolStripMenuItem_Conditions.DropDownItems, properties.Condition.ToString());
             
-            if (this.disallowNodesContainer.ContainsKey(e.Node))
-            {
-                ArrayList checkNodes = (ArrayList)this.disallowNodesContainer[e.Node];
-                this.CheckTreeViewNodes(this.TreeView_Main.Nodes, (TreeNode[])checkNodes.ToArray(typeof(TreeNode)), true);
-            }
-            else
-            {
-                this.CheckTreeViewNodes(this.TreeView_Main.Nodes, false, true);
-            }
-
             this.ShowEmotePreview(e.Node, true);
         }
 
@@ -154,7 +161,6 @@ namespace PetEmote.Forms
         {
             if (this.TreeView_Main.SelectedNode != null)
             {
-                this.RemoveNodeFromDisallowNodesContainer(this.TreeView_Main.SelectedNode);
                 this.TreeView_Main.SelectedNode.Remove();
             }
         }
@@ -180,33 +186,6 @@ namespace PetEmote.Forms
             EmoteConfiguration config = (EmoteConfiguration)menuItem.Tag;
             int oldNodesCount = this.TreeView_Main.Nodes.Count;
             this.AddTreeNodeRange(config.RandomMessages);
-            this.FillDisallowNodesContainer(this.TreeView_Main.Nodes, oldNodesCount, oldNodesCount);
-        }
-
-        private void TreeView_Main_AfterCheck (object sender, TreeViewEventArgs e)
-        {
-            if (e.Node.Checked)
-            {
-                if (this.disallowNodesContainer.ContainsKey(this.TreeView_Main.SelectedNode))
-                {
-                    ArrayList nodes = (ArrayList)this.disallowNodesContainer[this.TreeView_Main.SelectedNode];
-                    if (!nodes.Contains(e.Node)) nodes.Add(e.Node);
-                }
-                else
-                {
-                    ArrayList nodes = new ArrayList();
-                    nodes.Add(e.Node);
-                    this.disallowNodesContainer.Add(this.TreeView_Main.SelectedNode, nodes);
-                }
-            }
-            else
-            {
-                if (this.disallowNodesContainer.ContainsKey(this.TreeView_Main.SelectedNode))
-                {
-                    ArrayList nodes = (ArrayList)this.disallowNodesContainer[this.TreeView_Main.SelectedNode];
-                    nodes.Remove(e.Node);
-                }
-            }
         }
 
         private void TreeView_Main_ItemDrag (object sender, ItemDragEventArgs e)
@@ -215,13 +194,13 @@ namespace PetEmote.Forms
 
             TreeNode node = (TreeNode)e.Item;
             tree.SelectedNode = node;
-
+            
             if (node != null)
             {
                 EmoteNodeProperties properties = (EmoteNodeProperties)node.Tag;
                 TreeNode nodeCloned = (TreeNode)node.Clone();
                 nodeCloned.Tag = properties.Clone();
-                tree.DoDragDrop(nodeCloned, DragDropEffects.Copy);
+                tree.DoDragDrop(nodeCloned, DragDropEffects.Move | DragDropEffects.Copy);
             }
         }
 
@@ -233,12 +212,18 @@ namespace PetEmote.Forms
 
             if (e.Data.GetData(typeof(TreeNode)) != null)
             {
-                Point pt = new Point(e.X, e.Y);
-                pt = tree.PointToClient(pt);
-
+                Point pt = tree.PointToClient(new Point(e.X, e.Y));
                 TreeNode node = tree.GetNodeAt(pt);
-                if (node != null)
-                    e.Effect = DragDropEffects.Copy;
+
+                if (tree.SelectedNode.IsExpanded) tree.SelectedNode.Collapse();
+
+                if (node != tree.SelectedNode)
+                {
+                    if (Control.ModifierKeys == Keys.Control || Control.ModifierKeys == Keys.ControlKey)
+                        e.Effect = DragDropEffects.Copy;
+                    else
+                        e.Effect = DragDropEffects.Move;
+                }
             }
         }
 
@@ -246,12 +231,19 @@ namespace PetEmote.Forms
         {
             TreeView tree = (TreeView)sender;
             
-            Point pt = new Point(e.X, e.Y);
-            pt = tree.PointToClient(pt);
+            Point pt = tree.PointToClient(new Point(e.X, e.Y));
             
             TreeNode node = tree.GetNodeAt(pt);
-            node.Nodes.Add((TreeNode)e.Data.GetData(typeof(TreeNode)));
-            node.Expand();
+
+            if (node != null) {
+                node.Nodes.Add((TreeNode)e.Data.GetData(typeof(TreeNode)));
+                node.Expand();
+            } else {
+                tree.Nodes.Add((TreeNode)e.Data.GetData(typeof(TreeNode)));
+            }
+
+            if (e.Effect == DragDropEffects.Move)
+                tree.SelectedNode.Remove();
 
             tree.SelectedNode = (TreeNode)e.Data.GetData(typeof(TreeNode));
         }
@@ -274,6 +266,30 @@ namespace PetEmote.Forms
                 config.Condition = (EmoteNodeProperties.EmoteCondition)Enum.Parse(config.Condition.GetType(), menuItem.Tag.ToString());
                 this.UncheckAllMenuItemsExcept(this.ToolStripMenuItem_Conditions.DropDownItems, menuItem);
             }
+        }
+
+        private void ToolStripComboBox_Chance_TextChanged (object sender, EventArgs e)
+        {
+            if (this.TreeView_Main.SelectedNode == null) return;
+            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
+
+            try {
+                config.Chance = int.Parse(this.ToolStripComboBox_Chance.Text);
+            }
+            catch (FormatException) { }
+        }
+
+        private void ToolStripTextBox_Keywords_TextChanged (object sender, EventArgs e)
+        {
+            if (this.TreeView_Main.SelectedNode == null) return;
+            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
+            config.Keywords = EmoteNodeProperties.StringToKeywords(this.ToolStripTextBox_Keywords.Text);
+        }
+
+        private void TreeView_Main_AfterLabelEdit (object sender, NodeLabelEditEventArgs e)
+        {
+            if (this.ToolStripTextBox_Keywords.Text.Length == 0 && e.Label != null)
+                this.ToolStripTextBox_Keywords.Text = String.Join(" ", EmoteNodeProperties.StringToKeywords(e.Label));
         }
     }
 }

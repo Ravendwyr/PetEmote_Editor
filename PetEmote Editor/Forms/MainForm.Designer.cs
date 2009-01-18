@@ -68,7 +68,12 @@
             this.ToolStripMenuItem_Condition_None = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem_Options = new System.Windows.Forms.ToolStripDropDownButton();
             this.ToolStripMenuItem_MustContinue = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_DisallowAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripLabel_Chance = new System.Windows.Forms.ToolStripLabel();
+            this.ToolStripComboBox_Chance = new System.Windows.Forms.ToolStripComboBox();
+            this.ToolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripLabel_Keywords = new System.Windows.Forms.ToolStripLabel();
+            this.ToolStripTextBox_Keywords = new System.Windows.Forms.ToolStripTextBox();
             this.SplitContainer_TopBottom = new System.Windows.Forms.SplitContainer();
             this.ListView_Output = new System.Windows.Forms.ListView();
             this.ColumnHeader_EmoteText = new System.Windows.Forms.ColumnHeader();
@@ -106,17 +111,14 @@
             // TreeView_Main
             // 
             this.TreeView_Main.AllowDrop = true;
-            this.TreeView_Main.CheckBoxes = true;
             resources.ApplyResources(this.TreeView_Main, "TreeView_Main");
-            this.TreeView_Main.FullRowSelect = true;
             this.TreeView_Main.HideSelection = false;
             this.TreeView_Main.HotTracking = true;
             this.TreeView_Main.LabelEdit = true;
             this.TreeView_Main.Name = "TreeView_Main";
             this.TreeView_Main.PathSeparator = " ";
-            this.TreeView_Main.ShowLines = false;
             this.TreeView_Main.ShowNodeToolTips = true;
-            this.TreeView_Main.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.TreeView_Main_AfterCheck);
+            this.TreeView_Main.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.TreeView_Main_AfterLabelEdit);
             this.TreeView_Main.DragDrop += new System.Windows.Forms.DragEventHandler(this.TreeView_Main_DragDrop);
             this.TreeView_Main.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView_Main_AfterSelect);
             this.TreeView_Main.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.TreeView_Main_ItemDrag);
@@ -244,7 +246,13 @@
             this.ToolStripButton_RemoveNode,
             this.ToolStripSeparator3,
             this.ToolStripMenuItem_Conditions,
-            this.ToolStripMenuItem_Options});
+            this.ToolStripMenuItem_Options,
+            this.ToolStripSeparator7,
+            this.ToolStripLabel_Chance,
+            this.ToolStripComboBox_Chance,
+            this.ToolStripSeparator8,
+            this.ToolStripLabel_Keywords,
+            this.ToolStripTextBox_Keywords});
             this.ToolStrip_EmoteEditing.Name = "ToolStrip_EmoteEditing";
             this.ToolStrip_EmoteEditing.Stretch = true;
             // 
@@ -404,8 +412,7 @@
             // ToolStripMenuItem_Options
             // 
             this.ToolStripMenuItem_Options.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_MustContinue,
-            this.ToolStripMenuItem_DisallowAll});
+            this.ToolStripMenuItem_MustContinue});
             this.ToolStripMenuItem_Options.Image = global::PetEmote.Icons.Options;
             resources.ApplyResources(this.ToolStripMenuItem_Options, "ToolStripMenuItem_Options");
             this.ToolStripMenuItem_Options.Name = "ToolStripMenuItem_Options";
@@ -417,11 +424,48 @@
             resources.ApplyResources(this.ToolStripMenuItem_MustContinue, "ToolStripMenuItem_MustContinue");
             this.ToolStripMenuItem_MustContinue.CheckedChanged += new System.EventHandler(this.ToolStripMenuItem_MustContinue_CheckedChanged);
             // 
-            // ToolStripMenuItem_DisallowAll
+            // ToolStripSeparator7
             // 
-            this.ToolStripMenuItem_DisallowAll.CheckOnClick = true;
-            this.ToolStripMenuItem_DisallowAll.Name = "ToolStripMenuItem_DisallowAll";
-            resources.ApplyResources(this.ToolStripMenuItem_DisallowAll, "ToolStripMenuItem_DisallowAll");
+            this.ToolStripSeparator7.Name = "ToolStripSeparator7";
+            resources.ApplyResources(this.ToolStripSeparator7, "ToolStripSeparator7");
+            // 
+            // ToolStripLabel_Chance
+            // 
+            this.ToolStripLabel_Chance.Name = "ToolStripLabel_Chance";
+            resources.ApplyResources(this.ToolStripLabel_Chance, "ToolStripLabel_Chance");
+            // 
+            // ToolStripComboBox_Chance
+            // 
+            this.ToolStripComboBox_Chance.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.ToolStripComboBox_Chance.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
+            this.ToolStripComboBox_Chance.Items.AddRange(new object[] {
+            resources.GetString("ToolStripComboBox_Chance.Items"),
+            resources.GetString("ToolStripComboBox_Chance.Items1"),
+            resources.GetString("ToolStripComboBox_Chance.Items2"),
+            resources.GetString("ToolStripComboBox_Chance.Items3"),
+            resources.GetString("ToolStripComboBox_Chance.Items4"),
+            resources.GetString("ToolStripComboBox_Chance.Items5"),
+            resources.GetString("ToolStripComboBox_Chance.Items6"),
+            resources.GetString("ToolStripComboBox_Chance.Items7")});
+            this.ToolStripComboBox_Chance.Name = "ToolStripComboBox_Chance";
+            resources.ApplyResources(this.ToolStripComboBox_Chance, "ToolStripComboBox_Chance");
+            this.ToolStripComboBox_Chance.TextChanged += new System.EventHandler(this.ToolStripComboBox_Chance_TextChanged);
+            // 
+            // ToolStripSeparator8
+            // 
+            this.ToolStripSeparator8.Name = "ToolStripSeparator8";
+            resources.ApplyResources(this.ToolStripSeparator8, "ToolStripSeparator8");
+            // 
+            // ToolStripLabel_Keywords
+            // 
+            this.ToolStripLabel_Keywords.Name = "ToolStripLabel_Keywords";
+            resources.ApplyResources(this.ToolStripLabel_Keywords, "ToolStripLabel_Keywords");
+            // 
+            // ToolStripTextBox_Keywords
+            // 
+            this.ToolStripTextBox_Keywords.Name = "ToolStripTextBox_Keywords";
+            resources.ApplyResources(this.ToolStripTextBox_Keywords, "ToolStripTextBox_Keywords");
+            this.ToolStripTextBox_Keywords.TextChanged += new System.EventHandler(this.ToolStripTextBox_Keywords_TextChanged);
             // 
             // SplitContainer_TopBottom
             // 
@@ -536,7 +580,12 @@
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Condition_None;
         private System.Windows.Forms.ToolStripDropDownButton ToolStripMenuItem_Options;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_MustContinue;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_DisallowAll;
+        private System.Windows.Forms.ToolStripComboBox ToolStripComboBox_Chance;
+        private System.Windows.Forms.ToolStripSeparator ToolStripSeparator7;
+        private System.Windows.Forms.ToolStripLabel ToolStripLabel_Chance;
+        private System.Windows.Forms.ToolStripSeparator ToolStripSeparator8;
+        private System.Windows.Forms.ToolStripLabel ToolStripLabel_Keywords;
+        private System.Windows.Forms.ToolStripTextBox ToolStripTextBox_Keywords;
     }
 }
 

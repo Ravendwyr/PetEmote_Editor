@@ -117,10 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ToolStrip_Tools.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 25</value>
-  </data>
   <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
     <value>Quelle wählen</value>
   </data>
@@ -136,6 +132,7 @@
   <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
     <value>Alle Konfigurationen speichern</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 22</value>
   </data>
@@ -145,6 +142,12 @@
   <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
     <value>Konfiguration auswählen</value>
   </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Name eines Tieres</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
+  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 22</value>
   </data>
@@ -153,12 +156,6 @@
   </data>
   <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
     <value>Neue Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Name eines Tieres</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
   </data>
   <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
     <value>Löschen</value>
@@ -192,15 +189,6 @@
   </data>
   <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
     <value>Löscht den ausgewählten Emote-Knoten</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Bedingung</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Bedingung zum ausgewählten Emote</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 22</value>
@@ -310,14 +298,14 @@
   <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
     <value>Das Emote kann jederzeit erscheinen</value>
   </data>
-  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
   </data>
-  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
-    <value>Optionen</value>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Bedingung</value>
   </data>
-  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
-    <value>Einstellungen zum ausgewählten Emote</value>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Bedingung zum ausgewählten Emote</value>
   </data>
   <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -329,17 +317,39 @@
     <value>Wenn ausgewählt, wird das Emote garantiert mit
 einem der untergeordneten Texte fortgesetzt.</value>
   </data>
-  <data name="ToolStripMenuItem_DisallowAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
   </data>
-  <data name="ToolStripMenuItem_DisallowAll.Text" xml:space="preserve">
-    <value>Keine weiteren Emotes</value>
+  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
+    <value>Optionen</value>
   </data>
-  <data name="ToolStripMenuItem_DisallowAll.ToolTipText" xml:space="preserve">
-    <value>Wenn aktiviert, beendet dieses Emote die Ausgabe.
-Es werden keine weiteren Textbausteine angehängt.
-Um nur bestimmte Emotes zu verbieten, aktiviere die
-Checkboxen in der Baumansicht.</value>
+  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
+    <value>Einstellungen zum ausgewählten Emote</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
+    <value>Wähle eine Zahl von 1 bis 200, die die prozentuale Chance angibt, wie oft
+das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
+
+- ein Wert von 100 lässt das Emote so oft wie jedes andere Emote erscheinen
+- ein Wert größer als 100 erhöht die Chance, dass das Emote erscheint
+- ein Wert kleiner als 100 verringert die Chance, dass das Emote erscheint
+- ein Wert von 200 verdoppelt die Chance, dass das Emote erscheint
+- mit einem Wert von 1 erscheint das Emote extrem selten</value>
+  </data>
+  <data name="ToolStripLabel_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="ToolStripLabel_Keywords.Text" xml:space="preserve">
+    <value>Stichworte</value>
+  </data>
+  <data name="ToolStripTextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 25</value>
+  </data>
+  <data name="ToolStripTextBox_Keywords.ToolTipText" xml:space="preserve">
+    <value>Vermeide schlechten Satzbau, indem du Stichworte für jedes Emote vergibst. PetEmote wird die
+Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emotes gut zusammen
+passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
+Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
   </data>
   <data name="ColumnHeader_Condition.Text" xml:space="preserve">
     <value>Bedingung</value>

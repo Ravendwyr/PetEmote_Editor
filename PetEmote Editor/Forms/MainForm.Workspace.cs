@@ -71,38 +71,6 @@ namespace PetEmote.Forms
         private void ClearTreeView ()
         {
             this.TreeView_Main.Nodes.Clear();
-            this.disallowNodesContainer.Clear();
-        }
-
-        private void CheckTreeViewNodes (TreeNodeCollection nodes, bool checkedValue, bool recursive)
-        {
-            foreach (TreeNode node in nodes)
-            {
-                node.Checked = checkedValue;
-
-                if (recursive)
-                    this.CheckTreeViewNodes(node.Nodes, checkedValue, true);
-            }
-        }
-
-        private void CheckTreeViewNodes (TreeNodeCollection nodes, TreeNode[] checkNodes, bool recursive)
-        {
-            foreach (TreeNode node in nodes)
-            {
-                node.Checked = false;
-
-                foreach (TreeNode checkNode in checkNodes)
-                {
-                    if (checkNode == node)
-                    {
-                        node.Checked = true;
-                        break;
-                    }
-                }
-
-                if (recursive)
-                    this.CheckTreeViewNodes(node.Nodes, checkNodes, true);
-            }
         }
 
         private EmoteNodeSet ConvertTreeNodesToEmotesNodes (TreeNodeCollection treeNodes)
@@ -115,8 +83,7 @@ namespace PetEmote.Forms
 
                 emoteNode.Text = treeNode.Text;
                 emoteNode.Properties = (EmoteNodeProperties)treeNode.Tag;
-                emoteNode.Properties.Disallow = this.ConvertTreeNodesToDisallowIndexes(treeNode);
-
+                
                 if (treeNode.Nodes.Count > 0)
                 {
                     emoteNode.ChildNodes = this.ConvertTreeNodesToEmotesNodes(treeNode.Nodes);
@@ -131,7 +98,7 @@ namespace PetEmote.Forms
         private TreeNode[] ConvertEmotesNodesToTreeNodes (EmoteNodeSet emoteNodes)
         {
             TreeNode[] treeNodes = new TreeNode[emoteNodes.Nodes.Count];
-
+            
             for (int i = 0; i < emoteNodes.Nodes.Count; i++)
             {
                 EmoteNode emoteNode = (EmoteNode)emoteNodes.Nodes[i];
@@ -151,22 +118,6 @@ namespace PetEmote.Forms
             return treeNodes;
         }
 
-        private ArrayList ConvertTreeNodesToDisallowIndexes (TreeNode treeNode)
-        {
-            if (!this.disallowNodesContainer.ContainsKey(treeNode))
-                return new ArrayList(0);
-
-            ArrayList disallowedNodes = (ArrayList)this.disallowNodesContainer[treeNode];
-            ArrayList result = new ArrayList(disallowedNodes.Count);
-
-            foreach (TreeNode disallowedNode in disallowedNodes)
-            {
-                result.Add(this.GetRootNode(disallowedNode).Index + 1);
-            }
-
-            return result;
-        }
-
         private TreeNode GetRootNode (TreeNode disallowedNode)
         {
             int level = disallowedNode.Level;
@@ -179,52 +130,6 @@ namespace PetEmote.Forms
             }
 
             return node;
-        }
-
-        private void FillDisallowNodesContainer (TreeNodeCollection treeNodes)
-        {
-            this.FillDisallowNodesContainer(treeNodes, 0, 0);
-        }
-
-        private void FillDisallowNodesContainer (TreeNodeCollection treeNodes, int startIndex)
-        {
-            this.FillDisallowNodesContainer(treeNodes, startIndex, 0);
-        }
-
-        private void FillDisallowNodesContainer (TreeNodeCollection treeNodes, int startIndex, int shift)
-        {
-            foreach (TreeNode treeNode in treeNodes)
-            {
-                if (treeNode.Index < startIndex) continue;
-
-                EmoteNodeProperties properties = (EmoteNodeProperties)treeNode.Tag;
-                ArrayList result = new ArrayList(properties.Disallow.Count);
-                
-                foreach (int disallow in properties.Disallow)
-                {
-                    if (disallow < 1) continue;
-                    result.Add(this.TreeView_Main.Nodes[disallow - 1 + shift]);
-                }
-
-                if (this.disallowNodesContainer.ContainsKey(treeNode))
-                    this.disallowNodesContainer[treeNode] = result;
-                else
-                    this.disallowNodesContainer.Add(treeNode, result);
-
-                this.FillDisallowNodesContainer(treeNode.Nodes);
-            }
-        }
-
-        private void RemoveNodeFromDisallowNodesContainer (TreeNode treeNode)
-        {
-            if (this.disallowNodesContainer.ContainsKey(treeNode))
-                this.disallowNodesContainer.Remove(treeNode);
-
-            foreach (ArrayList nodeSet in this.disallowNodesContainer.Values)
-            {
-                if (nodeSet.Contains(treeNode))
-                    nodeSet.Remove(treeNode);
-            }
         }
     }
 }

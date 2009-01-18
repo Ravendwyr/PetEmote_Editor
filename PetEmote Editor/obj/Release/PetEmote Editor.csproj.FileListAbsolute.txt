@@ -1,0 +1,18 @@
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.exe.manifest
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.application
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.exe
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.pdb
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\de\PetEmote Editor.resources.dll
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\ResolveAssemblyReference.cache
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Forms.MainForm.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Icons.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Properties.Resources.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Forms.MainForm.de.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Properties.Resources.de.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.csproj.GenerateResource.Cache
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\de\PetEmote Editor.resources.dll
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.TrustInfo.xml
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.exe.manifest
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.application
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.exe
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.pdb

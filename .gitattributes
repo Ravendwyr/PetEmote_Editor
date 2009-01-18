@@ -8,6 +8,7 @@ PetEmote[!!-~]Editor/Emotes/EmoteNodeProperties.cs -text
 PetEmote[!!-~]Editor/Emotes/EmoteNodeSet.cs -text
 PetEmote[!!-~]Editor/Emotes/LuaTableWriter.cs -text
 PetEmote[!!-~]Editor/Emotes/PetFamily.cs -text
+PetEmote[!!-~]Editor/Emotes/XmlVersionConverter.cs -text
 PetEmote[!!-~]Editor/Forms/MainForm.Designer.cs -text
 PetEmote[!!-~]Editor/Forms/MainForm.Files.cs -text
 PetEmote[!!-~]Editor/Forms/MainForm.Menu.cs -text
@@ -89,6 +90,7 @@ PetEmote[!!-~]Editor/Properties/Resources.resx -text
 PetEmote[!!-~]Editor/Properties/Settings.Designer.cs -text
 PetEmote[!!-~]Editor/Properties/Settings.settings -text
 PetEmote[!!-~]Editor/Properties/app.manifest -text
+PetEmote[!!-~]Editor/Version.cs -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.application -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe.manifest -text
@@ -114,6 +116,11 @@ PetEmote[!!-~]Editor/bin/Debug/app.publish/index.htm -text
 PetEmote[!!-~]Editor/bin/Debug/app.publish/setup.exe -text
 PetEmote[!!-~]Editor/bin/Debug/de/PetEmote[!!-~]Editor.resources.dll -text
 PetEmote[!!-~]Editor/bin/Debug/en/PetEmote[!!-~]Editor.resources.dll -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.application -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe.manifest -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.pdb -text
+PetEmote[!!-~]Editor/bin/Release/de/PetEmote[!!-~]Editor.resources.dll -text
 PetEmote[!!-~]Editor/default-emotes.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.TrustInfo.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.application -text
@@ -137,3 +144,18 @@ PetEmote[!!-~]Editor/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Debug/TempPE/Properties.Resources.de.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Debug/de/PetEmote[!!-~]Editor.resources.dll -text
 PetEmote[!!-~]Editor/obj/Debug/en/PetEmote[!!-~]Editor.resources.dll -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.TrustInfo.xml -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.application -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.csproj.FileListAbsolute.txt -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.csproj.GenerateResource.Cache -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.exe -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.exe.manifest -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.pdb -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Forms.MainForm.de.resources -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Forms.MainForm.resources -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Icons.resources -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Properties.Resources.de.resources -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Properties.Resources.resources -text
+PetEmote[!!-~]Editor/obj/Release/TempPE/Icons.Designer.cs.dll -text
+PetEmote[!!-~]Editor/obj/Release/TempPE/Properties.Resources.Designer.cs.dll -text
+PetEmote[!!-~]Editor/obj/Release/de/PetEmote[!!-~]Editor.resources.dll -text

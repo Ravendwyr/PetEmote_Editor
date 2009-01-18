@@ -8,6 +8,8 @@ namespace PetEmote.Emotes
     {
         private EmoteCondition condition = EmoteCondition.None;
         private ArrayList disallow = new ArrayList();
+        private int chance = 100;
+        private string[] keywords = new string[0];
 
         public EmoteNodeProperties () { }
         
@@ -35,11 +37,48 @@ namespace PetEmote.Emotes
 
         public bool MustContinue { get; set; }
         
-        [XmlArrayItem(Type = typeof(int), ElementName = "Index")]
-        public ArrayList Disallow
+        [XmlArrayItem(Type = typeof(string), ElementName = "Keyword")]
+        public string[] Keywords
         {
-            get { return this.disallow; }
-            set { this.disallow = value; }
+            get { return this.keywords; }
+            set {
+                if (value.Length == 1 && value[0] == string.Empty)
+                    this.keywords = new string[0];
+                else
+                    this.keywords = value;
+            }
+        }
+
+        public static string[] StringToKeywords (string keywords)
+        {
+            return EmoteNodeProperties.StringToKeywords(keywords, 1);
+        }
+
+        public static string[] StringToKeywords (string keywords, int minKeywordLength)
+        {
+            string[] source = keywords.Split(' ');
+            ArrayList result = new ArrayList(source.Length);
+
+            foreach (string keyword in source)
+            {
+                string k = keyword.Trim(' ', '.', '!', '?', ',', '-');
+                if (k.Length >= minKeywordLength) result.Add(k);
+            }
+
+            return (string[])result.ToArray(typeof(string));
+        }
+
+        public int Chance
+        {
+            get {
+                return this.chance;
+            }
+            set
+            {
+                if (value > 200) this.chance = 200;
+                else if (value < 1) this.chance = 1;
+                else this.chance = value;
+            }
         }
 
         public object Clone ()
