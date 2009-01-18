@@ -46,6 +46,9 @@ namespace PetEmote.Emotes
 
                             if (node.SelectSingleNode("Properties/Keywords") == null)
                             {
+                                if (node.SelectSingleNode("Properties") == null)
+                                    node.AppendChild(this.doc.CreateElement("Properties"));
+                                
                                 XmlNode keywordsNode = this.doc.CreateElement("Keywords");
                                 foreach (string keyword in keywords)
                                 {

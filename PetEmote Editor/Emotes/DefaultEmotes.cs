@@ -80,8 +80,8 @@ namespace PetEmote.Emotes
         {
             try
             {
-                if (this.DataFile.Exists)
-                    this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
+                //if (this.DataFile.Exists)
+                //    this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
 
                 this.Version = PetEmote.Version.Latest;
 
