@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ability_Druid_CatForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Druid_CatForm.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Druid_ChallangingRo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Druid_ChallangingRo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Druid_DemoralizingR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Druid_DemoralizingR.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Bat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Bat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Bear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Bear.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Boar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Boar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Crab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Crab.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Crocolis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Crocolis.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_DragonHa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_DragonHa.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Gorilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Gorilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Hyena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Hyena.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_NetherRa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_NetherRa.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Owl.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Raptor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Raptor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Ravager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Ravager.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Scorpid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Scorpid.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Serpent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Serpent.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Spider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Spider.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Sporebat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Sporebat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_TallStri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_TallStri.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Turtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Turtle.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Vulture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Vulture.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_WarpStal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_WarpStal.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_WindSerp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_WindSerp.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_Pet_Wolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Ability_Hunter_Pet_Wolf.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddConfiguration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddConfiguration.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportConfiguration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\ImportConfiguration.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Letter_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Letter_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_Book_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_Book_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_PunchCards_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_PunchCards_Blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_PunchCards_Prismat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_PunchCards_Prismat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_PunchCards_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_PunchCards_Red.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_PunchCards_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_PunchCards_White.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_PunchCards_Yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_PunchCards_Yellow.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_QuestionMark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_QuestionMark.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_Rune_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_Rune_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Misc_Spyglass_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Misc_Spyglass_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Musket_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Musket_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Weapon_Bow_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\INV_Weapon_Bow_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Load.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveConfiguration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\RemoveConfiguration.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Save.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_ChargeNegative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_ChargeNegative.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_ChargePositive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_ChargePositive.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Nature_Drowsy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Nature_Drowsy.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonFelGuard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonFelGuard.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonFelHunte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonFelHunte.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonImp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonImp.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonInfernal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonInfernal.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonSuccubus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonSuccubus.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Shadow_SummonVoidWalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Spell_Shadow_SummonVoidWalk.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddChildNode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddChildNode.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\AddNode.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveNode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\RemoveNode.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Condition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Condition.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons\Options.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

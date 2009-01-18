@@ -1,0 +1,9 @@
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote.exe
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote.pdb
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\ResolveAssemblyReference.cache
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Forms.MainForm.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Icons.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Properties.Resources.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.csproj.GenerateResource.Cache
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.exe
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.pdb

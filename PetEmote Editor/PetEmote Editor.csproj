@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D2AC8A4-A716-4A47-862F-1A9954757B42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PetEmote</RootNamespace>
+    <AssemblyName>PetEmote</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>PetEmote.Program</StartupObject>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>6790D2B35005462053937E00A6E8DF63E41C431C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>PetEmote Konfigurations-Editor_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>ftp://psynoxis.net/zirkel-des-cenarius/ammunition-company/pet-emote-download/editor/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>2</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote-download/editor/</InstallUrl>
+    <SupportUrl>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote/using-petemote/</SupportUrl>
+    <ProductName>PetEmote Editor</ProductName>
+    <PublisherName>Jorna %40 Zirkel des Cenarius %28EU%29</PublisherName>
+    <MinimumRequiredVersion>1.5.1.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.5.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Emotes\CustomEmotes.cs" />
+    <Compile Include="Emotes\EmoteConfiguration.cs" />
+    <Compile Include="Emotes\EmoteNodeProperties.cs" />
+    <Compile Include="Emotes\EmoteNodeSet.cs" />
+    <Compile Include="Emotes\EmoteNode.cs" />
+    <Compile Include="Emotes\DefaultEmotes.cs" />
+    <Compile Include="Emotes\PetFamily.cs" />
+    <Compile Include="Forms\MainForm.Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Output.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.Files.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Workspace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Icons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Emotes\LuaTableWriter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Ability_Druid_CatForm.jpg" />
+    <None Include="Icons\Ability_Druid_ChallangingRo.jpg" />
+    <None Include="Icons\Ability_Druid_DemoralizingR.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Bat.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Bear.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Boar.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Cat.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Crab.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Crocolis.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_DragonHa.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Gorilla.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Hyena.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_NetherRa.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Owl.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Raptor.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Ravager.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Scorpid.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Serpent.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Spider.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Sporebat.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_TallStri.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Turtle.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Vulture.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_WarpStal.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_WindSerp.jpg" />
+    <None Include="Icons\Ability_Hunter_Pet_Wolf.jpg" />
+    <None Include="Icons\INV_Letter_01.jpg" />
+    <None Include="Icons\INV_Misc_Book_02.jpg" />
+    <None Include="Icons\INV_Misc_Spyglass_03.jpg" />
+    <None Include="Icons\INV_Musket_02.jpg" />
+    <None Include="Icons\INV_Weapon_Bow_07.jpg" />
+    <None Include="Icons\Spell_ChargeNegative.jpg" />
+    <None Include="Icons\Spell_ChargePositive.jpg" />
+    <None Include="Icons\Spell_Nature_Drowsy.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonFelGuard.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonFelHunte.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonImp.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonInfernal.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonSuccubus.jpg" />
+    <None Include="Icons\Spell_Shadow_SummonVoidWalk.jpg" />
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_PunchCards_Blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_PunchCards_Prismat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_PunchCards_Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_PunchCards_White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_PunchCards_Yellow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_QuestionMark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\INV_Misc_Rune_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ImportConfiguration.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\RemoveConfiguration.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Load.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\AddConfiguration.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\AddNode.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\AddChildNode.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\RemoveNode.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Options.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Condition.gif" />
+    <None Include="Key.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default-emotes.xml" />
+    <Content Include="PetEmote.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
