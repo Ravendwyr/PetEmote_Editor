@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows.Forms;
+using PetEmote.Properties;
 
 namespace PetEmote.Forms
 {
@@ -34,7 +35,7 @@ namespace PetEmote.Forms
 
             if (!dir.Exists)
             {
-                MessageBox.Show("PetEmote wurde in Deinem AddOns-Verzeichnis nicht gefunden.\nDu musst PetEmote zunächst installieren, bevor du fortfahren kannst.", "PetEmote", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show(Resources.Message_PetEmoteNotFound, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return null;
             }
 
@@ -45,7 +46,7 @@ namespace PetEmote.Forms
         {
             try
             {
-                if (MessageBox.Show("World of Warcraft wurde auf diesem PC nicht gefunden.\nBitte wähle Dein World of Warcraft Installationsverzeichnis manuell aus.", "PetEmote", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) != DialogResult.OK) return null;
+                if (MessageBox.Show(Resources.Message_WorldOfWarcraftNotFound, Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Information) != DialogResult.OK) return null;
                 if (this.folderBrowserDialog.ShowDialog(this) != DialogResult.OK) return null;
                 return this.folderBrowserDialog.SelectedPath;
             }

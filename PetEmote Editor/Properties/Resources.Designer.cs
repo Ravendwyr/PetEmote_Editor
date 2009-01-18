@@ -59,5 +59,80 @@ namespace PetEmote.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Hunter ähnelt.
+        /// </summary>
+        internal static string ClassName_Hunter {
+            get {
+                return ResourceManager.GetString("ClassName_Hunter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Warlock ähnelt.
+        /// </summary>
+        internal static string ClassName_Warlock {
+            get {
+                return ResourceManager.GetString("ClassName_Warlock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Do you really want to delete this configuration? ähnelt.
+        /// </summary>
+        internal static string Message_ConfirmDeleteConfiguration {
+            get {
+                return ResourceManager.GetString("Message_ConfirmDeleteConfiguration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die PetEmote has not been found inside your AddOns-directory.
+        ///You have to install PetEmote before continuing. ähnelt.
+        /// </summary>
+        internal static string Message_PetEmoteNotFound {
+            get {
+                return ResourceManager.GetString("Message_PetEmoteNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die The configuration has not been saved.
+        ///Maybe the file is write-protected. ähnelt.
+        /// </summary>
+        internal static string Message_SavingFailed {
+            get {
+                return ResourceManager.GetString("Message_SavingFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die World of Warcraft has not been found on your computer.
+        ///Please select your World of Warcraft installation directory manually. ähnelt.
+        /// </summary>
+        internal static string Message_WorldOfWarcraftNotFound {
+            get {
+                return ResourceManager.GetString("Message_WorldOfWarcraftNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die new emote ähnelt.
+        /// </summary>
+        internal static string Other_NewEmote {
+            get {
+                return ResourceManager.GetString("Other_NewEmote", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die new subordinary emote ähnelt.
+        /// </summary>
+        internal static string Other_NewSubordinaryEmote {
+            get {
+                return ResourceManager.GetString("Other_NewSubordinaryEmote", resourceCulture);
+            }
+        }
     }
 }

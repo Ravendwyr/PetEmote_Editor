@@ -117,381 +117,597 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;ToolStripMenuItem_Options.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Options</value>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.BottomToolStripPanel</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsMale.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsMale</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsFemale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Source.Name" xml:space="preserve">
-    <value>ToolStripComboBox_Source</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
-    <value>Ziel ist unfreundlich</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsMale.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PlayerIsMale</value>
-  </data>
-  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ListView_Output.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ToolStrip_Tools.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 396</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
-    <value>ToolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom.Panel1</value>
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
-    <value>Alle Konfigurationen speichern</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Type" xml:space="preserve">
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
-    <value>Fügt einen neuen Emote-Knoten unterhalb des ausgewählten Knotens ein</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
-    <value>ToolStripButton_RemoveConfiguration</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Options.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Text" xml:space="preserve">
-    <value>Charakter ist männlich</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
-    <value>Das Emote kann jederzeit erscheinen</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStipButton_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Configuration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
-    <value>Wenn ausgewählt, wird das Emote garantiert mit
-einem der untergeordneten Texte fortgesetzt.</value>
-  </data>
-  <data name="ToolStipButton_Load.Text" xml:space="preserve">
-    <value>Wiederherstellen</value>
-  </data>
-  <data name="ToolStipButton_Load.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;ColumnHeader_EmoteText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.Text" xml:space="preserve">
-    <value>Tier ist weiblich</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Tools.Name" xml:space="preserve">
-    <value>ToolStrip_Tools</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
-    <value>Tier ist männlich</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Tools.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 21</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Tools.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ListView_Output.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;ListView_Output.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom.Panel2</value>
-  </data>
-  <data name="&gt;&gt;TreeView_Main.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_AddNode.Name" xml:space="preserve">
-    <value>ToolStripButton_AddNode</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Tieres muss männlich sein</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_None</value>
-  </data>
-  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
-    <value>Quelle wählen</value>
-  </data>
-  <data name="ColumnHeader_EmoteText.Text" xml:space="preserve">
-    <value>Emote</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Source.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Name" xml:space="preserve">
-    <value>SplitContainer_TopBottom.Panel2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
-    <value>ToolStripSeparator3</value>
-  </data>
-  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 6</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator4.Name" xml:space="preserve">
-    <value>ToolStripSeparator4</value>
-  </data>
-  <data name="ToolStipButton_Load.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_TestConfiguration.Name" xml:space="preserve">
-    <value>ToolStripButton_TestConfiguration</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 25</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
-    <value>Hinzufügen</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
-    <value>Emote löschen</value>
-  </data>
-  <data name="SplitContainer_TopBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 571</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="folderBrowserDialog.Description" xml:space="preserve">
-    <value>World of Warcraft-Verzeichnis</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Name" xml:space="preserve">
-    <value>SplitContainer_TopBottom.Panel1</value>
-  </data>
-  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
-    <value>Bedingung</value>
-  </data>
-  <data name="ToolStrip_Main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveNode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.Text" xml:space="preserve">
-    <value>Keine Bedingung</value>
-  </data>
-  <data name="&gt;&gt;TreeView_Main.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsMale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_CheckForProblems.Name" xml:space="preserve">
-    <value>ToolStripButton_CheckForProblems</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetExists.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_TargetExists</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsUnhappy</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveNode.Name" xml:space="preserve">
-    <value>ToolStripButton_RemoveNode</value>
-  </data>
-  <data name="ColumnHeader_Condition.Width" type="System.Int32, mscorlib">
-    <value>194</value>
-  </data>
-  <data name="TreeView_Main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Tieres muss weiblich sein</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Conditions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TreeView_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="ToolStrip_Tools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 25</value>
+  <data name="TreeView_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 346</value>
   </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="ToolStripComboBox_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Text" xml:space="preserve">
-    <value>Charakter ist weiblich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_MustContinue</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsContent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListView_Output.ZOrder" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView_Main.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsMale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Configuration.Name" xml:space="preserve">
-    <value>ToolStripComboBox_Configuration</value>
-  </data>
-  <data name="SplitContainer_TopBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;TreeView_Main.Name" xml:space="preserve">
     <value>TreeView_Main</value>
   </data>
-  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 22</value>
+  <data name="&gt;&gt;TreeView_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsHappy</value>
+  <data name="&gt;&gt;TreeView_Main.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;TreeView_Main.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 346</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 396</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <metadata name="ToolStrip_Tools.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ToolStrip_Tools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripButton_TestConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_CheckForProblems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStrip_Tools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolStrip_Tools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 25</value>
+  </data>
+  <data name="ToolStrip_Tools.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ToolStrip_Tools.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Tools.Name" xml:space="preserve">
+    <value>ToolStrip_Tools</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Tools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Tools.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Tools.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripComboBox_Source.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
+    <value>Select source</value>
+  </data>
+  <data name="ToolStipButton_Load.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStipButton_Load.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStipButton_Load.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
+    <value>Restores the last saved version of all emotes</value>
+  </data>
+  <data name="ToolStipButton_Save.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStipButton_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStipButton_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
+    <value>Save all configurations</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
+    <value>Select configuration</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Pet name</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Insert any name of a pet or a pet family</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
+    <value>Add configuration</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
+    <value>Adds a new configuration</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
+    <value>Delete configuration</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
+    <value>Deletes the selected configuration</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
   </data>
   <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
-    <value>Importieren</value>
+    <value>Import</value>
   </data>
-  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
-    <value>Fortsetzung erzwingen</value>
+  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
+    <value>Adds all emotes from a default configuration</value>
+  </data>
+  <data name="ToolStrip_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 25</value>
+  </data>
+  <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ToolStrip_Main.Text" xml:space="preserve">
+    <value>Werkzeugleiste</value>
   </data>
   <data name="&gt;&gt;ToolStrip_Main.Name" xml:space="preserve">
     <value>ToolStrip_Main</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
+  <data name="&gt;&gt;ToolStrip_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ColumnHeader_Condition.Name" xml:space="preserve">
-    <value>ColumnHeader_Condition</value>
+  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>270, 17</value>
+  </metadata>
+  <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripButton_AddNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
+    <value>Add emote</value>
+  </data>
+  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
+    <value>Adds a new emote node at the end of the list</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
+    <value>Add subordinate emote</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
+    <value>Adds a new emote node inside the selected node</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
+    <value>Remove emote</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
+    <value>Removes the selected emote</value>
+  </data>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
+    <value>Target exists</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.ToolTipText" xml:space="preserve">
+    <value>The player must have a target</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Text" xml:space="preserve">
+    <value>Target is friendly</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.ToolTipText" xml:space="preserve">
+    <value>The player's target must be friendly</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
+    <value>Target is unfriendly</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.ToolTipText" xml:space="preserve">
+    <value>The player's target must be unfriendly</value>
+  </data>
+  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.Text" xml:space="preserve">
+    <value>Pet is happy</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.ToolTipText" xml:space="preserve">
+    <value>The pet must be happy (hunters only)</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
+    <value>Pet is content</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.ToolTipText" xml:space="preserve">
+    <value>The pet must be content (hunters only)</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Text" xml:space="preserve">
+    <value>Pet is unhappy</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.ToolTipText" xml:space="preserve">
+    <value>The pet must be unhappy (hunters only)</value>
+  </data>
+  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
+    <value>Pet is male</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
+    <value>The pet's gender must be male</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.Text" xml:space="preserve">
+    <value>Pet is female</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.ToolTipText" xml:space="preserve">
+    <value>The pet's gender must be female</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Text" xml:space="preserve">
+    <value>Character is male</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.ToolTipText" xml:space="preserve">
+    <value>The player character's gender must be male</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Text" xml:space="preserve">
+    <value>Character is female</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
+    <value>The player character's gender must be female</value>
+  </data>
+  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.Text" xml:space="preserve">
+    <value>No condition</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
+    <value>The emote can be used everytime</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Choose a condition for the selected Emote</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
+    <value>Enforce continuation</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
+    <value>If selected, the emote will be continued with
+one of the subordinary texts guaranteed.</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.Text" xml:space="preserve">
+    <value>No further emotes</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.ToolTipText" xml:space="preserve">
+    <value>If selected, this emote will finish the output. No more text
+modules will be attached. To disallow the usage of only one
+or more certain emote nodes after the selected one, check
+the checkboxes within the tree view.</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
+    <value>Options for the selected emote</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 25</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Name" xml:space="preserve">
+    <value>ToolStrip_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer_TopBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SplitContainer_TopBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SplitContainer_TopBottom.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer_TopBottom.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColumnHeader_EmoteText.Text" xml:space="preserve">
+    <value>Emote</value>
+  </data>
+  <data name="ColumnHeader_EmoteText.Width" type="System.Int32, mscorlib">
+    <value>394</value>
+  </data>
+  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ColumnHeader_Condition.Width" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="ListView_Output.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ListView_Output.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="ListView_Output.Size" type="System.Drawing.Size, System.Drawing">
     <value>592, 171</value>
+  </data>
+  <data name="ListView_Output.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListView_Output.Name" xml:space="preserve">
+    <value>ListView_Output</value>
+  </data>
+  <data name="&gt;&gt;ListView_Output.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListView_Output.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ListView_Output.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer_TopBottom.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitContainer_TopBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 571</value>
+  </data>
+  <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
+    <value>396</value>
+  </data>
+  <data name="SplitContainer_TopBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Name" xml:space="preserve">
+    <value>SplitContainer_TopBottom</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>438, 17</value>
+  </metadata>
+  <data name="folderBrowserDialog.Description" xml:space="preserve">
+    <value>World of Warcraft-Verzeichnis</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>592, 571</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -994,457 +1210,241 @@ einem der untergeordneten Texte fortgesetzt.</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
-    <value>Neue Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Name eines Tieres</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 22</value>
-  </data>
-  <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
-    <value>396</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
-  <data name="ToolStipButton_Save.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="SplitContainer_TopBottom.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
-    <value>Fügt einen neuen Emote-Knoten am Ende der Liste ein</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Save.Name" xml:space="preserve">
-    <value>ToolStipButton_Save</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsFriendly.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_TargetIsFriendly</value>
-  </data>
-  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
-    <value>Einstellungen zum ausgewählten Emote</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_AddChildNode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
-    <value>Löscht den ausgewählten Emote-Knoten</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.Text" xml:space="preserve">
-    <value>Tier ist glücklich</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Load.Name" xml:space="preserve">
-    <value>ToolStipButton_Load</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsFriendly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TreeView_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
-    <value>Ausgewählte Konfiguration löschen</value>
-  </data>
-  <data name="ToolStrip_Main.Text" xml:space="preserve">
-    <value>Werkzeugleiste</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Name" xml:space="preserve">
-    <value>ToolStripDropDownButton_AddConfiguration</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Bedingung zum ausgewählten Emote</value>
-  </data>
-  <data name="&gt;&gt;ListView_Output.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_AddNode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TreeView_Main.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Text" xml:space="preserve">
-    <value>Tier ist unglücklich</value>
-  </data>
-  <data name="&gt;&gt;ToolStripLabel_Configuration.Name" xml:space="preserve">
-    <value>ToolStripLabel_Configuration</value>
-  </data>
-  <data name="ToolStrip_Tools.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.BottomToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsContent.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsContent</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_DisallowAll</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.LeftToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
-    <value>Ziel existiert</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss unglücklich sein (nur Jäger)</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss zufrieden sein (nur Jäger)</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ToolStripButton_AddNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
-    <value>ToolStripTextBox_Independent</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
-    <value>ToolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsFemale.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PlayerIsFemale</value>
-  </data>
-  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 6</value>
-  </data>
-  <data name="&gt;&gt;ToolStripTextBox_Independent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripComboBox_Source.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
-    <value>Tier ist zufrieden</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Spielercharakters muss männlich sein</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_Import.Name" xml:space="preserve">
-    <value>ToolStripDropDownButton_Import</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStrip_Tools.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
-    <value>folderBrowserDialog</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
-    <value>Untergeordnetes Emote hinzufügen</value>
-  </data>
-  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
-    <value>Die zuletzt gespeicherte Version der Emotes wiederherstellen</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Name" xml:space="preserve">
-    <value>SplitContainer_TopBottom</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Load.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Name" xml:space="preserve">
-    <value>ToolStrip_EmoteEditing</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.Text" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein unfreundliches Ziel anvisiert haben</value>
-  </data>
-  <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein Ziel anvisiert haben</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_AddChildNode.Name" xml:space="preserve">
-    <value>ToolStripButton_AddChildNode</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss glücklich sein (nur Jäger)</value>
-  </data>
-  <data name="&gt;&gt;ColumnHeader_Condition.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.RightToolStripPanel</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_CheckForProblems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="ToolStripButton_CheckForProblems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>592, 571</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsUnfriendly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator5.Name" xml:space="preserve">
-    <value>ToolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Text" xml:space="preserve">
-    <value>Ziel ist freundlich</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Bedingung</value>
-  </data>
-  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
-    <value>Konfiguration auswählen</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Tools.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ToolStripContainer_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ToolStripMenuItem_DisallowAll.Text" xml:space="preserve">
-    <value>Keine weiteren Emotes</value>
-  </data>
-  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
-    <value>Emote hinzufügen</value>
-  </data>
-  <data name="&gt;&gt;ColumnHeader_EmoteText.Name" xml:space="preserve">
-    <value>ColumnHeader_EmoteText</value>
-  </data>
-  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
-    <value>Konfiguration</value>
-  </data>
-  <data name="ToolStripButton_TestConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ColumnHeader_EmoteText.Width" type="System.Int32, mscorlib">
-    <value>394</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PetEmote Editor (Beta)</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_TestConfiguration.Name" xml:space="preserve">
+    <value>ToolStripButton_TestConfiguration</value>
   </data>
   <data name="&gt;&gt;ToolStripButton_TestConfiguration.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_Import.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripButton_CheckForProblems.Name" xml:space="preserve">
+    <value>ToolStripButton_CheckForProblems</value>
   </data>
-  <data name="SplitContainer_TopBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;ToolStripButton_CheckForProblems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripContainer_EmoteEditing.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 346</value>
+  <data name="&gt;&gt;ToolStripComboBox_Source.Name" xml:space="preserve">
+    <value>ToolStripComboBox_Source</value>
   </data>
-  <data name="&gt;&gt;ToolStripSeparator6.Name" xml:space="preserve">
-    <value>ToolStripSeparator6</value>
+  <data name="&gt;&gt;ToolStripComboBox_Source.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="&gt;&gt;ToolStipButton_Load.Name" xml:space="preserve">
+    <value>ToolStipButton_Load</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Load.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Save.Name" xml:space="preserve">
+    <value>ToolStipButton_Save</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Configuration.Name" xml:space="preserve">
+    <value>ToolStripLabel_Configuration</value>
   </data>
   <data name="&gt;&gt;ToolStripLabel_Configuration.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 25</value>
+  <data name="&gt;&gt;ToolStripComboBox_Configuration.Name" xml:space="preserve">
+    <value>ToolStripComboBox_Configuration</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Conditions.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Conditions</value>
+  <data name="&gt;&gt;ToolStripComboBox_Configuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>PetEmote Editor (Beta)</value>
+  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton_AddConfiguration</value>
   </data>
-  <data name="ToolStrip_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 25</value>
+  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStipButton_Save.Text" xml:space="preserve">
-    <value>Speichern</value>
+  <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
+    <value>ToolStripTextBox_Independent</value>
   </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;ToolStripTextBox_Independent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Spielercharakters muss weiblich sein</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsFemale</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsUnfriendly.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_TargetIsUnfriendly</value>
-  </data>
-  <data name="ListView_Output.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_DisallowAll.ToolTipText" xml:space="preserve">
-    <value>Wenn aktiviert, beendet dieses Emote die Ausgabe.
-Es werden keine weiteren Textbausteine angehängt.
-Um nur bestimmte Emotes zu verbieten, aktiviere die
-Checkboxen in der Baumansicht.</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_DisallowAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="SplitContainer_TopBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein freundliches Ziel anvisiert haben</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
-    <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
+  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
+    <value>ToolStripButton_RemoveConfiguration</value>
   </data>
   <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="TreeView_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 346</value>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
   </data>
-  <data name="ToolStrip_Tools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_Import.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton_Import</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_Import.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_AddNode.Name" xml:space="preserve">
+    <value>ToolStripButton_AddNode</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_AddNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_AddChildNode.Name" xml:space="preserve">
+    <value>ToolStripButton_AddChildNode</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_AddChildNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_RemoveNode.Name" xml:space="preserve">
+    <value>ToolStripButton_RemoveNode</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_RemoveNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
+    <value>ToolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Conditions.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Conditions</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Conditions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetExists.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_TargetExists</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetExists.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsFriendly.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_TargetIsFriendly</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsFriendly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ListView_Output.Name" xml:space="preserve">
-    <value>ListView_Output</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsUnfriendly.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_TargetIsUnfriendly</value>
   </data>
-  <data name="&gt;&gt;TreeView_Main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsUnfriendly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 25</value>
-  </metadata>
-  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>8, 5</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>41</value>
-  </metadata>
-  <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
-  </metadata>
-  <metadata name="ToolStrip_Tools.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;ToolStripSeparator4.Name" xml:space="preserve">
+    <value>ToolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsHappy</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsContent.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsContent</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsUnhappy</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator5.Name" xml:space="preserve">
+    <value>ToolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsMale.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsMale</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsMale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsFemale</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsMale.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PlayerIsMale</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsMale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsFemale.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PlayerIsFemale</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsFemale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Name" xml:space="preserve">
+    <value>ToolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_None</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Options.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Options</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_MustContinue</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_DisallowAll</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_DisallowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader_EmoteText.Name" xml:space="preserve">
+    <value>ColumnHeader_EmoteText</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader_EmoteText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader_Condition.Name" xml:space="preserve">
+    <value>ColumnHeader_Condition</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader_Condition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

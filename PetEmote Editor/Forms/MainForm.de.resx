@@ -118,6 +118,232 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStrip_Tools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
+    <value>Quelle wählen</value>
+  </data>
+  <data name="ToolStipButton_Load.Text" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
+    <value>Die zuletzt gespeicherte Version der Emotes wiederherstellen</value>
+  </data>
+  <data name="ToolStipButton_Save.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
+    <value>Alle Konfigurationen speichern</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
+    <value>Konfiguration auswählen</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
+    <value>Neue Konfiguration hinzufügen</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Name eines Tieres</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
+    <value>Ausgewählte Konfiguration löschen</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
+    <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
+  </data>
+  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
+    <value>Emote hinzufügen</value>
+  </data>
+  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
+    <value>Fügt einen neuen Emote-Knoten am Ende der Liste ein</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
+    <value>Untergeordnetes Emote hinzufügen</value>
+  </data>
+  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
+    <value>Fügt einen neuen Emote-Knoten unterhalb des ausgewählten Knotens ein</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
+    <value>Emote löschen</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
+    <value>Löscht den ausgewählten Emote-Knoten</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Bedingung</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Bedingung zum ausgewählten Emote</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
+    <value>Ziel existiert</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetExists.ToolTipText" xml:space="preserve">
+    <value>Der Spieler muss ein Ziel anvisiert haben</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Text" xml:space="preserve">
+    <value>Ziel ist freundlich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.ToolTipText" xml:space="preserve">
+    <value>Der Spieler muss ein freundliches Ziel anvisiert haben</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
+    <value>Ziel ist unfreundlich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.ToolTipText" xml:space="preserve">
+    <value>Der Spieler muss ein unfreundliches Ziel anvisiert haben</value>
+  </data>
+  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.Text" xml:space="preserve">
+    <value>Tier ist glücklich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsHappy.ToolTipText" xml:space="preserve">
+    <value>Das Tier muss glücklich sein (nur Jäger)</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
+    <value>Tier ist zufrieden</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.ToolTipText" xml:space="preserve">
+    <value>Das Tier muss zufrieden sein (nur Jäger)</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Text" xml:space="preserve">
+    <value>Tier ist unglücklich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.ToolTipText" xml:space="preserve">
+    <value>Das Tier muss unglücklich sein (nur Jäger)</value>
+  </data>
+  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
+    <value>Tier ist männlich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
+    <value>Das Geschlecht des Tieres muss männlich sein</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.Text" xml:space="preserve">
+    <value>Tier ist weiblich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsFemale.ToolTipText" xml:space="preserve">
+    <value>Das Geschlecht des Tieres muss weiblich sein</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Text" xml:space="preserve">
+    <value>Charakter ist männlich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsMale.ToolTipText" xml:space="preserve">
+    <value>Das Geschlecht des Spielercharakters muss männlich sein</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Text" xml:space="preserve">
+    <value>Charakter ist weiblich</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
+    <value>Das Geschlecht des Spielercharakters muss weiblich sein</value>
+  </data>
+  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.Text" xml:space="preserve">
+    <value>Keine Bedingung</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
+    <value>Das Emote kann jederzeit erscheinen</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
+    <value>Einstellungen zum ausgewählten Emote</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
+    <value>Fortsetzung erzwingen</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
+    <value>Wenn ausgewählt, wird das Emote garantiert mit
+einem der untergeordneten Texte fortgesetzt.</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.Text" xml:space="preserve">
+    <value>Keine weiteren Emotes</value>
+  </data>
+  <data name="ToolStripMenuItem_DisallowAll.ToolTipText" xml:space="preserve">
+    <value>Wenn aktiviert, beendet dieses Emote die Ausgabe.
+Es werden keine weiteren Textbausteine angehängt.
+Um nur bestimmte Emotes zu verbieten, aktiviere die
+Checkboxen in der Baumansicht.</value>
+  </data>
+  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
+    <value>Bedingung</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAcAQEAAAAAAAAAoMgAAdgAAADAwAAAAAAAAqBwAAJ4yAAAgIAAAAAAAAKgMAABGTwAAFBQAAAAA
@@ -618,9 +844,5 @@
         2O69ioCpf424xK60ddTn0+Ds3OPQljqvyp3FybPh8ebf17GGxuvZwG+gzqfS6eLdzc8AAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

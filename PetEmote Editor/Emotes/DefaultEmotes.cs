@@ -60,7 +60,7 @@ namespace PetEmote.Emotes
                 // Datei existiert noch nicht oder kann nicht gelesen werden
                 return false;
             }
-            /*catch (InvalidOperationException)
+            catch (InvalidOperationException)
             {
                 // Fehler im XML
                 return false;
@@ -68,7 +68,7 @@ namespace PetEmote.Emotes
             catch (Exception e)
             {
                 throw e;
-            }*/
+            }
 
             return true;
         }

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PublishUrlHistory>ftp://psynoxis.net/zirkel-des-cenarius/ammunition-company/pet-emote-download/editor/|ftp://psynoxis.net/zirkel-des-cenarius/ammunition-company/pet-emote-download/|publish\</PublishUrlHistory>
     <InstallUrlHistory>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote-download/editor/</InstallUrlHistory>
-    <SupportUrlHistory>http://ammunition-company.zirkel-des-cenarius.eu/</SupportUrlHistory>
+    <SupportUrlHistory>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote/using-petemote/|http://ammunition-company.zirkel-des-cenarius.eu/</SupportUrlHistory>
     <UpdateUrlHistory>
     </UpdateUrlHistory>
     <BootstrapperUrlHistory>

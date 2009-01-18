@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using PetEmote.Emotes;
+using PetEmote.Properties;
 
 namespace PetEmote.Forms
 {
@@ -37,6 +38,12 @@ namespace PetEmote.Forms
 
             DirectoryInfo dir = this.GetPetEmoteDirectory();
             
+            if (dir == null)
+            {
+                Application.Exit();
+                return;
+            }
+            
             this.defaultEmotes = new DefaultEmotes(dir);
             this.defaultEmotes.Load();
 
@@ -55,13 +62,13 @@ namespace PetEmote.Forms
 
         private void ToolStripButton_AddNode_Click (object sender, EventArgs e)
         {
-            this.TreeView_Main.SelectedNode = this.AddTreeNode("Neues Emote");
+            this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewEmote);
             this.TreeView_Main.SelectedNode.BeginEdit();
         }
 
         private void ToolStripButton_AddChildNode_Click(object sender, EventArgs e)
         {
-            this.TreeView_Main.SelectedNode = this.AddTreeNode("Neues untergeordnetes Emote", this.TreeView_Main.SelectedNode);
+            this.TreeView_Main.SelectedNode = this.AddTreeNode(Resources.Other_NewSubordinaryEmote, this.TreeView_Main.SelectedNode);
             this.TreeView_Main.SelectedNode.BeginEdit();
         }
 
@@ -81,7 +88,7 @@ namespace PetEmote.Forms
 
             if (!this.currentEmotes.Save())
             {
-                if (MessageBox.Show("Die Konfiguration wurde nicht gespeichert. Möglicherweise ist die Datei schreibgeschützt.", Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
+                if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
                 {
                     this.ToolStripButton_Save_Click(sender, e);
                 }
@@ -89,7 +96,7 @@ namespace PetEmote.Forms
 
             if (!this.currentEmotes.Export(this.currentEmotes.GetType() == typeof(DefaultEmotes)))
             {
-                if (MessageBox.Show("Die Konfiguration wurde nicht exportiert. Möglicherweise ist die Datei schreibgeschützt.", Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
+                if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
                 {
                     this.ToolStripButton_Save_Click(sender, e);
                 }
@@ -138,8 +145,8 @@ namespace PetEmote.Forms
         {
             if (this.ToolStripComboBox_Configuration.SelectedIndex > -1)
             {
+                if (MessageBox.Show(Resources.Message_ConfirmDeleteConfiguration, Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) != DialogResult.Yes) return;
                 this.ToolStripComboBox_Configuration.Items.RemoveAt(this.ToolStripComboBox_Configuration.SelectedIndex);
-                this.ToolStripComboBox_Configuration.Text = string.Empty;
                 this.ClearTreeView();
                 this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Count - 1;
             }
@@ -210,9 +217,14 @@ namespace PetEmote.Forms
 
             TreeNode node = (TreeNode)e.Item;
             tree.SelectedNode = node;
-            
+
             if (node != null)
-                tree.DoDragDrop(node.Clone(), DragDropEffects.Copy);
+            {
+                EmoteNodeProperties properties = (EmoteNodeProperties)node.Tag;
+                TreeNode nodeCloned = (TreeNode)node.Clone();
+                nodeCloned.Tag = properties.Clone();
+                tree.DoDragDrop(nodeCloned, DragDropEffects.Copy);
+            }
         }
 
         private void TreeView_Main_DragOver (object sender, DragEventArgs e)

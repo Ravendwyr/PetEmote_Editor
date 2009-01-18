@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ClassName_Hunter" xml:space="preserve">
-    <value>Hunter</value>
+    <value>Jäger</value>
   </data>
   <data name="ClassName_Warlock" xml:space="preserve">
-    <value>Warlock</value>
+    <value>Hexenmeister</value>
   </data>
   <data name="Message_ConfirmDeleteConfiguration" xml:space="preserve">
-    <value>Do you really want to delete this configuration?</value>
+    <value>Möchtest du die Konfiguration wirklich löschen?</value>
   </data>
   <data name="Message_PetEmoteNotFound" xml:space="preserve">
-    <value>PetEmote has not been found inside your AddOns-directory.
-You have to install PetEmote before continuing.</value>
+    <value>PetEmote wurde in Deinem AddOns-Verzeichnis nicht gefunden.
+Du musst PetEmote zunächst installieren, bevor du fortfahren kannst.</value>
   </data>
   <data name="Message_SavingFailed" xml:space="preserve">
-    <value>The configuration has not been saved.
-Maybe the file is write-protected.</value>
+    <value>Die Konfiguration wurde nicht gespeichert.
+Möglicherweise ist die Datei schreibgeschützt.</value>
   </data>
   <data name="Message_WorldOfWarcraftNotFound" xml:space="preserve">
-    <value>World of Warcraft has not been found on your computer.
-Please select your World of Warcraft installation directory manually.</value>
+    <value>World of Warcraft wurde auf diesem PC nicht gefunden.
+Bitte wähle Dein World of Warcraft Installationsverzeichnis manuell aus.</value>
   </data>
   <data name="Other_NewEmote" xml:space="preserve">
-    <value>new emote</value>
+    <value>Neues Emote</value>
   </data>
   <data name="Other_NewSubordinaryEmote" xml:space="preserve">
-    <value>new subordinary emote</value>
+    <value>Neues untergeordnetes Emote</value>
   </data>
 </root>

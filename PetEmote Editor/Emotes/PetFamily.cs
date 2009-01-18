@@ -52,7 +52,7 @@ namespace PetEmote.Emotes
         private PetClassTypes classType;
         private Hashtable imagesTable;
 
-        public PetFamily () : this ("Untitled") { }
+        public PetFamily () : this ("Unknown") { }
         public PetFamily (string name) : this(name, PetFamilyTypes.Unknown) { }
         public PetFamily (string name, PetFamilyTypes familyType) : this(name, familyType, PetClassTypes.Unknown) { }
         public PetFamily (string name, PetFamilyTypes familyType, PetClassTypes classType) : this(name, familyType, classType, CultureInfo.CurrentUICulture.TwoLetterISOLanguageName) { }

@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Windows.Forms;
 using PetEmote.Emotes;
+using PetEmote.Properties;
 
 namespace PetEmote.Forms
 {
@@ -18,11 +19,11 @@ namespace PetEmote.Forms
 
         private void FillAddConfigurationMenu ()
         {
-            ToolStripMenuItem hunter = new ToolStripMenuItem("Jäger");
+            ToolStripMenuItem hunter = new ToolStripMenuItem(Resources.ClassName_Hunter);
             hunter.Name = "ToolStripMenuItem_AddConfiguration_Hunter";
             hunter.Image = Icons.INV_Weapon_Bow_07;
 
-            ToolStripMenuItem warlock = new ToolStripMenuItem("Hexenmeister");
+            ToolStripMenuItem warlock = new ToolStripMenuItem(Resources.ClassName_Warlock);
             warlock.Name = "ToolStripMenuItem_AddConfiguration_Warlock";
             warlock.Image = Icons.Spell_Nature_Drowsy;
 
@@ -52,14 +53,15 @@ namespace PetEmote.Forms
 
         private void FillImportMenu ()
         {
-            ToolStripMenuItem hunter = new ToolStripMenuItem("Jäger");
+            ToolStripMenuItem hunter = new ToolStripMenuItem(Resources.ClassName_Hunter);
             hunter.Name = "ToolStripMenuItem_Import_Hunter";
             hunter.Image = Icons.INV_Weapon_Bow_07;
 
-            ToolStripMenuItem warlock = new ToolStripMenuItem("Hexenmeister");
+            ToolStripMenuItem warlock = new ToolStripMenuItem(Resources.ClassName_Warlock);
             warlock.Name = "ToolStripMenuItem_Import_Warlock";
             warlock.Image = Icons.Spell_Nature_Drowsy;
 
+            this.ToolStripDropDownButton_Import.DropDownItems.Clear();
             this.ToolStripDropDownButton_Import.DropDownItems.Add(hunter);
             this.ToolStripDropDownButton_Import.DropDownItems.Add(warlock);
 
@@ -67,8 +69,6 @@ namespace PetEmote.Forms
             {
                 if (config.IsCurrentLanguage)
                 {
-                    //config.PetFamily = new PetFamily(config.PetFamily.Name, config.PetFamily.FamilyType, config.PetFamily.ClassType, config.PetFamily.Language);
-
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(config.Name);
 
                     familyItem.Name = "ToolStripMenuItem_Import_" + config.Name.GetHashCode().ToString();
@@ -102,7 +102,7 @@ namespace PetEmote.Forms
             else
             {
                 this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text));
-                this.AddTreeNode("Neues Emote").BeginEdit();
+                this.AddTreeNode(Resources.Other_NewEmote).BeginEdit();
             }
         }
 

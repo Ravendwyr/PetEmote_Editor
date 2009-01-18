@@ -14,16 +14,16 @@
     <FileAlignment>512</FileAlignment>
     <StartupObject>PetEmote.Program</StartupObject>
     <TargetZone>LocalIntranet</TargetZone>
-    <GenerateManifests>false</GenerateManifests>
-    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <GenerateManifests>true</GenerateManifests>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <ManifestCertificateThumbprint>6790D2B35005462053937E00A6E8DF63E41C431C</ManifestCertificateThumbprint>
     <ManifestKeyFile>PetEmote Konfigurations-Editor_TemporaryKey.pfx</ManifestKeyFile>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <ApplicationIcon>PetEmote.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
     <PublishUrl>ftp://psynoxis.net/zirkel-des-cenarius/ammunition-company/pet-emote-download/editor/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -37,11 +37,11 @@
     <InstallUrl>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote-download/editor/</InstallUrl>
     <SupportUrl>http://ammunition-company.zirkel-des-cenarius.eu/pet-emote/using-petemote/</SupportUrl>
     <ProductName>PetEmote Editor</ProductName>
-    <PublisherName>Jorna %40 Zirkel des Cenarius %28EU%29</PublisherName>
-    <MinimumRequiredVersion>1.5.1.0</MinimumRequiredVersion>
+    <PublisherName>PetEmote</PublisherName>
+    <MinimumRequiredVersion>1.5.1.6</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.5.1.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -118,10 +118,6 @@
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainForm.en.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -129,6 +125,9 @@
     <EmbeddedResource Include="Icons.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -270,6 +269,8 @@
   <ItemGroup>
     <Content Include="default-emotes.xml" />
     <Content Include="PetEmote.ico" />
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

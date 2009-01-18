@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Xml.Serialization;
 
 namespace PetEmote.Emotes
 {
-    public class EmoteNodeProperties
+    public class EmoteNodeProperties : ICloneable
     {
         private EmoteCondition condition = EmoteCondition.None;
         private ArrayList disallow = new ArrayList();
@@ -53,6 +54,11 @@ namespace PetEmote.Emotes
             {
                 this.disallow = value;
             }
+        }
+
+        public object Clone ()
+        {
+            return (EmoteNodeProperties)MemberwiseClone();
         }
     }
 }

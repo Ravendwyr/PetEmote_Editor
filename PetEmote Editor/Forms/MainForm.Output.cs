@@ -24,17 +24,19 @@ namespace PetEmote.Forms
             conditions.CopyTo(allConditions, 0);
             if (properties.Condition != EmoteNodeProperties.EmoteCondition.None) allConditions[allConditions.Length - 1] = properties.Condition;
 
+            EmoteNode dummyEmoteNode = new EmoteNode(node.FullPath, properties);
+
             if (node.Nodes.Count == 0)
             {
                 this.AddOutputNode(this.ToolStripComboBox_Configuration.SelectedItem.ToString() +
-                    " " + node.FullPath + ".", allConditions);
+                    " " + dummyEmoteNode.CompletedText, allConditions);
             }
             else
             {
                 if (properties.MustContinue == false)
                 {
                     this.AddOutputNode(this.ToolStripComboBox_Configuration.SelectedItem.ToString() +
-                    " " + node.FullPath + ".", allConditions);
+                    " " + dummyEmoteNode.CompletedText, allConditions);
                 }
 
                 foreach (TreeNode childNode in node.Nodes)
