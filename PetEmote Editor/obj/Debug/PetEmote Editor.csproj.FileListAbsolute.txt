@@ -18,3 +18,5 @@ D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.exe.
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.application
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.exe.config
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Graphics.IconsWoW.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Controls.ListMenu.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Controls.ListMenuItem.resources

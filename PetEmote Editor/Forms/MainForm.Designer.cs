@@ -44,18 +44,6 @@
             this.NumericUpDown_KeywordsMinLength = new System.Windows.Forms.NumericUpDown();
             this.Panel_KeywordsLabel = new System.Windows.Forms.Panel();
             this.CheckBox_KeywordsAutoFill = new System.Windows.Forms.CheckBox();
-            this.ToolStrip_Main = new System.Windows.Forms.ToolStrip();
-            this.ToolStripComboBox_Source = new System.Windows.Forms.ToolStripComboBox();
-            this.ToolStipButton_Load = new System.Windows.Forms.ToolStripButton();
-            this.ToolStipButton_Save = new System.Windows.Forms.ToolStripButton();
-            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripLabel_Configuration = new System.Windows.Forms.ToolStripLabel();
-            this.ToolStripComboBox_Configuration = new System.Windows.Forms.ToolStripComboBox();
-            this.ToolStripDropDownButton_AddConfiguration = new System.Windows.Forms.ToolStripDropDownButton();
-            this.ToolStripTextBox_Independent = new System.Windows.Forms.ToolStripTextBox();
-            this.ToolStripButton_RemoveConfiguration = new System.Windows.Forms.ToolStripButton();
-            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripDropDownButton_Import = new System.Windows.Forms.ToolStripDropDownButton();
             this.ToolStrip_EmoteEditing = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton_AddNode = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton_AddChildNode = new System.Windows.Forms.ToolStripButton();
@@ -88,6 +76,18 @@
             this.ToolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripLabel_Chance = new System.Windows.Forms.ToolStripLabel();
             this.ToolStripComboBox_Chance = new System.Windows.Forms.ToolStripComboBox();
+            this.ToolStrip_Main = new System.Windows.Forms.ToolStrip();
+            this.ToolStripComboBox_Source = new System.Windows.Forms.ToolStripComboBox();
+            this.ToolStipButton_Load = new System.Windows.Forms.ToolStripButton();
+            this.ToolStipButton_Save = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripLabel_Configuration = new System.Windows.Forms.ToolStripLabel();
+            this.ToolStripComboBox_Configuration = new System.Windows.Forms.ToolStripComboBox();
+            this.ToolStripDropDownButton_AddConfiguration = new System.Windows.Forms.ToolStripDropDownButton();
+            this.ToolStripTextBox_Independent = new System.Windows.Forms.ToolStripTextBox();
+            this.ToolStripButton_RemoveConfiguration = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripDropDownButton_Import = new System.Windows.Forms.ToolStripDropDownButton();
             this.SplitContainer_TopBottom = new System.Windows.Forms.SplitContainer();
             this.ListView_Output = new System.Windows.Forms.ListView();
             this.ColumnHeader_EmoteText = new System.Windows.Forms.ColumnHeader();
@@ -107,6 +107,7 @@
             this.conditionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listMenu1 = new PetEmote.Controls.ListMenu();
             this.ToolStripContainer_EmoteEditing.ContentPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.SuspendLayout();
@@ -118,8 +119,8 @@
             this.Panel_KeywordsTextBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_KeywordsMinLength)).BeginInit();
             this.Panel_KeywordsLabel.SuspendLayout();
-            this.ToolStrip_Main.SuspendLayout();
             this.ToolStrip_EmoteEditing.SuspendLayout();
+            this.ToolStrip_Main.SuspendLayout();
             this.SplitContainer_TopBottom.Panel1.SuspendLayout();
             this.SplitContainer_TopBottom.Panel2.SuspendLayout();
             this.SplitContainer_TopBottom.SuspendLayout();
@@ -141,8 +142,8 @@
             // 
             // ToolStripContainer_EmoteEditing.TopToolStripPanel
             // 
-            this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_Main);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_EmoteEditing);
+            this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_Main);
             // 
             // TabControl_EmoteConfigurations
             // 
@@ -286,94 +287,6 @@
             this.ToolTip_Help.SetToolTip(this.CheckBox_KeywordsAutoFill, resources.GetString("CheckBox_KeywordsAutoFill.ToolTip"));
             this.CheckBox_KeywordsAutoFill.UseVisualStyleBackColor = true;
             this.CheckBox_KeywordsAutoFill.CheckedChanged += new System.EventHandler(this.CheckBox_KeywordsAutoFill_CheckedChanged);
-            // 
-            // ToolStrip_Main
-            // 
-            resources.ApplyResources(this.ToolStrip_Main, "ToolStrip_Main");
-            this.ToolStrip_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripComboBox_Source,
-            this.ToolStipButton_Load,
-            this.ToolStipButton_Save,
-            this.ToolStripSeparator1,
-            this.ToolStripLabel_Configuration,
-            this.ToolStripComboBox_Configuration,
-            this.ToolStripDropDownButton_AddConfiguration,
-            this.ToolStripButton_RemoveConfiguration,
-            this.ToolStripSeparator2,
-            this.ToolStripDropDownButton_Import});
-            this.ToolStrip_Main.Name = "ToolStrip_Main";
-            // 
-            // ToolStripComboBox_Source
-            // 
-            this.ToolStripComboBox_Source.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ToolStripComboBox_Source.Name = "ToolStripComboBox_Source";
-            resources.ApplyResources(this.ToolStripComboBox_Source, "ToolStripComboBox_Source");
-            // 
-            // ToolStipButton_Load
-            // 
-            this.ToolStipButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStipButton_Load.Image = global::PetEmote.Icons.Load;
-            resources.ApplyResources(this.ToolStipButton_Load, "ToolStipButton_Load");
-            this.ToolStipButton_Load.Name = "ToolStipButton_Load";
-            this.ToolStipButton_Load.Click += new System.EventHandler(this.ToolStripButton_Load_Click);
-            // 
-            // ToolStipButton_Save
-            // 
-            this.ToolStipButton_Save.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStipButton_Save.Image = global::PetEmote.Icons.Save;
-            resources.ApplyResources(this.ToolStipButton_Save, "ToolStipButton_Save");
-            this.ToolStipButton_Save.Name = "ToolStipButton_Save";
-            this.ToolStipButton_Save.Click += new System.EventHandler(this.ToolStripButton_Save_Click);
-            // 
-            // ToolStripSeparator1
-            // 
-            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
-            resources.ApplyResources(this.ToolStripSeparator1, "ToolStripSeparator1");
-            // 
-            // ToolStripLabel_Configuration
-            // 
-            this.ToolStripLabel_Configuration.Name = "ToolStripLabel_Configuration";
-            resources.ApplyResources(this.ToolStripLabel_Configuration, "ToolStripLabel_Configuration");
-            // 
-            // ToolStripComboBox_Configuration
-            // 
-            this.ToolStripComboBox_Configuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ToolStripComboBox_Configuration.Name = "ToolStripComboBox_Configuration";
-            resources.ApplyResources(this.ToolStripComboBox_Configuration, "ToolStripComboBox_Configuration");
-            this.ToolStripComboBox_Configuration.SelectedIndexChanged += new System.EventHandler(this.ToolStripComboBox_Configuration_SelectedIndexChanged);
-            // 
-            // ToolStripDropDownButton_AddConfiguration
-            // 
-            this.ToolStripDropDownButton_AddConfiguration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripTextBox_Independent});
-            this.ToolStripDropDownButton_AddConfiguration.Image = global::PetEmote.Icons.AddConfiguration;
-            this.ToolStripDropDownButton_AddConfiguration.Name = "ToolStripDropDownButton_AddConfiguration";
-            resources.ApplyResources(this.ToolStripDropDownButton_AddConfiguration, "ToolStripDropDownButton_AddConfiguration");
-            // 
-            // ToolStripTextBox_Independent
-            // 
-            resources.ApplyResources(this.ToolStripTextBox_Independent, "ToolStripTextBox_Independent");
-            this.ToolStripTextBox_Independent.Name = "ToolStripTextBox_Independent";
-            this.ToolStripTextBox_Independent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStripTextBox_Independent_KeyDown);
-            // 
-            // ToolStripButton_RemoveConfiguration
-            // 
-            this.ToolStripButton_RemoveConfiguration.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStripButton_RemoveConfiguration.Image = global::PetEmote.Icons.RemoveConfiguration;
-            this.ToolStripButton_RemoveConfiguration.Name = "ToolStripButton_RemoveConfiguration";
-            resources.ApplyResources(this.ToolStripButton_RemoveConfiguration, "ToolStripButton_RemoveConfiguration");
-            this.ToolStripButton_RemoveConfiguration.Click += new System.EventHandler(this.ToolStripButton_RemoveConfiguration_Click);
-            // 
-            // ToolStripSeparator2
-            // 
-            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            resources.ApplyResources(this.ToolStripSeparator2, "ToolStripSeparator2");
-            // 
-            // ToolStripDropDownButton_Import
-            // 
-            this.ToolStripDropDownButton_Import.Image = global::PetEmote.Icons.ImportConfiguration;
-            resources.ApplyResources(this.ToolStripDropDownButton_Import, "ToolStripDropDownButton_Import");
-            this.ToolStripDropDownButton_Import.Name = "ToolStripDropDownButton_Import";
             // 
             // ToolStrip_EmoteEditing
             // 
@@ -641,6 +554,94 @@
             resources.ApplyResources(this.ToolStripComboBox_Chance, "ToolStripComboBox_Chance");
             this.ToolStripComboBox_Chance.TextChanged += new System.EventHandler(this.ToolStripComboBox_Chance_TextChanged);
             // 
+            // ToolStrip_Main
+            // 
+            resources.ApplyResources(this.ToolStrip_Main, "ToolStrip_Main");
+            this.ToolStrip_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripComboBox_Source,
+            this.ToolStipButton_Load,
+            this.ToolStipButton_Save,
+            this.ToolStripSeparator1,
+            this.ToolStripLabel_Configuration,
+            this.ToolStripComboBox_Configuration,
+            this.ToolStripDropDownButton_AddConfiguration,
+            this.ToolStripButton_RemoveConfiguration,
+            this.ToolStripSeparator2,
+            this.ToolStripDropDownButton_Import});
+            this.ToolStrip_Main.Name = "ToolStrip_Main";
+            // 
+            // ToolStripComboBox_Source
+            // 
+            this.ToolStripComboBox_Source.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ToolStripComboBox_Source.Name = "ToolStripComboBox_Source";
+            resources.ApplyResources(this.ToolStripComboBox_Source, "ToolStripComboBox_Source");
+            // 
+            // ToolStipButton_Load
+            // 
+            this.ToolStipButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ToolStipButton_Load.Image = global::PetEmote.Icons.Load;
+            resources.ApplyResources(this.ToolStipButton_Load, "ToolStipButton_Load");
+            this.ToolStipButton_Load.Name = "ToolStipButton_Load";
+            this.ToolStipButton_Load.Click += new System.EventHandler(this.ToolStripButton_Load_Click);
+            // 
+            // ToolStipButton_Save
+            // 
+            this.ToolStipButton_Save.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ToolStipButton_Save.Image = global::PetEmote.Icons.Save;
+            resources.ApplyResources(this.ToolStipButton_Save, "ToolStipButton_Save");
+            this.ToolStipButton_Save.Name = "ToolStipButton_Save";
+            this.ToolStipButton_Save.Click += new System.EventHandler(this.ToolStripButton_Save_Click);
+            // 
+            // ToolStripSeparator1
+            // 
+            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
+            resources.ApplyResources(this.ToolStripSeparator1, "ToolStripSeparator1");
+            // 
+            // ToolStripLabel_Configuration
+            // 
+            this.ToolStripLabel_Configuration.Name = "ToolStripLabel_Configuration";
+            resources.ApplyResources(this.ToolStripLabel_Configuration, "ToolStripLabel_Configuration");
+            // 
+            // ToolStripComboBox_Configuration
+            // 
+            this.ToolStripComboBox_Configuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ToolStripComboBox_Configuration.Name = "ToolStripComboBox_Configuration";
+            resources.ApplyResources(this.ToolStripComboBox_Configuration, "ToolStripComboBox_Configuration");
+            this.ToolStripComboBox_Configuration.SelectedIndexChanged += new System.EventHandler(this.ToolStripComboBox_Configuration_SelectedIndexChanged);
+            // 
+            // ToolStripDropDownButton_AddConfiguration
+            // 
+            this.ToolStripDropDownButton_AddConfiguration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripTextBox_Independent});
+            this.ToolStripDropDownButton_AddConfiguration.Image = global::PetEmote.Icons.AddConfiguration;
+            this.ToolStripDropDownButton_AddConfiguration.Name = "ToolStripDropDownButton_AddConfiguration";
+            resources.ApplyResources(this.ToolStripDropDownButton_AddConfiguration, "ToolStripDropDownButton_AddConfiguration");
+            // 
+            // ToolStripTextBox_Independent
+            // 
+            resources.ApplyResources(this.ToolStripTextBox_Independent, "ToolStripTextBox_Independent");
+            this.ToolStripTextBox_Independent.Name = "ToolStripTextBox_Independent";
+            this.ToolStripTextBox_Independent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStripTextBox_Independent_KeyDown);
+            // 
+            // ToolStripButton_RemoveConfiguration
+            // 
+            this.ToolStripButton_RemoveConfiguration.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ToolStripButton_RemoveConfiguration.Image = global::PetEmote.Icons.RemoveConfiguration;
+            this.ToolStripButton_RemoveConfiguration.Name = "ToolStripButton_RemoveConfiguration";
+            resources.ApplyResources(this.ToolStripButton_RemoveConfiguration, "ToolStripButton_RemoveConfiguration");
+            this.ToolStripButton_RemoveConfiguration.Click += new System.EventHandler(this.ToolStripButton_RemoveConfiguration_Click);
+            // 
+            // ToolStripSeparator2
+            // 
+            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
+            resources.ApplyResources(this.ToolStripSeparator2, "ToolStripSeparator2");
+            // 
+            // ToolStripDropDownButton_Import
+            // 
+            this.ToolStripDropDownButton_Import.Image = global::PetEmote.Icons.ImportConfiguration;
+            resources.ApplyResources(this.ToolStripDropDownButton_Import, "ToolStripDropDownButton_Import");
+            this.ToolStripDropDownButton_Import.Name = "ToolStripDropDownButton_Import";
+            // 
             // SplitContainer_TopBottom
             // 
             resources.ApplyResources(this.SplitContainer_TopBottom, "SplitContainer_TopBottom");
@@ -777,11 +778,18 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
+            // listMenu1
+            // 
+            this.listMenu1.BackColor = System.Drawing.Color.LightSteelBlue;
+            resources.ApplyResources(this.listMenu1, "listMenu1");
+            this.listMenu1.Name = "listMenu1";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.SplitContainer_TopBottom);
+            this.Controls.Add(this.listMenu1);
             this.Controls.Add(this.MenuStrip);
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "MainForm";
@@ -801,10 +809,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDown_KeywordsMinLength)).EndInit();
             this.Panel_KeywordsLabel.ResumeLayout(false);
             this.Panel_KeywordsLabel.PerformLayout();
-            this.ToolStrip_Main.ResumeLayout(false);
-            this.ToolStrip_Main.PerformLayout();
             this.ToolStrip_EmoteEditing.ResumeLayout(false);
             this.ToolStrip_EmoteEditing.PerformLayout();
+            this.ToolStrip_Main.ResumeLayout(false);
+            this.ToolStrip_Main.PerformLayout();
             this.SplitContainer_TopBottom.Panel1.ResumeLayout(false);
             this.SplitContainer_TopBottom.Panel2.ResumeLayout(false);
             this.SplitContainer_TopBottom.ResumeLayout(false);
@@ -894,6 +902,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private PetEmote.Controls.ListMenu listMenu1;
     }
 }
 
