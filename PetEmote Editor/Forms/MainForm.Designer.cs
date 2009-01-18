@@ -422,7 +422,6 @@
             this.ToolStripMenuItem_DisallowAll.CheckOnClick = true;
             this.ToolStripMenuItem_DisallowAll.Name = "ToolStripMenuItem_DisallowAll";
             resources.ApplyResources(this.ToolStripMenuItem_DisallowAll, "ToolStripMenuItem_DisallowAll");
-            this.ToolStripMenuItem_DisallowAll.CheckedChanged += new System.EventHandler(this.ToolStripMenuItem_DisallowAll_CheckedChanged);
             // 
             // SplitContainer_TopBottom
             // 

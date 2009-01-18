@@ -124,8 +124,6 @@ namespace PetEmote.Forms
             this.ToolStripMenuItem_MustContinue.Checked = properties.MustContinue;
             this.ToolStripMenuItem_MustContinue.Enabled = e.Node.Nodes.Count > 0;
 
-            this.ToolStripMenuItem_DisallowAll.Checked = properties.DisallowAll || properties.Disallow.Contains(0);
-            
             this.SetSelectedMenuItem(this.ToolStripMenuItem_Conditions.DropDownItems, properties.Condition.ToString());
             
             if (this.disallowNodesContainer.ContainsKey(e.Node))
@@ -263,13 +261,6 @@ namespace PetEmote.Forms
             if (this.TreeView_Main.SelectedNode == null) return;
             EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
             config.MustContinue = this.ToolStripMenuItem_MustContinue.Checked;
-        }
-
-        private void ToolStripMenuItem_DisallowAll_CheckedChanged (object sender, EventArgs e)
-        {
-            if (this.TreeView_Main.SelectedNode == null) return;
-            EmoteNodeProperties config = (EmoteNodeProperties)this.TreeView_Main.SelectedNode.Tag;
-            config.DisallowAll = this.ToolStripMenuItem_DisallowAll.Checked;
         }
 
         private void ToolStripMenuItem_Condition_CheckedChanged (object sender, EventArgs e)

@@ -34,26 +34,12 @@ namespace PetEmote.Emotes
         }
 
         public bool MustContinue { get; set; }
-        public bool DisallowAll { get; set; }
-
+        
         [XmlArrayItem(Type = typeof(int), ElementName = "Index")]
         public ArrayList Disallow
         {
-            get
-            {
-                if (this.DisallowAll || this.disallow.Contains(0))
-                {
-                    ArrayList disallowAll = new ArrayList(1);
-                    disallowAll.Add(0);
-                    return disallowAll;
-                }
-
-                return this.disallow;
-            }
-            set
-            {
-                this.disallow = value;
-            }
+            get { return this.disallow; }
+            set { this.disallow = value; }
         }
 
         public object Clone ()
