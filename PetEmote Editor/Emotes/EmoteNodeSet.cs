@@ -7,17 +7,42 @@ using System.Xml.Serialization;
 
 namespace PetEmote.Emotes
 {
-    public class EmoteNodeSet
+    public class EmoteNodeSet : CollectionBase
     {
-        protected ArrayList nodes = new ArrayList();
-
         public EmoteNodeSet () { }
 
-        [XmlElement(Type = typeof(EmoteNode), ElementName = "Node")]
-        public ArrayList Nodes
+        public EmoteNode this[int index]
         {
-            get { return this.nodes; }
-            set { this.nodes = value; }
+            get { return (EmoteNode)List[index]; }
+            set { List[index] = value; }
+        }
+
+        public virtual void Add (EmoteNode node)
+        {
+            List.Add(node);
+        }
+
+        public virtual void Remove (EmoteNode node)
+        {
+            List.Remove(node);
+        }
+
+        public bool Contains (EmoteNode node)
+        {
+            return List.Contains(node);
+        }
+
+        public int IndexOf (EmoteNode node)
+        {
+            return List.IndexOf(node);
+        }
+
+        protected override void OnValidate (object value)
+        {
+            base.OnValidate(value);
+            if (!(value is EmoteNode)) {
+                throw new ArgumentException("EmoteNodeSet only supports EmoteNode objects");
+            }
         }
     }
 }

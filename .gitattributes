@@ -1,5 +1,11 @@
 * text=auto !eol
 /PetEmote[!!-~]Editor.sln -text
+PetEmote[!!-~]Editor/Controls/ListMenu.Designer.cs -text
+PetEmote[!!-~]Editor/Controls/ListMenu.cs -text
+PetEmote[!!-~]Editor/Controls/ListMenu.resx -text
+PetEmote[!!-~]Editor/Controls/ListMenuItem.Designer.cs -text
+PetEmote[!!-~]Editor/Controls/ListMenuItem.cs -text
+PetEmote[!!-~]Editor/Controls/ListMenuItem.resx -text
 PetEmote[!!-~]Editor/Emotes/CustomEmotes.cs -text
 PetEmote[!!-~]Editor/Emotes/DefaultEmotes.cs -text
 PetEmote[!!-~]Editor/Emotes/EmoteConfiguration.cs -text

@@ -1,9 +1,12 @@
-﻿namespace PetEmote.Emotes
+﻿using System.Xml.Serialization;
+using System.Collections;
+
+namespace PetEmote.Emotes
 {
     public class EmoteNode
     {
         private char[] completeChars = new char[] { '.', '!', '?' };
-        
+
         public EmoteNode () : this(string.Empty) { }
         public EmoteNode (string text) : this(text, new EmoteNodeProperties()) { }
         public EmoteNode (string text, EmoteNodeProperties properties) : this(text, properties, new EmoteNodeSet()) { }
@@ -37,8 +40,7 @@
 
         public string CompletedText
         {
-            get
-            {
+            get {
                 return this.Text + (this.IsCompleting ? string.Empty : ".");
             }
         }

@@ -138,7 +138,7 @@
     <value>0, 0</value>
   </data>
   <data name="TreeView_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TreeView_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
@@ -160,7 +160,7 @@
     <value>4, 22</value>
   </data>
   <data name="TabPage_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <data name="TabPage_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -187,7 +187,7 @@
     <value>0, 0</value>
   </data>
   <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <data name="TreeView_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -208,7 +208,7 @@
     <value>4, 22</value>
   </data>
   <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <data name="TabPage_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -235,7 +235,7 @@
     <value>0, 0</value>
   </data>
   <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <data name="TreeView_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -256,7 +256,7 @@
     <value>4, 22</value>
   </data>
   <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 302</value>
+    <value>584, 278</value>
   </data>
   <data name="TabPage_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -286,7 +286,7 @@
     <value>True</value>
   </data>
   <data name="TabControl_EmoteConfigurations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 328</value>
+    <value>592, 304</value>
   </data>
   <data name="TabControl_EmoteConfigurations.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -455,7 +455,7 @@ the keywords automatically.</value>
     <value>Bottom</value>
   </data>
   <data name="Panel_Keywords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 328</value>
+    <value>0, 304</value>
   </data>
   <data name="Panel_Keywords.Size" type="System.Drawing.Size, System.Drawing">
     <value>592, 20</value>
@@ -476,7 +476,7 @@ the keywords automatically.</value>
     <value>1</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 348</value>
+    <value>592, 324</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Name" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
@@ -521,13 +521,133 @@ the keywords automatically.</value>
     <value>2</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 398</value>
+    <value>592, 374</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.Text" xml:space="preserve">
     <value>toolStripContainer1</value>
+  </data>
+  <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, 0</value>
+  </metadata>
+  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripComboBox_Source.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
+    <value>Select source</value>
+  </data>
+  <data name="ToolStipButton_Load.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStipButton_Load.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStipButton_Load.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
+    <value>Restores the last saved version of all emotes</value>
+  </data>
+  <data name="ToolStipButton_Save.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStipButton_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStipButton_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
+    <value>Save all configurations</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
+    <value>Select configuration</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Pet name</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Insert any name of a pet or a pet family</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
+    <value>Add configuration</value>
+  </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
+    <value>Adds a new configuration</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
+    <value>Delete configuration</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
+    <value>Deletes the selected configuration</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
+    <value>Adds all emotes from a default configuration</value>
+  </data>
+  <data name="ToolStrip_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 25</value>
+  </data>
+  <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ToolStrip_Main.Text" xml:space="preserve">
+    <value>Werkzeugleiste</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.Name" xml:space="preserve">
+    <value>ToolStrip_Main</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -838,126 +958,6 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStrip_EmoteEditing.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>185, 17</value>
-  </metadata>
-  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="ToolStripComboBox_Source.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
-    <value>Select source</value>
-  </data>
-  <data name="ToolStipButton_Load.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStipButton_Load.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStipButton_Load.Text" xml:space="preserve">
-    <value>Restore</value>
-  </data>
-  <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
-    <value>Restores the last saved version of all emotes</value>
-  </data>
-  <data name="ToolStipButton_Save.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStipButton_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStipButton_Save.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="ToolStipButton_Save.ToolTipText" xml:space="preserve">
-    <value>Save all configurations</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ToolStripLabel_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 22</value>
-  </data>
-  <data name="ToolStripLabel_Configuration.Text" xml:space="preserve">
-    <value>Configuration</value>
-  </data>
-  <data name="ToolStripComboBox_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
-  </data>
-  <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
-    <value>Select configuration</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 21</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Pet name</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Insert any name of a pet or a pet family</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
-    <value>Add configuration</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
-    <value>Adds a new configuration</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
-    <value>Delete configuration</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
-    <value>Deletes the selected configuration</value>
-  </data>
-  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
-    <value>Import</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
-    <value>Adds all emotes from a default configuration</value>
-  </data>
-  <data name="ToolStrip_Main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>533, 25</value>
-  </data>
-  <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="ToolStrip_Main.Text" xml:space="preserve">
-    <value>Werkzeugleiste</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Name" xml:space="preserve">
-    <value>ToolStrip_Main</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Name" xml:space="preserve">
@@ -988,7 +988,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>Fill</value>
   </data>
   <data name="SplitContainer_TopBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>0, 24</value>
   </data>
   <data name="SplitContainer_TopBottom.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1054,10 +1054,10 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>1</value>
   </data>
   <data name="SplitContainer_TopBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 571</value>
+    <value>592, 547</value>
   </data>
   <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
-    <value>398</value>
+    <value>374</value>
   </data>
   <data name="SplitContainer_TopBottom.SplitterWidth" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1140,6 +1140,96 @@ selected emote occurs in comparison with other emotes of the same level.
   </metadata>
   <data name="folderBrowserDialog.Description" xml:space="preserve">
     <value>World of Warcraft-Verzeichnis</value>
+  </data>
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>731, 17</value>
+  </metadata>
+  <data name="reloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="reloadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="configurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="configurationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="emoteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="emoteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Emote</value>
+  </data>
+  <data name="conditionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="conditionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 24</value>
+  </data>
+  <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MenuStrip.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1657,6 +1747,72 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="$this.Text" xml:space="preserve">
     <value>PetEmote Editor</value>
   </data>
+  <data name="&gt;&gt;ToolStripComboBox_Source.Name" xml:space="preserve">
+    <value>ToolStripComboBox_Source</value>
+  </data>
+  <data name="&gt;&gt;ToolStripComboBox_Source.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Load.Name" xml:space="preserve">
+    <value>ToolStipButton_Load</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Load.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Save.Name" xml:space="preserve">
+    <value>ToolStipButton_Save</value>
+  </data>
+  <data name="&gt;&gt;ToolStipButton_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Configuration.Name" xml:space="preserve">
+    <value>ToolStripLabel_Configuration</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabel_Configuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripComboBox_Configuration.Name" xml:space="preserve">
+    <value>ToolStripComboBox_Configuration</value>
+  </data>
+  <data name="&gt;&gt;ToolStripComboBox_Configuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton_AddConfiguration</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
+    <value>ToolStripTextBox_Independent</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBox_Independent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
+    <value>ToolStripButton_RemoveConfiguration</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_Import.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton_Import</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton_Import.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ToolStripButton_AddNode.Name" xml:space="preserve">
     <value>ToolStripButton_AddNode</value>
   </data>
@@ -1843,72 +1999,6 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="&gt;&gt;ToolStripComboBox_Chance.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripComboBox_Source.Name" xml:space="preserve">
-    <value>ToolStripComboBox_Source</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Source.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Load.Name" xml:space="preserve">
-    <value>ToolStipButton_Load</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Load.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Save.Name" xml:space="preserve">
-    <value>ToolStipButton_Save</value>
-  </data>
-  <data name="&gt;&gt;ToolStipButton_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
-    <value>ToolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripLabel_Configuration.Name" xml:space="preserve">
-    <value>ToolStripLabel_Configuration</value>
-  </data>
-  <data name="&gt;&gt;ToolStripLabel_Configuration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Configuration.Name" xml:space="preserve">
-    <value>ToolStripComboBox_Configuration</value>
-  </data>
-  <data name="&gt;&gt;ToolStripComboBox_Configuration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Name" xml:space="preserve">
-    <value>ToolStripDropDownButton_AddConfiguration</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
-    <value>ToolStripTextBox_Independent</value>
-  </data>
-  <data name="&gt;&gt;ToolStripTextBox_Independent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
-    <value>ToolStripButton_RemoveConfiguration</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
-    <value>ToolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_Import.Name" xml:space="preserve">
-    <value>ToolStripDropDownButton_Import</value>
-  </data>
-  <data name="&gt;&gt;ToolStripDropDownButton_Import.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;ColumnHeader_EmoteText.Name" xml:space="preserve">
     <value>ColumnHeader_EmoteText</value>
   </data>
@@ -1938,6 +2028,72 @@ selected emote occurs in comparison with other emotes of the same level.
   </data>
   <data name="&gt;&gt;ToolTip_Help.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reloadToolStripMenuItem.Name" xml:space="preserve">
+    <value>reloadToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;reloadToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configurationToolStripMenuItem.Name" xml:space="preserve">
+    <value>configurationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;configurationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emoteToolStripMenuItem.Name" xml:space="preserve">
+    <value>emoteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;emoteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;conditionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>conditionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;conditionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

@@ -76,18 +76,14 @@ namespace PetEmote.Emotes
 
                 case "1.5.2":
 
-                    nodes = this.doc.SelectNodes("//*/RandomMessages");
+                    this.RenameNodes(this.doc.SelectNodes("//*/RandomMessages"), "DefaultEmotes");
+                    this.RenameNodes(this.doc.SelectNodes("//*/Node"), "EmoteNode");
                     
-                    foreach (XmlNode node in nodes)
-                    {
-                        XmlNode newNode = this.doc.CreateElement("DefaultEmotes");
+                    goto case "1.5.3";
 
-                        while (node.HasChildNodes)
-                            newNode.AppendChild(node.FirstChild);
-                        
-                        node.ParentNode.ReplaceChild(newNode, node);
-                    }
+                case "1.5.3":
 
+                    // keine Änderungen am Editor
                     goto default;
                     
                 default:
@@ -99,6 +95,19 @@ namespace PetEmote.Emotes
         public void Save (string filename)
         {
             this.doc.Save(filename);
+        }
+
+        private void RenameNodes (XmlNodeList nodes, string newName)
+        {
+            foreach (XmlNode node in nodes)
+            {
+                XmlNode newNode = this.doc.CreateElement(newName);
+
+                while (node.HasChildNodes)
+                    newNode.AppendChild(node.FirstChild);
+
+                node.ParentNode.ReplaceChild(newNode, node);
+            }
         }
     }
 }

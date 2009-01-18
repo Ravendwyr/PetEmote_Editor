@@ -522,14 +522,9 @@ namespace PetEmote.Forms
                     ToolStripMenuItem itemTypeChecked = (ToolStripMenuItem)item;
 
                     if (item.Tag.ToString() == itemTagValue)
-                    {
-                        itemTypeChecked.Checked = true;
-                        found = true;
-                    }
+                        itemTypeChecked.Checked = found = true;
                     else
-                    {
                         itemTypeChecked.Checked = false;
-                    }
 
                     if (itemTypeChecked.DropDownItems.Count > 0)
                         if (this.SetSelectedMenuItem(itemTypeChecked.DropDownItems, itemTagValue))
@@ -704,7 +699,7 @@ namespace PetEmote.Forms
                     emoteNode.ChildNodes = this.ConvertTreeNodesToEmotesNodes(treeNode.Nodes);
                 }
 
-                emoteNodes.Nodes.Add(emoteNode);
+                emoteNodes.Add(emoteNode);
             }
 
             return emoteNodes;
@@ -712,17 +707,17 @@ namespace PetEmote.Forms
 
         private TreeNode[] ConvertEmotesNodesToTreeNodes (EmoteNodeSet emoteNodes)
         {
-            TreeNode[] treeNodes = new TreeNode[emoteNodes.Nodes.Count];
+            TreeNode[] treeNodes = new TreeNode[emoteNodes.Count];
 
-            for (int i = 0; i < emoteNodes.Nodes.Count; i++)
+            for (int i = 0; i < emoteNodes.Count; i++)
             {
-                EmoteNode emoteNode = (EmoteNode)emoteNodes.Nodes[i];
+                EmoteNode emoteNode = (EmoteNode)emoteNodes[i];
                 TreeNode treeNode = new TreeNode();
 
                 treeNode.Text = emoteNode.Text;
                 treeNode.Tag = emoteNode.Properties;
 
-                if (emoteNode.ChildNodes.Nodes.Count > 0)
+                if (emoteNode.ChildNodes.Count > 0)
                 {
                     treeNode.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(emoteNode.ChildNodes));
                 }

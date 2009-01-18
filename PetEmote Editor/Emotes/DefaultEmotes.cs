@@ -115,7 +115,7 @@ namespace PetEmote.Emotes
 
                 foreach (EmoteConfiguration configuration in this.EmoteConfigurations)
                 {
-                    if (configuration.DefaultEmotes.Nodes.Count > 0)
+                    if (configuration.DefaultEmotes.Count > 0)
                     {
                         string[] table = LuaTableWriter.Table(
                             "PetEmote_DefaultEmotes",
@@ -125,7 +125,7 @@ namespace PetEmote.Emotes
                         writer.Write(table);
                     }
 
-                    if (configuration.CombatEmotes.Nodes.Count > 0)
+                    if (configuration.CombatEmotes.Count > 0)
                     {
                         string[] table = LuaTableWriter.Table(
                             "PetEmote_CombatEmotes",
@@ -135,7 +135,7 @@ namespace PetEmote.Emotes
                         writer.Write(table);
                     }
 
-                    if (configuration.FeedingEmotes.Nodes.Count > 0)
+                    if (configuration.FeedingEmotes.Count > 0)
                     {
                         string[] table = LuaTableWriter.Table(
                             "PetEmote_FeedingEmotes",
@@ -164,9 +164,9 @@ namespace PetEmote.Emotes
         {
             ArrayList emotes = new ArrayList();
 
-            for (int i = 0; i < nodeSet.Nodes.Count; i++)
+            for (int i = 0; i < nodeSet.Count; i++)
             {
-                EmoteNode node = (EmoteNode)nodeSet.Nodes[i];
+                EmoteNode node = (EmoteNode)nodeSet[i];
 
                 ArrayList contents = new ArrayList();
 
@@ -181,7 +181,7 @@ namespace PetEmote.Emotes
                 if (node.Properties.Keywords.Length > 0)
                     contents.Add(LuaTableWriter.Item("keywords", node.Properties.Keywords));
 
-                if (node.ChildNodes.Nodes.Count > 0) {
+                if (node.ChildNodes.Count > 0) {
                     string[] childContents = LuaTableWriter.List(node.Properties.MustContinue ? "continues" : "optional", this.ExportNodeSetContent(node.ChildNodes));
                     foreach (string line in childContents) contents.Add(line);
                 }
