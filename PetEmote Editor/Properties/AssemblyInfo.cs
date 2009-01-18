@@ -1,17 +1,18 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("WindowsFormsApplication1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PetEmote Editor")]
+[assembly: AssemblyDescription("Editor for World of Warcraft pet emotes")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsApplication1")]
-[assembly: AssemblyCopyright("Copyright ©  2008")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyProduct("PetEmote")]
+[assembly: AssemblyCopyright("Copyright © 2008")]
+[assembly: AssemblyTrademark("Ammunition Company")]
 [assembly: AssemblyCulture("")]
 
 // Durch Festlegen von ComVisible auf "false" werden die Typen in dieser Assembly unsichtbar 
@@ -34,3 +35,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguageAttribute("en")]

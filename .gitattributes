@@ -86,6 +86,9 @@ PetEmote[!!-~]Editor/Properties/Resources.resx -text
 PetEmote[!!-~]Editor/Properties/Settings.Designer.cs -text
 PetEmote[!!-~]Editor/Properties/Settings.settings -text
 PetEmote[!!-~]Editor/Properties/app.manifest -text
+PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.exe -text
+PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.pdb -text
+PetEmote[!!-~]Editor/bin/Debug/PetEmote[!!-~]Editor.vshost.exe -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.exe -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.pdb -text
 PetEmote[!!-~]Editor/bin/Debug/PetEmote.vshost.exe -text
@@ -100,6 +103,8 @@ PetEmote[!!-~]Editor/bin/Debug/app.publish/setup.exe -text
 PetEmote[!!-~]Editor/default-emotes.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.csproj.FileListAbsolute.txt -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.csproj.GenerateResource.Cache -text
+PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.exe -text
+PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.pdb -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Forms.MainForm.resources -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Icons.resources -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Properties.Resources.resources -text

@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PetEmote</RootNamespace>
-    <AssemblyName>PetEmote</AssemblyName>
+    <AssemblyName>PetEmote Editor</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>PetEmote.Program</StartupObject>
@@ -21,7 +21,9 @@
     <ManifestKeyFile>PetEmote Konfigurations-Editor_TemporaryKey.pfx</ManifestKeyFile>
     <SignManifests>false</SignManifests>
     <SignAssembly>false</SignAssembly>
-    <AssemblyOriginatorKeyFile>Key.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <ApplicationIcon>PetEmote.ico</ApplicationIcon>
     <PublishUrl>ftp://psynoxis.net/zirkel-des-cenarius/ammunition-company/pet-emote-download/editor/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -256,7 +258,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Icons\Condition.gif" />
-    <None Include="Key.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="default-emotes.xml" />
