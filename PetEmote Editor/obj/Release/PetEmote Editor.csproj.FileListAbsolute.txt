@@ -4,11 +4,6 @@ D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.ex
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.pdb
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\de\PetEmote Editor.resources.dll
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\ResolveAssemblyReference.cache
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Forms.MainForm.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Icons.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Properties.Resources.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Forms.MainForm.de.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Properties.Resources.de.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.csproj.GenerateResource.Cache
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\de\PetEmote Editor.resources.dll
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.TrustInfo.xml
@@ -19,4 +14,11 @@ D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote Editor.pd
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.exe.config
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Controls.ListMenu.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Controls.ListMenuItem.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Graphics.IconsWoW.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Graphics.IconsWoW.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Icons.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Properties.Resources.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Properties.Resources.de.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Forms.MainForm.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Forms.MainForm.de.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Core.dll
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Core.pdb

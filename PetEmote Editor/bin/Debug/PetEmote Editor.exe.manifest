@@ -4,7 +4,7 @@
   <description asmv2:iconFile="PetEmote.ico" asmv2:publisher="PetEmote" asmv2:product="PetEmote Editor" asmv2:supportUrl="http://ammunition-company.zirkel-des-cenarius.eu/pet-emote/using-petemote/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="PetEmote Editor" version="1.6.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="PetEmote Editor" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="PetEmote Editor.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -53,26 +53,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="456192">
-      <assemblyIdentity name="PetEmote Editor" version="1.6.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Core.dll" size="25088">
+      <assemblyIdentity name="PetEmote Core" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3NvldnOp92QvkHNdjC1ugTlq0oA=</dsig:DigestValue>
+        <dsig:DigestValue>upQmWNY24SqJ6LBnp8uOTHXpSHo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="436224">
+      <assemblyIdentity name="PetEmote Editor" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>scIpN+mpgZ9BgUkpElWew+JdGfE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PetEmote Editor.resources.dll" size="73728">
-      <assemblyIdentity name="PetEmote Editor.resources" version="1.6.0.0" language="de" processorArchitecture="msil" />
+      <assemblyIdentity name="PetEmote Editor.resources" version="1.6.1.0" language="de" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>D9eodV89/1/yCyYM+w0PuVVtkvY=</dsig:DigestValue>
+        <dsig:DigestValue>kLyA+n/3A39BHF9uL8r4v1Jz0Gc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

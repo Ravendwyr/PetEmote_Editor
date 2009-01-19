@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using PetEmote.Forms;
+using PetEmote.Editor.Forms;
 
 namespace PetEmote
 {

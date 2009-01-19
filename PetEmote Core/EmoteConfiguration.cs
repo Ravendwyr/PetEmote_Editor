@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public class EmoteConfiguration
     {

@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     class LuaTableWriter
     {

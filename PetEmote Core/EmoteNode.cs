@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
 using System.Collections;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public class EmoteNode
     {

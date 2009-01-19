@@ -1,22 +1,24 @@
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\ResolveAssemblyReference.cache
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Forms.MainForm.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Icons.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Properties.Resources.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.csproj.GenerateResource.Cache
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.exe
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.pdb
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.exe
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.pdb
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\de\PetEmote Editor.resources.dll
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Forms.MainForm.de.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\de\PetEmote Editor.resources.dll
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Properties.Resources.de.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.exe.manifest
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.application
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.TrustInfo.xml
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.exe.manifest
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote Editor.application
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Editor.exe.config
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Graphics.IconsWoW.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Controls.ListMenu.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Controls.ListMenuItem.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Core.dll
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Debug\PetEmote Core.pdb
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Forms.MainForm.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Graphics.IconsWoW.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Icons.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Properties.Resources.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Forms.MainForm.de.resources
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Debug\PetEmote.Editor.Properties.Resources.de.resources

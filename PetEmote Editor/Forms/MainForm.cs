@@ -3,10 +3,10 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Windows.Forms;
-using PetEmote.Emotes;
-using PetEmote.Properties;
+using PetEmote.Core;
+using PetEmote.Editor.Properties;
 
-namespace PetEmote.Forms
+namespace PetEmote.Editor.Forms
 {
     public partial class MainForm : Form
     {
@@ -42,8 +42,8 @@ namespace PetEmote.Forms
 
         private void LoadSettings ()
         {
-            this.CheckBox_KeywordsAutoFill.Checked = Properties.Settings.Default.KeywordsAutoFill;
-            this.NumericUpDown_KeywordsMinLength.Value = (decimal)Properties.Settings.Default.KeywordsMinLength;
+            this.CheckBox_KeywordsAutoFill.Checked = Settings.Default.KeywordsAutoFill;
+            this.NumericUpDown_KeywordsMinLength.Value = (decimal)Settings.Default.KeywordsMinLength;
         }
 
         #region TreeView Controls
@@ -139,8 +139,8 @@ namespace PetEmote.Forms
         private void CheckBox_KeywordsAutoFill_CheckedChanged (object sender, EventArgs e)
         {
             this.TextBox_Keywords.Enabled = !this.CheckBox_KeywordsAutoFill.Checked;
-            Properties.Settings.Default.KeywordsAutoFill = this.CheckBox_KeywordsAutoFill.Checked;
-            Properties.Settings.Default.Save();
+            Settings.Default.KeywordsAutoFill = this.CheckBox_KeywordsAutoFill.Checked;
+            Settings.Default.Save();
         }
 
         private void TextBox_Keywords_TextChanged (object sender, EventArgs e)
@@ -152,8 +152,8 @@ namespace PetEmote.Forms
 
         private void NumericUpDown_KeywordsMinLength_ValueChanged (object sender, EventArgs e)
         {
-            Properties.Settings.Default.KeywordsMinLength = (int)NumericUpDown_KeywordsMinLength.Value;
-            Properties.Settings.Default.Save();
+            Settings.Default.KeywordsMinLength = (int)NumericUpDown_KeywordsMinLength.Value;
+            Settings.Default.Save();
         }
 
         #endregion
@@ -436,7 +436,7 @@ namespace PetEmote.Forms
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(family.Name);
 
                     familyItem.Name = "ToolStripMenuItem_AddConfiguration_" + family.Name.GetHashCode().ToString();
-                    familyItem.Image = family.Image;
+                    //familyItem.Image = family.Image;
                     familyItem.Tag = family;
                     familyItem.Click += new EventHandler(this.ToolStripMenuItem_AddConfiguration_Click);
 
@@ -471,7 +471,7 @@ namespace PetEmote.Forms
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(config.Name);
 
                     familyItem.Name = "ToolStripMenuItem_Import_" + config.Name.GetHashCode().ToString();
-                    familyItem.Image = config.PetFamily.Image;
+                    //familyItem.Image = config.PetFamily.Image;
                     familyItem.Tag = config;
                     familyItem.Click += new EventHandler(this.ToolStripMenuItem_Import_Click);
 

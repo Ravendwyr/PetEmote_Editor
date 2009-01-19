@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Globalization;
 using System.Xml.Serialization;
-using System.Drawing;
-using PetEmote.Graphics;
+//using System.Drawing;
+//using PetEmote.Graphics;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public enum PetClassTypes
     {
@@ -76,46 +76,46 @@ namespace PetEmote.Emotes
 
             this.imagesTable = new Hashtable();
 
-            this.imagesTable.Add(PetFamilyTypes.Unknown, IconsWoW.INV_Misc_QuestionMark);
-            this.imagesTable.Add(PetFamilyTypes.Bat, IconsWoW.Ability_Hunter_Pet_Bat);
-            this.imagesTable.Add(PetFamilyTypes.Bear, IconsWoW.Ability_Hunter_Pet_Bear);
-            this.imagesTable.Add(PetFamilyTypes.BirdOfPrey, IconsWoW.Ability_Hunter_Pet_Owl);
-            this.imagesTable.Add(PetFamilyTypes.Boar, IconsWoW.Ability_Hunter_Pet_Boar);
-            this.imagesTable.Add(PetFamilyTypes.Cat, IconsWoW.Ability_Hunter_Pet_Cat);
-            this.imagesTable.Add(PetFamilyTypes.Chimera, IconsWoW.Ability_Hunter_Pet_Chimera);
-            this.imagesTable.Add(PetFamilyTypes.CoreHound, IconsWoW.Ability_Hunter_Pet_CoreHound);
-            this.imagesTable.Add(PetFamilyTypes.Crab, IconsWoW.Ability_Hunter_Pet_Crab);
-            this.imagesTable.Add(PetFamilyTypes.Crocolisk, IconsWoW.Ability_Hunter_Pet_Crocolisk);
-            this.imagesTable.Add(PetFamilyTypes.Devilsaur, IconsWoW.Ability_Hunter_Pet_Devilsaur);
-            this.imagesTable.Add(PetFamilyTypes.DragonHawk, IconsWoW.Ability_Hunter_Pet_DragonHawk);
-            this.imagesTable.Add(PetFamilyTypes.Gorilla, IconsWoW.Ability_Hunter_Pet_Gorilla);
-            this.imagesTable.Add(PetFamilyTypes.Hyena, IconsWoW.Ability_Hunter_Pet_Hyena);
-            this.imagesTable.Add(PetFamilyTypes.Moth, IconsWoW.Ability_Hunter_Pet_Moth);
-            this.imagesTable.Add(PetFamilyTypes.NetherRay, IconsWoW.Ability_Hunter_Pet_NetherRay);
-            this.imagesTable.Add(PetFamilyTypes.Raptor, IconsWoW.Ability_Hunter_Pet_Raptor);
-            this.imagesTable.Add(PetFamilyTypes.Ravager, IconsWoW.Ability_Hunter_Pet_Ravager);
-            this.imagesTable.Add(PetFamilyTypes.Rhino, IconsWoW.Ability_Hunter_Pet_Rhino);
-            this.imagesTable.Add(PetFamilyTypes.Scorpid, IconsWoW.Ability_Hunter_Pet_Scorpid);
-            this.imagesTable.Add(PetFamilyTypes.Serpent, IconsWoW.Spell_Nature_GuardianWard);
-            this.imagesTable.Add(PetFamilyTypes.Silithid, IconsWoW.Ability_Hunter_Pet_Silithid);
-            this.imagesTable.Add(PetFamilyTypes.Spider, IconsWoW.Ability_Hunter_Pet_Spider);
-            this.imagesTable.Add(PetFamilyTypes.SpiritBeast, IconsWoW.Ability_Druid_PrimalPrecision);
-            this.imagesTable.Add(PetFamilyTypes.Sporebat, IconsWoW.Ability_Hunter_Pet_Sporebat);
-            this.imagesTable.Add(PetFamilyTypes.TallStrider, IconsWoW.Ability_Hunter_Pet_TallStrider);
-            this.imagesTable.Add(PetFamilyTypes.Turtle, IconsWoW.Ability_Hunter_Pet_Turtle);
-            this.imagesTable.Add(PetFamilyTypes.Vulture, IconsWoW.Ability_Hunter_Pet_Vulture);
-            this.imagesTable.Add(PetFamilyTypes.WarpStalker, IconsWoW.Ability_Hunter_Pet_WarpStalker);
-            this.imagesTable.Add(PetFamilyTypes.Wasp, IconsWoW.Ability_Hunter_Pet_Wasp);
-            this.imagesTable.Add(PetFamilyTypes.WindSerpent, IconsWoW.Ability_Hunter_Pet_WindSerpent);
-            this.imagesTable.Add(PetFamilyTypes.Wolf, IconsWoW.Ability_Hunter_Pet_Wolf);
-            this.imagesTable.Add(PetFamilyTypes.Worm, IconsWoW.Ability_Hunter_Pet_Worm);
+            //this.imagesTable.Add(PetFamilyTypes.Unknown, IconsWoW.INV_Misc_QuestionMark);
+            //this.imagesTable.Add(PetFamilyTypes.Bat, IconsWoW.Ability_Hunter_Pet_Bat);
+            //this.imagesTable.Add(PetFamilyTypes.Bear, IconsWoW.Ability_Hunter_Pet_Bear);
+            //this.imagesTable.Add(PetFamilyTypes.BirdOfPrey, IconsWoW.Ability_Hunter_Pet_Owl);
+            //this.imagesTable.Add(PetFamilyTypes.Boar, IconsWoW.Ability_Hunter_Pet_Boar);
+            //this.imagesTable.Add(PetFamilyTypes.Cat, IconsWoW.Ability_Hunter_Pet_Cat);
+            //this.imagesTable.Add(PetFamilyTypes.Chimera, IconsWoW.Ability_Hunter_Pet_Chimera);
+            //this.imagesTable.Add(PetFamilyTypes.CoreHound, IconsWoW.Ability_Hunter_Pet_CoreHound);
+            //this.imagesTable.Add(PetFamilyTypes.Crab, IconsWoW.Ability_Hunter_Pet_Crab);
+            //this.imagesTable.Add(PetFamilyTypes.Crocolisk, IconsWoW.Ability_Hunter_Pet_Crocolisk);
+            //this.imagesTable.Add(PetFamilyTypes.Devilsaur, IconsWoW.Ability_Hunter_Pet_Devilsaur);
+            //this.imagesTable.Add(PetFamilyTypes.DragonHawk, IconsWoW.Ability_Hunter_Pet_DragonHawk);
+            //this.imagesTable.Add(PetFamilyTypes.Gorilla, IconsWoW.Ability_Hunter_Pet_Gorilla);
+            //this.imagesTable.Add(PetFamilyTypes.Hyena, IconsWoW.Ability_Hunter_Pet_Hyena);
+            //this.imagesTable.Add(PetFamilyTypes.Moth, IconsWoW.Ability_Hunter_Pet_Moth);
+            //this.imagesTable.Add(PetFamilyTypes.NetherRay, IconsWoW.Ability_Hunter_Pet_NetherRay);
+            //this.imagesTable.Add(PetFamilyTypes.Raptor, IconsWoW.Ability_Hunter_Pet_Raptor);
+            //this.imagesTable.Add(PetFamilyTypes.Ravager, IconsWoW.Ability_Hunter_Pet_Ravager);
+            //this.imagesTable.Add(PetFamilyTypes.Rhino, IconsWoW.Ability_Hunter_Pet_Rhino);
+            //this.imagesTable.Add(PetFamilyTypes.Scorpid, IconsWoW.Ability_Hunter_Pet_Scorpid);
+            //this.imagesTable.Add(PetFamilyTypes.Serpent, IconsWoW.Spell_Nature_GuardianWard);
+            //this.imagesTable.Add(PetFamilyTypes.Silithid, IconsWoW.Ability_Hunter_Pet_Silithid);
+            //this.imagesTable.Add(PetFamilyTypes.Spider, IconsWoW.Ability_Hunter_Pet_Spider);
+            //this.imagesTable.Add(PetFamilyTypes.SpiritBeast, IconsWoW.Ability_Druid_PrimalPrecision);
+            //this.imagesTable.Add(PetFamilyTypes.Sporebat, IconsWoW.Ability_Hunter_Pet_Sporebat);
+            //this.imagesTable.Add(PetFamilyTypes.TallStrider, IconsWoW.Ability_Hunter_Pet_TallStrider);
+            //this.imagesTable.Add(PetFamilyTypes.Turtle, IconsWoW.Ability_Hunter_Pet_Turtle);
+            //this.imagesTable.Add(PetFamilyTypes.Vulture, IconsWoW.Ability_Hunter_Pet_Vulture);
+            //this.imagesTable.Add(PetFamilyTypes.WarpStalker, IconsWoW.Ability_Hunter_Pet_WarpStalker);
+            //this.imagesTable.Add(PetFamilyTypes.Wasp, IconsWoW.Ability_Hunter_Pet_Wasp);
+            //this.imagesTable.Add(PetFamilyTypes.WindSerpent, IconsWoW.Ability_Hunter_Pet_WindSerpent);
+            //this.imagesTable.Add(PetFamilyTypes.Wolf, IconsWoW.Ability_Hunter_Pet_Wolf);
+            //this.imagesTable.Add(PetFamilyTypes.Worm, IconsWoW.Ability_Hunter_Pet_Worm);
             
-            this.imagesTable.Add(PetFamilyTypes.FelGuard, IconsWoW.Spell_Shadow_SummonFelGuard);
-            this.imagesTable.Add(PetFamilyTypes.FelHunter, IconsWoW.Spell_Shadow_SummonFelHunter);
-            this.imagesTable.Add(PetFamilyTypes.Imp, IconsWoW.Spell_Shadow_SummonImp);
-            this.imagesTable.Add(PetFamilyTypes.Infernal, IconsWoW.Spell_Shadow_SummonInfernal);
-            this.imagesTable.Add(PetFamilyTypes.Succubus, IconsWoW.Spell_Shadow_SummonSuccubus);
-            this.imagesTable.Add(PetFamilyTypes.VoidWalker, IconsWoW.Spell_Shadow_SummonVoidWalker);
+            //this.imagesTable.Add(PetFamilyTypes.FelGuard, IconsWoW.Spell_Shadow_SummonFelGuard);
+            //this.imagesTable.Add(PetFamilyTypes.FelHunter, IconsWoW.Spell_Shadow_SummonFelHunter);
+            //this.imagesTable.Add(PetFamilyTypes.Imp, IconsWoW.Spell_Shadow_SummonImp);
+            //this.imagesTable.Add(PetFamilyTypes.Infernal, IconsWoW.Spell_Shadow_SummonInfernal);
+            //this.imagesTable.Add(PetFamilyTypes.Succubus, IconsWoW.Spell_Shadow_SummonSuccubus);
+            //this.imagesTable.Add(PetFamilyTypes.VoidWalker, IconsWoW.Spell_Shadow_SummonVoidWalker);
         }
 
         public string Name { get; set; }
@@ -141,13 +141,13 @@ namespace PetEmote.Emotes
             }
         }
         
-        [XmlIgnore]
-        public Image Image {
-            get
-            {
-                return (Image)this.imagesTable[this.FamilyType];
-            }
-        }
+        //[XmlIgnore]
+        //public Image Image {
+        //    get
+        //    {
+        //        return (Image)this.imagesTable[this.FamilyType];
+        //    }
+        //}
 
         public bool IsCurrentLanguage
         {

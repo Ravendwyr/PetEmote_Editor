@@ -1,4 +1,4 @@
-﻿namespace PetEmote.Forms
+﻿namespace PetEmote.Editor.Forms
 {
     partial class MainForm
     {
@@ -306,7 +306,7 @@
             // ToolStripButton_AddNode
             // 
             this.ToolStripButton_AddNode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStripButton_AddNode.Image = global::PetEmote.Icons.AddNode;
+            this.ToolStripButton_AddNode.Image = global::PetEmote.Editor.Icons.AddNode;
             this.ToolStripButton_AddNode.Name = "ToolStripButton_AddNode";
             resources.ApplyResources(this.ToolStripButton_AddNode, "ToolStripButton_AddNode");
             this.ToolStripButton_AddNode.Click += new System.EventHandler(this.ToolStripButton_AddNode_Click);
@@ -321,7 +321,7 @@
             // ToolStripButton_RemoveNode
             // 
             this.ToolStripButton_RemoveNode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStripButton_RemoveNode.Image = global::PetEmote.Icons.RemoveNode;
+            this.ToolStripButton_RemoveNode.Image = global::PetEmote.Editor.Icons.RemoveNode;
             this.ToolStripButton_RemoveNode.Name = "ToolStripButton_RemoveNode";
             resources.ApplyResources(this.ToolStripButton_RemoveNode, "ToolStripButton_RemoveNode");
             this.ToolStripButton_RemoveNode.Click += new System.EventHandler(this.ToolStripButton_RemoveNode_Click);
@@ -355,7 +355,7 @@
             this.ToolStripMenuItem_IsThirdCall,
             this.ToolStripSeparator6,
             this.ToolStripMenuItem_Condition_None});
-            this.ToolStripMenuItem_Conditions.Image = global::PetEmote.Icons.Condition;
+            this.ToolStripMenuItem_Conditions.Image = global::PetEmote.Editor.Icons.Condition;
             resources.ApplyResources(this.ToolStripMenuItem_Conditions, "ToolStripMenuItem_Conditions");
             this.ToolStripMenuItem_Conditions.Name = "ToolStripMenuItem_Conditions";
             // 
@@ -516,7 +516,7 @@
             // 
             this.ToolStripMenuItem_Options.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItem_MustContinue});
-            this.ToolStripMenuItem_Options.Image = global::PetEmote.Icons.Options;
+            this.ToolStripMenuItem_Options.Image = global::PetEmote.Editor.Icons.Options;
             resources.ApplyResources(this.ToolStripMenuItem_Options, "ToolStripMenuItem_Options");
             this.ToolStripMenuItem_Options.Name = "ToolStripMenuItem_Options";
             // 
@@ -579,7 +579,7 @@
             // ToolStipButton_Load
             // 
             this.ToolStipButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStipButton_Load.Image = global::PetEmote.Icons.Load;
+            this.ToolStipButton_Load.Image = global::PetEmote.Editor.Icons.Load;
             resources.ApplyResources(this.ToolStipButton_Load, "ToolStipButton_Load");
             this.ToolStipButton_Load.Name = "ToolStipButton_Load";
             this.ToolStipButton_Load.Click += new System.EventHandler(this.ToolStripButton_Load_Click);
@@ -587,7 +587,7 @@
             // ToolStipButton_Save
             // 
             this.ToolStipButton_Save.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStipButton_Save.Image = global::PetEmote.Icons.Save;
+            this.ToolStipButton_Save.Image = global::PetEmote.Editor.Icons.Save;
             resources.ApplyResources(this.ToolStipButton_Save, "ToolStipButton_Save");
             this.ToolStipButton_Save.Name = "ToolStipButton_Save";
             this.ToolStipButton_Save.Click += new System.EventHandler(this.ToolStripButton_Save_Click);
@@ -613,7 +613,7 @@
             // 
             this.ToolStripDropDownButton_AddConfiguration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripTextBox_Independent});
-            this.ToolStripDropDownButton_AddConfiguration.Image = global::PetEmote.Icons.AddConfiguration;
+            this.ToolStripDropDownButton_AddConfiguration.Image = global::PetEmote.Editor.Icons.AddConfiguration;
             this.ToolStripDropDownButton_AddConfiguration.Name = "ToolStripDropDownButton_AddConfiguration";
             resources.ApplyResources(this.ToolStripDropDownButton_AddConfiguration, "ToolStripDropDownButton_AddConfiguration");
             // 
@@ -626,7 +626,7 @@
             // ToolStripButton_RemoveConfiguration
             // 
             this.ToolStripButton_RemoveConfiguration.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStripButton_RemoveConfiguration.Image = global::PetEmote.Icons.RemoveConfiguration;
+            this.ToolStripButton_RemoveConfiguration.Image = global::PetEmote.Editor.Icons.RemoveConfiguration;
             this.ToolStripButton_RemoveConfiguration.Name = "ToolStripButton_RemoveConfiguration";
             resources.ApplyResources(this.ToolStripButton_RemoveConfiguration, "ToolStripButton_RemoveConfiguration");
             this.ToolStripButton_RemoveConfiguration.Click += new System.EventHandler(this.ToolStripButton_RemoveConfiguration_Click);
@@ -638,7 +638,7 @@
             // 
             // ToolStripDropDownButton_Import
             // 
-            this.ToolStripDropDownButton_Import.Image = global::PetEmote.Icons.ImportConfiguration;
+            this.ToolStripDropDownButton_Import.Image = global::PetEmote.Editor.Icons.ImportConfiguration;
             resources.ApplyResources(this.ToolStripDropDownButton_Import, "ToolStripDropDownButton_Import");
             this.ToolStripDropDownButton_Import.Name = "ToolStripDropDownButton_Import";
             // 

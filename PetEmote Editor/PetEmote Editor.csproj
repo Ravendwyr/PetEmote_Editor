@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8D2AC8A4-A716-4A47-862F-1A9954757B42}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PetEmote</RootNamespace>
+    <RootNamespace>PetEmote.Editor</RootNamespace>
     <AssemblyName>PetEmote Editor</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -97,14 +97,6 @@
     <Compile Include="Controls\ListMenuItem.Designer.cs">
       <DependentUpon>ListMenuItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Emotes\CustomEmotes.cs" />
-    <Compile Include="Emotes\EmoteConfiguration.cs" />
-    <Compile Include="Emotes\EmoteNodeProperties.cs" />
-    <Compile Include="Emotes\EmoteNodeSet.cs" />
-    <Compile Include="Emotes\EmoteNode.cs" />
-    <Compile Include="Emotes\DefaultEmotes.cs" />
-    <Compile Include="Emotes\PetFamily.cs" />
-    <Compile Include="Emotes\XmlVersionConverter.cs" />
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,7 +113,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Icons.resx</DependentUpon>
     </Compile>
-    <Compile Include="Emotes\LuaTableWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\ListMenu.resx">
@@ -172,7 +163,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Version.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Icons\Ability_Druid_CatForm.jpg" />
@@ -370,6 +360,12 @@
     <Content Include="PetEmote.ico" />
   </ItemGroup>
   <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PetEmote Core\PetEmote Core.csproj">
+      <Project>{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}</Project>
+      <Name>PetEmote Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

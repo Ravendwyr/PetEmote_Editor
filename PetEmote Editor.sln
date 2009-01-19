@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual C# Express 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetEmote Editor", "PetEmote Editor\PetEmote Editor.csproj", "{8D2AC8A4-A716-4A47-862F-1A9954757B42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetEmote Core", "PetEmote Core\PetEmote Core.csproj", "{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8D2AC8A4-A716-4A47-862F-1A9954757B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2AC8A4-A716-4A47-862F-1A9954757B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2AC8A4-A716-4A47-862F-1A9954757B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Xml.Serialization;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public class EmoteNodeProperties : ICloneable
     {

@@ -7,7 +7,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public class DefaultEmotes
     {
@@ -83,7 +83,7 @@ namespace PetEmote.Emotes
                 if (this.DataFile.Exists)
                     this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
 
-                this.Version = PetEmote.Version.Latest;
+                this.Version = PetEmote.Core.Version.Latest;
 
                 XmlSerializer xs = new XmlSerializer(this.GetType());
                 TextWriter tw = new StreamWriter(this.DataFile.FullName);

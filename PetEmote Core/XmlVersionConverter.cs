@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
-    class XmlVersionConverter
+    public class XmlVersionConverter
     {
         private XmlDocument doc;
 

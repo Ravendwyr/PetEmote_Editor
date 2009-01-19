@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace PetEmote.Emotes
+namespace PetEmote.Core
 {
     public class CustomEmotes : DefaultEmotes
     {
