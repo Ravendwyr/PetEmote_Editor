@@ -61,6 +61,15 @@ namespace PetEmote.Editor.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Death Knight ähnelt.
+        /// </summary>
+        internal static string ClassName_DeathKnight {
+            get {
+                return ResourceManager.GetString("ClassName_DeathKnight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Hunter ähnelt.
         /// </summary>
         internal static string ClassName_Hunter {

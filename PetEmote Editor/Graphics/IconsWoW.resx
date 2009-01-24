@@ -217,6 +217,12 @@
   <data name="INV_Weapon_Bow_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>iconswow\inv_weapon_bow_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Spell_Deathknight_ClassIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>iconswow\spell_deathknight_classicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_DeathKnight_Gnaw_Ghoul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>iconswow\spell_deathknight_gnaw_ghoul.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Spell_Nature_Drowsy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>iconswow\spell_nature_drowsy.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

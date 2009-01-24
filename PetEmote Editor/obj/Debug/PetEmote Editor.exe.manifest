@@ -53,26 +53,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Core.dll" size="25088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Core.dll" size="25600">
       <assemblyIdentity name="PetEmote Core" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>upQmWNY24SqJ6LBnp8uOTHXpSHo=</dsig:DigestValue>
+        <dsig:DigestValue>r1ze5BO12J9Zi+XQyRuoLvh6LZ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="436224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="445952">
       <assemblyIdentity name="PetEmote Editor" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>scIpN+mpgZ9BgUkpElWew+JdGfE=</dsig:DigestValue>
+        <dsig:DigestValue>V9j8Nzg79jumX6fKJx6E0HvWcMw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,7 +84,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kLyA+n/3A39BHF9uL8r4v1Jz0Gc=</dsig:DigestValue>
+        <dsig:DigestValue>N7L5F2He1SG2wXXhS+RrzJUar80=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -599,6 +599,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>hbt/Pbi8ec4f4WolOcCcy9w+2h0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_Deathknight_ClassIcon.jpg" size="2276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>09Re1BNUyeb3CfTHmOTS/uWxeNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\IconsWoW\Spell_DeathKnight_Gnaw_Ghoul.jpg" size="2358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wTQG63B9bZIHbIA3JnVIQ/EP1qA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Graphics\IconsWoW\Spell_Nature_Drowsy.jpg" size="2281">

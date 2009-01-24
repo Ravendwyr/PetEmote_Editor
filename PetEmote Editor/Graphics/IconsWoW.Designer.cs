@@ -291,6 +291,20 @@ namespace PetEmote.Editor.Graphics {
             }
         }
         
+        internal static System.Drawing.Bitmap Spell_Deathknight_ClassIcon {
+            get {
+                object obj = ResourceManager.GetObject("Spell_Deathknight_ClassIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Spell_DeathKnight_Gnaw_Ghoul {
+            get {
+                object obj = ResourceManager.GetObject("Spell_DeathKnight_Gnaw_Ghoul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Spell_Nature_Drowsy {
             get {
                 object obj = ResourceManager.GetObject("Spell_Nature_Drowsy", resourceCulture);

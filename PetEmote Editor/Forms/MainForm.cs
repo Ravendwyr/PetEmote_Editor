@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using PetEmote.Core;
 using PetEmote.Editor.Properties;
@@ -12,7 +14,7 @@ namespace PetEmote.Editor.Forms
     {
         private DefaultEmotes defaultEmotes;
         private CustomEmotes customEmotes;
-        private DefaultEmotes currentEmotes;
+        private Emotes currentEmotes;
         private EmoteConfiguration currentEmoteConfiguration;
         private TreeView currentTreeView;
         
@@ -29,10 +31,10 @@ namespace PetEmote.Editor.Forms
             this.ToolStripComboBox_Source.SelectedIndex = 1;
             this.ToolStripComboBox_Source.Visible = Control.ModifierKeys == Keys.Shift;
             this.currentTreeView = (TreeView)this.TabControl_EmoteConfigurations.SelectedTab.Controls[0];
-
-            this.FillAddConfigurationMenu();
             
             this.ToolStipButton_Load.PerformClick();
+
+            this.FillAddConfigurationMenu();
         }
 
         private void TabControl_EmoteConfigurations_SelectedIndexChanged (object sender, EventArgs e)
@@ -194,12 +196,9 @@ namespace PetEmote.Editor.Forms
             this.defaultEmotes.Load();
             this.customEmotes.Load();
 
-            if (this.ToolStripComboBox_Source.SelectedIndex == 0)
-            {
+            if (this.ToolStripComboBox_Source.SelectedIndex == 0) {
                 this.currentEmotes = this.defaultEmotes;
-            }
-            else
-            {
+            } else {
                 this.currentEmotes = this.customEmotes;
             }
 
@@ -418,74 +417,66 @@ namespace PetEmote.Editor.Forms
 
         private void FillAddConfigurationMenu ()
         {
-            ToolStripMenuItem hunter = new ToolStripMenuItem(Resources.ClassName_Hunter);
-            hunter.Name = "ToolStripMenuItem_AddConfiguration_Hunter";
-            hunter.Image = Icons.INV_Weapon_Bow_07;
+            var families =
+                from family in this.defaultEmotes.PetFamilies
+                where family.Language == CultureInfo.CurrentUICulture.TwoLetterISOLanguageName
+                group family by family.ClassType into classGroup
+                select classGroup;
 
-            ToolStripMenuItem warlock = new ToolStripMenuItem(Resources.ClassName_Warlock);
-            warlock.Name = "ToolStripMenuItem_AddConfiguration_Warlock";
-            warlock.Image = Icons.Spell_Nature_Drowsy;
+            IconFactory icons = new IconFactory();
 
-            this.ToolStripDropDownButton_AddConfiguration.DropDownItems.Insert(0, warlock);
-            this.ToolStripDropDownButton_AddConfiguration.DropDownItems.Insert(0, hunter);
-
-            foreach (PetFamily family in PetFamily.List())
+            foreach (var classGroup in families)
             {
-                if (family.Language == CultureInfo.CurrentUICulture.TwoLetterISOLanguageName)
+                ToolStripMenuItem menuItem = new ToolStripMenuItem(Resources.ResourceManager.GetString("ClassName_" + classGroup.Key.ToString()));
+                menuItem.Name = "ToolStripMenuItem_AddConfiguration_" + classGroup.Key.ToString();
+                menuItem.Image = icons.GetClassIcon(classGroup.Key);
+                this.ToolStripDropDownButton_AddConfiguration.DropDownItems.Insert(ToolStripDropDownButton_AddConfiguration.DropDownItems.Count - 2, menuItem);
+
+                foreach (PetFamily family in classGroup)
                 {
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(family.Name);
 
                     familyItem.Name = "ToolStripMenuItem_AddConfiguration_" + family.Name.GetHashCode().ToString();
-                    //familyItem.Image = family.Image;
+                    familyItem.Image = icons.GetPetFamilyIcon(family.FamilyType);
                     familyItem.Tag = family;
                     familyItem.Click += new EventHandler(this.ToolStripMenuItem_AddConfiguration_Click);
 
-                    if (family.ClassType == PetClassTypes.Hunter)
-                        hunter.DropDownItems.Add(familyItem);
-                    else if (family.ClassType == PetClassTypes.Warlock)
-                        warlock.DropDownItems.Add(familyItem);
-                    else
-                        this.ToolStripDropDownButton_AddConfiguration.DropDownItems.Add(familyItem);
+                    menuItem.DropDownItems.Add(familyItem);
                 }
             }
         }
 
         private void FillImportMenu ()
         {
-            ToolStripMenuItem hunter = new ToolStripMenuItem(Resources.ClassName_Hunter);
-            hunter.Name = "ToolStripMenuItem_Import_Hunter";
-            hunter.Image = Icons.INV_Weapon_Bow_07;
-
-            ToolStripMenuItem warlock = new ToolStripMenuItem(Resources.ClassName_Warlock);
-            warlock.Name = "ToolStripMenuItem_Import_Warlock";
-            warlock.Image = Icons.Spell_Nature_Drowsy;
-
             this.ToolStripDropDownButton_Import.DropDownItems.Clear();
-            this.ToolStripDropDownButton_Import.DropDownItems.Add(hunter);
-            this.ToolStripDropDownButton_Import.DropDownItems.Add(warlock);
 
-            foreach (EmoteConfiguration config in this.defaultEmotes.EmoteConfigurations)
+            var configurations =
+                from config in this.defaultEmotes.EmoteConfigurations
+                where config.PetFamily.Language == CultureInfo.CurrentUICulture.TwoLetterISOLanguageName
+                group config by config.PetFamily.ClassType into classGroup
+                select classGroup;
+
+            IconFactory icons = new IconFactory();
+
+            foreach (var classGroup in configurations)
             {
-                if (config.IsCurrentLanguage)
+                ToolStripMenuItem menuItem = new ToolStripMenuItem(Resources.ResourceManager.GetString("ClassName_" + classGroup.Key.ToString()));
+                menuItem.Name = "ToolStripMenuItem_Import_" + classGroup.Key.ToString();
+                menuItem.Image = icons.GetClassIcon(classGroup.Key);
+                this.ToolStripDropDownButton_Import.DropDownItems.Add(menuItem);
+
+                foreach (EmoteConfiguration config in classGroup)
                 {
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(config.Name);
 
                     familyItem.Name = "ToolStripMenuItem_Import_" + config.Name.GetHashCode().ToString();
-                    //familyItem.Image = config.PetFamily.Image;
+                    familyItem.Image = icons.GetPetFamilyIcon(config.PetFamily.FamilyType);
                     familyItem.Tag = config;
                     familyItem.Click += new EventHandler(this.ToolStripMenuItem_Import_Click);
 
-                    if (config.PetFamily.ClassType == PetClassTypes.Hunter)
-                        hunter.DropDownItems.Add(familyItem);
-                    else if (config.PetFamily.ClassType == PetClassTypes.Warlock)
-                        warlock.DropDownItems.Add(familyItem);
-                    else
-                        this.ToolStripDropDownButton_Import.DropDownItems.Add(familyItem);
+                    menuItem.DropDownItems.Add(familyItem);
                 }
             }
-
-            if (hunter.DropDownItems.Count == 0) hunter.Enabled = false;
-            if (warlock.DropDownItems.Count == 0) warlock.Enabled = false;
         }
 
         private void HandleConfigurationSelection (string text)
@@ -500,7 +491,7 @@ namespace PetEmote.Editor.Forms
             }
             else
             {
-                this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text));
+                this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text, new PetFamily()));
                 this.AddTreeNode(Resources.Other_NewEmote).BeginEdit();
             }
         }

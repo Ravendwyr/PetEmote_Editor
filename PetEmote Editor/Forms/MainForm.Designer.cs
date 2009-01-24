@@ -108,6 +108,7 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listMenu1 = new PetEmote.Controls.ListMenu();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripContainer_EmoteEditing.ContentPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.SuspendLayout();
@@ -142,8 +143,8 @@
             // 
             // ToolStripContainer_EmoteEditing.TopToolStripPanel
             // 
-            this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_EmoteEditing);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_Main);
+            this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_EmoteEditing);
             // 
             // TabControl_EmoteConfigurations
             // 
@@ -612,6 +613,7 @@
             // ToolStripDropDownButton_AddConfiguration
             // 
             this.ToolStripDropDownButton_AddConfiguration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSeparator11,
             this.ToolStripTextBox_Independent});
             this.ToolStripDropDownButton_AddConfiguration.Image = global::PetEmote.Editor.Icons.AddConfiguration;
             this.ToolStripDropDownButton_AddConfiguration.Name = "ToolStripDropDownButton_AddConfiguration";
@@ -784,6 +786,11 @@
             resources.ApplyResources(this.listMenu1, "listMenu1");
             this.listMenu1.Name = "listMenu1";
             // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -903,6 +910,7 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private PetEmote.Controls.ListMenu listMenu1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
     }
 }
 

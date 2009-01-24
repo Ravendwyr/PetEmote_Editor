@@ -4,14 +4,11 @@ namespace PetEmote.Core
 {
     public class EmoteConfiguration
     {
-        public EmoteConfiguration () : this ("Untitled") { }
-        public EmoteConfiguration (string name) : this (name, CultureInfo.CurrentUICulture.TwoLetterISOLanguageName) { }
-        public EmoteConfiguration (string name, string language) : this (new PetFamily(name, PetFamilyTypes.Unknown, PetClassTypes.Unknown, language)) { }
+        public EmoteConfiguration () : this ("Untitled", new PetFamily()) { }
 
-        public EmoteConfiguration (PetFamily family)
+        public EmoteConfiguration (string name, PetFamily family)
         {
-            this.Name = family.Name;
-            this.Language = family.Language;
+            this.Name = name;
             this.PetFamily = family;
 
             this.DefaultEmotes = new EmoteNodeSet();
@@ -20,7 +17,6 @@ namespace PetEmote.Core
         }
 
         public string Name { get; set; }
-        public string Language { get; set; }
         public PetFamily PetFamily { get; set; }
         public EmoteNodeSet DefaultEmotes { get; set; }
         public EmoteNodeSet CombatEmotes { get; set; }
@@ -29,7 +25,7 @@ namespace PetEmote.Core
         public bool IsCurrentLanguage
         {
             get {
-                return this.Language == CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+                return this.PetFamily.IsCurrentLanguage;
             }
         }
 

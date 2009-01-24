@@ -129,6 +129,45 @@
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView_DefaultEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TreeView_DefaultEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TreeView_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 304</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.Name" xml:space="preserve">
+    <value>TreeView_DefaultEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.Parent" xml:space="preserve">
+    <value>TabPage_DefaultEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPage_DefaultEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 304</value>
+  </data>
+  <data name="TabPage_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
+    <value>Random Emotes</value>
+  </data>
   <data name="&gt;&gt;TabPage_DefaultEmotes.Name" xml:space="preserve">
     <value>TabPage_DefaultEmotes</value>
   </data>
@@ -140,6 +179,42 @@
   </data>
   <data name="&gt;&gt;TabPage_DefaultEmotes.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="TreeView_CombatEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TreeView_CombatEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 329</value>
+  </data>
+  <data name="TreeView_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TreeView_CombatEmotes.Name" xml:space="preserve">
+    <value>TreeView_CombatEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_CombatEmotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreeView_CombatEmotes.Parent" xml:space="preserve">
+    <value>TabPage_CombatEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_CombatEmotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPage_CombatEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 329</value>
+  </data>
+  <data name="TabPage_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
+    <value>Combat Emotes</value>
   </data>
   <data name="&gt;&gt;TabPage_CombatEmotes.Name" xml:space="preserve">
     <value>TabPage_CombatEmotes</value>
@@ -153,6 +228,42 @@
   <data name="&gt;&gt;TabPage_CombatEmotes.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="TreeView_FeedingEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TreeView_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 329</value>
+  </data>
+  <data name="TreeView_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TreeView_FeedingEmotes.Name" xml:space="preserve">
+    <value>TreeView_FeedingEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_FeedingEmotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreeView_FeedingEmotes.Parent" xml:space="preserve">
+    <value>TabPage_FeedingEmotes</value>
+  </data>
+  <data name="&gt;&gt;TreeView_FeedingEmotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPage_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 329</value>
+  </data>
+  <data name="TabPage_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPage_FeedingEmotes.Text" xml:space="preserve">
+    <value>Feeding Emotes</value>
+  </data>
   <data name="&gt;&gt;TabPage_FeedingEmotes.Name" xml:space="preserve">
     <value>TabPage_FeedingEmotes</value>
   </data>
@@ -165,15 +276,12 @@
   <data name="&gt;&gt;TabPage_FeedingEmotes.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TabControl_EmoteConfigurations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TabControl_EmoteConfigurations.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TabControl_EmoteConfigurations.ShowToolTips" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -421,148 +529,8 @@ the keywords automatically.</value>
   <data name="ToolStripContainer_EmoteEditing.Text" xml:space="preserve">
     <value>toolStripContainer1</value>
   </data>
-  <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>244, 17</value>
-  </metadata>
-  <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="ToolStripButton_AddNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
-    <value>Add emote</value>
-  </data>
-  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
-    <value>Adds a new emote node at the end of the list</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        R0lGODlhEAAQAPUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
-        CRp3CwpPAxJnBymLFAlOAyeHFAlPA0KPMTmfHg5bBRl0C1OfQAlNAw5cBQ5eBR58Dh59DrW/xv///2Vv
-        ePn39AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACUALAAAAAAQABAAAAZxwJJQGBoZj6PQcFgMkZ7P
-        5rKUJBWNTulwBO1GR0wktgu+OqFma7Lq/TbZYq5aKW+ThfCjExBgJDYlTW18GCITIAuBbFAHCg4iHw8e
-        REYkRwYimZkRYZZCFQMQIh0WCEtaFxoSIhQCDVNGQwQZHAIFJUEAOw==
-</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
-    <value>Add subordinate emote</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
-    <value>Adds a new emote node inside the selected node</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
-    <value>Remove emote</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
-    <value>Removes the selected emote</value>
-  </data>
-  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Condition</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Choose a condition for the selected Emote</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
-    <value>Options for the selected emote</value>
-  </data>
-  <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ToolStripLabel_Chance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 22</value>
-  </data>
-  <data name="ToolStripLabel_Chance.Text" xml:space="preserve">
-    <value>Chance</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items1" xml:space="preserve">
-    <value>175</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items2" xml:space="preserve">
-    <value>150</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items3" xml:space="preserve">
-    <value>125</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items4" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items5" xml:space="preserve">
-    <value>75</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items6" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Items7" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.Text" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
-    <value>Choose a number from 1 to 200, which represents a percental chance, that the
-selected emote occurs in comparison with other emotes of the same level.
-
-- with a value of 100, the emote occurs as often as any other emote
-- a value greater than 100 increases the chance, that the emote occurs
-- a value lower than 100 decreases the chance, that the emote occurs
-- a value of 200 doubles the chance, that the emote occurs
-- with a value of 1 the emote occurs extremely rare</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 25</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 25</value>
-  </data>
-  <data name="ToolStrip_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Name" xml:space="preserve">
-    <value>ToolStrip_EmoteEditing</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_EmoteEditing.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="ToolStrip_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>119, 17</value>
+    <value>3, 0</value>
   </metadata>
   <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -612,6 +580,21 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="ToolStripComboBox_Configuration.ToolTipText" xml:space="preserve">
     <value>Select configuration</value>
   </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 6</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Pet name</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Insert any name of a pet or a pet family</value>
+  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>
   </data>
@@ -649,7 +632,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>3, 0</value>
   </data>
   <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>533, 25</value>
+    <value>564, 25</value>
   </data>
   <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -667,211 +650,53 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom.Panel1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Name" xml:space="preserve">
-    <value>TreeView_DefaultEmotes</value>
+  <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, 25</value>
+  </metadata>
+  <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ToolStripButton_AddNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Parent" xml:space="preserve">
-    <value>TabPage_DefaultEmotes</value>
+  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
+    <value>Add emote</value>
   </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
+    <value>Adds a new emote node at the end of the list</value>
   </data>
-  <data name="TabPage_DefaultEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+  <data name="ToolStripButton_AddChildNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
+        CRp3CwpPAxJnBymLFAlOAyeHFAlPA0KPMTmfHg5bBRl0C1OfQAlNAw5cBQ5eBR58Dh59DrW/xv///2Vv
+        ePn39AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACUALAAAAAAQABAAAAZxwJJQGBoZj6PQcFgMkZ7P
+        5rKUJBWNTulwBO1GR0wktgu+OqFma7Lq/TbZYq5aKW+ThfCjExBgJDYlTW18GCITIAuBbFAHCg4iHw8e
+        REYkRwYimZkRYZZCFQMQIh0WCEtaFxoSIhQCDVNGQwQZHAIFJUEAOw==
+</value>
   </data>
-  <data name="TabPage_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 304</value>
+  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
-  <data name="TabPage_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
+    <value>Add subordinate emote</value>
   </data>
-  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
-    <value>Random Emotes</value>
+  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
+    <value>Adds a new emote node inside the selected node</value>
   </data>
-  <data name="&gt;&gt;TabPage_DefaultEmotes.Name" xml:space="preserve">
-    <value>TabPage_DefaultEmotes</value>
+  <data name="ToolStripButton_RemoveNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
-  <data name="&gt;&gt;TabPage_DefaultEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
+    <value>Remove emote</value>
   </data>
-  <data name="&gt;&gt;TabPage_DefaultEmotes.Parent" xml:space="preserve">
-    <value>TabControl_EmoteConfigurations</value>
+  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
+    <value>Removes the selected emote</value>
   </data>
-  <data name="&gt;&gt;TabPage_DefaultEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 304</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Name" xml:space="preserve">
-    <value>TreeView_DefaultEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Parent" xml:space="preserve">
-    <value>TabPage_DefaultEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Name" xml:space="preserve">
-    <value>TreeView_CombatEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Parent" xml:space="preserve">
-    <value>TabPage_CombatEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TabPage_CombatEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>601, 305</value>
-  </data>
-  <data name="TabPage_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
-    <value>Combat Emotes</value>
-  </data>
-  <data name="&gt;&gt;TabPage_CombatEmotes.Name" xml:space="preserve">
-    <value>TabPage_CombatEmotes</value>
-  </data>
-  <data name="&gt;&gt;TabPage_CombatEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPage_CombatEmotes.Parent" xml:space="preserve">
-    <value>TabControl_EmoteConfigurations</value>
-  </data>
-  <data name="&gt;&gt;TabPage_CombatEmotes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TreeView_CombatEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TreeView_CombatEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>601, 305</value>
-  </data>
-  <data name="TreeView_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Name" xml:space="preserve">
-    <value>TreeView_CombatEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Parent" xml:space="preserve">
-    <value>TabPage_CombatEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Name" xml:space="preserve">
-    <value>TreeView_FeedingEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Parent" xml:space="preserve">
-    <value>TabPage_FeedingEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TabPage_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>601, 305</value>
-  </data>
-  <data name="TabPage_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="TabPage_FeedingEmotes.Text" xml:space="preserve">
-    <value>Feeding Emotes</value>
-  </data>
-  <data name="&gt;&gt;TabPage_FeedingEmotes.Name" xml:space="preserve">
-    <value>TabPage_FeedingEmotes</value>
-  </data>
-  <data name="&gt;&gt;TabPage_FeedingEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPage_FeedingEmotes.Parent" xml:space="preserve">
-    <value>TabControl_EmoteConfigurations</value>
-  </data>
-  <data name="&gt;&gt;TabPage_FeedingEmotes.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TreeView_FeedingEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TreeView_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>601, 305</value>
-  </data>
-  <data name="TreeView_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Name" xml:space="preserve">
-    <value>TreeView_FeedingEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.Parent" xml:space="preserve">
-    <value>TabPage_FeedingEmotes</value>
-  </data>
-  <data name="&gt;&gt;TreeView_FeedingEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -1034,6 +859,18 @@ will not concat with other emotes.</value>
   <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
     <value>The emote can be used everytime</value>
   </data>
+  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Choose a condition for the selected Emote</value>
+  </data>
   <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -1044,17 +881,111 @@ will not concat with other emotes.</value>
     <value>If selected, the emote will be continued with
 one of the subordinary texts guaranteed.</value>
   </data>
-  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
+  <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
   </data>
-  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 21</value>
+  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
   </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Pet name</value>
+  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
+    <value>Options</value>
   </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Insert any name of a pet or a pet family</value>
+  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
+    <value>Options for the selected emote</value>
+  </data>
+  <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStripLabel_Chance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="ToolStripLabel_Chance.Text" xml:space="preserve">
+    <value>Chance</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items1" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items2" xml:space="preserve">
+    <value>150</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items3" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items4" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items5" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items6" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Items7" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
+    <value>Choose a number from 1 to 200, which represents a percental chance, that the
+selected emote occurs in comparison with other emotes of the same level.
+
+- with a value of 100, the emote occurs as often as any other emote
+- a value greater than 100 increases the chance, that the emote occurs
+- a value lower than 100 decreases the chance, that the emote occurs
+- a value of 200 doubles the chance, that the emote occurs
+- with a value of 1 the emote occurs extremely rare</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 25</value>
+  </data>
+  <data name="ToolStrip_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Name" xml:space="preserve">
+    <value>ToolStrip_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_EmoteEditing.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="SplitContainer_TopBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1076,6 +1007,18 @@ one of the subordinary texts guaranteed.</value>
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="ColumnHeader_EmoteText.Text" xml:space="preserve">
+    <value>Emote</value>
+  </data>
+  <data name="ColumnHeader_EmoteText.Width" type="System.Int32, mscorlib">
+    <value>394</value>
+  </data>
+  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ColumnHeader_Condition.Width" type="System.Int32, mscorlib">
+    <value>194</value>
   </data>
   <data name="ListView_Output.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1136,18 +1079,6 @@ one of the subordinary texts guaranteed.</value>
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="ColumnHeader_EmoteText.Text" xml:space="preserve">
-    <value>Emote</value>
-  </data>
-  <data name="ColumnHeader_EmoteText.Width" type="System.Int32, mscorlib">
-    <value>394</value>
-  </data>
-  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
-    <value>Condition</value>
-  </data>
-  <data name="ColumnHeader_Condition.Width" type="System.Int32, mscorlib">
-    <value>194</value>
   </data>
   <metadata name="ImageList_TreeView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>680, 17</value>
@@ -1216,6 +1147,27 @@ one of the subordinary texts guaranteed.</value>
   <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="reloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="reloadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 20</value>
   </data>
@@ -1285,27 +1237,6 @@ one of the subordinary texts guaranteed.</value>
   <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="reloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="reloadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reload</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 6</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="listMenu1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -1325,7 +1256,7 @@ one of the subordinary texts guaranteed.</value>
     <value>listMenu1</value>
   </data>
   <data name="&gt;&gt;listMenu1.Type" xml:space="preserve">
-    <value>PetEmote.Controls.ListMenu, PetEmote Editor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>PetEmote.Controls.ListMenu, PetEmote Editor, Version=1.6.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;listMenu1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2196,6 +2127,12 @@ one of the subordinary texts guaranteed.</value>
   </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

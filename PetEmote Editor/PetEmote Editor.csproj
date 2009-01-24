@@ -108,6 +108,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IconsWoW.resx</DependentUpon>
     </Compile>
+    <Compile Include="IconFactory.cs" />
     <Compile Include="Icons.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -326,6 +327,8 @@
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Worm.jpg" />
     <Content Include="Graphics\IconsWoW\INV_Misc_QuestionMark.jpg" />
     <Content Include="Graphics\IconsWoW\INV_Weapon_Bow_07.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_Deathknight_ClassIcon.jpg" />
+    <Content Include="Graphics\IconsWoW\Spell_DeathKnight_Gnaw_Ghoul.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Nature_Drowsy.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Nature_GuardianWard.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonFelGuard.jpg" />
