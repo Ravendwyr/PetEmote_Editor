@@ -154,13 +154,13 @@ namespace PetEmote.Core
             return true;
         }
 
-        private string[] ExportNodeSetContent (EmoteNodeSet nodeSet)
+        private string[] ExportNodeSetContent (List<EmoteNode> nodeSet)
         {
             List<string> emotes = new List<string>();
 
             for (int i = 0; i < nodeSet.Count; i++)
             {
-                EmoteNode node = (EmoteNode)nodeSet[i];
+                EmoteNode node = nodeSet[i];
 
                 List<string> contents = new List<string>();
 
@@ -169,7 +169,7 @@ namespace PetEmote.Core
                 if (node.Properties.Chance != 100)
                     contents.Add(LuaTableWriter.Item("chance", node.Properties.Chance));
 
-                if (node.Properties.Condition != EmoteNodeProperties.EmoteCondition.None)
+                if (node.Properties.Condition != EmoteCondition.None)
                     contents.Add(LuaTableWriter.Item("condition", node.Properties.Condition));
 
                 if (node.Properties.Keywords.Length > 0)

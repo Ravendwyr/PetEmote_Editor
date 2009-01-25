@@ -4,7 +4,6 @@ PetEmote[!!-~]Core/DefaultEmotes.cs -text
 PetEmote[!!-~]Core/EmoteConfiguration.cs -text
 PetEmote[!!-~]Core/EmoteNode.cs -text
 PetEmote[!!-~]Core/EmoteNodeProperties.cs -text
-PetEmote[!!-~]Core/EmoteNodeSet.cs -text
 PetEmote[!!-~]Core/Emotes.cs -text
 PetEmote[!!-~]Core/LuaTableWriter.cs -text
 PetEmote[!!-~]Core/PetEmote[!!-~]Core.csproj -text
@@ -174,7 +173,6 @@ PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe.config -text
 PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe.manifest -text
 PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.pdb -text
 PetEmote[!!-~]Editor/bin/Release/de/PetEmote[!!-~]Editor.resources.dll -text
-PetEmote[!!-~]Editor/default-emotes.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.TrustInfo.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.application -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.csproj.FileListAbsolute.txt -text
@@ -214,11 +212,12 @@ PetEmote[!!-~]Editor/obj/Release/PetEmote.Controls.ListMenu.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Controls.ListMenuItem.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Forms.MainForm.de.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Forms.MainForm.resources -text
+PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Graphics.Icons.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Graphics.IconsWoW.resources -text
-PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Icons.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Properties.Resources.de.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Properties.Resources.resources -text
 PetEmote[!!-~]Editor/obj/Release/ResolveAssemblyReference.cache -text
+PetEmote[!!-~]Editor/obj/Release/TempPE/Graphics.Icons.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Graphics.IconsWoW.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Icons.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Properties.Resources.Designer.cs.dll -text

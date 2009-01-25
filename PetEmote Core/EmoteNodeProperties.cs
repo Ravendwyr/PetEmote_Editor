@@ -1,39 +1,38 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace PetEmote.Core
 {
+    public enum EmoteCondition
+    {
+        None,
+        TargetExists,
+        TargetIsFriendly,
+        TargetIsUnfriendly,
+        PetIsUnhappy,
+        PetIsContent,
+        PetIsHappy,
+        PetIsMale,
+        PetIsFemale,
+        PlayerIsMale,
+        PlayerIsFemale,
+        TargetIsSpider,
+        FoodAccepted,
+        FoodRefused,
+        IsFirstCall,
+        IsSecondCall,
+        IsThirdCall,
+    }
+
     public class EmoteNodeProperties : ICloneable
     {
         private EmoteCondition condition = EmoteCondition.None;
-        private ArrayList disallow = new ArrayList();
         private int chance = 100;
         private string[] keywords = new string[0];
 
         public EmoteNodeProperties () { }
         
-        public enum EmoteCondition
-        {
-            None,
-            TargetExists,
-            TargetIsFriendly,
-            TargetIsUnfriendly,
-            PetIsUnhappy,
-            PetIsContent,
-            PetIsHappy,
-            PetIsMale,
-            PetIsFemale,
-            PlayerIsMale,
-            PlayerIsFemale,
-            TargetIsSpider,
-            FoodAccepted,
-            FoodRefused,
-            IsFirstCall,
-            IsSecondCall,
-            IsThirdCall,
-        }
-
         public EmoteCondition Condition
         {
             get { return this.condition; }
@@ -62,7 +61,7 @@ namespace PetEmote.Core
         public static string[] StringToKeywords (string keywords, int minKeywordLength)
         {
             string[] source = keywords.Split(' ');
-            ArrayList result = new ArrayList(source.Length);
+            List<string> result = new List<string>(source.Length);
 
             foreach (string keyword in source)
             {
@@ -70,7 +69,7 @@ namespace PetEmote.Core
                 if (k.Length >= minKeywordLength || k.StartsWith("%")) result.Add(k);
             }
 
-            return (string[])result.ToArray(typeof(string));
+            return result.ToArray();
         }
 
         public int Chance

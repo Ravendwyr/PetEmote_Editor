@@ -74,13 +74,6 @@ namespace PetEmote.Core
         public PetFamilyType FamilyType { get; set; }
         public PetClassType ClassType { get; set; }
 
-        public bool IsCurrentLanguage
-        {
-            get {
-                return this.Language == CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
-            }
-        }
-        
         public override string ToString ()
         {
             return this.Name;

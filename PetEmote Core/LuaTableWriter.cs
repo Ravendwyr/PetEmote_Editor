@@ -95,7 +95,7 @@ namespace PetEmote.Core
             return result + " },";
         }
 
-        public static string Item (int index, EmoteNodeProperties.EmoteCondition content)
+        public static string Item (int index, EmoteCondition content)
         {
             return "[" + index.ToString() + "] = " + Enum.GetName(content.GetType(), content) + ",";
         }
@@ -126,7 +126,7 @@ namespace PetEmote.Core
             return result + " },";
         }
 
-        public static string Item (string index, EmoteNodeProperties.EmoteCondition content)
+        public static string Item (string index, EmoteCondition content)
         {
             return "[\"" + index + "\"] = " + Enum.GetName(content.GetType(), content) + ",";
         }

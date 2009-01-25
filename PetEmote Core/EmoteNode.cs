@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 using System.Collections;
 
 namespace PetEmote.Core
@@ -9,9 +10,9 @@ namespace PetEmote.Core
 
         public EmoteNode () : this(string.Empty) { }
         public EmoteNode (string text) : this(text, new EmoteNodeProperties()) { }
-        public EmoteNode (string text, EmoteNodeProperties properties) : this(text, properties, new EmoteNodeSet()) { }
+        public EmoteNode (string text, EmoteNodeProperties properties) : this(text, properties, new List<EmoteNode>()) { }
 
-        public EmoteNode (string text, EmoteNodeProperties properties, EmoteNodeSet childNodes)
+        public EmoteNode (string text, EmoteNodeProperties properties, List<EmoteNode> childNodes)
         {
             this.Text = text;
             this.Properties = properties;
@@ -20,7 +21,7 @@ namespace PetEmote.Core
 
         public string Text { get; set; }
         public EmoteNodeProperties Properties { get; set; }
-        public EmoteNodeSet ChildNodes { get; set; }
+        public List<EmoteNode> ChildNodes { get; set; }
 
         public bool IsCompleting
         {

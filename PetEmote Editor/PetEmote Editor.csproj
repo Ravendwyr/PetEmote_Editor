@@ -190,7 +190,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="default-emotes.xml" />
     <None Include="app.config" />
     <Content Include="Graphics\IconsWoW\Ability_Druid_PrimalPrecision.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bat.jpg" />

@@ -50,7 +50,6 @@
     <Compile Include="EmoteConfiguration.cs" />
     <Compile Include="EmoteNode.cs" />
     <Compile Include="EmoteNodeProperties.cs" />
-    <Compile Include="EmoteNodeSet.cs" />
     <Compile Include="Emotes.cs" />
     <Compile Include="LuaTableWriter.cs" />
     <Compile Include="PetFamily.cs" />

@@ -15,10 +15,10 @@ D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Editor.ex
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Controls.ListMenu.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Controls.ListMenuItem.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Graphics.IconsWoW.resources
-D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Icons.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Properties.Resources.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Properties.Resources.de.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Forms.MainForm.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Forms.MainForm.de.resources
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Core.dll
 D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\bin\Release\PetEmote Core.pdb
+D:\Daten\Projekte\PetEmote Editor\PetEmote Editor\obj\Release\PetEmote.Editor.Graphics.Icons.resources

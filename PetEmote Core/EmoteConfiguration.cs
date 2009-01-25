@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Collections.Generic;
+using System.Globalization;
 
 namespace PetEmote.Core
 {
@@ -11,23 +12,16 @@ namespace PetEmote.Core
             this.Name = name;
             this.PetFamily = family;
 
-            this.DefaultEmotes = new EmoteNodeSet();
-            this.CombatEmotes = new EmoteNodeSet();
-            this.FeedingEmotes = new EmoteNodeSet();
+            this.DefaultEmotes = new List<EmoteNode>();
+            this.CombatEmotes = new List<EmoteNode>();
+            this.FeedingEmotes = new List<EmoteNode>();
         }
 
         public string Name { get; set; }
         public PetFamily PetFamily { get; set; }
-        public EmoteNodeSet DefaultEmotes { get; set; }
-        public EmoteNodeSet CombatEmotes { get; set; }
-        public EmoteNodeSet FeedingEmotes { get; set; }
-
-        public bool IsCurrentLanguage
-        {
-            get {
-                return this.PetFamily.IsCurrentLanguage;
-            }
-        }
+        public List<EmoteNode> DefaultEmotes { get; set; }
+        public List<EmoteNode> CombatEmotes { get; set; }
+        public List<EmoteNode> FeedingEmotes { get; set; }
 
         public override string ToString ()
         {

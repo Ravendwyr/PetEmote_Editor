@@ -323,7 +323,7 @@ namespace PetEmote.Editor.Forms
             {
                 if (this.currentTreeView.SelectedNode == null) return;
                 EmoteNodeProperties config = (EmoteNodeProperties)this.currentTreeView.SelectedNode.Tag;
-                config.Condition = (EmoteNodeProperties.EmoteCondition)Enum.Parse(config.Condition.GetType(), menuItem.Tag.ToString());
+                config.Condition = (EmoteCondition)Enum.Parse(config.Condition.GetType(), menuItem.Tag.ToString());
                 this.UncheckAllMenuItemsExcept(this.ToolStripMenuItem_Conditions.DropDownItems, menuItem);
             }
         }
@@ -557,16 +557,16 @@ namespace PetEmote.Editor.Forms
         private void ShowEmotePreview (TreeNode node, bool clear)
         {
             if (clear) this.ListView_Output.Items.Clear();
-            this.ShowEmotePreview(node, new EmoteNodeProperties.EmoteCondition[0]);
+            this.ShowEmotePreview(node, new EmoteCondition[0]);
         }
 
-        private void ShowEmotePreview (TreeNode node, EmoteNodeProperties.EmoteCondition[] conditions)
+        private void ShowEmotePreview (TreeNode node, EmoteCondition[] conditions)
         {
             EmoteNodeProperties properties = (EmoteNodeProperties)node.Tag;
 
-            EmoteNodeProperties.EmoteCondition[] allConditions = new EmoteNodeProperties.EmoteCondition[conditions.Length + (properties.Condition != EmoteNodeProperties.EmoteCondition.None ? 1 : 0)];
+            EmoteCondition[] allConditions = new EmoteCondition[conditions.Length + (properties.Condition != EmoteCondition.None ? 1 : 0)];
             conditions.CopyTo(allConditions, 0);
-            if (properties.Condition != EmoteNodeProperties.EmoteCondition.None) allConditions[allConditions.Length - 1] = properties.Condition;
+            if (properties.Condition != EmoteCondition.None) allConditions[allConditions.Length - 1] = properties.Condition;
 
             EmoteNode dummyEmoteNode = new EmoteNode(node.FullPath, properties);
 
@@ -590,12 +590,12 @@ namespace PetEmote.Editor.Forms
             }
         }
 
-        private void AddOutputNode (string text, EmoteNodeProperties.EmoteCondition condition)
+        private void AddOutputNode (string text, EmoteCondition condition)
         {
-            this.AddOutputNode(text, new EmoteNodeProperties.EmoteCondition[] { condition });
+            this.AddOutputNode(text, new EmoteCondition[] { condition });
         }
 
-        private void AddOutputNode (string text, EmoteNodeProperties.EmoteCondition[] conditions)
+        private void AddOutputNode (string text, EmoteCondition[] conditions)
         {
             string conditionsText = string.Empty;
             for (int i = 0; i < conditions.Length; i++)
@@ -657,7 +657,7 @@ namespace PetEmote.Editor.Forms
             return node;
         }
 
-        private void AddTreeNodeRange (ref TreeView treeView, EmoteNodeSet emoteNodeSet)
+        private void AddTreeNodeRange (ref TreeView treeView, List<EmoteNode> emoteNodeSet)
         {
             treeView.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(emoteNodeSet));
         }
@@ -674,9 +674,9 @@ namespace PetEmote.Editor.Forms
             this.TreeView_FeedingEmotes.Nodes.Clear();
         }
 
-        private EmoteNodeSet ConvertTreeNodesToEmotesNodes (TreeNodeCollection treeNodes)
+        private List<EmoteNode> ConvertTreeNodesToEmotesNodes (TreeNodeCollection treeNodes)
         {
-            EmoteNodeSet emoteNodes = new EmoteNodeSet();
+            List<EmoteNode> emoteNodes = new List<EmoteNode>();
 
             foreach (TreeNode treeNode in treeNodes)
             {
@@ -696,13 +696,13 @@ namespace PetEmote.Editor.Forms
             return emoteNodes;
         }
 
-        private TreeNode[] ConvertEmotesNodesToTreeNodes (EmoteNodeSet emoteNodes)
+        private TreeNode[] ConvertEmotesNodesToTreeNodes (List<EmoteNode> emoteNodes)
         {
             TreeNode[] treeNodes = new TreeNode[emoteNodes.Count];
 
             for (int i = 0; i < emoteNodes.Count; i++)
             {
-                EmoteNode emoteNode = (EmoteNode)emoteNodes[i];
+                EmoteNode emoteNode = emoteNodes[i];
                 TreeNode treeNode = new TreeNode();
 
                 treeNode.Text = emoteNode.Text;
