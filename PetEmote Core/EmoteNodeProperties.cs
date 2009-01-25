@@ -53,12 +53,12 @@ namespace PetEmote.Core
             }
         }
 
-        public static string[] StringToKeywords (string keywords)
+        public void ImportKeywords (string keywords)
         {
-            return EmoteNodeProperties.StringToKeywords(keywords, 1);
+            this.ImportKeywords(keywords, 1);
         }
 
-        public static string[] StringToKeywords (string keywords, int minKeywordLength)
+        public void ImportKeywords (string keywords, int minKeywordLength)
         {
             string[] source = keywords.Split(' ');
             List<string> result = new List<string>(source.Length);
@@ -69,7 +69,7 @@ namespace PetEmote.Core
                 if (k.Length >= minKeywordLength || k.StartsWith("%")) result.Add(k);
             }
 
-            return result.ToArray();
+            this.Keywords = result.ToArray();
         }
 
         public int Chance

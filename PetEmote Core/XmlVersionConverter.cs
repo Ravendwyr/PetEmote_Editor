@@ -47,12 +47,13 @@ namespace PetEmote.Core
                 case "0.0.0":
 
                     nodes = this.doc.SelectNodes("//*/Node");
+                    EmoteNodeProperties properties = new EmoteNodeProperties();
 
                     foreach (XmlNode node in nodes)
                     {
                         if (node.SelectSingleNode("Text") != null)
                         {
-                            string[] keywords = EmoteNodeProperties.StringToKeywords(node.SelectSingleNode("Text").InnerText, 4);
+                            properties.ImportKeywords(node.SelectSingleNode("Text").InnerText, 2);
 
                             if (node.SelectSingleNode("Properties/Keywords") == null)
                             {
@@ -60,7 +61,7 @@ namespace PetEmote.Core
                                     node.AppendChild(this.doc.CreateElement("Properties"));
                                 
                                 XmlNode keywordsNode = this.doc.CreateElement("Keywords");
-                                foreach (string keyword in keywords)
+                                foreach (string keyword in properties.Keywords)
                                 {
                                     XmlNode k = this.doc.CreateElement("Keyword");
                                     k.InnerText = keyword;

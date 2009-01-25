@@ -23,6 +23,7 @@ PetEmote[!!-~]Core/obj/Debug/Refactor/PetEmote[!!-~]Core.dll -text
 PetEmote[!!-~]Core/obj/Release/PetEmote[!!-~]Core.csproj.FileListAbsolute.txt -text
 PetEmote[!!-~]Core/obj/Release/PetEmote[!!-~]Core.dll -text
 PetEmote[!!-~]Core/obj/Release/PetEmote[!!-~]Core.pdb -text
+PetEmote[!!-~]Core/obj/Release/Refactor/PetEmote[!!-~]Core.dll -text
 /PetEmote[!!-~]Editor.sln -text
 /PetEmote[!!-~]Editor.suo -text
 PetEmote[!!-~]Editor/Controls/ListMenu.Designer.cs -text
@@ -144,6 +145,7 @@ PetEmote[!!-~]Editor/PetEmote.ico -text
 PetEmote[!!-~]Editor/Program.cs -text
 PetEmote[!!-~]Editor/Properties/AssemblyInfo.cs -text
 PetEmote[!!-~]Editor/Properties/Resources.Designer.cs -text
+PetEmote[!!-~]Editor/Properties/Resources.de.Designer.cs -text
 PetEmote[!!-~]Editor/Properties/Resources.de.resx -text
 PetEmote[!!-~]Editor/Properties/Resources.resx -text
 PetEmote[!!-~]Editor/Properties/Settings.Designer.cs -text
@@ -221,4 +223,5 @@ PetEmote[!!-~]Editor/obj/Release/TempPE/Graphics.Icons.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Graphics.IconsWoW.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Icons.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/TempPE/Properties.Resources.Designer.cs.dll -text
+PetEmote[!!-~]Editor/obj/Release/TempPE/Properties.Resources.de.Designer.cs.dll -text
 PetEmote[!!-~]Editor/obj/Release/de/PetEmote[!!-~]Editor.resources.dll -text

@@ -15,5 +15,22 @@ namespace PetEmote.Controls
         {
             InitializeComponent();
         }
+
+        public string Title
+        {
+            get
+            {
+                return this.labelTitle.Text;
+            }
+            set
+            {
+                this.labelTitle.Text = value;
+            }
+        }
+
+        public ListView ListView
+        {
+            get { return this.listView; }
+        }
     }
 }

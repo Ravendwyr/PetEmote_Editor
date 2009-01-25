@@ -27,12 +27,9 @@ namespace PetEmote.Editor.Forms
         {
             this.LoadSettings();
 
-            this.ToolStripComboBox_Source.Items.AddRange(new string[] { "Default", "Custom" });
-            this.ToolStripComboBox_Source.SelectedIndex = 1;
-            this.ToolStripComboBox_Source.Visible = Control.ModifierKeys == Keys.Shift;
             this.currentTreeView = (TreeView)this.TabControl_EmoteConfigurations.SelectedTab.Controls[0];
             
-            this.ToolStipButton_Load.PerformClick();
+            this.Revert();
 
             this.FillAddConfigurationMenu();
         }
@@ -67,8 +64,11 @@ namespace PetEmote.Editor.Forms
 
         private void TreeView_AfterLabelEdit (object sender, NodeLabelEditEventArgs e)
         {
-            if (e.Label != null && (this.CheckBox_KeywordsAutoFill.Checked || this.TextBox_Keywords.Text.Length == 0))
-                this.TextBox_Keywords.Text = String.Join(" ", EmoteNodeProperties.StringToKeywords(e.Label, (int)this.NumericUpDown_KeywordsMinLength.Value));
+            if (e.Label != null && (this.CheckBox_KeywordsAutoFill.Checked || this.TextBox_Keywords.Text.Length == 0)) {
+                EmoteNodeProperties properties = new EmoteNodeProperties();
+                properties.ImportKeywords(e.Label, (int)this.NumericUpDown_KeywordsMinLength.Value);
+                this.TextBox_Keywords.Text = String.Join(" ", properties.Keywords);
+            }
         }
 
         private void TreeView_ItemDrag (object sender, ItemDragEventArgs e)
@@ -149,7 +149,7 @@ namespace PetEmote.Editor.Forms
         {
             if (this.currentTreeView.SelectedNode == null) return;
             EmoteNodeProperties config = (EmoteNodeProperties)this.currentTreeView.SelectedNode.Tag;
-            config.Keywords = EmoteNodeProperties.StringToKeywords(this.TextBox_Keywords.Text);
+            config.ImportKeywords(this.TextBox_Keywords.Text);
         }
 
         private void NumericUpDown_KeywordsMinLength_ValueChanged (object sender, EventArgs e)
@@ -162,14 +162,18 @@ namespace PetEmote.Editor.Forms
 
         #region ToolStrip_Main Controls
 
-        private void ToolStripButton_Load_Click (object sender, EventArgs e)
+        private void revertToolStripMenuItem_Click (object sender, EventArgs e)
+        {
+            this.Revert();
+        }
+
+        private void Revert ()
         {
             this.UnloadConfigurations();
 
             DirectoryInfo dir = this.GetPetEmoteDirectory();
 
-            if (dir == null)
-            {
+            if (dir == null) {
                 Application.Exit();
                 return;
             }
@@ -179,16 +183,14 @@ namespace PetEmote.Editor.Forms
 
             XmlVersionConverter defaultConverter = new XmlVersionConverter(this.defaultEmotes.DataFile.FullName);
 
-            if (defaultConverter.IsObsolete)
-            {
+            if (defaultConverter.IsObsolete) {
                 defaultConverter.ConvertToLatest();
                 defaultConverter.Save(this.defaultEmotes.DataFile.FullName);
             }
 
             XmlVersionConverter customConverter = new XmlVersionConverter(this.customEmotes.DataFile.FullName);
 
-            if (customConverter.IsObsolete)
-            {
+            if (customConverter.IsObsolete) {
                 customConverter.ConvertToLatest();
                 customConverter.Save(this.customEmotes.DataFile.FullName);
             }
@@ -196,11 +198,10 @@ namespace PetEmote.Editor.Forms
             this.defaultEmotes.Load();
             this.customEmotes.Load();
 
-            if (this.ToolStripComboBox_Source.SelectedIndex == 0) {
+            if (Control.ModifierKeys == Keys.Shift)
                 this.currentEmotes = this.defaultEmotes;
-            } else {
+            else
                 this.currentEmotes = this.customEmotes;
-            }
 
             this.FillConfigurationsMenu();
             this.FillImportMenu();
@@ -413,6 +414,16 @@ namespace PetEmote.Editor.Forms
 
             if (this.ToolStripComboBox_Configuration.Items.Count > 0)
                 this.ToolStripComboBox_Configuration.SelectedIndex = 0;
+
+
+            foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations) {
+                ListViewItem item = new ListViewItem(config.Name);
+                item.Tag = config;
+                this.listMenu.ListView.Items.Add(item);
+            }
+
+            //if (this.listMenu.ListView.Items.Count > 0)
+                //this.listMenu.ListView.selected = 0;
         }
 
         private void FillAddConfigurationMenu ()
