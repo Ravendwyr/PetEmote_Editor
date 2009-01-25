@@ -103,17 +103,17 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Graphics\Icons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
     <Compile Include="Graphics\IconsWoW.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>IconsWoW.resx</DependentUpon>
     </Compile>
     <Compile Include="IconFactory.cs" />
-    <Compile Include="Icons.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Icons.resx</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\ListMenu.resx">
@@ -132,14 +132,13 @@
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Graphics\Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Graphics\IconsWoW.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>IconsWoW.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Icons.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.de.resx">
@@ -166,46 +165,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Icons\Ability_Druid_CatForm.jpg" />
-    <None Include="Icons\Ability_Druid_ChallangingRo.jpg" />
-    <None Include="Icons\Ability_Druid_DemoralizingR.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Bat.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Bear.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Boar.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Cat.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Crab.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Crocolis.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_DragonHa.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Gorilla.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Hyena.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_NetherRa.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Owl.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Raptor.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Ravager.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Scorpid.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Serpent.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Spider.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Sporebat.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_TallStri.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Turtle.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Vulture.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_WarpStal.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_WindSerp.jpg" />
-    <None Include="Icons\Ability_Hunter_Pet_Wolf.jpg" />
-    <None Include="Icons\INV_Letter_01.jpg" />
-    <None Include="Icons\INV_Misc_Book_02.jpg" />
-    <None Include="Icons\INV_Misc_Spyglass_03.jpg" />
-    <None Include="Icons\INV_Musket_02.jpg" />
-    <None Include="Icons\INV_Weapon_Bow_07.jpg" />
-    <None Include="Icons\Spell_ChargeNegative.jpg" />
-    <None Include="Icons\Spell_ChargePositive.jpg" />
-    <None Include="Icons\Spell_Nature_Drowsy.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonFelGuard.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonFelHunte.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonImp.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonInfernal.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonSuccubus.jpg" />
-    <None Include="Icons\Spell_Shadow_SummonVoidWalk.jpg" />
     <None Include="Properties\app.manifest" />
   </ItemGroup>
   <ItemGroup>
@@ -231,69 +190,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Icons\INV_Misc_PunchCards_Blue.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_PunchCards_Prismat.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_PunchCards_Red.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_PunchCards_White.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_PunchCards_Yellow.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_QuestionMark.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\INV_Misc_Rune_01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\ImportConfiguration.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\RemoveConfiguration.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\Save.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\Load.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\AddConfiguration.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\AddNode.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\AddChildNode.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\RemoveNode.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\Options.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Icons\Condition.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="default-emotes.xml" />
     <None Include="app.config" />
-    <None Include="Icons\AddChildNode.ico" />
-    <None Include="Icons\AddConfiguration.ico" />
-    <None Include="Icons\AddNode.ico" />
-    <None Include="Icons\Condition.ico" />
-    <None Include="Icons\ImportConfiguration.ico" />
-    <None Include="Icons\Load.ico" />
-    <None Include="Icons\Options.ico" />
-    <None Include="Icons\RemoveConfiguration.ico" />
-    <None Include="Icons\RemoveNode.ico" />
-    <None Include="Icons\Save.ico" />
     <Content Include="Graphics\IconsWoW\Ability_Druid_PrimalPrecision.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bat.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bear.jpg" />
@@ -338,28 +236,15 @@
     <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonSuccubus.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonVoidWalker.jpg" />
     <Content Include="Graphics\Icons\AddChildNode.gif" />
-    <Content Include="Graphics\Icons\AddChildNode.ico" />
     <Content Include="Graphics\Icons\AddConfiguration.gif" />
-    <Content Include="Graphics\Icons\AddConfiguration.ico" />
     <Content Include="Graphics\Icons\AddNode.gif" />
-    <Content Include="Graphics\Icons\AddNode.ico" />
     <Content Include="Graphics\Icons\Condition.gif" />
-    <Content Include="Graphics\Icons\Condition.ico" />
     <Content Include="Graphics\Icons\ImportConfiguration.gif" />
-    <Content Include="Graphics\Icons\ImportConfiguration.ico" />
-    <Content Include="Graphics\Icons\INV_Misc_Spyglass_03.jpg" />
-    <Content Include="Graphics\Icons\INV_Musket_02.jpg" />
     <Content Include="Graphics\Icons\Load.gif" />
-    <Content Include="Graphics\Icons\Load.ico" />
     <Content Include="Graphics\Icons\Options.gif" />
-    <Content Include="Graphics\Icons\Options.ico" />
-    <Content Include="Graphics\Icons\PetEmote.ico" />
     <Content Include="Graphics\Icons\RemoveConfiguration.gif" />
-    <Content Include="Graphics\Icons\RemoveConfiguration.ico" />
     <Content Include="Graphics\Icons\RemoveNode.gif" />
-    <Content Include="Graphics\Icons\RemoveNode.ico" />
     <Content Include="Graphics\Icons\Save.gif" />
-    <Content Include="Graphics\Icons\Save.ico" />
     <Content Include="PetEmote.ico" />
   </ItemGroup>
   <ItemGroup>

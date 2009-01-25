@@ -138,7 +138,7 @@
     <value>0, 0</value>
   </data>
   <data name="TreeView_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 304</value>
+    <value>584, 304</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TreeView_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
@@ -160,7 +160,7 @@
     <value>4, 22</value>
   </data>
   <data name="TabPage_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 304</value>
+    <value>584, 304</value>
   </data>
   <data name="TabPage_DefaultEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -286,7 +286,7 @@
     <value>True</value>
   </data>
   <data name="TabControl_EmoteConfigurations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 330</value>
+    <value>592, 330</value>
   </data>
   <data name="TabControl_EmoteConfigurations.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -316,7 +316,7 @@
     <value>10, 3, 10, 3</value>
   </data>
   <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>444, 20</value>
+    <value>466, 20</value>
   </data>
   <data name="TextBox_Keywords.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -346,7 +346,7 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
     <value>Right</value>
   </data>
   <data name="NumericUpDown_KeywordsMinLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>444, 0</value>
+    <value>466, 0</value>
   </data>
   <data name="NumericUpDown_KeywordsMinLength.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
@@ -379,7 +379,7 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
     <value>0, 0, 2, 0</value>
   </data>
   <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 20</value>
+    <value>514, 20</value>
   </data>
   <data name="Panel_KeywordsTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -398,6 +398,9 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="CheckBox_KeywordsAutoFill.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 3</value>
@@ -458,7 +461,7 @@ the keywords automatically.</value>
     <value>0, 330</value>
   </data>
   <data name="Panel_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 20</value>
+    <value>592, 20</value>
   </data>
   <data name="Panel_Keywords.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -476,7 +479,7 @@ the keywords automatically.</value>
     <value>1</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 350</value>
+    <value>592, 350</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Name" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
@@ -521,7 +524,7 @@ the keywords automatically.</value>
     <value>2</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 400</value>
+    <value>592, 400</value>
   </data>
   <data name="ToolStripContainer_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -541,6 +544,19 @@ the keywords automatically.</value>
   <data name="ToolStripComboBox_Source.ToolTipText" xml:space="preserve">
     <value>Select source</value>
   </data>
+  <data name="ToolStipButton_Load.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAXZJREFUOE+1kklL
+        wlEUxf067YoKw100oNgI0YANFoQIlkgFIZS1kIrARSYIkRWFKIqVZqiZVGAlOZRaGolhaZkZFbQ/+f5Q
+        JLpQobd7vHPP79x7H432nyfg+YR9LwXbbgpOxxt8rg8UzCNFWlUc+o0E1CtxaFbjsGy/wLH/mt9kTR5D
+        JPRFPRKqbj0B2UwE3XVusKuPwKo6xCjHD7MuiRNbOtdEuXgPuymFY2uaok6PhNBVe4Fm+in6mB5wGt1o
+        qDBCIgznTyGTRCiiYi6KBfFdhngAZqUVivkoRXM73zN3CwQ9fuyon3MTzIrCGB8KQjpxC7k0SlFN2mxh
+        G8MFYa8fhs2nXANSTIpEAwEqyZQgBM9Z9tRba1wYGwzCqMmTgNdxiX6WB0REotaXG8AoW84itdDPMcm7
+        hlmfLHydP3vfUDxguN1Hzafgv/BXyGV7qbaIUdEGqqUYxPwb8Duvii8mv5CQuU3e35UWlWBL+Vh630WR
+        ShV/A9RL+rL+h1IfAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="ToolStipButton_Load.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -552,6 +568,22 @@ the keywords automatically.</value>
   </data>
   <data name="ToolStipButton_Load.ToolTipText" xml:space="preserve">
     <value>Restores the last saved version of all emotes</value>
+  </data>
+  <data name="ToolStipButton_Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAixJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mi+iH5zLz+c855zvo1L9j/fsaRRUvvZltHmX8Ni9gMaGCO47ZlBb8wn22yHc
+        KJ9CackECgteIy93FBfOB6H0JrC3B6ipXsVGb2V1Dca0XhxOe8JLEXhbF7mgsuLLX3mCIwsr2G1+DrVa
+        huWQRwjcj+a5oLTk87qCn/D78CLiTD4UXJ7GAXOTEDjrZ7ngku3dH4Jf4ZHJCLZJXlhzxpGa4hSCurth
+        LsjOGo0R/A4PBsPYrHdDlgMwmRxCUF31kQvkMwFFsB7c4/+ATYkNOHL0BZKSaoXgZuU0urvATgkcP/kK
+        lmMDfNu0MJqZPps6/4D7cNDSCUmyC8HVskl0+MAyADS5vrG7f0X59Tm+VFoYzZyZEVTg5NR2GAwVQnCl
+        cByeZuChc40FJwpjek5MmU/YkH6uiHdOTmHwfg/0+jIhsOWNMRiouhPlnUnAQoI4rYSht7MYm5qDnHsN
+        e41tHNbucUGnKxICiqXjHpTPJgHBZ/Nv4U1oHqGZJVwstiNe72JwI+J3PYA2MV8IMjOG2dzLfOatBg+2
+        7JDQ0tEPX9cguvv8GHg5hH0mC9S6eiQweLumDhqNVQgo06dP9fN4UsIoJHRnOhVtmxZGM1NXKoJ3JmTH
+        Cv71r/4OTrQ4xWMwWlcAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="ToolStipButton_Save.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -595,6 +627,21 @@ the keywords automatically.</value>
   <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
     <value>Insert any name of a pet or a pet family</value>
   </data>
+  <data name="ToolStripDropDownButton_AddConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
+        sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
+        /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
+        sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
+        0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
+        88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
+        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
+        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
+        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
+        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
+        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
+</value>
+  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>
   </data>
@@ -603,6 +650,21 @@ the keywords automatically.</value>
   </data>
   <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
     <value>Adds a new configuration</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
+        M8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBv39/Qk9M4i4ly1g
+        TPf4+ghNOtnf5uzv85mun/Lz9jBnVW+/tAVhTu306bDKolyol6fOoqXxy6XBocDPrVCXd+flvLLPnZ3K
+        rqr/07L02Kf92KT31ODuyy9KMK372TZYQHvFmJvAo9D127LawZjBsN7lsNXb5NX88sjYrO/y9Pn6+qC/
+        kr7Yo7vr0rzk1LPi0/L+9XuccbfOoLDKpL/ixHvQpc/55km+sMvs0LXKpF64qNLo1KLJr7TOpqC2jt32
+        2bHWr0BZL0FzS8/w0hlOR2edd5zsyJXgw5PduO//88XlzBIuGIWviQIvEazZsTxmQ4XnxdHhuFJ+Vbn/
+        4TFhOk5mVERsTMXx3z53acHy1ViWbGN5WtnmxU6KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfpgH+C
+        g4SFgm4wCDZMHTUuEhN2VAkQgmAIUkgHcQoTdRIbQQx5glMcSB1FAz03ED9tXFtNglmncQIZDXMEDxhc
+        aReCXl5dFBQiOT4EGxZDUFaCCgEZYmUPZzpoERtCCcF/S3J6DjQRMThAFm9YLU6CUXQOZnA7OVUVFWxj
+        DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
+        UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
+</value>
   </data>
   <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -615,6 +677,23 @@ the keywords automatically.</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
+  </data>
+  <data name="ToolStripDropDownButton_Import.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAoNJREFUOE+tk29I
+        U2EUxjc3GdJ0zn9FA2ubQjlrpmUua9NM0krWspWWgVlQQ5eSGJRhI6tBReYMUvRLtepjQYEERUQRUWHD
+        MMoU+1CzP8pqhuViPN1zwmurD33pwsO9773v8zvnPedcieR/XPD04MVOB9pTdbhrq8bNteV4vK0S5zdb
+        UKGNh0EqgV4ux6K4BKyenYKFsTJo4iUQY0+2tOJafgG6DUYMOA+yhpz1sCYo2FyarGJAhnIWTHExDEhV
+        /QF4ZK/Exdw8+JyH8NTRiL2qeNRkxqGn3gp3WSGSJRIGFAmwvwBB1xFcyjfBpZ+HW456lMii0FFYgvvd
+        1Qj62nG8vIgBlMVWYc8ytZBN4m8Z0HlrY+Q4bcpg8w5NIjzr8/G57yzGfW1osVkYkJOgRpVeD8scdSSg
+        OSkR7qx0NlM0qyGFNf6yDaGxy2gqK2BAsS4NjgVGPka2UjpTxB5TNvbr5uJCbQV++B/CnGvAgbqNCH/x
+        YrjvBOxZOgZsylyKuvQcrBHqEwG4YivFliQZ+ruageHbwId7wOh1DD45CVuBEhrBvEQRg5pcM/ZoF2Od
+        Oom7IbaRqkqtoho8b6jCne3F6LWv4LOS2SiP5iJPiyAkEUCbqN+rhPuu+WrOhkRR6T0Zw+Ew61PnVfFZ
+        hFB7aONyaRT25RlYG7RKmKRyTpcAU6EQvn0PUVS+BycmYVYofmVBA0LRVsqixajZqliehf4mNwMoMpmn
+        RWsRQGZa2GSx8JTZ0dt4GA9aTyHQ4cVQ8xk+L0UMBL8yYCwwgVcj/plZoFR3a9LwrOEoR5ry3mC9P9YJ
+        v+scA0befcTgm1H+TuaB128jh+lffzVBKEsSjfH0KP8E9GmhHgDOjO0AAAAASUVORK5CYII=
+</value>
   </data>
   <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -632,7 +711,7 @@ the keywords automatically.</value>
     <value>3, 0</value>
   </data>
   <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>564, 25</value>
+    <value>535, 25</value>
   </data>
   <data name="ToolStrip_Main.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -653,10 +732,25 @@ the keywords automatically.</value>
     <value>0</value>
   </data>
   <metadata name="ToolStrip_EmoteEditing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>3, 25</value>
+    <value>4, 25</value>
   </metadata>
   <data name="ToolStrip_EmoteEditing.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="ToolStripButton_AddNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAPj28oWPl/f08Pf18cLL0XmDjPj18lxmcGdxenK5XgZDAvXy7YGLk/j18fn387rD
+        yj6kIQlPA3V/h3F7hLS9xXN9hn+KkoWQmEKPMRl0C8vS1zOYGnuGjoCKkoCLk2VveLO9xGZxeh58DjaE
+        KF9pcrvEy295gnaAiA5bBVljbXeBiQ5eBRJnB3qEjLfAx2ZweTuhIHB6gx59DgpPA7a/x8HJ0HiCi2x2
+        fwZEAjqgH19pc7W+xr3GzLG7w3V/iK+5wVOfQHuFjneBiimLFL7GzSKBEGRveBVsCYONlTCUGDKWGnaA
+        icXN08bO04SPl4KMlG54gRp3C3yGjmBqc1VgaglNAw5cBXyHj2FrdBNVCwlOA7W/xmt1flZhavf074OO
+        lvbz77K8xMfO1L3GzRNUDDecHcHJzzmfHjJ+IyeHFGx3gPj28/n284aQmPn39P///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHAALAAAAAAQABAAAAfFgHCC
+        g4SFhDUqLVJXHAVLBQSED1ASTGtrbGxrbgQ+EzxwWx9jAwBsbqhumgAEJg8HLgJCFl8BbW0XAUgdBmZc
+        KQsCBqepqZoNMV3BBU+3zrcBbAAnVDvCDsXZa0E/Ol42DE62bdkaHnAkJaVr2KgJEDkbQIIUL0QDDaZu
+        72dvQzIjBNEwgkDNgCYMYJRJ8kbEkRWEQGABU0GMkjcYMc4o1GPKDThpikR5YyUCDkMHEMDBkIHFGy0K
+        shgKE0IQGhRVFJCBEwgAOw==
+</value>
   </data>
   <data name="ToolStripButton_AddNode.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -685,6 +779,21 @@ the keywords automatically.</value>
   </data>
   <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
     <value>Adds a new emote node inside the selected node</value>
+  </data>
+  <data name="ToolStripButton_RemoveNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAPj28oWPl/f18YgYGPf08HmDjMLL0fj18uV+fvXy7fn381xmcGdxeoGLk/j18brD
+        ynF7hHUVFcQjI1ljbXiCi3V/h7S9xfbz74WQmLa/x3uGjneBim95goCKkmZwecAiIn4XF7MgIGZxemRv
+        ePf073cVFVVgarYhIa+5wXaAiMokJGx2f73GzH+KknuFjoONlXyHj3B6g3eBicbO08XN03aAicfO1HqE
+        jGVveIOOlswkJIKMlLvEy3N9hoSPl77GzV9pcsHJz1ZhaoAXF254gWFrdGBqc4oZGbO9xMIjI73GzbW+
+        xoCLk8kkJLW/xtElJXyGjrfAx8vS13V/iJIaGtsyMl9pc8HJ0Gt1fmx3gLG7w7K8xM4lJfj28/n28+JZ
+        WYaQmPn39P///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAGMALAAAAAAQABAAAAfBgGOC
+        g4SFhFcyN1AwGgU1BQaED0QVNF1dXl5dYQZTECxjTjhKAgBeYahhmgAGHA8LUQQbLTkBYGAYAS8dB0FY
+        EwkEB6epqZoOMULBBTu3zrcBXgApJkvCCsXZXS4oViQUDT62YNlSTGNAPKVd2KgITzoSVYIWHj8CDqZh
+        CF9fKv0fBGUYwSCLgBkNuHwRs5DLEUJIilzoYSNJk4VfBgwppMXIijEhuDAUw6WEoQUMxijkQkXhAENb
+        RAg6MQBEhJeBAAA7
+</value>
   </data>
   <data name="ToolStripButton_RemoveNode.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -859,6 +968,21 @@ will not concat with other emotes.</value>
   <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
     <value>The emote can be used everytime</value>
   </data>
+  <data name="ToolStripMenuItem_Conditions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAfFJREFUOE+NkktI
+        G1EUhkVJIVqyqQsr1Acu1J0PaGkLUtSl2oV1o+LaXUFcaleCi0pDH0ShJiaooT5IqeKbQbSKraCWUqWC
+        +EgyyUycmWgePla/997JjApJyIWzmTvf/5//nJuWluR09ZpBK9k/Ce8oaHNOYu33Nj59dWDn717qQhQ+
+        PPHAw/tYSYoC+zcX5riV5CL7B4foMVsQDp3h2MPj2O2F2+sD7xcgyQqm5jlMTM3GF/mz+x99FisURcYR
+        cWcwcef9fgiiiFNJgiyfYvzHLD5bh++LcGsbsJK8YiDAWtdgL4MDkAgcDCoInQdxETnH+q9NZsYGODg6
+        AceYCz5BUGHSuu4cUJ1V+AzRcAhXF2FcX0awubV9uyFtaG6ewLHMInFWYZk5R4izBlMDjdHXSD/MLC3D
+        Lwos8922qfNlVHVeXP6Z+G3QXE7XNBRZ1jNHY84dC22oGinEC3s+Kgdy0Tj0Kv426Ez67U62ymhEzazB
+        z4fymEDp+2zY/n3E056S+CJz3Co+DNj0tl86CvBs8AnKvuQgr8vEYHpMbYbED2v/4IhlpVVhyWUABdu/
+        N6twqwGZrzNSe97Fvdno5t7qIs2jdTAS+EFtemoC1eZyPO7M0ls3NhC4Jh2PmrJSE6C7rnhXBFOLAcb6
+        GPzmIYNvAPAD5Sg07ZwtAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -880,6 +1004,22 @@ will not concat with other emotes.</value>
   <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
     <value>If selected, the emote will be continued with
 one of the subordinary texts guaranteed.</value>
+  </data>
+  <data name="ToolStripMenuItem_Options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjdJREFUOE+9ku1L
+        U3EUx+//IFQUGZXInAunE7YmlI9UNALJkCLLF+lWUeRArIWSWM3IRmQbDIOeJIvKJkaQFE0ryIfMu1Yj
+        2KixpsyHmQ/b7u3e3W/39+tNvtDVm86b8+p8z+d8v4dh/lfNvBtG37adEOYXQHYmOY72FYubnILf3gEy
+        3FNQhrpMFcbMFvisNgxW1UKMx1cWiQVDaFDkoEmZC7a+EZEXbozVnYFZFnLJgpIopqbo1BbiU3Mr/qxv
+        t++hW18KsmDZE36wXriLDbiq1kESBHpGe+5WhB66AEmCPU+P5uy8pQKh6QTUpi688k4hNjsH65Z8XMnR
+        UtTIy3445KGJZ30UhpCN1J4EE+dF3H87Dl94EVZXAGnKEmzcYcawP4pHR0/TTQSZuJ7keUrzpe0anJoC
+        8NMzYBYSArL227BKbUDm3gvofB3GpZ4A0ouMWKetxI2yfTgnow4dNmH2gweehiacV2lwNkuNeCj8+wRT
+        hxebdtVDECXEOJH2yTkemw0W6I034bv7gLp/PEOJLl0RHSRUifEJMLanX7Gh9AR630dAaFTVTpS3jUJM
+        SqhxfsRqTTnau1m6afBgDTVxifOKystYk18BNjiP6OJPZB9yoKRliBiNqussJSMnLRsXQa12eKA51Uvd
+        5YUk7eEoh/TiY1Q41ccy9udB6j6hueX+TtPI2NOINEUhjLI/KQUuPglAZ3mDlsd+rN9+BGt1B2i0dwbC
+        6P8sR/UvVWEbxe7Wkb8e+gV6f61A1rLncQAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="ToolStripMenuItem_Options.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -991,7 +1131,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>Fill</value>
   </data>
   <data name="SplitContainer_TopBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 0</value>
+    <value>0, 0</value>
   </data>
   <data name="SplitContainer_TopBottom.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1027,7 +1167,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>0, 0</value>
   </data>
   <data name="ListView_Output.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 169</value>
+    <value>592, 169</value>
   </data>
   <data name="ListView_Output.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1057,7 +1197,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>1</value>
   </data>
   <data name="SplitContainer_TopBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 571</value>
+    <value>592, 571</value>
   </data>
   <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
     <value>400</value>
@@ -1087,8 +1227,8 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAG
-        CwAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
+        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABEAMAAQEBAAEQBgABCB4AAfgBWgHPATEEAAHkARkBYAEFASABBQEAAQEBQQEJDAABrwExAa8BMQYA
         AeQBGQFgAQUBIAEFAQABAQFBAQkOAAH4AVoBzwExBAABhAFYAWMBRAFCATwBQgE4AWMBRC4AAY4BLQHP
         ATECAAEmASIBwQENAYABCQH/AX8BIAEFAQABAQFBAQkIAAH4AVoBrwExAfgBWgQAASYBIgHBAQ0BgAEJ
@@ -1130,12 +1270,11 @@ selected emote occurs in comparison with other emotes of the same level.
         Aa8BMQGvATEBrwExAfgBWgHeAX8B+AFaAa8BMQH4AVoCAAEZAV8B8AE1AfABOQE6AWMB3gF/Ad4BfwHe
         AX8B3gF/Ad4BfwHeAX8BOgFjAfEBOQHwATkBGQFfKAABOgFjAREBOgERAT4BEQE+AREBPgERAT4BEQE+
         AREBOgERAT4BOgFjDgAB+AFaAa8BMQH4AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwH4AVoBrwExAfgBWggA
-        AToBYwERAToBEQE+AREBPgERAT4BEQE+AREBPgERAToBEQE+AToBYzIAAToBYwE6AWMBOgFjAToBYxYA
-        AfgBWgGvATEBrwExAa8BMQGvATEBrwExAa8BMQGvATEB+AFaEAABOgFjAToBYwE6AWMBOgFjLAABQgFN
-        AT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8
-        AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGAAQABwAMAAYADAAGAAwABgAEBAQABAQGA
-        AQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEBAgAB4AEHAfABAQHgAQcCAAH8AT8B+AED
-        AfwBPwIACw==
+        AToBYwERAToBEQE+AREBPgERAT4BEQE+AREBPgERAToBEQE+AToBY1AAAfgBWgGvATEBrwExAa8BMQGv
+        ATEBrwExAa8BMQGvATEB+AFaRAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEA
+        AfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGA
+        AQABwAMAAYADAAGAAwABgAEBAQABAQGAAQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEB
+        AgAB4AEHAfABAQHgAQcCAAL/AfgBAwL/AgAL
 </value>
   </data>
   <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -1145,7 +1284,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>World of Warcraft-Verzeichnis</value>
   </data>
   <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>310, 17</value>
   </metadata>
   <data name="reloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 22</value>
@@ -1214,7 +1353,7 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>0, 0</value>
   </data>
   <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>773, 24</value>
+    <value>592, 24</value>
   </data>
   <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1235,33 +1374,6 @@ selected emote occurs in comparison with other emotes of the same level.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="listMenu1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="listMenu1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="listMenu1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 571</value>
-  </data>
-  <data name="listMenu1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="listMenu1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;listMenu1.Name" xml:space="preserve">
-    <value>listMenu1</value>
-  </data>
-  <data name="&gt;&gt;listMenu1.Type" xml:space="preserve">
-    <value>PetEmote.Controls.ListMenu, PetEmote Editor, Version=1.6.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;listMenu1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;listMenu1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2008,6 +2120,12 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
     <value>ToolStripTextBox_Independent</value>
   </data>
@@ -2127,12 +2245,6 @@ selected emote occurs in comparison with other emotes of the same level.
   </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
-    <value>toolStripSeparator11</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
