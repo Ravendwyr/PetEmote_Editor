@@ -41,8 +41,8 @@ namespace PetEmote.Editor.Forms
 
         private void LoadSettings ()
         {
-            this.CheckBox_KeywordsAutoFill.Checked = Settings.Default.KeywordsAutoFill;
-            this.NumericUpDown_KeywordsMinLength.Value = (decimal)Settings.Default.KeywordsMinLength;
+            //this.CheckBox_KeywordsAutoFill.Checked = Settings.Default.KeywordsAutoFill;
+            //this.NumericUpDown_KeywordsMinLength.Value = (decimal)Settings.Default.KeywordsMinLength;
         }
 
         #region TreeView Controls
@@ -141,8 +141,8 @@ namespace PetEmote.Editor.Forms
         private void CheckBox_KeywordsAutoFill_CheckedChanged (object sender, EventArgs e)
         {
             this.TextBox_Keywords.Enabled = !this.CheckBox_KeywordsAutoFill.Checked;
-            Settings.Default.KeywordsAutoFill = this.CheckBox_KeywordsAutoFill.Checked;
-            Settings.Default.Save();
+            //Settings.Default.KeywordsAutoFill = this.CheckBox_KeywordsAutoFill.Checked;
+            //Settings.Default.Save();
         }
 
         private void TextBox_Keywords_TextChanged (object sender, EventArgs e)
@@ -154,8 +154,8 @@ namespace PetEmote.Editor.Forms
 
         private void NumericUpDown_KeywordsMinLength_ValueChanged (object sender, EventArgs e)
         {
-            Settings.Default.KeywordsMinLength = (int)NumericUpDown_KeywordsMinLength.Value;
-            Settings.Default.Save();
+            //Settings.Default.KeywordsMinLength = (int)NumericUpDown_KeywordsMinLength.Value;
+            //Settings.Default.Save();
         }
 
         #endregion
@@ -417,13 +417,13 @@ namespace PetEmote.Editor.Forms
 
 
             foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations) {
-                ListViewItem item = new ListViewItem(config.Name);
+                ListViewItem item = new ListViewItem(config.Name, 0, this.ListView_Configurations.Groups["ListViewGroup_" + config.PetFamily.ClassType.ToString()]);
                 item.Tag = config;
-                this.listMenu.ListView.Items.Add(item);
+                this.ListView_Configurations.Items.Add(item);
             }
 
-            //if (this.listMenu.ListView.Items.Count > 0)
-                //this.listMenu.ListView.selected = 0;
+            if (this.ListView_Configurations.Items.Count > 0)
+                this.ListView_Configurations.Items[0].Selected = true;
         }
 
         private void FillAddConfigurationMenu ()

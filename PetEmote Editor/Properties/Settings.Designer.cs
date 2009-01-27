@@ -38,12 +38,36 @@ namespace PetEmote.Editor.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("3")]
-        public int KeywordsMinLength {
+        public decimal KeywordsMinLength {
             get {
-                return ((int)(this["KeywordsMinLength"]));
+                return ((decimal)(this["KeywordsMinLength"]));
             }
             set {
                 this["KeywordsMinLength"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("180")]
+        public int SplitterLeftRightDistance {
+            get {
+                return ((int)(this["SplitterLeftRightDistance"]));
+            }
+            set {
+                this["SplitterLeftRightDistance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("350")]
+        public int SplitterTopBottomDistance {
+            get {
+                return ((int)(this["SplitterTopBottomDistance"]));
+            }
+            set {
+                this["SplitterTopBottomDistance"] = value;
             }
         }
     }

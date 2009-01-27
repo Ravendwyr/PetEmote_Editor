@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://ammunition-company.zirkel-des-cenarius.eu/pet-emote-download/editor/PetEmote%20Editor.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="PetEmote Editor.exe.manifest" size="27457">
+    <dependentAssembly dependencyType="install" codebase="PetEmote Editor.exe.manifest" size="27458">
       <assemblyIdentity name="PetEmote Editor.exe" version="1.6.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Way3lYAW+ex1vE0fAsC5RsNKPxg=</dsig:DigestValue>
+        <dsig:DigestValue>/II6f5wStdS5JuqYiSndBAtCymM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
