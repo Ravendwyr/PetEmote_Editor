@@ -25,24 +25,19 @@ namespace PetEmote.Editor.Forms
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            this.LoadSettings();
-
             this.currentTreeView = (TreeView)this.TabControl_EmoteConfigurations.SelectedTab.Controls[0];
-            
             this.Revert();
-
             this.FillAddConfigurationMenu();
+        }
+
+        private void MainForm_FormClosing (object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Save();
         }
 
         private void TabControl_EmoteConfigurations_SelectedIndexChanged (object sender, EventArgs e)
         {
             this.currentTreeView = (TreeView)this.TabControl_EmoteConfigurations.SelectedTab.Controls[0];
-        }
-
-        private void LoadSettings ()
-        {
-            //this.CheckBox_KeywordsAutoFill.Checked = Settings.Default.KeywordsAutoFill;
-            //this.NumericUpDown_KeywordsMinLength.Value = (decimal)Settings.Default.KeywordsMinLength;
         }
 
         #region TreeView Controls
@@ -141,8 +136,6 @@ namespace PetEmote.Editor.Forms
         private void CheckBox_KeywordsAutoFill_CheckedChanged (object sender, EventArgs e)
         {
             this.TextBox_Keywords.Enabled = !this.CheckBox_KeywordsAutoFill.Checked;
-            //Settings.Default.KeywordsAutoFill = this.CheckBox_KeywordsAutoFill.Checked;
-            //Settings.Default.Save();
         }
 
         private void TextBox_Keywords_TextChanged (object sender, EventArgs e)
@@ -150,12 +143,6 @@ namespace PetEmote.Editor.Forms
             if (this.currentTreeView.SelectedNode == null) return;
             EmoteNodeProperties config = (EmoteNodeProperties)this.currentTreeView.SelectedNode.Tag;
             config.ImportKeywords(this.TextBox_Keywords.Text);
-        }
-
-        private void NumericUpDown_KeywordsMinLength_ValueChanged (object sender, EventArgs e)
-        {
-            //Settings.Default.KeywordsMinLength = (int)NumericUpDown_KeywordsMinLength.Value;
-            //Settings.Default.Save();
         }
 
         #endregion
@@ -218,8 +205,8 @@ namespace PetEmote.Editor.Forms
 
             this.currentEmotes.EmoteConfigurations.Clear();
 
-            foreach (EmoteConfiguration config in this.ToolStripComboBox_Configuration.Items)
-                this.currentEmotes.EmoteConfigurations.Add(config);
+            foreach (ListViewItem item in this.ListView_Configurations.Items)
+                this.currentEmotes.EmoteConfigurations.Add((EmoteConfiguration)item.Tag);
 
             // Speichern (xml)
             if (!this.currentEmotes.Save())
@@ -232,16 +219,22 @@ namespace PetEmote.Editor.Forms
                     this.ToolStripButton_Save_Click(sender, e);
         }
 
-        private void ToolStripComboBox_Configuration_SelectedIndexChanged (object sender, EventArgs e)
+        private void ListView_Configurations_SelectedIndexChanged (object sender, EventArgs e)
         {
-            if (this.currentEmoteConfiguration != null)
+            if (this.ListView_Configurations.SelectedItems.Count != 1)
             {
-                this.currentEmoteConfiguration.DefaultEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_DefaultEmotes.Nodes);
-                this.currentEmoteConfiguration.CombatEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_CombatEmotes.Nodes);
-                this.currentEmoteConfiguration.FeedingEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_FeedingEmotes.Nodes);
+                if (this.currentEmoteConfiguration != null) {
+                    this.currentEmoteConfiguration.DefaultEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_DefaultEmotes.Nodes);
+                    this.currentEmoteConfiguration.CombatEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_CombatEmotes.Nodes);
+                    this.currentEmoteConfiguration.FeedingEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_FeedingEmotes.Nodes);
+                }
+
+                this.currentEmoteConfiguration = null;
+                this.ClearTreeViews();
+                return;
             }
 
-            this.currentEmoteConfiguration = (EmoteConfiguration)this.ToolStripComboBox_Configuration.SelectedItem;
+            this.currentEmoteConfiguration = (EmoteConfiguration)this.ListView_Configurations.SelectedItems[0].Tag;
             this.ClearTreeViews();
 
             this.TreeView_DefaultEmotes.Nodes.AddRange(this.ConvertEmotesNodesToTreeNodes(this.currentEmoteConfiguration.DefaultEmotes));
@@ -251,13 +244,19 @@ namespace PetEmote.Editor.Forms
 
         private void ToolStripButton_RemoveConfiguration_Click (object sender, EventArgs e)
         {
-            if (this.ToolStripComboBox_Configuration.SelectedIndex > -1)
+            if (this.ListView_Configurations.SelectedItems.Count == 1)
             {
                 if (MessageBox.Show(Resources.Message_ConfirmDeleteConfiguration, Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) != DialogResult.Yes) return;
-                this.ToolStripComboBox_Configuration.Items.RemoveAt(this.ToolStripComboBox_Configuration.SelectedIndex);
+                this.ListView_Configurations.SelectedItems[0].Remove();
                 this.ClearTreeViews();
-                this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Count - 1;
+                this.SelectFirstConfiguration();
             }
+        }
+
+        private void SelectFirstConfiguration ()
+        {
+            if (this.ListView_Configurations.Items.Count > 0)
+                this.ListView_Configurations.Items[0].Selected = true;
         }
 
         private void ToolStripTextBox_Independent_KeyDown (object sender, KeyEventArgs e)
@@ -291,7 +290,7 @@ namespace PetEmote.Editor.Forms
 
         private void ToolStripButton_AddNode_Click (object sender, EventArgs e)
         {
-            if (this.ToolStripComboBox_Configuration.SelectedItem == null) return;
+            if (this.ListView_Configurations.SelectedItems.Count != 1) return;
             this.currentTreeView.SelectedNode = this.AddTreeNode(Resources.Other_NewEmote);
             this.currentTreeView.SelectedNode.BeginEdit();
         }
@@ -409,21 +408,13 @@ namespace PetEmote.Editor.Forms
 
         private void FillConfigurationsMenu ()
         {
-            foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations)
-                this.ToolStripComboBox_Configuration.Items.Add(config);
-
-            if (this.ToolStripComboBox_Configuration.Items.Count > 0)
-                this.ToolStripComboBox_Configuration.SelectedIndex = 0;
-
-
             foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations) {
                 ListViewItem item = new ListViewItem(config.Name, 0, this.ListView_Configurations.Groups["ListViewGroup_" + config.PetFamily.ClassType.ToString()]);
                 item.Tag = config;
                 this.ListView_Configurations.Items.Add(item);
             }
 
-            if (this.ListView_Configurations.Items.Count > 0)
-                this.ListView_Configurations.Items[0].Selected = true;
+            this.SelectFirstConfiguration();
         }
 
         private void FillAddConfigurationMenu ()
@@ -494,23 +485,27 @@ namespace PetEmote.Editor.Forms
         {
             if (text == string.Empty) return;
 
-            int foundIndex = this.ToolStripComboBox_Configuration.FindStringExact(text);
+            ListViewItem foundItem = this.ListView_Configurations.FindItemWithText(text, false, 0);
 
-            if (foundIndex > -1)
+            if (foundItem != null)
             {
-                this.ToolStripComboBox_Configuration.SelectedIndex = foundIndex;
+                foundItem.Selected = true;
             }
             else
             {
-                this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text, new PetFamily()));
+                ListViewItem newItem = new ListViewItem(text, 0, this.ListView_Configurations.Groups["ListViewGroup_Unknown"]);
+                newItem.Tag = new EmoteConfiguration(text, new PetFamily());
+                this.ListView_Configurations.Items.Add(newItem);
+                newItem.Selected = true;
+                //this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text, new PetFamily()));
                 this.AddTreeNode(Resources.Other_NewEmote).BeginEdit();
             }
         }
 
         private void UnloadConfigurations ()
         {
-            this.ToolStripComboBox_Configuration.Items.Clear();
-            this.ToolStripComboBox_Configuration.SelectedIndex = -1;
+            this.ListView_Configurations.Items.Clear();
+            //this.ToolStripComboBox_Configuration.SelectedIndex = -1;
         }
 
         private bool SetSelectedMenuItem (ToolStripItemCollection items, string itemTagValue)
@@ -581,18 +576,21 @@ namespace PetEmote.Editor.Forms
 
             EmoteNode dummyEmoteNode = new EmoteNode(node.FullPath, properties);
 
+            string petName;
+
+            if (this.ListView_Configurations.SelectedItems.Count == 1)
+                petName = this.ListView_Configurations.SelectedItems[0].Text;
+            else
+                petName = this.currentEmoteConfiguration.PetFamily.Name;
+
             if (node.Nodes.Count == 0)
             {
-                this.AddOutputNode(this.ToolStripComboBox_Configuration.SelectedItem.ToString() +
-                    " " + dummyEmoteNode.CompletedText, allConditions);
+                this.AddOutputNode(petName + " " + dummyEmoteNode.CompletedText, allConditions);
             }
             else
             {
                 if (properties.MustContinue == false)
-                {
-                    this.AddOutputNode(this.ToolStripComboBox_Configuration.SelectedItem.ToString() +
-                    " " + dummyEmoteNode.CompletedText, allConditions);
-                }
+                    this.AddOutputNode(petName + " " + dummyEmoteNode.CompletedText, allConditions);
 
                 foreach (TreeNode childNode in node.Nodes)
                 {
@@ -745,7 +743,5 @@ namespace PetEmote.Editor.Forms
         }
 
         #endregion
-
-
     }
 }

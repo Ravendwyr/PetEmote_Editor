@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.ToolStripContainer_EmoteEditing = new System.Windows.Forms.ToolStripContainer();
+            this.ImageList_Configurations = new System.Windows.Forms.ImageList(this.components);
             this.ToolStrip_EmoteEditing = new System.Windows.Forms.ToolStrip();
             this.ToolStripButton_AddNode = new System.Windows.Forms.ToolStripButton();
             this.ToolStripButton_AddChildNode = new System.Windows.Forms.ToolStripButton();
@@ -66,8 +67,6 @@
             this.ToolStrip_Main = new System.Windows.Forms.ToolStrip();
             this.ToolStipButton_Save = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripLabel_Configuration = new System.Windows.Forms.ToolStripLabel();
-            this.ToolStripComboBox_Configuration = new System.Windows.Forms.ToolStripComboBox();
             this.ToolStripDropDownButton_AddConfiguration = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripTextBox_Independent = new System.Windows.Forms.ToolStripTextBox();
@@ -89,6 +88,10 @@
             this.conditionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ContextMenuStrip_EmoteTree = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ContextMenuStrip_ConfigurationsMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.newConfigurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SplitContainer_LeftRight = new System.Windows.Forms.SplitContainer();
             this.ListView_Configurations = new System.Windows.Forms.ListView();
             this.SplitContainer_TopBottom = new System.Windows.Forms.SplitContainer();
@@ -108,13 +111,14 @@
             this.ListView_Output = new System.Windows.Forms.ListView();
             this.ColumnHeader_EmoteText = new System.Windows.Forms.ColumnHeader();
             this.ColumnHeader_Condition = new System.Windows.Forms.ColumnHeader();
-            this.ImageList_Configurations = new System.Windows.Forms.ImageList(this.components);
             this.ToolStripContainer_EmoteEditing.ContentPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.SuspendLayout();
             this.ToolStripContainer_EmoteEditing.SuspendLayout();
             this.ToolStrip_EmoteEditing.SuspendLayout();
             this.ToolStrip_Main.SuspendLayout();
             this.MenuStrip.SuspendLayout();
+            this.ContextMenuStrip_EmoteTree.SuspendLayout();
+            this.ContextMenuStrip_ConfigurationsMenu.SuspendLayout();
             this.SplitContainer_LeftRight.Panel1.SuspendLayout();
             this.SplitContainer_LeftRight.Panel2.SuspendLayout();
             this.SplitContainer_LeftRight.SuspendLayout();
@@ -133,6 +137,7 @@
             // 
             // ToolStripContainer_EmoteEditing
             // 
+            this.ToolStripContainer_EmoteEditing.BottomToolStripPanelVisible = false;
             // 
             // ToolStripContainer_EmoteEditing.ContentPanel
             // 
@@ -147,6 +152,51 @@
             // 
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_EmoteEditing);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.Controls.Add(this.ToolStrip_Main);
+            // 
+            // ImageList_Configurations
+            // 
+            this.ImageList_Configurations.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ImageList_Configurations.ImageStream")));
+            this.ImageList_Configurations.TransparentColor = System.Drawing.Color.Transparent;
+            this.ImageList_Configurations.Images.SetKeyName(0, "INV_Misc_QuestionMark.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(1, "Spell_Shadow_SummonVoidWalker.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(2, "Ability_Druid_PrimalPrecision.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(3, "Ability_Hunter_Pet_Bat.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(4, "Ability_Hunter_Pet_Bear.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(5, "Ability_Hunter_Pet_Boar.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(6, "Ability_Hunter_Pet_Cat.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(7, "Ability_Hunter_Pet_Chimera.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(8, "Ability_Hunter_Pet_CoreHound.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(9, "Ability_Hunter_Pet_Crab.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(10, "Ability_Hunter_Pet_Crocolisk.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(11, "Ability_Hunter_Pet_Devilsaur.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(12, "Ability_Hunter_Pet_DragonHawk.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(13, "Ability_Hunter_Pet_Gorilla.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(14, "Ability_Hunter_Pet_Hyena.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(15, "Ability_Hunter_Pet_Moth.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(16, "Ability_Hunter_Pet_NetherRay.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(17, "Ability_Hunter_Pet_Owl.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(18, "Ability_Hunter_Pet_Raptor.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(19, "Ability_Hunter_Pet_Ravager.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(20, "Ability_Hunter_Pet_Rhino.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(21, "Ability_Hunter_Pet_Scorpid.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(22, "Ability_Hunter_Pet_Silithid.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(23, "Ability_Hunter_Pet_Spider.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(24, "Ability_Hunter_Pet_Sporebat.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(25, "Ability_Hunter_Pet_TallStrider.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(26, "Ability_Hunter_Pet_Turtle.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(27, "Ability_Hunter_Pet_Vulture.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(28, "Ability_Hunter_Pet_WarpStalker.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(29, "Ability_Hunter_Pet_Wasp.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(30, "Ability_Hunter_Pet_WindSerpent.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(31, "Ability_Hunter_Pet_Wolf.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(32, "Ability_Hunter_Pet_Worm.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(33, "Spell_DeathKnight_Gnaw_Ghoul.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(34, "Spell_Nature_GuardianWard.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(35, "Spell_Shadow_SummonFelGuard.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(36, "Spell_Shadow_SummonFelHunter.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(37, "Spell_Shadow_SummonImp.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(38, "Spell_Shadow_SummonInfernal.jpg");
+            this.ImageList_Configurations.Images.SetKeyName(39, "Spell_Shadow_SummonSuccubus.jpg");
             // 
             // ToolStrip_EmoteEditing
             // 
@@ -416,8 +466,6 @@
             this.ToolStrip_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStipButton_Save,
             this.ToolStripSeparator1,
-            this.ToolStripLabel_Configuration,
-            this.ToolStripComboBox_Configuration,
             this.ToolStripDropDownButton_AddConfiguration,
             this.ToolStripButton_RemoveConfiguration,
             this.ToolStripSeparator2,
@@ -435,18 +483,6 @@
             // 
             this.ToolStripSeparator1.Name = "ToolStripSeparator1";
             resources.ApplyResources(this.ToolStripSeparator1, "ToolStripSeparator1");
-            // 
-            // ToolStripLabel_Configuration
-            // 
-            this.ToolStripLabel_Configuration.Name = "ToolStripLabel_Configuration";
-            resources.ApplyResources(this.ToolStripLabel_Configuration, "ToolStripLabel_Configuration");
-            // 
-            // ToolStripComboBox_Configuration
-            // 
-            this.ToolStripComboBox_Configuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ToolStripComboBox_Configuration.Name = "ToolStripComboBox_Configuration";
-            resources.ApplyResources(this.ToolStripComboBox_Configuration, "ToolStripComboBox_Configuration");
-            this.ToolStripComboBox_Configuration.SelectedIndexChanged += new System.EventHandler(this.ToolStripComboBox_Configuration_SelectedIndexChanged);
             // 
             // ToolStripDropDownButton_AddConfiguration
             // 
@@ -583,6 +619,30 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
+            // ContextMenuStrip_EmoteTree
+            // 
+            this.ContextMenuStrip_EmoteTree.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.importToolStripMenuItem});
+            this.ContextMenuStrip_EmoteTree.Name = "ContextMenuStrip_EmoteTree";
+            resources.ApplyResources(this.ContextMenuStrip_EmoteTree, "ContextMenuStrip_EmoteTree");
+            // 
+            // ContextMenuStrip_ConfigurationsMenu
+            // 
+            this.ContextMenuStrip_ConfigurationsMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newConfigurationToolStripMenuItem});
+            this.ContextMenuStrip_ConfigurationsMenu.Name = "ContextMenuStrip_ConfigurationsMenu";
+            resources.ApplyResources(this.ContextMenuStrip_ConfigurationsMenu, "ContextMenuStrip_ConfigurationsMenu");
+            // 
+            // newConfigurationToolStripMenuItem
+            // 
+            resources.ApplyResources(this.newConfigurationToolStripMenuItem, "newConfigurationToolStripMenuItem");
+            this.newConfigurationToolStripMenuItem.Name = "newConfigurationToolStripMenuItem";
+            // 
+            // importToolStripMenuItem
+            // 
+            resources.ApplyResources(this.importToolStripMenuItem, "importToolStripMenuItem");
+            this.importToolStripMenuItem.Name = "importToolStripMenuItem";
+            // 
             // SplitContainer_LeftRight
             // 
             this.SplitContainer_LeftRight.DataBindings.Add(new System.Windows.Forms.Binding("SplitterDistance", global::PetEmote.Editor.Properties.Settings.Default, "SplitterLeftRightDistance", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -604,6 +664,7 @@
             this.ListView_Configurations.Activation = System.Windows.Forms.ItemActivation.OneClick;
             this.ListView_Configurations.BackColor = System.Drawing.Color.GhostWhite;
             this.ListView_Configurations.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ListView_Configurations.ContextMenuStrip = this.ContextMenuStrip_ConfigurationsMenu;
             resources.ApplyResources(this.ListView_Configurations, "ListView_Configurations");
             this.ListView_Configurations.ForeColor = System.Drawing.Color.DimGray;
             this.ListView_Configurations.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
@@ -621,6 +682,7 @@
             this.ListView_Configurations.TileSize = new System.Drawing.Size(168, 20);
             this.ListView_Configurations.UseCompatibleStateImageBehavior = false;
             this.ListView_Configurations.View = System.Windows.Forms.View.Tile;
+            this.ListView_Configurations.SelectedIndexChanged += new System.EventHandler(this.ListView_Configurations_SelectedIndexChanged);
             // 
             // SplitContainer_TopBottom
             // 
@@ -662,6 +724,7 @@
             // 
             this.TreeView_DefaultEmotes.AllowDrop = true;
             this.TreeView_DefaultEmotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TreeView_DefaultEmotes.ContextMenuStrip = this.ContextMenuStrip_EmoteTree;
             resources.ApplyResources(this.TreeView_DefaultEmotes, "TreeView_DefaultEmotes");
             this.TreeView_DefaultEmotes.HideSelection = false;
             this.TreeView_DefaultEmotes.HotTracking = true;
@@ -686,6 +749,7 @@
             // 
             this.TreeView_CombatEmotes.AllowDrop = true;
             this.TreeView_CombatEmotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TreeView_CombatEmotes.ContextMenuStrip = this.ContextMenuStrip_EmoteTree;
             resources.ApplyResources(this.TreeView_CombatEmotes, "TreeView_CombatEmotes");
             this.TreeView_CombatEmotes.HideSelection = false;
             this.TreeView_CombatEmotes.HotTracking = true;
@@ -710,6 +774,7 @@
             // 
             this.TreeView_FeedingEmotes.AllowDrop = true;
             this.TreeView_FeedingEmotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TreeView_FeedingEmotes.ContextMenuStrip = this.ContextMenuStrip_EmoteTree;
             resources.ApplyResources(this.TreeView_FeedingEmotes, "TreeView_FeedingEmotes");
             this.TreeView_FeedingEmotes.HideSelection = false;
             this.TreeView_FeedingEmotes.HotTracking = true;
@@ -761,7 +826,6 @@
             this.NumericUpDown_KeywordsMinLength.Name = "NumericUpDown_KeywordsMinLength";
             this.ToolTip_Help.SetToolTip(this.NumericUpDown_KeywordsMinLength, resources.GetString("NumericUpDown_KeywordsMinLength.ToolTip"));
             this.NumericUpDown_KeywordsMinLength.Value = global::PetEmote.Editor.Properties.Settings.Default.KeywordsMinLength;
-            this.NumericUpDown_KeywordsMinLength.ValueChanged += new System.EventHandler(this.NumericUpDown_KeywordsMinLength_ValueChanged);
             // 
             // Panel_KeywordsLabel
             // 
@@ -803,51 +867,6 @@
             // 
             resources.ApplyResources(this.ColumnHeader_Condition, "ColumnHeader_Condition");
             // 
-            // ImageList_Configurations
-            // 
-            this.ImageList_Configurations.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ImageList_Configurations.ImageStream")));
-            this.ImageList_Configurations.TransparentColor = System.Drawing.Color.Transparent;
-            this.ImageList_Configurations.Images.SetKeyName(0, "INV_Misc_QuestionMark.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(1, "Spell_Shadow_SummonVoidWalker.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(2, "Ability_Druid_PrimalPrecision.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(3, "Ability_Hunter_Pet_Bat.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(4, "Ability_Hunter_Pet_Bear.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(5, "Ability_Hunter_Pet_Boar.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(6, "Ability_Hunter_Pet_Cat.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(7, "Ability_Hunter_Pet_Chimera.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(8, "Ability_Hunter_Pet_CoreHound.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(9, "Ability_Hunter_Pet_Crab.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(10, "Ability_Hunter_Pet_Crocolisk.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(11, "Ability_Hunter_Pet_Devilsaur.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(12, "Ability_Hunter_Pet_DragonHawk.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(13, "Ability_Hunter_Pet_Gorilla.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(14, "Ability_Hunter_Pet_Hyena.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(15, "Ability_Hunter_Pet_Moth.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(16, "Ability_Hunter_Pet_NetherRay.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(17, "Ability_Hunter_Pet_Owl.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(18, "Ability_Hunter_Pet_Raptor.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(19, "Ability_Hunter_Pet_Ravager.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(20, "Ability_Hunter_Pet_Rhino.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(21, "Ability_Hunter_Pet_Scorpid.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(22, "Ability_Hunter_Pet_Silithid.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(23, "Ability_Hunter_Pet_Spider.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(24, "Ability_Hunter_Pet_Sporebat.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(25, "Ability_Hunter_Pet_TallStrider.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(26, "Ability_Hunter_Pet_Turtle.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(27, "Ability_Hunter_Pet_Vulture.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(28, "Ability_Hunter_Pet_WarpStalker.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(29, "Ability_Hunter_Pet_Wasp.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(30, "Ability_Hunter_Pet_WindSerpent.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(31, "Ability_Hunter_Pet_Wolf.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(32, "Ability_Hunter_Pet_Worm.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(33, "Spell_DeathKnight_Gnaw_Ghoul.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(34, "Spell_Nature_GuardianWard.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(35, "Spell_Shadow_SummonFelGuard.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(36, "Spell_Shadow_SummonFelHunter.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(37, "Spell_Shadow_SummonImp.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(38, "Spell_Shadow_SummonInfernal.jpg");
-            this.ImageList_Configurations.Images.SetKeyName(39, "Spell_Shadow_SummonSuccubus.jpg");
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -857,6 +876,7 @@
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.FormMain_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.ToolStripContainer_EmoteEditing.ContentPanel.ResumeLayout(false);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.ResumeLayout(false);
             this.ToolStripContainer_EmoteEditing.TopToolStripPanel.PerformLayout();
@@ -868,6 +888,8 @@
             this.ToolStrip_Main.PerformLayout();
             this.MenuStrip.ResumeLayout(false);
             this.MenuStrip.PerformLayout();
+            this.ContextMenuStrip_EmoteTree.ResumeLayout(false);
+            this.ContextMenuStrip_ConfigurationsMenu.ResumeLayout(false);
             this.SplitContainer_LeftRight.Panel1.ResumeLayout(false);
             this.SplitContainer_LeftRight.Panel2.ResumeLayout(false);
             this.SplitContainer_LeftRight.ResumeLayout(false);
@@ -897,10 +919,8 @@
         private System.Windows.Forms.ToolStripSeparator ToolStripSeparator1;
         private System.Windows.Forms.SplitContainer SplitContainer_TopBottom;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
-        private System.Windows.Forms.ToolStripComboBox ToolStripComboBox_Configuration;
         private System.Windows.Forms.ToolStripButton ToolStripButton_RemoveConfiguration;
         private System.Windows.Forms.ToolStripSeparator ToolStripSeparator2;
-        private System.Windows.Forms.ToolStripLabel ToolStripLabel_Configuration;
         private System.Windows.Forms.ToolStripDropDownButton ToolStripDropDownButton_AddConfiguration;
         private System.Windows.Forms.ToolStripTextBox ToolStripTextBox_Independent;
         private System.Windows.Forms.ListView ListView_Output;
@@ -970,6 +990,10 @@
         private System.Windows.Forms.SplitContainer SplitContainer_LeftRight;
         private System.Windows.Forms.ListView ListView_Configurations;
         private System.Windows.Forms.ImageList ImageList_Configurations;
+        private System.Windows.Forms.ContextMenuStrip ContextMenuStrip_EmoteTree;
+        private System.Windows.Forms.ContextMenuStrip ContextMenuStrip_ConfigurationsMenu;
+        private System.Windows.Forms.ToolStripMenuItem newConfigurationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem importToolStripMenuItem;
     }
 }
 

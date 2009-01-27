@@ -65,14 +65,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="365056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="368640">
       <assemblyIdentity name="PetEmote Editor" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EKo+KnkcSL4xWovNP23n2QuYD7Y=</dsig:DigestValue>
+        <dsig:DigestValue>Grzrn4ec7z+c+NxHTWga22LeaAQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,7 +84,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>An+umTVaNmRqPgN6ZL249003GfQ=</dsig:DigestValue>
+        <dsig:DigestValue>74FxeBtGRvCirIGvv2mYqJM7YBo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
