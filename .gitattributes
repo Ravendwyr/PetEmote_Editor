@@ -26,12 +26,6 @@ PetEmote[!!-~]Core/obj/Release/PetEmote[!!-~]Core.pdb -text
 PetEmote[!!-~]Core/obj/Release/Refactor/PetEmote[!!-~]Core.dll -text
 /PetEmote[!!-~]Editor.sln -text
 /PetEmote[!!-~]Editor.suo -text
-PetEmote[!!-~]Editor/Controls/ListMenu.Designer.cs -text
-PetEmote[!!-~]Editor/Controls/ListMenu.cs -text
-PetEmote[!!-~]Editor/Controls/ListMenu.resx -text
-PetEmote[!!-~]Editor/Controls/ListMenuItem.Designer.cs -text
-PetEmote[!!-~]Editor/Controls/ListMenuItem.cs -text
-PetEmote[!!-~]Editor/Controls/ListMenuItem.resx -text
 PetEmote[!!-~]Editor/Forms/MainForm.Designer.cs -text
 PetEmote[!!-~]Editor/Forms/MainForm.Files.cs -text
 PetEmote[!!-~]Editor/Forms/MainForm.Menu.cs -text
@@ -182,8 +176,6 @@ PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.csproj.GenerateResource.Cach
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.exe -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.exe.manifest -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.pdb -text
-PetEmote[!!-~]Editor/obj/Debug/PetEmote.Controls.ListMenu.resources -text
-PetEmote[!!-~]Editor/obj/Debug/PetEmote.Controls.ListMenuItem.resources -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Editor.Forms.MainForm.de.resources -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Editor.Forms.MainForm.resources -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote.Editor.Graphics.Icons.resources -text
@@ -210,8 +202,6 @@ PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.csproj.GenerateResource.Ca
 PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.exe -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.exe.manifest -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote[!!-~]Editor.pdb -text
-PetEmote[!!-~]Editor/obj/Release/PetEmote.Controls.ListMenu.resources -text
-PetEmote[!!-~]Editor/obj/Release/PetEmote.Controls.ListMenuItem.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Forms.MainForm.de.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Forms.MainForm.resources -text
 PetEmote[!!-~]Editor/obj/Release/PetEmote.Editor.Graphics.Icons.resources -text

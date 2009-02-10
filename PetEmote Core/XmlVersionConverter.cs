@@ -79,12 +79,17 @@ namespace PetEmote.Core
 
                     this.RenameNodes(this.doc.SelectNodes("//*/RandomMessages"), "DefaultEmotes");
                     this.RenameNodes(this.doc.SelectNodes("//*/Node"), "EmoteNode");
-                    
+
                     goto case "1.5.3";
 
                 case "1.5.3":
 
                     // keine Änderungen am Editor
+                    goto case "1.6.0";
+
+                case "1.6.0":
+
+                    // keine Konvertierung notwendig
                     goto default;
                     
                 default:

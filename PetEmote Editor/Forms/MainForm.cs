@@ -511,7 +511,7 @@ namespace PetEmote.Editor.Forms
             {
                 ListViewItem newItem = new ListViewItem(text);
                 newItem.ImageIndex = IconFactory.GetPetFamilyIconIndex(family.FamilyType);
-                newItem.Group = this.ListView_Configurations.Groups["ListViewGroup_Unknown"];
+                newItem.Group = this.ListView_Configurations.Groups["ListViewGroup_" + family.ClassType.ToString()];
                 newItem.Tag = new EmoteConfiguration(text, family);
                 this.ListView_Configurations.Items.Add(newItem);
                 newItem.Selected = true;

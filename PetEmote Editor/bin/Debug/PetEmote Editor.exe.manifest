@@ -60,31 +60,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XRTiS1mxGfPyArLE5gDPL5sr1dc=</dsig:DigestValue>
+        <dsig:DigestValue>L3DYsL9TNzM6XJV6w6tAgAiEClA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="376832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetEmote Editor.exe" size="385024">
       <assemblyIdentity name="PetEmote Editor" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aqJT3XMS/pm11Id0NLcl9vlqx+I=</dsig:DigestValue>
+        <dsig:DigestValue>ZEOges8GruG1OGmHV63KJTYdCsw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PetEmote Editor.resources.dll" size="73728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PetEmote Editor.resources.dll" size="102400">
       <assemblyIdentity name="PetEmote Editor.resources" version="1.6.1.0" language="de" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ooc3FOpLB4Swz8XTUENxN/iP0mU=</dsig:DigestValue>
+        <dsig:DigestValue>chWSblAI+dAyXymX3RqsEPt6UxU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
