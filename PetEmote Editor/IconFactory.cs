@@ -10,7 +10,7 @@ namespace PetEmote.Editor
 {
     class IconFactory
     {
-        public Bitmap GetPetFamilyIcon (PetFamilyType familyType)
+        public static Bitmap GetPetFamilyIcon (PetFamilyType familyType)
         {
             switch (familyType)
             {
@@ -37,6 +37,7 @@ namespace PetEmote.Editor
                 case PetFamilyType.Serpent: return IconsWoW.Spell_Nature_GuardianWard;
                 case PetFamilyType.Silithid: return IconsWoW.Ability_Hunter_Pet_Silithid;
                 case PetFamilyType.Spider: return IconsWoW.Ability_Hunter_Pet_Spider;
+                case PetFamilyType.SpiritBeast: return IconsWoW.Ability_Druid_PrimalPrecision;
                 case PetFamilyType.Sporebat: return IconsWoW.Ability_Hunter_Pet_Sporebat;
                 case PetFamilyType.TallStrider: return IconsWoW.Ability_Hunter_Pet_TallStrider;
                 case PetFamilyType.Turtle: return IconsWoW.Ability_Hunter_Pet_Turtle;
@@ -60,7 +61,7 @@ namespace PetEmote.Editor
             }
         }
 
-        public Bitmap GetClassIcon (PetClassType classType)
+        public static Bitmap GetClassIcon (PetClassType classType)
         {
             switch (classType)
             {
@@ -69,6 +70,57 @@ namespace PetEmote.Editor
                 case PetClassType.Hunter: return IconsWoW.INV_Weapon_Bow_07;
                 case PetClassType.Warlock: return IconsWoW.Spell_Nature_Drowsy;
                 default: return IconsWoW.INV_Misc_QuestionMark;
+            }
+        }
+
+        public static int GetPetFamilyIconIndex (PetFamilyType familyType)
+        {
+            switch (familyType)
+            {
+                case PetFamilyType.Unknown: return 0;
+                case PetFamilyType.Bat: return 1;
+                case PetFamilyType.Bear: return 2;
+                case PetFamilyType.BirdOfPrey: return 15;
+                case PetFamilyType.Boar: return 3;
+                case PetFamilyType.Cat: return 4;
+                case PetFamilyType.Chimera: return 5;
+                case PetFamilyType.CoreHound: return 6;
+                case PetFamilyType.Crab: return 7;
+                case PetFamilyType.Crocolisk: return 8;
+                case PetFamilyType.Devilsaur: return 9;
+                case PetFamilyType.DragonHawk: return 10;
+                case PetFamilyType.Gorilla: return 11;
+                case PetFamilyType.Hyena: return 12;
+                case PetFamilyType.Moth: return 13;
+                case PetFamilyType.NetherRay: return 14;
+                case PetFamilyType.Raptor: return 16;
+                case PetFamilyType.Ravager: return 17;
+                case PetFamilyType.Rhino: return 18;
+                case PetFamilyType.Scorpid: return 19;
+                case PetFamilyType.Serpent: return 31;
+                case PetFamilyType.Silithid: return 20;
+                case PetFamilyType.Spider: return 21;
+                case PetFamilyType.SpiritBeast: return 32;
+                case PetFamilyType.Sporebat: return 22;
+                case PetFamilyType.TallStrider: return 23;
+                case PetFamilyType.Turtle: return 24;
+                case PetFamilyType.Vulture: return 25;
+                case PetFamilyType.WarpStalker: return 26;
+                case PetFamilyType.Wasp: return 27;
+                case PetFamilyType.WindSerpent: return 28;
+                case PetFamilyType.Wolf: return 29;
+                case PetFamilyType.Worm: return 30;
+
+                case PetFamilyType.FelGuard: return 33;
+                case PetFamilyType.FelHunter: return 34;
+                case PetFamilyType.Imp: return 35;
+                case PetFamilyType.Infernal: return 36;
+                case PetFamilyType.Succubus: return 37;
+                case PetFamilyType.VoidWalker: return 38;
+
+                case PetFamilyType.Ghoul: return 39;
+
+                default: return 0;
             }
         }
     }

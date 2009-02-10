@@ -27,7 +27,9 @@ namespace PetEmote.Editor.Forms
         {
             this.currentTreeView = (TreeView)this.TabControl_EmoteConfigurations.SelectedTab.Controls[0];
             this.Revert();
-            this.FillAddConfigurationMenu();
+            this.FillAddConfigurationMenu(this.ToolStripDropDownButton_AddConfiguration.DropDownItems, new EventHandler(this.ToolStripMenuItem_AddConfiguration_Click));
+            this.FillAddConfigurationMenu(this.newConfigurationToolStripMenuItem.DropDownItems, new EventHandler(this.ToolStripMenuItem_AddConfiguration_Click));
+            this.FillAddConfigurationMenu(this.petFamilyToolStripMenuItem.DropDownItems, new EventHandler(this.ToolStripMenuItem_SetPetFamily_Click));
         }
 
         private void MainForm_FormClosing (object sender, FormClosingEventArgs e)
@@ -223,6 +225,8 @@ namespace PetEmote.Editor.Forms
         {
             if (this.ListView_Configurations.SelectedItems.Count != 1)
             {
+                this.ListView_Configurations.ContextMenuStrip = this.ContextMenuStrip_ConfigurationsMenu;
+                
                 if (this.currentEmoteConfiguration != null) {
                     this.currentEmoteConfiguration.DefaultEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_DefaultEmotes.Nodes);
                     this.currentEmoteConfiguration.CombatEmotes = this.ConvertTreeNodesToEmotesNodes(this.TreeView_CombatEmotes.Nodes);
@@ -234,6 +238,7 @@ namespace PetEmote.Editor.Forms
                 return;
             }
 
+            this.ListView_Configurations.ContextMenuStrip = this.ContextMenuStrip_Configuration;
             this.currentEmoteConfiguration = (EmoteConfiguration)this.ListView_Configurations.SelectedItems[0].Tag;
             this.ClearTreeViews();
 
@@ -263,7 +268,7 @@ namespace PetEmote.Editor.Forms
         {
             if (e.KeyCode == Keys.Enter)
             {
-                this.HandleConfigurationSelection(this.ToolStripTextBox_Independent.Text);
+                this.HandleConfigurationSelection(this.ToolStripTextBox_Independent.Text, new PetFamily());
                 this.ToolStripDropDownButton_AddConfiguration.HideDropDown();
             }
         }
@@ -271,9 +276,22 @@ namespace PetEmote.Editor.Forms
         private void ToolStripMenuItem_AddConfiguration_Click (object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
-            this.HandleConfigurationSelection(menuItem.Text);
+            this.HandleConfigurationSelection(menuItem.Text, (PetFamily)menuItem.Tag);
         }
-        
+
+        private void ToolStripMenuItem_SetPetFamily_Click (object sender, EventArgs e)
+        {
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
+            
+            if (this.ListView_Configurations.SelectedItems.Count == 1) {
+                ListViewItem listViewItem = this.ListView_Configurations.SelectedItems[0];
+                EmoteConfiguration config = (EmoteConfiguration)listViewItem.Tag;
+                config.PetFamily = (PetFamily) menuItem.Tag;
+                listViewItem.ImageIndex = IconFactory.GetPetFamilyIconIndex(config.PetFamily.FamilyType);
+                listViewItem.Group = this.ListView_Configurations.Groups["ListViewGroup_" + config.PetFamily.ClassType.ToString()];
+            }
+        }
+
         private void ToolStripMenuItem_Import_Click (object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
@@ -408,8 +426,11 @@ namespace PetEmote.Editor.Forms
 
         private void FillConfigurationsMenu ()
         {
-            foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations) {
-                ListViewItem item = new ListViewItem(config.Name, 0, this.ListView_Configurations.Groups["ListViewGroup_" + config.PetFamily.ClassType.ToString()]);
+            foreach (EmoteConfiguration config in this.currentEmotes.EmoteConfigurations)
+            {
+                ListViewItem item = new ListViewItem(config.Name);
+                item.ImageIndex = IconFactory.GetPetFamilyIconIndex(config.PetFamily.FamilyType);
+                item.Group = this.ListView_Configurations.Groups["ListViewGroup_" + config.PetFamily.ClassType.ToString()];
                 item.Tag = config;
                 this.ListView_Configurations.Items.Add(item);
             }
@@ -417,7 +438,7 @@ namespace PetEmote.Editor.Forms
             this.SelectFirstConfiguration();
         }
 
-        private void FillAddConfigurationMenu ()
+        private void FillAddConfigurationMenu (ToolStripItemCollection containerItem, EventHandler eventHandler)
         {
             var families =
                 from family in this.defaultEmotes.PetFamilies
@@ -425,23 +446,21 @@ namespace PetEmote.Editor.Forms
                 group family by family.ClassType into classGroup
                 select classGroup;
 
-            IconFactory icons = new IconFactory();
-
             foreach (var classGroup in families)
             {
                 ToolStripMenuItem menuItem = new ToolStripMenuItem(Resources.ResourceManager.GetString("ClassName_" + classGroup.Key.ToString()));
                 menuItem.Name = "ToolStripMenuItem_AddConfiguration_" + classGroup.Key.ToString();
-                menuItem.Image = icons.GetClassIcon(classGroup.Key);
-                this.ToolStripDropDownButton_AddConfiguration.DropDownItems.Insert(ToolStripDropDownButton_AddConfiguration.DropDownItems.Count - 2, menuItem);
-
+                menuItem.Image = IconFactory.GetClassIcon(classGroup.Key);
+                containerItem.Add(menuItem);
+                
                 foreach (PetFamily family in classGroup)
                 {
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(family.Name);
 
                     familyItem.Name = "ToolStripMenuItem_AddConfiguration_" + family.Name.GetHashCode().ToString();
-                    familyItem.Image = icons.GetPetFamilyIcon(family.FamilyType);
+                    familyItem.Image = IconFactory.GetPetFamilyIcon(family.FamilyType);
                     familyItem.Tag = family;
-                    familyItem.Click += new EventHandler(this.ToolStripMenuItem_AddConfiguration_Click);
+                    familyItem.Click += eventHandler;
 
                     menuItem.DropDownItems.Add(familyItem);
                 }
@@ -458,13 +477,11 @@ namespace PetEmote.Editor.Forms
                 group config by config.PetFamily.ClassType into classGroup
                 select classGroup;
 
-            IconFactory icons = new IconFactory();
-
             foreach (var classGroup in configurations)
             {
                 ToolStripMenuItem menuItem = new ToolStripMenuItem(Resources.ResourceManager.GetString("ClassName_" + classGroup.Key.ToString()));
                 menuItem.Name = "ToolStripMenuItem_Import_" + classGroup.Key.ToString();
-                menuItem.Image = icons.GetClassIcon(classGroup.Key);
+                menuItem.Image = IconFactory.GetClassIcon(classGroup.Key);
                 this.ToolStripDropDownButton_Import.DropDownItems.Add(menuItem);
 
                 foreach (EmoteConfiguration config in classGroup)
@@ -472,7 +489,7 @@ namespace PetEmote.Editor.Forms
                     ToolStripMenuItem familyItem = new ToolStripMenuItem(config.Name);
 
                     familyItem.Name = "ToolStripMenuItem_Import_" + config.Name.GetHashCode().ToString();
-                    familyItem.Image = icons.GetPetFamilyIcon(config.PetFamily.FamilyType);
+                    familyItem.Image = IconFactory.GetPetFamilyIcon(config.PetFamily.FamilyType);
                     familyItem.Tag = config;
                     familyItem.Click += new EventHandler(this.ToolStripMenuItem_Import_Click);
 
@@ -481,23 +498,23 @@ namespace PetEmote.Editor.Forms
             }
         }
 
-        private void HandleConfigurationSelection (string text)
+        private void HandleConfigurationSelection (string text, PetFamily family)
         {
             if (text == string.Empty) return;
 
             ListViewItem foundItem = this.ListView_Configurations.FindItemWithText(text, false, 0);
 
-            if (foundItem != null)
-            {
+            if (foundItem != null) {
                 foundItem.Selected = true;
             }
             else
             {
-                ListViewItem newItem = new ListViewItem(text, 0, this.ListView_Configurations.Groups["ListViewGroup_Unknown"]);
-                newItem.Tag = new EmoteConfiguration(text, new PetFamily());
+                ListViewItem newItem = new ListViewItem(text);
+                newItem.ImageIndex = IconFactory.GetPetFamilyIconIndex(family.FamilyType);
+                newItem.Group = this.ListView_Configurations.Groups["ListViewGroup_Unknown"];
+                newItem.Tag = new EmoteConfiguration(text, family);
                 this.ListView_Configurations.Items.Add(newItem);
                 newItem.Selected = true;
-                //this.ToolStripComboBox_Configuration.SelectedIndex = this.ToolStripComboBox_Configuration.Items.Add(new EmoteConfiguration(text, new PetFamily()));
                 this.AddTreeNode(Resources.Other_NewEmote).BeginEdit();
             }
         }
@@ -505,7 +522,6 @@ namespace PetEmote.Editor.Forms
         private void UnloadConfigurations ()
         {
             this.ListView_Configurations.Items.Clear();
-            //this.ToolStripComboBox_Configuration.SelectedIndex = -1;
         }
 
         private bool SetSelectedMenuItem (ToolStripItemCollection items, string itemTagValue)
@@ -743,5 +759,36 @@ namespace PetEmote.Editor.Forms
         }
 
         #endregion
+
+        private void renameToolStripMenuItem_Click (object sender, EventArgs e)
+        {
+            if (this.ListView_Configurations.SelectedItems.Count == 1)
+                this.ListView_Configurations.SelectedItems[0].BeginEdit();
+        }
+
+        private void ListView_Configurations_AfterLabelEdit (object sender, LabelEditEventArgs e)
+        {
+            ListView control = (ListView)sender;
+            EmoteConfiguration config = (EmoteConfiguration)control.Items[e.Item].Tag;
+            config.Name = e.Label;
+        }
+
+        private void renameToFamilyToolStripMenuItem_Click (object sender, EventArgs e)
+        {
+            if (this.ListView_Configurations.SelectedItems.Count == 1) {
+                ListViewItem item = this.ListView_Configurations.SelectedItems[0];
+                EmoteConfiguration config = (EmoteConfiguration)item.Tag;
+                config.Name = item.Text = config.PetFamily.Name;
+            }
+        }
+
+        private void ContextMenuStrip_Configuration_Opening (object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (this.ListView_Configurations.SelectedItems.Count == 1) {
+                ListViewItem item = this.ListView_Configurations.SelectedItems[0];
+                EmoteConfiguration config = (EmoteConfiguration)item.Tag;
+                this.petFamilyToolStripMenuItem.Image = IconFactory.GetPetFamilyIcon(config.PetFamily.FamilyType);
+            }
+        }
     }
 }

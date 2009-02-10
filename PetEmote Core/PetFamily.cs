@@ -37,6 +37,7 @@ namespace PetEmote.Core
         Serpent,
         Silithid,
         Spider,
+        SpiritBeast,
         Sporebat,
         TallStrider,
         Turtle,

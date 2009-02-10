@@ -17,6 +17,7 @@ namespace PetEmote.Core
             families.Add(new PetFamily("Eber", PetFamilyType.Boar, PetClassType.Hunter, "de"));
             families.Add(new PetFamily("Felshetzer", PetFamilyType.Ravager, PetClassType.Hunter, "de"));
             families.Add(new PetFamily("Fledermaus", PetFamilyType.Bat, PetClassType.Hunter, "de"));
+            families.Add(new PetFamily("Geisterbestie", PetFamilyType.SpiritBeast, PetClassType.Hunter, "de"));
             families.Add(new PetFamily("Gorilla", PetFamilyType.Gorilla, PetClassType.Hunter, "de"));
             families.Add(new PetFamily("Hyäne", PetFamilyType.Hyena, PetClassType.Hunter, "de"));
             families.Add(new PetFamily("Katze", PetFamilyType.Cat, PetClassType.Hunter, "de"));
@@ -73,6 +74,7 @@ namespace PetEmote.Core
             families.Add(new PetFamily("Serpent", PetFamilyType.Serpent, PetClassType.Hunter, "en"));
             families.Add(new PetFamily("Silithid", PetFamilyType.Silithid, PetClassType.Hunter, "en"));
             families.Add(new PetFamily("Spider", PetFamilyType.Spider, PetClassType.Hunter, "en"));
+            families.Add(new PetFamily("Spirit Beast", PetFamilyType.SpiritBeast, PetClassType.Hunter, "en"));
             families.Add(new PetFamily("Sporebat", PetFamilyType.Sporebat, PetClassType.Hunter, "en"));
             families.Add(new PetFamily("Tallstrider", PetFamilyType.TallStrider, PetClassType.Hunter, "en"));
             families.Add(new PetFamily("Turtle", PetFamilyType.Turtle, PetClassType.Hunter, "en"));
