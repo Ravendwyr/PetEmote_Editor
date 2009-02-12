@@ -60,7 +60,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1xzjDs6z/wQXmSyEWo+JO+OO4xw=</dsig:DigestValue>
+        <dsig:DigestValue>6qbuTIHAPMFIBRxD2dE6zcBwnlQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,7 +72,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ds/p6Xl9LOWn4B1PPI2/66JxkVw=</dsig:DigestValue>
+        <dsig:DigestValue>Bf125Z58WZtRI9bt490Ul4SiFxo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,7 +84,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>c3GxCKj7SYAeD6+rNBh7h1+NZ10=</dsig:DigestValue>
+        <dsig:DigestValue>YtpeHF2tqRD24Z2Y3c3bNVc1Yk4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -565,13 +565,13 @@
       <dsig:DigestValue>f74v4o0PYgiNxdLGDul6OuDkSbk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PetEmote Editor.exe.config" size="1553">
+  <file name="PetEmote Editor.exe.config" size="1593">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>8gwRVf2dTZIhHsEyDbgMnePKsBU=</dsig:DigestValue>
+      <dsig:DigestValue>lnPG6umeI6+2usty1/t8cunHv2w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PetEmote.ico" size="29814">

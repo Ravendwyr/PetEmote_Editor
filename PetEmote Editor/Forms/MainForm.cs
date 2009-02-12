@@ -502,8 +502,10 @@ namespace PetEmote.Editor.Forms
         {
             if (text == string.Empty) return;
 
-            ListViewItem foundItem = this.ListView_Configurations.FindItemWithText(text, false, 0);
-
+            ListViewItem foundItem = null;
+            if (this.ListView_Configurations.Items.Count > 0)
+                foundItem = this.ListView_Configurations.FindItemWithText(text, false, 0);
+            
             if (foundItem != null) {
                 foundItem.Selected = true;
             }

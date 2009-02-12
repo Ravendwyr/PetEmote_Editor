@@ -12,9 +12,12 @@ PetEmote[!!-~]Core/PetFamilyFactory.cs -text
 PetEmote[!!-~]Core/Properties/AssemblyInfo.cs -text
 PetEmote[!!-~]Core/Version.cs -text
 PetEmote[!!-~]Core/XmlVersionConverter.cs -text
+PetEmote[!!-~]Core/app.config -text
 PetEmote[!!-~]Core/bin/Debug/PetEmote[!!-~]Core.dll -text
+PetEmote[!!-~]Core/bin/Debug/PetEmote[!!-~]Core.dll.config -text
 PetEmote[!!-~]Core/bin/Debug/PetEmote[!!-~]Core.pdb -text
 PetEmote[!!-~]Core/bin/Release/PetEmote[!!-~]Core.dll -text
+PetEmote[!!-~]Core/bin/Release/PetEmote[!!-~]Core.dll.config -text
 PetEmote[!!-~]Core/bin/Release/PetEmote[!!-~]Core.pdb -text
 PetEmote[!!-~]Core/obj/Debug/PetEmote[!!-~]Core.csproj.FileListAbsolute.txt -text
 PetEmote[!!-~]Core/obj/Debug/PetEmote[!!-~]Core.dll -text
