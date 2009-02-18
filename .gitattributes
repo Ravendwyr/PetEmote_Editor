@@ -171,6 +171,9 @@ PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe -text
 PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe.config -text
 PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.exe.manifest -text
 PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.pdb -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.vshost.application -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.vshost.exe -text
+PetEmote[!!-~]Editor/bin/Release/PetEmote[!!-~]Editor.vshost.exe.config -text
 PetEmote[!!-~]Editor/bin/Release/de/PetEmote[!!-~]Editor.resources.dll -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.TrustInfo.xml -text
 PetEmote[!!-~]Editor/obj/Debug/PetEmote[!!-~]Editor.application -text
