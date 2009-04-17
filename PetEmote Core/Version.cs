@@ -22,7 +22,7 @@ namespace PetEmote.Core
                         new string [] { "", "" },
                         new string [] { "Random Emotes", "" },
                         new string [] { "Warlocks", "Editor", "Chance", "Help" },
-                        new string [] { "Feed me", "Ghouls" }
+                        new string [] { "Feed me", "Ghouls", "3.1 Update" }
                     },
                 };
             }
