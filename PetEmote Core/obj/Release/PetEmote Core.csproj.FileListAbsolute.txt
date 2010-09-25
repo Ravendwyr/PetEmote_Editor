@@ -1,6 +1,0 @@
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\obj\Release\ResolveAssemblyReference.cache
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\bin\Release\PetEmote Core.dll
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\bin\Release\PetEmote Core.pdb
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\obj\Release\PetEmote Core.dll
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\obj\Release\PetEmote Core.pdb
-D:\Daten\Projekte\PetEmote Editor\PetEmote Core\bin\Release\PetEmote Core.dll.config
