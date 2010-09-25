@@ -120,6 +120,7 @@ PetEmote[!!-~]Editor/Graphics/IconsWoW/Spell_Shadow_SummonImp.jpg -text
 PetEmote[!!-~]Editor/Graphics/IconsWoW/Spell_Shadow_SummonInfernal.jpg -text
 PetEmote[!!-~]Editor/Graphics/IconsWoW/Spell_Shadow_SummonSuccubus.jpg -text
 PetEmote[!!-~]Editor/Graphics/IconsWoW/Spell_Shadow_SummonVoidWalker.jpg -text
+PetEmote[!!-~]Editor/HttpResponder.cs -text
 PetEmote[!!-~]Editor/IconFactory.cs -text
 PetEmote[!!-~]Editor/PetEmote[!!-~]Editor.csproj -text
 PetEmote[!!-~]Editor/PetEmote[!!-~]Editor.csproj.user -text

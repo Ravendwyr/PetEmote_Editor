@@ -103,6 +103,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IconsWoW.resx</DependentUpon>
     </Compile>
+    <Compile Include="HttpResponder.cs" />
     <Compile Include="IconFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
