@@ -7,7 +7,6 @@ PetEmote.Core/EmoteNode.cs -text
 PetEmote.Core/EmoteNodeProperties.cs -text
 PetEmote.Core/Emotes.cs -text
 PetEmote.Core/LuaTableWriter.cs -text
-PetEmote.Core/PetEmote[!!-~]Core.csproj -text
 PetEmote.Core/PetFamily.cs -text
 PetEmote.Core/PetFamilyFactory.cs -text
 PetEmote.Core/Properties/AssemblyInfo.cs -text
@@ -122,8 +121,6 @@ PetEmote.Editor/Graphics/IconsWoW/Spell_Shadow_SummonSuccubus.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_Shadow_SummonVoidWalker.jpg -text
 PetEmote.Editor/HttpResponder.cs -text
 PetEmote.Editor/IconFactory.cs -text
-PetEmote.Editor/PetEmote[!!-~]Editor.csproj -text
-PetEmote.Editor/PetEmote[!!-~]Editor.csproj.user -text
 PetEmote.Editor/PetEmote.ico -text
 PetEmote.Editor/Program.cs -text
 PetEmote.Editor/Properties/AssemblyInfo.cs -text
