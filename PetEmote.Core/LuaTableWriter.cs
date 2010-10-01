@@ -71,7 +71,7 @@ namespace PetEmote.Core
 
         public static string Item (int index, int content)
         {
-            return "[" + index.ToString() + "] = " + content.ToString() + ",";
+            return String.Format("[{0}] = {1},", index, content);
         }
 
         public static string Item (int index, int[] content)
@@ -81,28 +81,28 @@ namespace PetEmote.Core
                 result += (i > 0 ? ", " : "") + content[i].ToString();
             return result + " },";
         }
-
+		
         public static string Item (int index, string content)
         {
-            return "[" + index.ToString() + "] = \"" + content + "\",";
+            return String.Format("[{0}] = \"{1}\",", index, LuaTableWriter.EscapeContent(content));
         }
 
         public static string Item (int index, string[] content)
         {
             string result = "[" + index.ToString() + "] = { ";
             for (int i = 0; i < content.Length; i++)
-                result += (i > 0 ? ", " : "") + "\"" + content[i] + "\"";
+                result += (i > 0 ? ", " : "") + "\"" + LuaTableWriter.EscapeContent(content[i]) + "\"";
             return result + " },";
         }
 
         public static string Item (int index, EmoteCondition content)
         {
-            return "[" + index.ToString() + "] = " + Enum.GetName(content.GetType(), content) + ",";
+            return String.Format("[{0}] = {1},", index, Enum.GetName(content.GetType(), content));
         }
 
         public static string Item (string index, int content)
         {
-            return "[\"" + index + "\"] = " + content.ToString() + ",";
+            return String.Format("[\"{0}\"] = {1},", index, content);
         }
 
         public static string Item (string index, int[] content)
@@ -115,20 +115,20 @@ namespace PetEmote.Core
 
         public static string Item (string index, string content)
         {
-            return "[\"" + index + "\"] = \"" + content + "\",";
+            return String.Format("[\"{0}\"] = \"{1}\",", index, LuaTableWriter.EscapeContent(content));
         }
 
         public static string Item (string index, string[] content)
         {
             string result = "[\"" + index + "\"] = { ";
             for (int i = 0; i < content.Length; i++)
-                result += (i > 0 ? ", " : "") + "\"" + content[i] + "\"";
+                result += (i > 0 ? ", " : "") + "\"" + LuaTableWriter.EscapeContent(content[i]) + "\"";
             return result + " },";
         }
 
         public static string Item (string index, EmoteCondition content)
         {
-            return "[\"" + index + "\"] = " + Enum.GetName(content.GetType(), content) + ",";
+            return String.Format("[\"{0}\"] = {1},", index, Enum.GetName(content.GetType(), content));
         }
 
         public static void IndentLines (ref string[] lines)
@@ -136,5 +136,10 @@ namespace PetEmote.Core
             for (int i = 0; i < lines.Length; i++)
                 lines[i] = "\t" + lines[i];
         }
+
+		private static string EscapeContent (string content)
+		{
+			return content.Replace("\"", "\\\"");
+		}
     }
 }
