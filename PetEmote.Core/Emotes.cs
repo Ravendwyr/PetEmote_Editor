@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -43,8 +44,7 @@ namespace PetEmote.Core
 
         public bool Load ()
         {
-            try
-            {
+            try {
                 XmlSerializer serializer = new XmlSerializer(this.GetType());
                 TextReader reader = new StreamReader(this.DataFile.FullName);
                 Emotes emotes = (Emotes)serializer.Deserialize(reader);
@@ -52,18 +52,15 @@ namespace PetEmote.Core
                 this.PetFamilies = emotes.PetFamilies;
                 reader.Close();
             }
-            catch (FileNotFoundException)
-            {
+            catch (FileNotFoundException) {
                 // Datei existiert noch nicht oder kann nicht gelesen werden
                 return false;
             }
-            catch (InvalidOperationException)
-            {
+            catch (InvalidOperationException) {
                 // Fehler im XML
                 return false;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 throw e;
             }
 
@@ -72,24 +69,21 @@ namespace PetEmote.Core
 
         public bool Save ()
         {
-            try
-            {
+            try {
                 if (this.DataFile.Exists)
                     this.DataFile.CopyTo(this.DataFile.FullName + ".bak", true);
 
-                this.Version = PetEmote.Core.Version.Latest;
+				this.Version = PetEmote.Core.Version.Latest.ToString();
 
                 XmlSerializer serializer = new XmlSerializer(this.GetType());
                 TextWriter writer = new StreamWriter(this.DataFile.FullName);
                 serializer.Serialize(writer, this);
                 writer.Close();
             }
-            catch (IOException)
-            {
+            catch (IOException) {
                 return false;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 throw e;
             }
 
@@ -142,12 +136,10 @@ namespace PetEmote.Core
 
                 writer.Close();
             }
-            catch (IOException)
-            {
+            catch (IOException) {
                 return false;
             }
-            catch (Exception e)
-            {
+            catch (Exception e) {
                 throw e;
             }
 
@@ -185,6 +177,21 @@ namespace PetEmote.Core
             }
 
             return emotes.ToArray();
-        }
+		}
+
+		/// <summary>
+		/// Prüft, ob in den Emote-Konfigurationen eine Konfiguration für
+		/// eine bestimmte Tierart in einer bestimmten Sprache vorliegt.
+		/// </summary>
+		/// <param name="petFamilyType">Die gesuchte Tierart.</param>
+		/// <param name="language">Die Sprache, in der die Tierart gesucht wird.</param>
+		/// <returns>
+		/// True, wenn eine Konfiguration für die Tierart in
+		/// der passenden Sprache gefunden wurde, sonst false.
+		/// </returns>
+		public bool HasConfigurationForPetFamily (PetFamilyType petFamilyType, string language)
+		{
+			return this.EmoteConfigurations.Where(c => c.PetFamily.FamilyType == petFamilyType && c.PetFamily.Language == language).Count() > 0;
+		}
     }
 }

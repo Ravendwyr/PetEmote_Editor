@@ -7,6 +7,7 @@ namespace PetEmote.Core
     public class CustomEmotes : Emotes
     {
         public CustomEmotes () : base() { }
+
         public CustomEmotes (DirectoryInfo directory) : base(directory) { }
 
         [XmlIgnore]

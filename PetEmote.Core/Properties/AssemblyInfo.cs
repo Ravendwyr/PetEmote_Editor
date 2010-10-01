@@ -10,8 +10,8 @@ using System.Resources;
 [assembly: AssemblyDescription("World of Warcraft Pet Emotes Core Functionality")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PetEmote Core")]
-[assembly: AssemblyCopyright("Copyright © 2009")]
+[assembly: AssemblyProduct("PetEmote")]
+[assembly: AssemblyCopyright("Copyright © 2010")]
 [assembly: AssemblyTrademark("Ammunition Company")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.6.2.45")]
-[assembly: AssemblyFileVersion("1.6.2.45")]
+[assembly: AssemblyVersion("1.6.6.45")]
+[assembly: AssemblyFileVersion("1.6.6.45")]
 [assembly: NeutralResourcesLanguageAttribute("en")]

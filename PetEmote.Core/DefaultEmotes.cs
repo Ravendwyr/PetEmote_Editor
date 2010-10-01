@@ -7,6 +7,7 @@ namespace PetEmote.Core
     public class DefaultEmotes : Emotes
     {
         public DefaultEmotes () : base() { }
+
         public DefaultEmotes (DirectoryInfo directory) : base(directory) { }
 
         [XmlIgnore]
@@ -20,5 +21,5 @@ namespace PetEmote.Core
         {
             get { return new FileInfo(Path.Combine(this.Directory.FullName, "default-emotes.lua")); }
         }
-    }
+	}
 }

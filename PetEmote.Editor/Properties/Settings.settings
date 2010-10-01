@@ -8,5 +8,8 @@
     <Setting Name="KeywordsMinLength" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">3</Value>
     </Setting>
+    <Setting Name="WorldOfWarcraftDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

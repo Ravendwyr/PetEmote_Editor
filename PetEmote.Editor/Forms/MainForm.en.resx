@@ -117,18 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ContextMenuStrip_ConfigurationsMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 26</value>
-  </data>
   <data name="ListView_Configurations.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAtKw6RnZXIgKGVuKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGlnbm1l
-        bnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAF0xpc3RWaWV3R3JvdXBfSHVudGVyX2VuCw==
+        AwAAAAZIdW50ZXIF/P///yhTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AQAA
+        AAd2YWx1ZV9fAAgCAAAAAAAAAAoGBQAAABRMaXN0Vmlld0dyb3VwX0h1bnRlcgs=
 </value>
   </data>
   <data name="ListView_Configurations.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -137,9 +133,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAABFIZXhlbm1laXN0ZXIgKGVuKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxB
-        bGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAGExpc3RWaWV3R3JvdXBfV2FybG9ja19l
-        bgs=
+        AwAAAAdXYXJsb2NrBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVudAEA
+        AAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAVTGlzdFZpZXdHcm91cF9XYXJsb2NrCw==
 </value>
   </data>
   <data name="ListView_Configurations.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -148,9 +143,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAABBUb2Rlc3JpdHRlciAoZW4pBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFs
-        aWdubWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAcTGlzdFZpZXdHcm91cF9EZWF0aEtuaWdo
-        dF9lbgs=
+        AwAAAAxEZWF0aCBLbmlnaHQF/P///yhTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25t
+        ZW50AQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAoGBQAAABlMaXN0Vmlld0dyb3VwX0RlYXRoS25pZ2h0Cw==
 </value>
   </data>
   <data name="ListView_Configurations.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -159,32 +153,11 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAA5VbmJla2FubnQgKGVuKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGln
-        bm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAGExpc3RWaWV3R3JvdXBfVW5rbm93bl9lbgs=
+        AwAAAAdVbmtub3duBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVudAEA
+        AAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAVTGlzdFZpZXdHcm91cF9Vbmtub3duCw==
 </value>
   </data>
   <data name="ListView_Configurations.Groups4" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
-        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAtKw6RnZXIgKGRlKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGlnbm1l
-        bnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAF0xpc3RWaWV3R3JvdXBfSHVudGVyX2RlCw==
-</value>
-  </data>
-  <data name="ListView_Configurations.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
-        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAABFIZXhlbm1laXN0ZXIgKGRlKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxB
-        bGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAGExpc3RWaWV3R3JvdXBfV2FybG9ja19k
-        ZQs=
-</value>
-  </data>
-  <data name="ListView_Configurations.Groups6" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
@@ -195,7 +168,18 @@
         dF9kZQs=
 </value>
   </data>
-  <data name="ListView_Configurations.Groups7" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="ListView_Configurations.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAABBUb2Rlc3JpdHRlciAoZW4pBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFs
+        aWdubWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAcTGlzdFZpZXdHcm91cF9EZWF0aEtuaWdo
+        dF9lbgs=
+</value>
+  </data>
+  <data name="ListView_Configurations.Groups6" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
@@ -203,6 +187,16 @@
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
         AwAAAA5VbmJla2FubnQgKGRlKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGln
         bm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAGExpc3RWaWV3R3JvdXBfVW5rbm93bl9kZQs=
+</value>
+  </data>
+  <data name="ListView_Configurations.Groups7" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAA5VbmJla2FubnQgKGVuKQX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGln
+        bm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAAGExpc3RWaWV3R3JvdXBfVW5rbm93bl9lbgs=
 </value>
   </data>
   <data name="ImageList_PetFamilies.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -511,9 +505,7 @@
         AwABQAMAAbADAAEBAQABAQUAAYABBRYAA///AP8A/wD/AP8AhgAL
 </value>
   </data>
-  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 25</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
@@ -529,20 +521,8 @@
         sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
 </value>
   </data>
-  <data name="newConfigurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
-  <data name="newConfigurationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Neue Konfiguration</value>
-  </data>
-  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
-    <value>Zufällige Emotes</value>
-  </data>
   <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
-  </data>
-  <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
-    <value>Emotes im Kampf</value>
   </data>
   <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
@@ -550,52 +530,8 @@
   <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
   </data>
-  <data name="TabPage_FeedingEmotes.Text" xml:space="preserve">
-    <value>Emotes beim Füttern</value>
-  </data>
   <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
-  </data>
-  <data name="Panel_KeywordsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 0</value>
-  </data>
-  <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 20</value>
-  </data>
-  <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 20</value>
-  </data>
-  <data name="TextBox_Keywords.ToolTip" xml:space="preserve">
-    <value>Vermeide schlechten Satzbau, indem du Stichworte für jedes Emote vergibst. PetEmote wird die
-Stichworte aller Emotes miteinander vergleichen, um herauszufinden, welche Emotes gut zusammen
-passen und welche nicht. Wenn du das selbe Stichwort für verschiedene Emotes auf beliebigen
-Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwenden.</value>
-  </data>
-  <data name="NumericUpDown_KeywordsMinLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 0</value>
-  </data>
-  <data name="NumericUpDown_KeywordsMinLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="NumericUpDown_KeywordsMinLength.ToolTip" xml:space="preserve">
-    <value>Hier kannst du die minimale Wortlänge für
-automatisch generierte Stichworte festlegen.</value>
-  </data>
-  <data name="Panel_KeywordsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 20</value>
-  </data>
-  <data name="CheckBox_KeywordsAutoFill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
-  </data>
-  <data name="CheckBox_KeywordsAutoFill.Text" xml:space="preserve">
-    <value>Stichworte</value>
-  </data>
-  <data name="CheckBox_KeywordsAutoFill.ToolTip" xml:space="preserve">
-    <value>Wenn ausgewählt, werden die Stichworte automatisch
-angepasst, wenn ein Emote bearbeitet wird.</value>
-  </data>
-  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
-    <value>Bedingung</value>
   </data>
   <data name="ToolStripButton_Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -625,13 +561,6 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
         ShV/A9RL+rL+h1IfAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="ToolStripButton_Revert.Text" xml:space="preserve">
-    <value>Laden</value>
-  </data>
-  <data name="ToolStripButton_Revert.ToolTipText" xml:space="preserve">
-    <value>Zuletzt gespeicherte Version aller
-Konfigurationen wiederherstellen</value>
-  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
@@ -647,21 +576,6 @@ Konfigurationen wiederherstellen</value>
         sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
 </value>
   </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
-    <value>Hinzufügen</value>
-  </data>
-  <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
-    <value>Neue Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Name eines Tieres</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
-  </data>
   <data name="ToolStripButton_RemoveConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
@@ -676,12 +590,6 @@ Konfigurationen wiederherstellen</value>
         DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
         UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
 </value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="ToolStripButton_RemoveConfiguration.ToolTipText" xml:space="preserve">
-    <value>Ausgewählte Konfiguration löschen</value>
   </data>
   <data name="ToolStripDropDownButton_Import.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -700,15 +608,6 @@ Konfigurationen wiederherstellen</value>
         v+scA0befcTgm1H+TuaB128jh+lffzVBKEsSjfH0KP8E9GmhHgDOjO0AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ToolStripDropDownButton_Import.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 22</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.Text" xml:space="preserve">
-    <value>Importieren</value>
-  </data>
-  <data name="ToolStripDropDownButton_Import.ToolTipText" xml:space="preserve">
-    <value>Alle Emotes aus einer Standard-Konfiguration hinzufügen</value>
-  </data>
   <data name="ToolStripButton_AddNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAPj28oWPl/f08Pf18cLL0XmDjPj18lxmcGdxenK5XgZDAvXy7YGLk/j18fn387rD
@@ -724,12 +623,6 @@ Konfigurationen wiederherstellen</value>
         shgKE0IQGhRVFJCBEwgAOw==
 </value>
   </data>
-  <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
-    <value>Emote hinzufügen</value>
-  </data>
-  <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
-    <value>Fügt einen neuen Emote-Knoten am Ende der Liste ein</value>
-  </data>
   <data name="ToolStripButton_AddChildNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
@@ -739,12 +632,6 @@ Konfigurationen wiederherstellen</value>
         5rKUJBWNTulwBO1GR0wktgu+OqFma7Lq/TbZYq5aKW+ThfCjExBgJDYlTW18GCITIAuBbFAHCg4iHw8e
         REYkRwYimZkRYZZCFQMQIh0WCEtaFxoSIhQCDVNGQwQZHAIFJUEAOw==
 </value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
-    <value>Untergeordnetes Emote hinzufügen</value>
-  </data>
-  <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
-    <value>Fügt einen neuen Emote-Knoten unterhalb des ausgewählten Knotens ein</value>
   </data>
   <data name="ToolStripButton_RemoveNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -761,12 +648,6 @@ Konfigurationen wiederherstellen</value>
         RAg6MQBEhJeBAAA7
 </value>
   </data>
-  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
-    <value>Emote löschen</value>
-  </data>
-  <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
-    <value>Löscht den ausgewählten Emote-Knoten</value>
-  </data>
   <data name="ToolStripMenuItem_Conditions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -781,176 +662,6 @@ Konfigurationen wiederherstellen</value>
         N6twqwGZrzNSe97Fvdno5t7qIs2jdTAS+EFtemoC1eZyPO7M0ls3NhC4Jh2PmrJSE6C7rnhXBFOLAcb6
         GPzmIYNvAPAD5Sg07ZwtAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Bedingung</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Bedingung zum ausgewählten Emote</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
-    <value>Ziel existiert</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein Ziel anvisiert haben</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Text" xml:space="preserve">
-    <value>Ziel ist freundlich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsFriendly.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein freundliches Ziel anvisiert haben</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
-    <value>Ziel ist unfreundlich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.ToolTipText" xml:space="preserve">
-    <value>Der Spieler muss ein unfreundliches Ziel anvisiert haben</value>
-  </data>
-  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.Text" xml:space="preserve">
-    <value>Tier ist glücklich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsHappy.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss glücklich sein (nur Jäger)</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
-    <value>Tier ist zufrieden</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss zufrieden sein (nur Jäger)</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Text" xml:space="preserve">
-    <value>Tier ist unglücklich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsUnhappy.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss unglücklich sein (nur Jäger)</value>
-  </data>
-  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
-    <value>Tier ist männlich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Tieres muss männlich sein</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.Text" xml:space="preserve">
-    <value>Tier ist weiblich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsFemale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Tieres muss weiblich sein</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.Text" xml:space="preserve">
-    <value>Charakter ist männlich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsMale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Spielercharakters muss männlich sein</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.Text" xml:space="preserve">
-    <value>Charakter ist weiblich</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
-    <value>Das Geschlecht des Spielercharakters muss weiblich sein</value>
-  </data>
-  <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodAccepted.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodAccepted.Text" xml:space="preserve">
-    <value>Tier nimmt Futter an</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodAccepted.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss das Futter mögen</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodRefused.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodRefused.Text" xml:space="preserve">
-    <value>Tier lehnt Futter ab</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodRefused.ToolTipText" xml:space="preserve">
-    <value>Das Tier muss das Futter ablehnen</value>
-  </data>
-  <data name="ToolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_IsFirstCall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_IsFirstCall.Text" xml:space="preserve">
-    <value>Erster Teil des Emotes</value>
-  </data>
-  <data name="ToolStripMenuItem_IsFirstCall.ToolTipText" xml:space="preserve">
-    <value>Dieses muss das erste von drei möglichen Emotes sein.
-Verwende diese Bedingung, um eigenständige Emotes zu
-erzeugen, die mit keinem anderen Emote kombiniert werden.</value>
-  </data>
-  <data name="ToolStripMenuItem_IsSecondCall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_IsSecondCall.Text" xml:space="preserve">
-    <value>Zweiter Teil des Emotes</value>
-  </data>
-  <data name="ToolStripMenuItem_IsSecondCall.ToolTipText" xml:space="preserve">
-    <value>Dieses muss das zweite von drei möglichen Emotes sein.</value>
-  </data>
-  <data name="ToolStripMenuItem_IsThirdCall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_IsThirdCall.Text" xml:space="preserve">
-    <value>Dritter Teil des Emotes</value>
-  </data>
-  <data name="ToolStripMenuItem_IsThirdCall.ToolTipText" xml:space="preserve">
-    <value>Dieses muss das dritte von drei möglichen Emotes sein.</value>
-  </data>
-  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 6</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.Text" xml:space="preserve">
-    <value>Keine Bedingung</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
-    <value>Das Emote kann jederzeit erscheinen</value>
   </data>
   <data name="ToolStripMenuItem_Options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -967,35 +678,6 @@ erzeugen, die mit keinem anderen Emote kombiniert werden.</value>
         5YUk7eEoh/TiY1Q41ccy9udB6j6hueX+TtPI2NOINEUhjLI/KQUuPglAZ3mDlsd+rN9+BGt1B2i0dwbC
         6P8sR/UvVWEbxe7Wkb8e+gV6f61A1rLncQAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
-    <value>Einstellungen zum ausgewählten Emote</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
-    <value>Fortsetzung erzwingen</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
-    <value>Wenn ausgewählt, wird das Emote garantiert mit
-einem der untergeordneten Texte fortgesetzt.</value>
-  </data>
-  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
-    <value>Wähle eine Zahl von 1 bis 200, die die prozentuale Chance angibt, wie oft
-das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
-
-- ein Wert von 100 lässt das Emote so oft wie jedes andere Emote erscheinen
-- ein Wert größer als 100 erhöht die Chance, dass das Emote erscheint
-- ein Wert kleiner als 100 verringert die Chance, dass das Emote erscheint
-- ein Wert von 200 verdoppelt die Chance, dass das Emote erscheint
-- mit einem Wert von 1 erscheint das Emote extrem selten</value>
   </data>
   <data name="importToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1016,8 +698,8 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAG
-        CwAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
+        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABEAMAAQEBAAEQBgABCB4AAfgBWgHPATEEAAHkARkBYAEFASABBQEAAQEBQQEJDAABrwExAa8BMQYA
         AeQBGQFgAQUBIAEFAQABAQFBAQkOAAH4AVoBzwExBAABhAFYAWMBRAFCATwBQgE4AWMBRC4AAY4BLQHP
         ATECAAEmASIBwQENAYABCQH/AX8BIAEFAQABAQFBAQkIAAH4AVoBrwExAfgBWgQAASYBIgHBAQ0BgAEJ
@@ -1059,12 +741,11 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
         Aa8BMQGvATEBrwExAfgBWgHeAX8B+AFaAa8BMQH4AVoCAAEZAV8B8AE1AfABOQE6AWMB3gF/Ad4BfwHe
         AX8B3gF/Ad4BfwHeAX8BOgFjAfEBOQHwATkBGQFfKAABOgFjAREBOgERAT4BEQE+AREBPgERAT4BEQE+
         AREBOgERAT4BOgFjDgAB+AFaAa8BMQH4AVoB3gF/Ad4BfwHeAX8B3gF/Ad4BfwH4AVoBrwExAfgBWggA
-        AToBYwERAToBEQE+AREBPgERAT4BEQE+AREBPgERAToBEQE+AToBYzIAAToBYwE6AWMBOgFjAToBYxYA
-        AfgBWgGvATEBrwExAa8BMQGvATEBrwExAa8BMQGvATEB+AFaEAABOgFjAToBYwE6AWMBOgFjLAABQgFN
-        AT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8
-        AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGAAQABwAMAAYADAAGAAwABgAEBAQABAQGA
-        AQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEBAgAB4AEHAfABAQHgAQcCAAH8AT8B+AED
-        AfwBPwIACw==
+        AToBYwERAToBEQE+AREBPgERAT4BEQE+AREBPgERAToBEQE+AToBY1AAAfgBWgGvATEBrwExAa8BMQGv
+        ATEBrwExAa8BMQGvATEB+AFaRAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEA
+        AfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGA
+        AQABwAMAAYADAAGAAwABgAEBAQABAQGAAQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEB
+        AgAB4AEHAfABAQHgAQcCAAL/AfgBAwL/AgAL
 </value>
   </data>
   <data name="revertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -1079,29 +760,11 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 22</value>
   </data>
-  <data name="petFamilyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
-  <data name="petFamilyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tierart</value>
-  </data>
-  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 6</value>
-  </data>
-  <data name="ToolStripItem_Rename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
   <data name="ToolStripItem_Rename.Text" xml:space="preserve">
-    <value>Umbenennen</value>
-  </data>
-  <data name="ToolStripItem_RenameToFamily.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
+    <value>Rename</value>
   </data>
   <data name="ToolStripItem_RenameToFamily.Text" xml:space="preserve">
-    <value>Name wie Tierart</value>
-  </data>
-  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 6</value>
+    <value>Rename to family</value>
   </data>
   <data name="deleteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1117,15 +780,6 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
         DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
         UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
 </value>
-  </data>
-  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
-  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="ContextMenuStrip_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 104</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

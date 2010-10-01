@@ -11,12 +11,13 @@ namespace PetEmote
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
+		/// <param name="args">Die Startparameter der Anwendung.</param>
         [STAThread]
-        static void Main()
+        static void Main(params string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new MainForm(args));
         }
     }
 }
