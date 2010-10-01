@@ -27,15 +27,15 @@ namespace PetEmote.Core
             get {
                 if (this.doc == null) return false;
                 if (this.doc.DocumentElement.FirstChild.Name != "Version") return true;
-                return this.doc.DocumentElement.FirstChild.InnerText != Version.Latest;
+                return this.doc.DocumentElement.FirstChild.InnerText != Version.Latest.ToString();
             }
         }
 
         public void ConvertToLatest ()
         {
-            if (this.doc.DocumentElement.FirstChild.Name != "Version") {
-
-                XmlNode node = this.doc.CreateElement("Version");
+            if (this.doc.DocumentElement.FirstChild.Name != "Version")
+			{
+				XmlNode node = this.doc.CreateElement("Version");
                 node.InnerText = "0.0.0";
                 this.doc.DocumentElement.InsertBefore(node, this.doc.DocumentElement.FirstChild);
             }
@@ -83,17 +83,15 @@ namespace PetEmote.Core
                     goto case "1.5.3";
 
                 case "1.5.3":
-
-                    // keine Änderungen am Editor
-                    goto case "1.6.0";
-
-                case "1.6.0":
-
-                    // keine Konvertierung notwendig
-                    goto default;
+				case "1.6.0":
+				case "1.6.1":
+				case "1.6.2":
+				case "1.6.3":
+				case "1.6.4":
+				case "1.6.5":
                     
                 default:
-                    this.doc.DocumentElement.FirstChild.InnerText = Version.Latest;
+                    this.doc.DocumentElement.FirstChild.InnerText = Version.Latest.ToString();
                     break;
             }
         }
