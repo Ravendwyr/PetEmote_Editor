@@ -141,3 +141,4 @@ PetEmote.Editor/Properties/Settings.settings -text
 PetEmote.Editor/Properties/app.manifest -text
 PetEmote.Editor/TreeNodeConverter.cs -text
 PetEmote.Editor/app.config -text
+PetEmote.Setup/PetEmote.Setup.vdproj -text

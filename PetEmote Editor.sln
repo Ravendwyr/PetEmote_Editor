@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetEmote.Editor", "PetEmote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetEmote.Core", "PetEmote.Core\PetEmote.Core.csproj", "{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PetEmote.Setup", "PetEmote.Setup\PetEmote.Setup.vdproj", "{F83E16BD-4B64-4FF1-90B0-368FF4796BE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,8 @@ Global
 		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E5B8BC4-5739-4D08-B081-B39C08C32CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83E16BD-4B64-4FF1-90B0-368FF4796BE3}.Debug|Any CPU.ActiveCfg = Debug
+		{F83E16BD-4B64-4FF1-90B0-368FF4796BE3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
