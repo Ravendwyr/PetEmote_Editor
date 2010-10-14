@@ -118,6 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
+        sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
+        /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
+        sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
+        0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
+        88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
+        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
+        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
+        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
+        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
+        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
+</value>
+  </data>
+  <data name="newConfigurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="newConfigurationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neue Konfiguration</value>
+  </data>
   <data name="ContextMenuStrip_ConfigurationsMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 26</value>
   </data>
@@ -511,56 +532,14 @@
         AwABQAMAAbADAAEBAQABAQUAAYABBRYAA///AP8A/wD/AP8AhgAL
 </value>
   </data>
-  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 25</value>
-  </data>
-  <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
-        sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
-        /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
-        sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
-        0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
-        88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
-        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
-        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
-        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
-        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
-        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
-</value>
-  </data>
-  <data name="newConfigurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
-  <data name="newConfigurationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Neue Konfiguration</value>
-  </data>
   <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
     <value>Zufällige Emotes</value>
-  </data>
-  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
   </data>
   <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
     <value>Emotes im Kampf</value>
   </data>
-  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
-  </data>
-  <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
-  </data>
   <data name="TabPage_FeedingEmotes.Text" xml:space="preserve">
     <value>Emotes beim Füttern</value>
-  </data>
-  <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
-  </data>
-  <data name="Panel_KeywordsTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 0</value>
-  </data>
-  <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 20</value>
   </data>
   <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
     <value>443, 20</value>
@@ -581,8 +560,11 @@ Ebenen vergibst, wird PetEmote diese Emotes nicht zusammen im selben Satz verwen
     <value>Hier kannst du die minimale Wortlänge für
 automatisch generierte Stichworte festlegen.</value>
   </data>
-  <data name="Panel_KeywordsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 20</value>
+  <data name="Panel_KeywordsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 0</value>
+  </data>
+  <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 20</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
@@ -594,8 +576,8 @@ automatisch generierte Stichworte festlegen.</value>
     <value>Wenn ausgewählt, werden die Stichworte automatisch
 angepasst, wenn ein Emote bearbeitet wird.</value>
   </data>
-  <data name="ColumnHeader_Condition.Text" xml:space="preserve">
-    <value>Bedingung</value>
+  <data name="Panel_KeywordsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
   </data>
   <data name="ToolStripButton_Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -632,6 +614,12 @@ angepasst, wenn ein Emote bearbeitet wird.</value>
     <value>Zuletzt gespeicherte Version aller
 Konfigurationen wiederherstellen</value>
   </data>
+  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
+    <value>Name eines Tieres</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
+    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
+  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
@@ -655,12 +643,6 @@ Konfigurationen wiederherstellen</value>
   </data>
   <data name="ToolStripDropDownButton_AddConfiguration.ToolTipText" xml:space="preserve">
     <value>Neue Konfiguration hinzufügen</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.Text" xml:space="preserve">
-    <value>Name eines Tieres</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.ToolTipText" xml:space="preserve">
-    <value>Beliebiger Name eines Tieres oder einer Tierart eingeben</value>
   </data>
   <data name="ToolStripButton_RemoveConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -766,30 +748,6 @@ Konfigurationen wiederherstellen</value>
   </data>
   <data name="ToolStripButton_RemoveNode.ToolTipText" xml:space="preserve">
     <value>Löscht den ausgewählten Emote-Knoten</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAfFJREFUOE+NkktI
-        G1EUhkVJIVqyqQsr1Acu1J0PaGkLUtSl2oV1o+LaXUFcaleCi0pDH0ShJiaooT5IqeKbQbSKraCWUqWC
-        +EgyyUycmWgePla/997JjApJyIWzmTvf/5//nJuWluR09ZpBK9k/Ce8oaHNOYu33Nj59dWDn717qQhQ+
-        PPHAw/tYSYoC+zcX5riV5CL7B4foMVsQDp3h2MPj2O2F2+sD7xcgyQqm5jlMTM3GF/mz+x99FisURcYR
-        cWcwcef9fgiiiFNJgiyfYvzHLD5bh++LcGsbsJK8YiDAWtdgL4MDkAgcDCoInQdxETnH+q9NZsYGODg6
-        AceYCz5BUGHSuu4cUJ1V+AzRcAhXF2FcX0awubV9uyFtaG6ewLHMInFWYZk5R4izBlMDjdHXSD/MLC3D
-        Lwos8922qfNlVHVeXP6Z+G3QXE7XNBRZ1jNHY84dC22oGinEC3s+Kgdy0Tj0Kv426Ez67U62ymhEzazB
-        z4fymEDp+2zY/n3E056S+CJz3Co+DNj0tl86CvBs8AnKvuQgr8vEYHpMbYbED2v/4IhlpVVhyWUABdu/
-        N6twqwGZrzNSe97Fvdno5t7qIs2jdTAS+EFtemoC1eZyPO7M0ls3NhC4Jh2PmrJSE6C7rnhXBFOLAcb6
-        GPzmIYNvAPAD5Sg07ZwtAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
-    <value>Bedingung</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
-    <value>Bedingung zum ausgewählten Emote</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 22</value>
@@ -952,6 +910,40 @@ erzeugen, die mit keinem anderen Emote kombiniert werden.</value>
   <data name="ToolStripMenuItem_Condition_None.ToolTipText" xml:space="preserve">
     <value>Das Emote kann jederzeit erscheinen</value>
   </data>
+  <data name="ToolStripMenuItem_Conditions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAfFJREFUOE+NkktI
+        G1EUhkVJIVqyqQsr1Acu1J0PaGkLUtSl2oV1o+LaXUFcaleCi0pDH0ShJiaooT5IqeKbQbSKraCWUqWC
+        +EgyyUycmWgePla/997JjApJyIWzmTvf/5//nJuWluR09ZpBK9k/Ce8oaHNOYu33Nj59dWDn717qQhQ+
+        PPHAw/tYSYoC+zcX5riV5CL7B4foMVsQDp3h2MPj2O2F2+sD7xcgyQqm5jlMTM3GF/mz+x99FisURcYR
+        cWcwcef9fgiiiFNJgiyfYvzHLD5bh++LcGsbsJK8YiDAWtdgL4MDkAgcDCoInQdxETnH+q9NZsYGODg6
+        AceYCz5BUGHSuu4cUJ1V+AzRcAhXF2FcX0awubV9uyFtaG6ewLHMInFWYZk5R4izBlMDjdHXSD/MLC3D
+        Lwos8922qfNlVHVeXP6Z+G3QXE7XNBRZ1jNHY84dC22oGinEC3s+Kgdy0Tj0Kv426Ez67U62ymhEzazB
+        z4fymEDp+2zY/n3E056S+CJz3Co+DNj0tl86CvBs8AnKvuQgr8vEYHpMbYbED2v/4IhlpVVhyWUABdu/
+        N6twqwGZrzNSe97Fvdno5t7qIs2jdTAS+EFtemoC1eZyPO7M0ls3NhC4Jh2PmrJSE6C7rnhXBFOLAcb6
+        GPzmIYNvAPAD5Sg07ZwtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
+    <value>Bedingung</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
+    <value>Bedingung zum ausgewählten Emote</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
+    <value>Fortsetzung erzwingen</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
+    <value>Wenn ausgewählt, wird das Emote garantiert mit
+einem der untergeordneten Texte fortgesetzt.</value>
+  </data>
   <data name="ToolStripMenuItem_Options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -977,16 +969,6 @@ erzeugen, die mit keinem anderen Emote kombiniert werden.</value>
   <data name="ToolStripMenuItem_Options.ToolTipText" xml:space="preserve">
     <value>Einstellungen zum ausgewählten Emote</value>
   </data>
-  <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.Text" xml:space="preserve">
-    <value>Fortsetzung erzwingen</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
-    <value>Wenn ausgewählt, wird das Emote garantiert mit
-einem der untergeordneten Texte fortgesetzt.</value>
-  </data>
   <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
     <value>Wähle eine Zahl von 1 bis 200, die die prozentuale Chance angibt, wie oft
 das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
@@ -996,6 +978,9 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
 - ein Wert kleiner als 100 verringert die Chance, dass das Emote erscheint
 - ein Wert von 200 verdoppelt die Chance, dass das Emote erscheint
 - mit einem Wert von 1 erscheint das Emote extrem selten</value>
+  </data>
+  <data name="ToolStrip_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 25</value>
   </data>
   <data name="importToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1066,18 +1051,6 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
         AQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEBAgAB4AEHAfABAQHgAQcCAAH8AT8B+AED
         AfwBPwIACw==
 </value>
-  </data>
-  <data name="revertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 6</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
   </data>
   <data name="petFamilyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 22</value>
@@ -1627,5 +1600,9 @@ das Emote im Vergleich zu anderen Emotes auf der selben Ebene erscheint.
         2O69ioCpf424xK60ddTn0+Ds3OPQljqvyp3FybPh8ebf17GGxuvZwG+gzqfS6eLdzc8AAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

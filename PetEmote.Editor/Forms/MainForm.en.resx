@@ -117,6 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ToolStripContainer_EmoteEditing.BottomToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
+        sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
+        /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
+        sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
+        0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
+        88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
+        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
+        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
+        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
+        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
+        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
+</value>
+  </data>
+  <data name="ContextMenuStrip_ConfigurationsMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="ListView_Configurations.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
@@ -505,33 +527,71 @@
         AwABQAMAAbADAAEBAQABAQUAAYABBRYAA///AP8A/wD/AP8AhgAL
 </value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
-        sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
-        /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
-        sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
-        0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
-        88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
-        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
-        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
-        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
-        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
-        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
-</value>
+  <data name="ListView_Configurations.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
+  <data name="SplitContainer_LeftRight.Panel1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
+  <data name="TreeView_DefaultEmotes.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TabPage_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
+  <data name="TabPage_DefaultEmotes.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
+  <data name="TreeView_CombatEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage_CombatEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeView_FeedingEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage_FeedingEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl_EmoteConfigurations.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel_KeywordsTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel_KeywordsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel_Keywords.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmoteOutput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_TopBottom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_LeftRight.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer_LeftRight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.ContentPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.LeftToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.RightToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ToolStripButton_Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -679,6 +739,12 @@
         6P8sR/UvVWEbxe7Wkb8e+gV6f61A1rLncQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="ToolStrip_Main.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripContainer_EmoteEditing.TopToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="importToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhEAAQAPYAAPmks/Z+g1YUA4VTQ9VteTIMATMSEUgDAm44KysBACkNA0IXFkoRFCoTADIPDSME
@@ -693,6 +759,9 @@
         MIIKWEhs3tTZQQECn4N9+giikOAOGQECJCTggwGDhYoKHyTAgwBBii8M+LjQ4EfDhgt/IkgAItFBkRF8
         LPiZaQGlhAtETpi4oUJKnw1q/KDhAOxLljQWAACoYaOPBygWOHx4ZkhQnwsXGgALBAA7
 </value>
+  </data>
+  <data name="ContextMenuStrip_EmoteTree.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ImageList_TreeView.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -748,23 +817,8 @@
         AgAB4AEHAfABAQHgAQcCAAL/AfgBAwL/AgAL
 </value>
   </data>
-  <data name="revertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 6</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="ToolStripItem_Rename.Text" xml:space="preserve">
-    <value>Rename</value>
-  </data>
-  <data name="ToolStripItem_RenameToFamily.Text" xml:space="preserve">
-    <value>Rename to family</value>
+  <data name="MenuStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="deleteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -780,6 +834,9 @@
         DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
         UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
 </value>
+  </data>
+  <data name="ContextMenuStrip_Configuration.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1281,5 +1338,12 @@
         2O69ioCpf424xK60ddTn0+Ds3OPQljqvyp3FybPh8ebf17GGxuvZwG+gzqfS6eLdzc8AAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

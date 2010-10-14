@@ -557,9 +557,9 @@ namespace PetEmote.Editor.Forms
 				emoteNode.Text = treeNode.Parent.FullPath + " " + emoteNode.Text;
 			}
 
-			this.ExampleOutput.PetName = this.currentEmoteConfiguration.Name;
-			this.ExampleOutput.Clear();
-			this.ExampleOutput.AddEmoteNode(emoteNode);
+			this.EmoteOutput.PetName = this.currentEmoteConfiguration.Name;
+			this.EmoteOutput.Clear();
+			this.EmoteOutput.AddEmoteNode(emoteNode);
 		}
 
 		private void MainForm_Load (object sender, EventArgs e)
