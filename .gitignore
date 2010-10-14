@@ -3,3 +3,5 @@ PetEmote.Core/bin
 PetEmote.Core/obj
 PetEmote.Editor/bin
 PetEmote.Editor/obj
+PetEmote.Setup/Debug
+PetEmote.Setup/Release
