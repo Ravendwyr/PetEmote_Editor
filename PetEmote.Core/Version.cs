@@ -73,6 +73,7 @@ namespace PetEmote.Core
 				yield return new Version(1, 6, 4);
 				yield return new Version(1, 6, 5);
 				yield return new Version(1, 7, 0);
+				yield return new Version(1, 7, 1);
 			}
 		}
 

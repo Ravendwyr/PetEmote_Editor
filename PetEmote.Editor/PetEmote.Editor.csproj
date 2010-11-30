@@ -203,6 +203,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <Content Include="Graphics\IconsWoW\Ability_Druid_PrimalPrecision.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_AspectOfTheFox.jpg" />
+    <Content Include="Graphics\IconsWoW\Ability_Hunter_AspectOfTheMonkey.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bat.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Bear.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Boar.jpg" />
@@ -233,10 +235,14 @@
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_WindSerpent.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Wolf.jpg" />
     <Content Include="Graphics\IconsWoW\Ability_Hunter_Pet_Worm.jpg" />
+    <Content Include="Graphics\IconsWoW\INV_Jewelry_Necklace_22.jpg" />
     <Content Include="Graphics\IconsWoW\INV_Misc_QuestionMark.jpg" />
+    <Content Include="Graphics\IconsWoW\Inv_Scarab_Stone.jpg" />
     <Content Include="Graphics\IconsWoW\INV_Weapon_Bow_07.jpg" />
+    <Content Include="Graphics\IconsWoW\Mage.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Deathknight_ClassIcon.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_DeathKnight_Gnaw_Ghoul.jpg" />
+    <Content Include="Graphics\IconsWoW\spell_frost_summonwaterelemental_2.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Nature_Drowsy.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Nature_GuardianWard.jpg" />
     <Content Include="Graphics\IconsWoW\Spell_Shadow_SummonFelGuard.jpg" />

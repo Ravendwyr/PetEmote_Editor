@@ -50,7 +50,6 @@
 			this.NumericUpDown_KeywordsMinLength = new System.Windows.Forms.NumericUpDown();
 			this.Panel_KeywordsLabel = new System.Windows.Forms.Panel();
 			this.CheckBox_KeywordsAutoFill = new System.Windows.Forms.CheckBox();
-			this.EmoteOutput = new PetEmote.Editor.Components.EmoteOutput();
 			this.ToolStrip_Main = new System.Windows.Forms.ToolStrip();
 			this.ToolStripButton_Save = new System.Windows.Forms.ToolStripButton();
 			this.ToolStripButton_Revert = new System.Windows.Forms.ToolStripButton();
@@ -117,6 +116,7 @@
 			this.ToolStripItem_RenameToFamily = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
 			this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.EmoteOutput = new PetEmote.Editor.Components.EmoteOutput();
 			this.ToolStripContainer_EmoteEditing.ContentPanel.SuspendLayout();
 			this.ToolStripContainer_EmoteEditing.TopToolStripPanel.SuspendLayout();
 			this.ToolStripContainer_EmoteEditing.SuspendLayout();
@@ -250,7 +250,9 @@
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups4"))),
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups5"))),
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups6"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups7")))});
+            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups7"))),
+            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups8"))),
+            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListView_Configurations.Groups9")))});
 			this.ListView_Configurations.HideSelection = false;
 			this.ListView_Configurations.LabelEdit = true;
 			this.ListView_Configurations.LargeImageList = this.ImageList_PetFamilies;
@@ -330,6 +332,11 @@
 			this.ImageList_PetFamilies.Images.SetKeyName(37, "Spell_Shadow_SummonSuccubus.jpg");
 			this.ImageList_PetFamilies.Images.SetKeyName(38, "Spell_Shadow_SummonVoidWalker.jpg");
 			this.ImageList_PetFamilies.Images.SetKeyName(39, "Spell_DeathKnight_Gnaw_Ghoul.jpg");
+			this.ImageList_PetFamilies.Images.SetKeyName(40, "Inv_Scarab_Stone.jpg");
+			this.ImageList_PetFamilies.Images.SetKeyName(41, "INV_Jewelry_Necklace_22.jpg");
+			this.ImageList_PetFamilies.Images.SetKeyName(42, "Ability_Hunter_AspectOfTheFox.jpg");
+			this.ImageList_PetFamilies.Images.SetKeyName(43, "Ability_Hunter_AspectOfTheMonkey.jpg");
+			this.ImageList_PetFamilies.Images.SetKeyName(44, "Spell_Frost_SummonWaterElemental_2.jpg");
 			// 
 			// SplitContainer_TopBottom
 			// 
@@ -563,19 +570,6 @@
 			this.ToolTip_Help.SetToolTip(this.CheckBox_KeywordsAutoFill, resources.GetString("CheckBox_KeywordsAutoFill.ToolTip"));
 			this.CheckBox_KeywordsAutoFill.UseVisualStyleBackColor = true;
 			this.CheckBox_KeywordsAutoFill.CheckedChanged += new System.EventHandler(this.CheckBox_KeywordsAutoFill_CheckedChanged);
-			// 
-			// EmoteOutput
-			// 
-			this.EmoteOutput.AccessibleDescription = null;
-			this.EmoteOutput.AccessibleName = null;
-			resources.ApplyResources(this.EmoteOutput, "EmoteOutput");
-			this.EmoteOutput.BackgroundImage = null;
-			this.EmoteOutput.Font = null;
-			this.EmoteOutput.FoodName = "%f";
-			this.EmoteOutput.Name = "EmoteOutput";
-			this.EmoteOutput.PetName = "Unknown";
-			this.EmoteOutput.TargetName = "%t";
-			this.ToolTip_Help.SetToolTip(this.EmoteOutput, resources.GetString("EmoteOutput.ToolTip"));
 			// 
 			// ToolStrip_Main
 			// 
@@ -1277,6 +1271,19 @@
 			this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
 			this.deleteToolStripMenuItem.ShortcutKeyDisplayString = null;
 			this.deleteToolStripMenuItem.Click += new System.EventHandler(this.ToolStripButton_RemoveConfiguration_Click);
+			// 
+			// EmoteOutput
+			// 
+			this.EmoteOutput.AccessibleDescription = null;
+			this.EmoteOutput.AccessibleName = null;
+			resources.ApplyResources(this.EmoteOutput, "EmoteOutput");
+			this.EmoteOutput.BackgroundImage = null;
+			this.EmoteOutput.Font = null;
+			this.EmoteOutput.FoodName = "%f";
+			this.EmoteOutput.Name = "EmoteOutput";
+			this.EmoteOutput.PetName = "Unknown";
+			this.EmoteOutput.TargetName = "%t";
+			this.ToolTip_Help.SetToolTip(this.EmoteOutput, resources.GetString("EmoteOutput.ToolTip"));
 			// 
 			// MainForm
 			// 

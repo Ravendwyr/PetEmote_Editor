@@ -247,4 +247,22 @@
   <data name="Spell_Shadow_SummonVoidWalker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>iconswow\spell_shadow_summonvoidwalker.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ability_Hunter_AspectOfTheFox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\Ability_Hunter_AspectOfTheFox.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ability_Hunter_AspectOfTheMonkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\Ability_Hunter_AspectOfTheMonkey.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INV_Jewelry_Necklace_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\INV_Jewelry_Necklace_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inv_Scarab_Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\Inv_Scarab_Stone.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spell_Frost_SummonWaterElemental_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\spell_frost_summonwaterelemental_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IconsWoW\Mage.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

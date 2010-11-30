@@ -89,6 +89,15 @@ namespace PetEmote.Core
 				case "1.6.3":
 				case "1.6.4":
 				case "1.6.5":
+				case "1.7.0":
+
+					nodes = this.doc.SelectNodes("//*/FamilyType");
+
+					foreach (XmlNode node in nodes) {
+						node.InnerText = node.InnerText.Replace("Chimera", "Chimaera");
+					}
+
+					goto default;
                     
                 default:
                     this.doc.DocumentElement.FirstChild.InnerText = Version.Latest.ToString();

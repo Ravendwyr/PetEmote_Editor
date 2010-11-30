@@ -9,7 +9,6 @@ PetEmote.Core/Emotes.cs -text
 PetEmote.Core/LuaTableWriter.cs -text
 PetEmote.Core/PetEmote.Core.csproj -text
 PetEmote.Core/PetFamily.cs -text
-PetEmote.Core/PetFamilyFactory.cs -text
 PetEmote.Core/Properties/AssemblyInfo.cs -text
 PetEmote.Core/Version.cs -text
 PetEmote.Core/XmlVersionConverter.cs -text
@@ -42,6 +41,8 @@ PetEmote.Editor/Graphics/Icons/Save.gif -text
 PetEmote.Editor/Graphics/IconsWoW.Designer.cs -text
 PetEmote.Editor/Graphics/IconsWoW.resx -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Druid_PrimalPrecision.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_AspectOfTheFox.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_AspectOfTheMonkey.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Bat.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Bear.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Boar.jpg -text
@@ -72,9 +73,14 @@ PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Wasp.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_WindSerpent.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Wolf.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Ability_Hunter_Pet_Worm.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/INV_Jewelry_Necklace_22.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/INV_Misc_QuestionMark.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/INV_Weapon_Bow_07.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Inv_Scarab_Stone.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Mage.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Druid_PrimalPrecision.png -text
+PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_AspectOfTheFox.png -text
+PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_AspectOfTheMonkey.png -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Bat.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Bear.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Boar.jpg -text
@@ -105,8 +111,10 @@ PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Wasp.png -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_WindSerpent.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Wolf.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Ability_Hunter_Pet_Worm.png -text
+PetEmote.Editor/Graphics/IconsWoW/Original/INV_Jewelry_Necklace_22.png -text
 PetEmote.Editor/Graphics/IconsWoW/Original/INV_Misc_QuestionMark.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/INV_Weapon_Bow_07.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Original/Inv_Scarab_Stone.png -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Nature_Drowsy.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Nature_GuardianWard.png -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Shadow_SummonFelGuard.jpg -text
@@ -115,8 +123,10 @@ PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Shadow_SummonImp.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Shadow_SummonInfernal.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Shadow_SummonSuccubus.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Original/Spell_Shadow_SummonVoidWalker.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Original/spell_frost_summonwaterelemental_2.png -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_DeathKnight_Gnaw_Ghoul.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_Deathknight_ClassIcon.jpg -text
+PetEmote.Editor/Graphics/IconsWoW/Spell_Frost_SummonWaterElemental_2.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_Nature_Drowsy.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_Nature_GuardianWard.jpg -text
 PetEmote.Editor/Graphics/IconsWoW/Spell_Shadow_SummonFelGuard.jpg -text

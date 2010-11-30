@@ -123,6 +123,9 @@
   <data name="ClassName_Hunter" xml:space="preserve">
     <value>Hunter</value>
   </data>
+  <data name="ClassName_Mage" xml:space="preserve">
+    <value>Mage</value>
+  </data>
   <data name="ClassName_Warlock" xml:space="preserve">
     <value>Warlock</value>
   </data>

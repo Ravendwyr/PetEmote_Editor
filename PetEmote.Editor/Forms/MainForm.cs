@@ -129,18 +129,21 @@ namespace PetEmote.Editor.Forms
 
 			this.currentEmotes.EmoteConfigurations.Clear();
 
-			foreach (ListViewItem item in this.ListView_Configurations.Items)
+			foreach (ListViewItem item in this.ListView_Configurations.Items) {
 				this.currentEmotes.EmoteConfigurations.Add((EmoteConfiguration)item.Tag);
+			}
 
 			// Speichern (xml)
-			if (!this.currentEmotes.Save())
-				if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
-					this.Save();
+			while (!this.currentEmotes.Save()) {
+				if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) != DialogResult.Retry)
+					break;
+			}
 
 			// Exportieren (lua)
-			if (!this.currentEmotes.Export(this.currentEmotes.GetType() == typeof(DefaultEmotes)))
-				if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) == DialogResult.Retry)
-					this.Save();
+			while (!this.currentEmotes.Export(this.currentEmotes.GetType() == typeof(DefaultEmotes))) {
+				if (MessageBox.Show(Resources.Message_SavingFailed, Application.ProductName, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Exclamation) != DialogResult.Retry)
+					break;
+			}
 		}
 
 		/// <summary>
@@ -377,8 +380,7 @@ namespace PetEmote.Editor.Forms
 			if (this.ListView_Configurations.Items.Count > 0)
 				foundItem = this.ListView_Configurations.FindItemWithText(text, false, 0);
 
-			if (foundItem != null)
-			{
+			if (foundItem != null) {
 				foundItem.Selected = true;
 			}
 			else
@@ -395,12 +397,9 @@ namespace PetEmote.Editor.Forms
 
 				newItem.Selected = true;
 
-				if (this.defaultEmotes.HasConfigurationForPetFamily(family.FamilyType, family.Language))
-				{
+				if (this.defaultEmotes.HasConfigurationForPetFamily(family.FamilyType, family.Language)) {
 					this.ToolStripDropDownButton_Import.Select();
-				}
-				else
-				{
+				} else {
 					this.ToolStripButton_AddNode.Select();
 				}
 			}

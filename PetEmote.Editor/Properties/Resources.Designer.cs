@@ -79,6 +79,15 @@ namespace PetEmote.Editor.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Mage ähnelt.
+        /// </summary>
+        internal static string ClassName_Mage {
+            get {
+                return ResourceManager.GetString("ClassName_Mage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Warlock ähnelt.
         /// </summary>
         internal static string ClassName_Warlock {
