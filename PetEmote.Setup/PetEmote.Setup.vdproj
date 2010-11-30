@@ -15,18 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_12864EC9F2AE2A59F02C6DAA6228F212"
+        "OwnerKey" = "8:_7DEF3698A0F44587944FBDCC10975233"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7DEF3698A0F44587944FBDCC10975233"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C5E1AC194F221D2DE91B7818606D6ACC"
-        "OwnerKey" = "8:_7DEF3698A0F44587944FBDCC10975233"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_7DEF3698A0F44587944FBDCC10975233"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5E1AC194F221D2DE91B7818606D6ACC"
+        "OwnerKey" = "8:_12864EC9F2AE2A59F02C6DAA6228F212"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -86,6 +86,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -116,14 +129,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C5E1AC194F221D2DE91B7818606D6ACC"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_12864EC9F2AE2A59F02C6DAA6228F212"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PetEmote.Core, Version=1.7.0.71, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:PetEmote.Core, Version=1.7.1.1, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C5E1AC194F221D2DE91B7818606D6ACC"
+                    "_12864EC9F2AE2A59F02C6DAA6228F212"
                     {
                     "Name" = "8:PetEmote.Core.dll"
                     "Attributes" = "3:512"
@@ -203,8 +216,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PetEmote Editor"
-        "ProductCode" = "8:{60274DDB-2A1B-4B07-BF52-32DAAC0FD974}"
-        "PackageCode" = "8:{6AC2208E-9758-4A56-8AE2-E0A8A5A81B07}"
+        "ProductCode" = "8:{21E8405E-3357-4875-ACE2-874C2A9E2AED}"
+        "PackageCode" = "8:{5E8D3C32-74BB-4189-852E-960C772016AD}"
         "UpgradeCode" = "8:{225B7B33-6426-497C-9E33-BC9EB65A0AF4}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
