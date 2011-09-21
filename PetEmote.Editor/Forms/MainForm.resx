@@ -139,6 +139,9 @@ will not concat with other emotes.</value>
   <data name="TreeView_FeedingEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
   </data>
+  <data name="TreeView_CombatEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="ToolStripMenuItem_Condition_PetIsUnhappy.ToolTipText" xml:space="preserve">
     <value>The pet must be unhappy (hunters only)</value>
   </data>
@@ -151,11 +154,8 @@ will not concat with other emotes.</value>
   <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
-    <value>editToolStripMenuItem</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SplitContainer_TopBottom.TabIndex" type="System.Int32, mscorlib">
+  <data name="TreeView_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Name" xml:space="preserve">
@@ -169,17 +169,17 @@ will not concat with other emotes.</value>
   </data>
   <data name="ToolStripButton_Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAOru9oGA5t7l8Dw7eIeG7NLb6lRWulNSpHp53zk5ckREiVxdwRxBpxE7oXBv0VZV
+        R0lGODlhEAAQAIYAAOru9oGA5t7l8Dw7eIeG7NLb6lRWulNSpHp53zk5ckREiVxdwRxBpxE7oXBv0VZV
         qjRNs7e29cbR5bOy80RJqnJx10pKlEtYvjQ8R1BPn0FBgyhHrT9SuE1NmkdHj1lYsISD20hNVmdmzI+O
         9FxdwjM+nnx71yEyR6in7uDn8Xd23DU9nCREqkxQso+O4Kem7Tc2bp+e6c7Z6Wd0hUNLrqu0w2Vkw5OS
         +JiX5YiH3ZST9Vtqfby7/7zByq6t/9jg7XN/jz4+fXZ11DMzZ7Sz/5qZ/6Kh6lJidgAAAKSj/GBjyaqp
         /4uK373K4a2s8LO7xq6t8Wxrz4+O84qJ73V00zE5mG5t02xr0ZKR4jxCooGA2jVBozY9nKCf+5GQ9Xt6
         1qCf/8TIztTd7Gh4jWdnzDxCo5ua57e2/1ZexJST5ExPsvb4+769/0tbcf///wAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAG8ALAAAAAAQABAAAAfIgG+C
-        g4SFghERE1AoRmZpLjlaX1QOghNsN26am25rFx8fgk5sU5yaawAcQw+CL2wBpqgCEAgHgjFsKpyyBRsV
-        GYI4bFabvBIMZB2CWGwipwACBRJNDSQWgkw8Z0poFxwQGwwNCwYegiBEPkkjBAEIFVfkLQqCJktdOm36
-        bUc7BmoUNAgSAsYLgTZIMMgQM4MGhTJBBDko0q4NhjE/UgDZkmXFAEFRpARgcaLGkx5hQpTgUiXBIBsP
-        DmToYMGDAg0DBiSAYagnoUAAOw==
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABvACwAAAAAEAAQAAAI2ADfCBxIsKDACBEmQEFhxEwaFzm0fKHiQOAENjfcaNzoZs2FDx8EOmEzhaPG
+        NQA4DHkg8AWbACZRCoCA4IDAGGxUcJRZYEOFDAJxsLGykacEBmQ6CMTCRsRJAAIKSGjSgIQFgUx4nFGC
+        5gIHCBsYNFhgwINAEER8JBlBIACCClfItlAg0MSSLjra6G1zZIcBNRQ0CBQCxguBNkgwyBAzgwaFMkEE
+        OijStg2GMT9SANmSZcUAgVGkBGBxosaTHmFClOBSJcFAGw8OZOhgwYMCDQMGJIBhsDfBgAA7
 </value>
   </data>
   <data name="&gt;&gt;Panel_Keywords.Type" xml:space="preserve">
@@ -193,9 +193,6 @@ will not concat with other emotes.</value>
   </data>
   <data name="&gt;&gt;ContextMenuStrip_ConfigurationsMenu.Name" xml:space="preserve">
     <value>ContextMenuStrip_ConfigurationsMenu</value>
-  </data>
-  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
   </data>
   <data name="ListView_Configurations.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -230,14 +227,14 @@ will not concat with other emotes.</value>
   <data name="&gt;&gt;ToolStripTextBox_Independent.Name" xml:space="preserve">
     <value>ToolStripTextBox_Independent</value>
   </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Name" xml:space="preserve">
     <value>SplitContainer_TopBottom.Panel1</value>
-  </data>
-  <data name="EmoteOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
   </data>
   <data name="SplitContainer_LeftRight.ToolTip" xml:space="preserve">
     <value />
@@ -247,21 +244,18 @@ will not concat with other emotes.</value>
   </data>
   <data name="ToolStripButton_RemoveNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAPj28oWPl/f18YgYGPf08HmDjMLL0fj18uV+fvXy7fn381xmcGdxeoGLk/j18brD
+        R0lGODlhEAAQAIYAAPj28oWPl/f18YgYGPf08HmDjMLL0fj18uV+fvXy7fn381xmcGdxeoGLk/j18brD
         ynF7hHUVFcQjI1ljbXiCi3V/h7S9xfbz74WQmLa/x3uGjneBim95goCKkmZwecAiIn4XF7MgIGZxemRv
         ePf073cVFVVgarYhIa+5wXaAiMokJGx2f73GzH+KknuFjoONlXyHj3B6g3eBicbO08XN03aAicfO1HqE
         jGVveIOOlswkJIKMlLvEy3N9hoSPl77GzV9pcsHJz1ZhaoAXF254gWFrdGBqc4oZGbO9xMIjI73GzbW+
         xoCLk8kkJLW/xtElJXyGjrfAx8vS13V/iJIaGtsyMl9pc8HJ0Gt1fmx3gLG7w7K8xM4lJfj28/n28+JZ
         WYaQmPn39P///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAGMALAAAAAAQABAAAAfBgGOC
-        g4SFhFcyN1AwGgU1BQaED0QVNF1dXl5dYQZTECxjTjhKAgBeYahhmgAGHA8LUQQbLTkBYGAYAS8dB0FY
-        EwkEB6epqZoOMULBBTu3zrcBXgApJkvCCsXZXS4oViQUDT62YNlSTGNAPKVd2KgITzoSVYIWHj8CDqZh
-        CF9fKv0fBGUYwSCLgBkNuHwRs5DLEUJIilzoYSNJk4VfBgwppMXIijEhuDAUw6WEoQUMxijkQkXhAENb
-        RAg6MQBEhJeBAAA7
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABjACwAAAAAEAAQAAAI0QDHCBxIsCDBKzJuQIGhoUCNAgYIPiBSgUaXLl68dAljYAoEFmOc4FAiAICX
+        MCjDaARggMODBVEIbGiRIwAYMBgCvOhwIAiWCQkIHDiZMqVGBzGEBC2w46bTmwG8AEhhYolQBUWzdnGB
+        wgoJCg182ASTVQqTMUB4lOyCFSWCJzokVBFowcMPAQ5MhkHw5YuKvh8EZhjBIIuAGQ24fBGzmMsRgkiK
+        XOhhI0mTxV8GDCmoxciKMSG4MBbDpYTBBQzGKOZCRfEAg1tECDwxAESE1wEBADs=
 </value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -269,8 +263,15 @@ will not concat with other emotes.</value>
   <data name="&gt;&gt;NumericUpDown_KeywordsMinLength.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;petFamilyToolStripMenuItem.Name" xml:space="preserve">
-    <value>petFamilyToolStripMenuItem</value>
+  <data name="ListView_Configurations.Groups9" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAxVbmtub3duIChkZSkF/P///yhTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25t
+        ZW50AQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAoGBQAAABhMaXN0Vmlld0dyb3VwX1Vua25vd25fZGUL
+</value>
   </data>
   <data name="&gt;&gt;SplitContainer_LeftRight.Parent" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing.ContentPanel</value>
@@ -280,22 +281,6 @@ will not concat with other emotes.</value>
   </data>
   <data name="SplitContainer_LeftRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="ToolStripMenuItem_Options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjdJREFUOE+9ku1L
-        U3EUx+//IFQUGZXInAunE7YmlI9UNALJkCLLF+lWUeRArIWSWM3IRmQbDIOeJIvKJkaQFE0ryIfMu1Yj
-        2KixpsyHmQ/b7u3e3W/39+tNvtDVm86b8+p8z+d8v4dh/lfNvBtG37adEOYXQHYmOY72FYubnILf3gEy
-        3FNQhrpMFcbMFvisNgxW1UKMx1cWiQVDaFDkoEmZC7a+EZEXbozVnYFZFnLJgpIopqbo1BbiU3Mr/qxv
-        t++hW18KsmDZE36wXriLDbiq1kESBHpGe+5WhB66AEmCPU+P5uy8pQKh6QTUpi688k4hNjsH65Z8XMnR
-        UtTIy3445KGJZ30UhpCN1J4EE+dF3H87Dl94EVZXAGnKEmzcYcawP4pHR0/TTQSZuJ7keUrzpe0anJoC
-        8NMzYBYSArL227BKbUDm3gvofB3GpZ4A0ouMWKetxI2yfTgnow4dNmH2gweehiacV2lwNkuNeCj8+wRT
-        hxebdtVDECXEOJH2yTkemw0W6I034bv7gLp/PEOJLl0RHSRUifEJMLanX7Gh9AR630dAaFTVTpS3jUJM
-        SqhxfsRqTTnau1m6afBgDTVxifOKystYk18BNjiP6OJPZB9yoKRliBiNqussJSMnLRsXQa12eKA51Uvd
-        5YUk7eEoh/TiY1Q41ccy9udB6j6hueX+TtPI2NOINEUhjLI/KQUuPglAZ3mDlsd+rN9+BGt1B2i0dwbC
-        6P8sR/UvVWEbxe7Wkb8e+gV6f61A1rLncQAAAABJRU5ErkJggg==
-</value>
   </data>
   <data name="ToolStripButton_RemoveConfiguration.Text" xml:space="preserve">
     <value>Delete configuration</value>
@@ -311,6 +296,9 @@ will not concat with other emotes.</value>
   </data>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 6</value>
+  </data>
+  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="TabControl_EmoteConfigurations.ToolTip" xml:space="preserve">
     <value />
@@ -366,17 +354,18 @@ will not concat with other emotes.</value>
   </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
+        R0lGODlhEAAQAIYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
         sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
         /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
         sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
         0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
         88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
-        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
-        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
-        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
-        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
-        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
+        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAI/AD/CBxIsKDAGy0SNFHioYaUCRTouFAQQSCaBGnMIHizgMKcCRzaNLgjMEoH
+        Mx5+DKABJEIQNlu0LBEIpYOPNwI0OAhTAEKGJ0cwCOzSxUmFCiJmrCjA4cKaImMELgigIQ4ZCEJ2YJHA
+        gYgCoX/KwMHxIIaEHDqGXODSY4oVgTzwPMjhxoYXGRYsyBHTwIFACSZYJKmiAsCVDCJE9Fks8IIECCWo
+        7PkQQsSIESQu9/mzAcSHFAD67Dkg4swJPydQmOC84QIINQeyMOlDwo9tEiX+GBGQZ8ALMGPs9EGBxM8X
+        AiH+VBgAQw8fBgzq9DFAgAQB5AYJ9jFRIkTygAA7
 </value>
   </data>
   <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
@@ -406,6 +395,9 @@ will not concat with other emotes.</value>
   <data name="&gt;&gt;ToolStripMenuItem_IsThirdCall.Name" xml:space="preserve">
     <value>ToolStripMenuItem_IsThirdCall</value>
   </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ToolStripTextBox_Independent.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -430,6 +422,12 @@ will not concat with other emotes.</value>
   <data name="ToolStripComboBox_Chance.Items6" xml:space="preserve">
     <value>50</value>
   </data>
+  <data name="SplitContainer_TopBottom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Parent" xml:space="preserve">
+    <value>SplitContainer_LeftRight.Panel2</value>
+  </data>
   <data name="ToolStripDropDownButton_AddConfiguration.Text" xml:space="preserve">
     <value>Add configuration</value>
   </data>
@@ -439,21 +437,14 @@ will not concat with other emotes.</value>
   <data name="ToolStripButton_AddNode.ToolTipText" xml:space="preserve">
     <value>Adds a new emote node at the end of the list</value>
   </data>
-  <data name="ListView_Configurations.Groups9" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
-        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAxVbmtub3duIChkZSkF/P///yhTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25t
-        ZW50AQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAoGBQAAABhMaXN0Vmlld0dyb3VwX1Vua25vd25fZGUL
-</value>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.Name" xml:space="preserve">
+    <value>TreeView_DefaultEmotes</value>
   </data>
   <data name="&gt;&gt;ImageList_TreeView.Name" xml:space="preserve">
     <value>ImageList_TreeView</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
-    <value>Pet is male</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_PetIsUnhappy</value>
   </data>
   <data name="SplitContainer_TopBottom.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -498,6 +489,9 @@ will not concat with other emotes.</value>
   <data name="SplitContainer_LeftRight.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;petFamilyToolStripMenuItem.Name" xml:space="preserve">
+    <value>petFamilyToolStripMenuItem</value>
+  </data>
   <data name="Panel_Keywords.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -513,17 +507,14 @@ will not concat with other emotes.</value>
   <data name="NumericUpDown_KeywordsMinLength.ToolTip" xml:space="preserve">
     <value>Set the minimum word length of auto-generated keywords here.</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_PetIsUnhappy</value>
-  </data>
   <data name="ToolStripContainer_EmoteEditing.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="&gt;&gt;Panel_KeywordsLabel.Name" xml:space="preserve">
     <value>Panel_KeywordsLabel</value>
   </data>
-  <data name="revertToolStripMenuItem.Text" xml:space="preserve">
-    <value>Revert</value>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="SplitContainer_TopBottom.Panel1.ToolTip" xml:space="preserve">
     <value />
@@ -537,6 +528,9 @@ will not concat with other emotes.</value>
   <data name="Panel_KeywordsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
   </data>
+  <data name="ToolStripSeparator_ImportFromFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
   <data name="&gt;&gt;TabControl_EmoteConfigurations.Name" xml:space="preserve">
     <value>TabControl_EmoteConfigurations</value>
   </data>
@@ -546,8 +540,14 @@ will not concat with other emotes.</value>
   <data name="&gt;&gt;ImageList_TreeView.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
-    <value>ToolStripButton_RemoveConfiguration</value>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
+    <value>The pet's gender must be male</value>
+  </data>
+  <data name="NumericUpDown_KeywordsMinLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 0</value>
   </data>
   <data name="&gt;&gt;configurationToolStripMenuItem.Name" xml:space="preserve">
     <value>configurationToolStripMenuItem</value>
@@ -561,33 +561,17 @@ will not concat with other emotes.</value>
   <data name="revertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 22</value>
   </data>
-  <data name="&gt;&gt;importToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ListView_Configurations.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;TreeView_CombatEmotes.Parent" xml:space="preserve">
-    <value>TabPage_CombatEmotes</value>
-  </data>
   <data name="TreeView_DefaultEmotes.Size" type="System.Drawing.Size, System.Drawing">
     <value>567, 356</value>
   </data>
-  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
-    <value>Choose a number from 1 to 200, which represents a percental chance, that the
-selected emote occurs in comparison with other emotes of the same level.
-
-- with a value of 100, the emote occurs as often as any other emote
-- a value greater than 100 increases the chance, that the emote occurs
-- a value lower than 100 decreases the chance, that the emote occurs
-- a value of 200 doubles the chance, that the emote occurs
-- with a value of 1 the emote occurs extremely rare</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;emoteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStrip_Main.Name" xml:space="preserve">
     <value>ToolStrip_Main</value>
@@ -616,22 +600,19 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
     <value>toolStripSeparator10</value>
   </data>
-  <data name="TreeView_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="ToolStripButton_AddNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAPj28oWPl/f08Pf18cLL0XmDjPj18lxmcGdxenK5XgZDAvXy7YGLk/j18fn387rD
+        R0lGODlhEAAQAIYAAPj28oWPl/f08Pf18cLL0XmDjPj18lxmcGdxenK5XgZDAvXy7YGLk/j18fn387rD
         yj6kIQlPA3V/h3F7hLS9xXN9hn+KkoWQmEKPMRl0C8vS1zOYGnuGjoCKkoCLk2VveLO9xGZxeh58DjaE
         KF9pcrvEy295gnaAiA5bBVljbXeBiQ5eBRJnB3qEjLfAx2ZweTuhIHB6gx59DgpPA7a/x8HJ0HiCi2x2
         fwZEAjqgH19pc7W+xr3GzLG7w3V/iK+5wVOfQHuFjneBiimLFL7GzSKBEGRveBVsCYONlTCUGDKWGnaA
         icXN08bO04SPl4KMlG54gRp3C3yGjmBqc1VgaglNAw5cBXyHj2FrdBNVCwlOA7W/xmt1flZhavf074OO
         lvbz77K8xMfO1L3GzRNUDDecHcHJzzmfHjJ+IyeHFGx3gPj28/n284aQmPn39P///wAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHAALAAAAAAQABAAAAfFgHCC
-        g4SFhDUqLVJXHAVLBQSED1ASTGtrbGxrbgQ+EzxwWx9jAwBsbqhumgAEJg8HLgJCFl8BbW0XAUgdBmZc
-        KQsCBqepqZoNMV3BBU+3zrcBbAAnVDvCDsXZa0E/Ol42DE62bdkaHnAkJaVr2KgJEDkbQIIUL0QDDaZu
-        72dvQzIjBNEwgkDNgCYMYJRJ8kbEkRWEQGABU0GMkjcYMc4o1GPKDThpikR5YyUCDkMHEMDBkIHFGy0K
-        shgKE0IQGhRVFJCBEwgAOw==
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABwACwAAAAAEAAQAAAI1QDhCBxIsCDBGipaSLnCocCSAgQIPoAigcmaNWzYrHFDwMcEHnC2fBgzAAAb
+        NyjdaARAwMSDAy4ECLHwJUCbNhcCIOlgwAyXFAsEGDiZMqXGBjG6BC3w5KbTmwHYADhBZYdQB0Wzrgny
+        Q4cXGwyc2GyTVYMHOCRKlFyDFWUCCDk2ABFI4QWRAQ1Munl75s0QGSME0jCCQM2AJgxglEnyRsSRFQRB
+        YAFTQYySN5gxzyjYY8oNOGmKRHljJQIOgwcQwMGQgcUbLQqyGAwTQiAaFFUUkIETEAA7
 </value>
   </data>
   <data name="ListView_Configurations.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -656,9 +637,6 @@ selected emote occurs in comparison with other emotes of the same level.
   <data name="&gt;&gt;ToolStripComboBox_Chance.Name" xml:space="preserve">
     <value>ToolStripComboBox_Chance</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_IsFirstCall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="TextBox_Keywords.ToolTip" xml:space="preserve">
     <value>Obviate bad sentence structures by defining keywords for your emotes. PetEmote will compare
 the keywords of all emotes to each other, to see which emotes go together with others well and
@@ -668,8 +646,11 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Name" xml:space="preserve">
     <value>ToolStripMenuItem_Condition_PetIsFemale</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Name" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.BottomToolStripPanel</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="ContextMenuStrip_EmoteTree.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 26</value>
@@ -710,8 +691,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
-    <value>Pet is content</value>
+  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator8.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -730,6 +711,9 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButton_Revert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ToolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 6</value>
@@ -751,9 +735,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="Panel_KeywordsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
-  </data>
-  <data name="&gt;&gt;TabPage_FeedingEmotes.Name" xml:space="preserve">
-    <value>TabPage_FeedingEmotes</value>
   </data>
   <data name="ToolStripDropDownButton_Import.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -783,12 +764,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetExists.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_TargetExists</value>
-  </data>
-  <data name="importToolStripMenuItem.Text" xml:space="preserve">
-    <value>Import</value>
   </data>
   <data name="TabPage_CombatEmotes.Text" xml:space="preserve">
     <value>Combat Emotes</value>
@@ -848,8 +823,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
     <value>ToolStripSeparator2</value>
   </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;SplitContainer_LeftRight.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripButton_AddChildNode.Name" xml:space="preserve">
     <value>ToolStripButton_AddChildNode</value>
@@ -872,26 +847,14 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;ToolStripSeparator9.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ListView_Configurations.Parent" xml:space="preserve">
-    <value>SplitContainer_LeftRight.Panel1</value>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer_TopBottom</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Text" xml:space="preserve">
     <value>Target is friendly</value>
   </data>
-  <data name="ToolStripButton_RemoveConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
-        M8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBv39/Qk9M4i4ly1g
-        TPf4+ghNOtnf5uzv85mun/Lz9jBnVW+/tAVhTu306bDKolyol6fOoqXxy6XBocDPrVCXd+flvLLPnZ3K
-        rqr/07L02Kf92KT31ODuyy9KMK372TZYQHvFmJvAo9D127LawZjBsN7lsNXb5NX88sjYrO/y9Pn6+qC/
-        kr7Yo7vr0rzk1LPi0/L+9XuccbfOoLDKpL/ixHvQpc/55km+sMvs0LXKpF64qNLo1KLJr7TOpqC2jt32
-        2bHWr0BZL0FzS8/w0hlOR2edd5zsyJXgw5PduO//88XlzBIuGIWviQIvEazZsTxmQ4XnxdHhuFJ+Vbn/
-        4TFhOk5mVERsTMXx3z53acHy1ViWbGN5WtnmxU6KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfpgH+C
-        g4SFgm4wCDZMHTUuEhN2VAkQgmAIUkgHcQoTdRIbQQx5glMcSB1FAz03ED9tXFtNglmncQIZDXMEDxhc
-        aReCXl5dFBQiOT4EGxZDUFaCCgEZYmUPZzpoERtCCcF/S3J6DjQRMThAFm9YLU6CUXQOZnA7OVUVFWxj
-        DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
-        UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
-</value>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="&gt;&gt;importToolStripMenuItem.Name" xml:space="preserve">
     <value>importToolStripMenuItem</value>
@@ -907,9 +870,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
     <value>ToolStripSeparator3</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="Panel_KeywordsTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>497, 20</value>
@@ -947,6 +907,12 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;SplitContainer_LeftRight.Panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage_DefaultEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="TextBox_Keywords.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 3, 10, 3</value>
   </data>
@@ -965,11 +931,11 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="ContextMenuStrip_Configuration.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Panel_KeywordsTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
     <value>toolStripSeparator11</value>
@@ -979,9 +945,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="&gt;&gt;SplitContainer_LeftRight.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodAccepted.Text" xml:space="preserve">
-    <value>Pet accepted food</value>
   </data>
   <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 6</value>
@@ -1016,8 +979,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="Panel_KeywordsLabel.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="NumericUpDown_KeywordsMinLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 0</value>
+  <data name="Panel_KeywordsTextBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 2, 0</value>
   </data>
   <data name="SplitContainer_TopBottom.Panel2.ToolTip" xml:space="preserve">
     <value />
@@ -1038,8 +1001,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
         ZW50AQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAoGBQAAABhMaXN0Vmlld0dyb3VwX1Vua25vd25fZW4L
 </value>
   </data>
-  <data name="&gt;&gt;Panel_KeywordsTextBox.Name" xml:space="preserve">
-    <value>Panel_KeywordsTextBox</value>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Text" xml:space="preserve">
+    <value>Pet is male</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Name" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing</value>
@@ -1056,6 +1019,9 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsMale.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;revertToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ToolStripSeparator7.Name" xml:space="preserve">
     <value>ToolStripSeparator7</value>
   </data>
@@ -1064,6 +1030,9 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="&gt;&gt;SplitContainer_LeftRight.Panel2.Parent" xml:space="preserve">
     <value>SplitContainer_LeftRight</value>
+  </data>
+  <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 20</value>
   </data>
   <data name="&gt;&gt;ToolStripDropDownButton_AddConfiguration.Name" xml:space="preserve">
     <value>ToolStripDropDownButton_AddConfiguration</value>
@@ -1104,8 +1073,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="SplitContainer_LeftRight.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsHappy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
@@ -1120,7 +1089,7 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
     <value>The pet's gender must be female</value>
   </data>
   <data name="&gt;&gt;EmoteOutput.Type" xml:space="preserve">
-    <value>PetEmote.Editor.Components.EmoteOutput, PetEmote.Editor, Version=1.7.0.71, Culture=neutral, PublicKeyToken=null</value>
+    <value>PetEmote.Editor.Components.EmoteOutput, PetEmote.Editor, Version=1.7.1.1, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="ToolStripMenuItem_Conditions.Text" xml:space="preserve">
     <value>Condition</value>
@@ -1133,9 +1102,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   </data>
   <data name="ToolStripComboBox_Chance.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
-  </data>
-  <data name="SplitContainer_LeftRight.Panel1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
     <value>toolStripSeparator13</value>
@@ -1164,14 +1130,20 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="ToolStripDropDownButton_Import.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
+  <data name="&gt;&gt;TabPage_DefaultEmotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;configurationToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripButton_Revert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;EmoteOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 22</value>
@@ -1182,17 +1154,14 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;TabPage_FeedingEmotes.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="ContextMenuStrip_Configuration.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 104</value>
-  </data>
-  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
-    <value>Random Emotes</value>
-  </data>
-  <data name="ToolStripMenuItem_FoodRefused.ToolTipText" xml:space="preserve">
-    <value>The pet must refuse the obtained food</value>
   </data>
   <data name="&gt;&gt;TextBox_Keywords.Name" xml:space="preserve">
     <value>TextBox_Keywords</value>
@@ -1203,8 +1172,8 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;emoteToolStripMenuItem.Name" xml:space="preserve">
     <value>emoteToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;SplitContainer_LeftRight.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TreeView_CombatEmotes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1212,20 +1181,26 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="ToolStripMenuItem_Condition_PetIsFemale.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
   </data>
-  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+  <data name="&gt;&gt;ToolStripMenuItem_ImportFromFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripMenuItem_ImportFromFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ListView_Configurations.LabelWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="SplitContainer_TopBottom.Size" type="System.Drawing.Size, System.Drawing">
     <value>575, 546</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem_IsSecondCall.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Panel_KeywordsTextBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 2, 0</value>
   </data>
   <data name="&gt;&gt;ListView_Configurations.Name" xml:space="preserve">
     <value>ListView_Configurations</value>
@@ -1262,9 +1237,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
         dF9lbgs=
 </value>
   </data>
-  <data name="TreeView_FeedingEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="&gt;&gt;ToolTip_Help.Name" xml:space="preserve">
     <value>ToolTip_Help</value>
   </data>
@@ -1283,9 +1255,6 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Options.Name" xml:space="preserve">
     <value>ToolStripMenuItem_Options</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1293,14 +1262,14 @@ will prevent PetEmote from using these emotes in the same sentence.</value>
     <value>If checked, editing an emote will update
 the keywords automatically.</value>
   </data>
+  <data name="ToolStripLabel_Chance.Text" xml:space="preserve">
+    <value>Chance</value>
+  </data>
   <data name="&gt;&gt;ToolStripSeparator4.Name" xml:space="preserve">
     <value>ToolStripSeparator4</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
-  </data>
-  <data name="newConfigurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
   </data>
   <data name="&gt;&gt;SplitContainer_LeftRight.Panel1.Parent" xml:space="preserve">
     <value>SplitContainer_LeftRight</value>
@@ -1323,6 +1292,9 @@ the keywords automatically.</value>
   <data name="EmoteOutput.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;ToolStripButton_Revert.Name" xml:space="preserve">
+    <value>ToolStripButton_Revert</value>
+  </data>
   <data name="ToolStripComboBox_Chance.Text" xml:space="preserve">
     <value>100</value>
   </data>
@@ -1343,9 +1315,6 @@ the keywords automatically.</value>
   </data>
   <data name="Panel_KeywordsTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
   </data>
   <data name="ToolStripMenuItem_Condition_PetIsUnhappy.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -1866,11 +1835,24 @@ the keywords automatically.</value>
   <data name="NumericUpDown_KeywordsMinLength.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="ToolStripButton_RemoveConfiguration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
+        M8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBv39/Qk9M4i4ly1g
+        TPf4+ghNOtnf5uzv85mun/Lz9jBnVW+/tAVhTu306bDKolyol6fOoqXxy6XBocDPrVCXd+flvLLPnZ3K
+        rqr/07L02Kf92KT31ODuyy9KMK372TZYQHvFmJvAo9D127LawZjBsN7lsNXb5NX88sjYrO/y9Pn6+qC/
+        kr7Yo7vr0rzk1LPi0/L+9XuccbfOoLDKpL/ixHvQpc/55km+sMvs0LXKpF64qNLo1KLJr7TOpqC2jt32
+        2bHWr0BZL0FzS8/w0hlOR2edd5zsyJXgw5PduO//88XlzBIuGIWviQIvEazZsTxmQ4XnxdHhuFJ+Vbn/
+        4TFhOk5mVERsTMXx3z53acHy1ViWbGN5WtnmxU6KegAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAI+QD/CBxIsKBANzAQ2GDSoYYLCRPsUEkAQSAYBFKQHIijYEIdCRuCMMgjcAoH
+        JB2KDOhxA8KPNly2NBGY5WQcARkazCHwAAOXNBcEevHShQIFETl8ENhgYQgUKwIVBMggpsyDMzrQRNgg
+        JEHQP0vk6HFAI0IMHEAsvMHSwonAKHQcmIGzI0eVChXYjGHQQGCEES+0XFkBgAwGESL6KBZoIcKDEizw
+        eAghAoRly33+aPjgQQWAPngMiFBConSKEZo1WPiwxgCRJ31Q+JmNosSfMAL2DJChZsGRPimSnDhhIsQf
+        CgNm8OHxZcGdPgVMSDdi3ODAPiNKhDAeEAA7
+</value>
+  </data>
   <data name="&gt;&gt;TextBox_Keywords.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
   </data>
   <data name="&gt;&gt;TreeView_FeedingEmotes.Type" xml:space="preserve">
     <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1890,8 +1872,8 @@ the keywords automatically.</value>
   <data name="TextBox_Keywords.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
+  <data name="ContextMenuStrip_ConfigurationsMenu.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ToolStripMenuItem_Conditions.ToolTipText" xml:space="preserve">
     <value>Choose a condition for the selected Emote</value>
@@ -1899,20 +1881,20 @@ the keywords automatically.</value>
   <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
     <value>toolsToolStripMenuItem</value>
   </data>
+  <data name="&gt;&gt;ToolStripMenuItem_ImportFromFile.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_ImportFromFile</value>
+  </data>
   <data name="EmoteOutput.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="ToolStripMenuItem_FoodRefused.Text" xml:space="preserve">
     <value>Pet refused food</value>
   </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.Parent" xml:space="preserve">
-    <value>SplitContainer_TopBottom</value>
+  <data name="TreeView_FeedingEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="petFamilyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
-    <value>toolStripSeparator14</value>
   </data>
   <data name="&gt;&gt;NumericUpDown_KeywordsMinLength.Parent" xml:space="preserve">
     <value>Panel_KeywordsTextBox</value>
@@ -1932,11 +1914,14 @@ the keywords automatically.</value>
   <data name="TabPage_CombatEmotes.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;ToolStripButton_Revert.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 21</value>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
   </data>
   <data name="&gt;&gt;CheckBox_KeywordsAutoFill.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1965,8 +1950,8 @@ the keywords automatically.</value>
   <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
     <value>MenuStrip</value>
   </data>
-  <data name="&gt;&gt;TabPage_DefaultEmotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ToolStripMenuItem_Condition_PetIsContent.Text" xml:space="preserve">
+    <value>Pet is content</value>
   </data>
   <data name="ListView_Configurations.Groups6" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -1987,8 +1972,8 @@ the keywords automatically.</value>
   <data name="&gt;&gt;MenuStrip.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="TreeView_FeedingEmotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="ToolStripMenuItem_FoodAccepted.Text" xml:space="preserve">
+    <value>Pet accepted food</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Name" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing.RightToolStripPanel</value>
@@ -1998,7 +1983,7 @@ the keywords automatically.</value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABm
-        TQAAAk1TRnQBSQFMAgEBLQEAATEBAAEEAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        TQAAAk1TRnQBSQFMAgEBLQEAATEBAAEIAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAAcADAAEBAQABCAYAATAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -2328,20 +2313,17 @@ the keywords automatically.</value>
         AxIBFAJDAesBFQEPARADAAFEAXQISwJ0AUUBDgEAAQsCDgEAAW4BbQEAAREBQwEPAQ4BHAFuARIBDwQA
         AQ4ERQIkAUUBAAEOAg8DAAEOAUMBFAESARQBbQEQAeoBDwEUAQ4BEAEPAwABDwFKBEsBbgNLAW4BdAEP
         Aw4BAAEOAeoBEAFDARABQwEOARABDwHtARUBQgFNAT4HAAE+AwABKAMAAUADAAHAAwABAQEAAQEGAAEG
-        FgAD//8A/wD/AP8A/wD/AAcACw==
+        FgAD//8A/wD/AP8A/wD/AB0ACw==
 </value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem_MustContinue.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.LeftToolStripPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem_IsFirstCall.Name" xml:space="preserve">
     <value>ToolStripMenuItem_IsFirstCall</value>
@@ -2352,8 +2334,21 @@ the keywords automatically.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_PlayerIsFemale.Name" xml:space="preserve">
     <value>ToolStripMenuItem_Condition_PlayerIsFemale</value>
   </data>
-  <data name="TreeView_CombatEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="ToolStripMenuItem_Options.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjdJREFUOE+9ku1L
+        U3EUx+//IFQUGZXInAunE7YmlI9UNALJkCLLF+lWUeRArIWSWM3IRmQbDIOeJIvKJkaQFE0ryIfMu1Yj
+        2KixpsyHmQ/b7u3e3W/39+tNvtDVm86b8+p8z+d8v4dh/lfNvBtG37adEOYXQHYmOY72FYubnILf3gEy
+        3FNQhrpMFcbMFvisNgxW1UKMx1cWiQVDaFDkoEmZC7a+EZEXbozVnYFZFnLJgpIopqbo1BbiU3Mr/qxv
+        t++hW18KsmDZE36wXriLDbiq1kESBHpGe+5WhB66AEmCPU+P5uy8pQKh6QTUpi688k4hNjsH65Z8XMnR
+        UtTIy3445KGJZ30UhpCN1J4EE+dF3H87Dl94EVZXAGnKEmzcYcawP4pHR0/TTQSZuJ7keUrzpe0anJoC
+        8NMzYBYSArL227BKbUDm3gvofB3GpZ4A0ouMWKetxI2yfTgnow4dNmH2gweehiacV2lwNkuNeCj8+wRT
+        hxebdtVDECXEOJH2yTkemw0W6I034bv7gLp/PEOJLl0RHSRUifEJMLanX7Gh9AR630dAaFTVTpS3jUJM
+        SqhxfsRqTTnau1m6afBgDTVxifOKystYk18BNjiP6OJPZB9yoKRliBiNqussJSMnLRsXQa12eKA51Uvd
+        5YUk7eEoh/TiY1Q41ccy9udB6j6hueX+TtPI2NOINEUhjLI/KQUuPglAZ3mDlsd+rN9+BGt1B2i0dwbC
+        6P8sR/UvVWEbxe7Wkb8e+gV6f61A1rLncQAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator9.Name" xml:space="preserve">
     <value>ToolStripSeparator9</value>
@@ -2394,6 +2389,9 @@ the keywords automatically.</value>
   <data name="MenuStrip.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;ToolStripSeparator_ImportFromFile.Name" xml:space="preserve">
+    <value>ToolStripSeparator_ImportFromFile</value>
+  </data>
   <data name="&gt;&gt;Panel_KeywordsLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
@@ -2403,17 +2401,14 @@ the keywords automatically.</value>
   <data name="newConfigurationToolStripMenuItem.Text" xml:space="preserve">
     <value>New configuration</value>
   </data>
-  <data name="ListView_Configurations.LabelWrap" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="TabPage_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 356</value>
   </data>
   <data name="&gt;&gt;ContextMenuStrip_Configuration.Name" xml:space="preserve">
     <value>ContextMenuStrip_Configuration</value>
   </data>
-  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
-    <value>Remove emote</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Options.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetExists.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_TargetExists</value>
   </data>
   <data name="&gt;&gt;TreeView_CombatEmotes.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2424,23 +2419,23 @@ the keywords automatically.</value>
   <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
     <value>exitToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;SplitContainer_TopBottom.Parent" xml:space="preserve">
-    <value>SplitContainer_LeftRight.Panel2</value>
+  <data name="newConfigurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
   </data>
   <data name="&gt;&gt;ToolStripButton_AddNode.Name" xml:space="preserve">
     <value>ToolStripButton_AddNode</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="importToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import</value>
   </data>
   <data name="&gt;&gt;TabPage_FeedingEmotes.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ToolStrip_Main.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
+  <data name="&gt;&gt;ToolStripButton_RemoveConfiguration.Name" xml:space="preserve">
+    <value>ToolStripButton_RemoveConfiguration</value>
   </data>
   <data name="ToolStripComboBox_Chance.Items" xml:space="preserve">
     <value>200</value>
@@ -2454,11 +2449,11 @@ the keywords automatically.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsContent.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="conditionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing</value>
+  <data name="ToolStripTextBox_Independent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
   </data>
   <data name="ToolStripMenuItem_Condition_PetIsContent.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -2481,6 +2476,9 @@ the keywords automatically.</value>
         GPzmIYNvAPAD5Sg07ZwtAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsUnhappy.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -2496,8 +2494,8 @@ the keywords automatically.</value>
   <data name="ToolStripButton_AddChildNode.ToolTipText" xml:space="preserve">
     <value>Adds a new emote node inside the selected node</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;ToolStripMenuItem_IsFirstCall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ToolStripMenuItem_MustContinue.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -2507,17 +2505,18 @@ the keywords automatically.</value>
   </data>
   <data name="newConfigurationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
+        R0lGODlhEAAQAIYAAFKShJOyjFhpQXOHZdje5abkxt3j6VmHd9PksKrIm+/97ZiqhNf339vt2qrbxpPa
         sxdLM8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBgk9M4i4l/39
         /ZmunwhNOi1gTPf4+vLz9jBnVW+/tK372Vyol6fOor/ixKXBocDPrVCXd3vQpbTx2i9KMOflvKT31KzZ
         sViWbKHvyqr/06f92Hucccvs0MbWrt7lsJrLqjZYQJXgw3vFmND12/L+9UBZL+//8+/y9F64qL7Yo7vr
         0rPi07LPnbTOpqDIsbXKpLDKpLDKou306QVhTkm+sLzk1BlOR5PduJjBsNLo1KLJrzxmQ6C2jq/31ezv
         88XlzLn/4c/w0s/55medd6C/ksnaq/n6+rHWr7fOoBIuGLLawQIvEZvAo4XnxdHhuFJ+VUFzS4WviU5m
-        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfsgH+C
-        g4SFgjctCU1KHjVSExR0LgoRgmgJaWYIbwsUcxMcbQ13glEdZh4/AzRAEUFsW1pLglAdPm8CGg5hBRAZ
-        T0cYgl1dThUVIjMrBRwXa0VjggsBGnFkEEI7WBIcRArCf2VwOA8xEjk6QxdcPVNWgjx4DzluNl4yFhZy
-        Yg0OghImWCSpogLAlQwiRPRZKOiCBAglqOz5EELEiBEkLvb5swHEhxQA+uw5IOLMCT8nUJjguOECCDUH
-        sjDpQ8KPTRIl/hgRkGfACzBj7PRBgcTPFwIh/lQYAEMPHwYM6vQxQIAEAaSGCPUxUSJE0kAAOw==
+        VERsTMXx39X88sHy1TFhOmN5WtnmxT53aeDuy06KegAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAI/AD/CBxIsKDAGy0SNFHioYaUCRTouFAQQSCaBGnMIHizgMKcCRzaNLgjMEoH
+        Mx5+DKABJEIQNlu0LBEIpYOPNwI0OAhTAEKGJ0cwCOzSxUmFCiJmrCjA4cKaImMELgigIQ4ZCEJ2YJHA
+        gYgCoX/KwMHxIIaEHDqGXODSY4oVgTzwPMjhxoYXGRYsyBHTwIFACSZYJKmiAsCVDCJE9Fks8IIECCWo
+        7PkQQsSIESQu9/mzAcSHFAD67Dkg4swJPydQmOC84QIINQeyMOlDwo9tEiX+GBGQZ8ALMGPs9EGBxM8X
+        AiH+VBgAQw8fBgzq9DFAgAQB5AYJ9jFRIkTygAA7
 </value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.ZOrder" xml:space="preserve">
@@ -2526,11 +2525,8 @@ the keywords automatically.</value>
   <data name="&gt;&gt;ToolStripDropDownButton_Import.Name" xml:space="preserve">
     <value>ToolStripDropDownButton_Import</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
-    <value>Target is unfriendly</value>
-  </data>
-  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
-    <value>Target exists</value>
+  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
+    <value>toolStripSeparator14</value>
   </data>
   <data name="&gt;&gt;SplitContainer_LeftRight.Panel1.Name" xml:space="preserve">
     <value>SplitContainer_LeftRight.Panel1</value>
@@ -2540,6 +2536,9 @@ the keywords automatically.</value>
   </data>
   <data name="ListView_Configurations.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2556,7 +2555,7 @@ the keywords automatically.</value>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsFriendly.Name" xml:space="preserve">
     <value>ToolStripMenuItem_Condition_TargetIsFriendly</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
+  <data name="SplitContainer_LeftRight.Panel1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;SplitContainer_TopBottom.Panel1.Type" xml:space="preserve">
@@ -2564,6 +2563,9 @@ the keywords automatically.</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetIsFriendly.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_KeywordsAutoFill.Parent" xml:space="preserve">
+    <value>Panel_KeywordsLabel</value>
   </data>
   <data name="ToolStripMenuItem_Condition_TargetExists.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -2584,8 +2586,8 @@ the keywords automatically.</value>
   <data name="ToolStripContainer_EmoteEditing.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="TabPage_DefaultEmotes.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_PetIsFemale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ToolStripMenuItem_Condition_PetIsHappy.ToolTipText" xml:space="preserve">
     <value>The pet must be happy (hunters only)</value>
@@ -2599,25 +2601,26 @@ the keywords automatically.</value>
   <data name="ToolStripButton_AddChildNode.Text" xml:space="preserve">
     <value>Add subordinate emote</value>
   </data>
-  <data name="ToolStripButton_RemoveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="conditionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
   </data>
-  <data name="&gt;&gt;EmoteOutput.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="TreeView_DefaultEmotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="importToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAPmks/Z+g1YUA4VTQ9VteTIMATMSEUgDAm44KysBACkNA0IXFkoRFCoTADIPDSME
+        R0lGODlhEAAQAIYAAPmks/Z+g1YUA4VTQ9VteTIMATMSEUgDAm44KysBACkNA0IXFkoRFCoTADIPDSME
         BC8EBSoMCzEHCUMVDxsAAB4PAOuYpz4HB/39/RUAAPf4+vLz9tnf5u3Yj9/l6tXb5HIiGtxtb9ZhadJ1
         h9KZe7lpb7dzfJJNVfDOkEwhDO+TpFIsNK87QEUiJPn6+nVNQDkOCS0OEkQPEMpaWf/dvOiEmOaAlMSD
         i4AjH5JLO5xvTz8YEcxpc93OhqFrWMhVWTwDBVFADNBtelghEFEDDZNBSGI2PhsQAIw5KvKAf4cwJXsU
         E2gPEGsJBIdNQfvmxtrg52IsDtx7jr9RYE8rFlUwIlwjI3ZsUEkVD2QbJGwlM5w5Mn5RP7RHU//pwTkB
         BF0bE1cjH5EeIv+SnGMgEf3xpO3Qj/LQkezv889wgu/y9GkoL9NwXJsrL6I2OL1bRT42K6ZRScObYP/n
-        sPrspbdVOjURBD0AADcBApdUP08SB9rLiqM7OWchLgAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfogH+C
-        g4SFgmMiYlNdM3lDCQ8xCwpHggEsbQQEIXoJWA8RMAoVlj9uQjxMUTpOGRETo4JJfDglB0VyZwMZD2F2
-        DYIzTUgHYDkoZlwZBlY7wH9LSgcDVFQddC8ZLWsTBYJbID5PcFdlPVUZK1oy3n9xAiQ0XnN7QRQSRn0M
-        MIIKWEhs3tTZQQECn4N9+giikOAOGQECJCTggwGDhYoKHyTAgwBBii8M+LjQ4EfDhgt/IkgAItFBkRF8
-        LPiZaQGlhAtETpi4oUJKnw1q/KDhAOxLljQWAACoYaOPBygWOHx4ZkhQnwsXGgALBAA7
+        sPrspbdVOjURBD0AADcBApdUP08SB9rLiqM7OWchLgAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAI+AD/CBxIsKDAMSLETOkyI8+QBA9iLFBwRGAAFm0IEAihJwGWBxFgKKhg8Ycb
+        ITyYRNHhJEOECSMFJuGDo8SBInLODMjwIIydBgJnNEFyAEwOFGa4ZDBgZQfQP0uUHBhAhUoHOi8ytFgz
+        oYDALSB8PIFzpUyPKhlWaJHh9U8cASRoeJmzJwgFCUb6MIAhUAEWJGze1NlBAQKfw336CKSQ4A4ZAQIk
+        JOCDAYOFyoofJMCDAEGKLwz4uNDgR8OGC38iSAAi2UGREXws+JltAbWEC0ROmLihQkqfDWr8oOEA9EuW
+        NBYAAKhho48HKBY4fHhqUGCfCxcaAA0IADs=
 </value>
   </data>
   <data name="&gt;&gt;ToolTip_Help.Type" xml:space="preserve">
@@ -2629,11 +2632,11 @@ the keywords automatically.</value>
   <data name="&gt;&gt;ToolStripItem_RenameToFamily.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;revertToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TreeView_CombatEmotes.Parent" xml:space="preserve">
+    <value>TabPage_CombatEmotes</value>
   </data>
-  <data name="&gt;&gt;CheckBox_KeywordsAutoFill.Parent" xml:space="preserve">
-    <value>Panel_KeywordsLabel</value>
+  <data name="&gt;&gt;ListView_Configurations.Parent" xml:space="preserve">
+    <value>SplitContainer_LeftRight.Panel1</value>
   </data>
   <data name="ToolStripItem_RenameToFamily.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
@@ -2644,76 +2647,12 @@ the keywords automatically.</value>
   <data name="ToolStripMenuItem_Condition_None.Text" xml:space="preserve">
     <value>No condition</value>
   </data>
-  <data name="ToolStripMenuItem_Condition_PetIsMale.ToolTipText" xml:space="preserve">
-    <value>The pet's gender must be male</value>
-  </data>
-  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 356</value>
-  </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItem_FoodRefused.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_FoodRefused</value>
-  </data>
-  <data name="&gt;&gt;TabPage_CombatEmotes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 22</value>
-  </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
-    <value>If selected, the emote will be continued with
-one of the subordinary texts guaranteed.</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="SplitContainer_TopBottom.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TabPage_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;ToolStrip_Main.Parent" xml:space="preserve">
-    <value>ToolStripContainer_EmoteEditing.TopToolStripPanel</value>
-  </data>
-  <data name="ToolStripMenuItem_IsSecondCall.Text" xml:space="preserve">
-    <value>Second part of emote</value>
-  </data>
-  <data name="ToolStrip_Main.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ToolStripMenuItem_Conditions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;Panel_KeywordsTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="TreeView_DefaultEmotes.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="ImageList_TreeView.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
-        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEIAQABEAEAARABAAT/AREBEAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABEAMAAQEBAAEQBgABCB4AAfgBWgHPATEEAAHkARkBYAEFASABBQEAAQEBQQEJDAABrwExAa8BMQYA
         AeQBGQFgAQUBIAEFAQABAQFBAQkOAAH4AVoBzwExBAABhAFYAWMBRAFCATwBQgE4AWMBRC4AAY4BLQHP
         ATECAAEmASIBwQENAYABCQH/AX8BIAEFAQABAQFBAQkIAAH4AVoBrwExAfgBWgQAASYBIgHBAQ0BgAEJ
@@ -2759,14 +2698,94 @@ one of the subordinary texts guaranteed.</value>
         ATEBrwExAa8BMQGvATEB+AFaRAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEA
         AfwBwQH5AcEB/AHBAgAB/AGAAfEBgAH8AYACAAH4AYAB4QGAAfgBgAIAAfABAAHAAQAB8AMAAcABAAGA
         AQABwAMAAYADAAGAAwABgAEBAQABAQGAAQEFAAEDBwABAQ4AAYAHAAHgBwAB8AUAAYABAQHwAQABgAEB
-        AgAB4AEHAfABAQHgAQcCAAL/AfgBAwL/AgAL
+        AgAB4AEHAfABAQHgAQcCAAL/AfgBAwL/GAAL
 </value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="ToolStrip_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TreeView_CombatEmotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 356</value>
+  </data>
+  <data name="&gt;&gt;TreeView_DefaultEmotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_FoodRefused.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_FoodRefused</value>
+  </data>
+  <data name="&gt;&gt;TabPage_CombatEmotes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ToolStripMenuItem_Conditions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 22</value>
+  </data>
+  <data name="SplitContainer_TopBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ToolStripMenuItem_MustContinue.ToolTipText" xml:space="preserve">
+    <value>If selected, the emote will be continued with
+one of the subordinary texts guaranteed.</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;ImageList_PetFamilies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="revertToolStripMenuItem.Text" xml:space="preserve">
+    <value>Revert</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Name" xml:space="preserve">
+    <value>ToolStripMenuItem_Condition_None</value>
+  </data>
+  <data name="TabPage_FeedingEmotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ToolStripTextBox_Independent.MaxLength" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;TabPage_FeedingEmotes.Name" xml:space="preserve">
+    <value>TabPage_FeedingEmotes</value>
+  </data>
+  <data name="ToolStripMenuItem_IsSecondCall.Text" xml:space="preserve">
+    <value>Second part of emote</value>
+  </data>
+  <data name="ToolStrip_Main.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.ContentPanel.Parent" xml:space="preserve">
+    <value>ToolStripContainer_EmoteEditing</value>
+  </data>
+  <data name="&gt;&gt;Panel_KeywordsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmoteOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="TreeView_DefaultEmotes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolStripComboBox_Chance.ToolTipText" xml:space="preserve">
+    <value>Choose a number from 1 to 200, which represents a percental chance, that the
+selected emote occurs in comparison with other emotes of the same level.
+
+- with a value of 100, the emote occurs as often as any other emote
+- a value greater than 100 increases the chance, that the emote occurs
+- a value lower than 100 decreases the chance, that the emote occurs
+- a value of 200 doubles the chance, that the emote occurs
+- with a value of 1 the emote occurs extremely rare</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem_Condition_TargetIsUnfriendly.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ToolStripButton_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="ToolStripMenuItem_Condition_TargetExists.Text" xml:space="preserve">
+    <value>Target exists</value>
   </data>
   <data name="ToolStripMenuItem_Options.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 22</value>
@@ -2774,14 +2793,14 @@ one of the subordinary texts guaranteed.</value>
   <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.ToolTipText" xml:space="preserve">
     <value>The player's target must be unfriendly</value>
   </data>
-  <data name="ToolStripLabel_Chance.Text" xml:space="preserve">
-    <value>Chance</value>
-  </data>
-  <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
-    <value>402</value>
+  <data name="TabPage_DefaultEmotes.Text" xml:space="preserve">
+    <value>Random Emotes</value>
   </data>
   <data name="Panel_KeywordsLabel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ToolStripMenuItem_IsSecondCall.ToolTipText" xml:space="preserve">
     <value>This has to be the second of three parts of an emote.</value>
@@ -2789,32 +2808,33 @@ one of the subordinary texts guaranteed.</value>
   <data name="TextBox_Keywords.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.RightToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ToolStripButton_RemoveNode.Text" xml:space="preserve">
+    <value>Remove emote</value>
   </data>
   <data name="ToolStripMenuItem_IsFirstCall.Text" xml:space="preserve">
     <value>First part of emote</value>
   </data>
-  <data name="&gt;&gt;ImageList_PetFamilies.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
   </data>
-  <data name="ContextMenuStrip_ConfigurationsMenu.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ToolStripMenuItem_Condition_TargetIsUnfriendly.Text" xml:space="preserve">
+    <value>Target is unfriendly</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer_EmoteEditing</value>
   </data>
-  <data name="&gt;&gt;ToolStripButton_Revert.Name" xml:space="preserve">
-    <value>ToolStripButton_Revert</value>
+  <data name="ToolStripMenuItem_FoodRefused.ToolTipText" xml:space="preserve">
+    <value>The pet must refuse the obtained food</value>
   </data>
   <data name="ToolStripButton_AddChildNode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
+        R0lGODlhEAAQAIUAAHK5Xj6kIQZDAiKBEDJ+IxNUDDKWGjuhIAZEAjOYGjecHTaEKDqgHxNVCzCUGBVs
         CRp3CwpPAxJnBymLFAlOAyeHFAlPA0KPMTmfHg5bBRl0C1OfQAlNAw5cBQ5eBR58Dh59DrW/xv///2Vv
         ePn39AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACUALAAAAAAQABAAAAZxwJJQGBoZj6PQcFgMkZ7P
-        5rKUJBWNTulwBO1GR0wktgu+OqFma7Lq/TbZYq5aKW+ThfCjExBgJDYlTW18GCITIAuBbFAHCg4iHw8e
-        REYkRwYimZkRYZZCFQMQIh0WCEtaFxoSIhQCDVNGQwQZHAIFJUEAOw==
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAlACwAAAAAEAAQ
+        AAAIiQBLCBQYYoTBgyNCDBxYMASJhw8bLiyRkERBgw4lDhwBsWPEEQwRYuwI8qJDiCYtJqzo8WNDliI5
+        qlQosyVJgTAPOgQQgEGCDSUatuSJQcQEEAuCsoR4QIEDER8eeCBokMRBAyKyZo0Q0qrACgMgiOhgAcFC
+        jRc0SBBBQUCDiQYHEsjAQUCBEgEBADs=
 </value>
   </data>
   <data name="&gt;&gt;ToolStripLabel_Chance.Type" xml:space="preserve">
@@ -2849,11 +2869,11 @@ one of the subordinary texts guaranteed.</value>
   <data name="&gt;&gt;deleteToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;emoteToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;importToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ToolStripMenuItem_Condition_None.Name" xml:space="preserve">
-    <value>ToolStripMenuItem_Condition_None</value>
+  <data name="SplitContainer_TopBottom.SplitterDistance" type="System.Int32, mscorlib">
+    <value>402</value>
   </data>
   <data name="ToolStripMenuItem_Condition_PlayerIsFemale.ToolTipText" xml:space="preserve">
     <value>The player character's gender must be female</value>
@@ -2877,8 +2897,8 @@ one of the subordinary texts guaranteed.</value>
         ShV/A9RL+rL+h1IfAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="TextBox_Keywords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>449, 20</value>
+  <data name="ToolStripButton_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="CheckBox_KeywordsAutoFill.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2886,32 +2906,36 @@ one of the subordinary texts guaranteed.</value>
   <data name="ToolStripButton_AddNode.Text" xml:space="preserve">
     <value>Add emote</value>
   </data>
-  <data name="&gt;&gt;TreeView_DefaultEmotes.Name" xml:space="preserve">
-    <value>TreeView_DefaultEmotes</value>
+  <data name="ToolStripButton_Revert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="deleteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
+        R0lGODlhEAAQAIYAAFKShJOyjFhpQXOHZabkxt/l6lmHd9PksKrIm+/97ZiqhNX44tvt2qrbxpPasxdL
         M8v62xc8IylFKBg0FTdSKRJHHQgqCsr04Qc6HC5WMhElCx5HKa29ltvltwY3JgQdBv39/Qk9M4i4ly1g
         TPf4+ghNOtnf5uzv85mun/Lz9jBnVW+/tAVhTu306bDKolyol6fOoqXxy6XBocDPrVCXd+flvLLPnZ3K
         rqr/07L02Kf92KT31ODuyy9KMK372TZYQHvFmJvAo9D127LawZjBsN7lsNXb5NX88sjYrO/y9Pn6+qC/
         kr7Yo7vr0rzk1LPi0/L+9XuccbfOoLDKpL/ixHvQpc/55km+sMvs0LXKpF64qNLo1KLJr7TOpqC2jt32
         2bHWr0BZL0FzS8/w0hlOR2edd5zsyJXgw5PduO//88XlzBIuGIWviQIvEazZsTxmQ4XnxdHhuFJ+Vbn/
-        4TFhOk5mVERsTMXx3z53acHy1ViWbGN5WtnmxU6KegAAAAAAACH5BAEAAH8ALAAAAAAQABAAAAfpgH+C
-        g4SFgm4wCDZMHTUuEhN2VAkQgmAIUkgHcQoTdRIbQQx5glMcSB1FAz03ED9tXFtNglmncQIZDXMEDxhc
-        aReCXl5dFBQiOT4EGxZDUFaCCgEZYmUPZzpoERtCCcF/S3J6DjQRMThAFm9YLU6CUXQOZnA7OVUVFWxj
-        DA2CESMvtFxZAYAMBhEi+igUZCHCgxIs8HgIIQKERYt9/mj44EEFgD54DIhQQqJkihEaNVj4sMYAkSd9
-        UPiZiaLEnzAC9gyQoWbBkT4pkpw4YSLEHwoDZvDh8WXBnT4FTEg1YtTQoD4jSoQwGggAOw==
+        4TFhOk5mVERsTMXx3z53acHy1ViWbGN5WtnmxU6KegAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAI+QD/CBxIsKBANzAQ2GDSoYYLCRPsUEkAQSAYBFKQHIijYEIdCRuCMMgjcAoH
+        JB2KDOhxA8KPNly2NBGY5WQcARkazCHwAAOXNBcEevHShQIFETl8ENhgYQgUKwIVBMggpsyDMzrQRNgg
+        JEHQP0vk6HFAI0IMHEAsvMHSwonAKHQcmIGzI0eVChXYjGHQQGCEES+0XFkBgAwGESL6KBZoIcKDEizw
+        eAghAoRly33+aPjgQQWAPngMiFBConSKEZo1WPiwxgCRJ31Q+JmNosSfMAL2DJChZsGRPimSnDhhIsQf
+        CgNm8OHxZcGdPgVMSDdi3ODAPiNKhDAeEAA7
 </value>
   </data>
-  <data name="ToolStripButton_AddChildNode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;SplitContainer_TopBottom.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;ToolStripContainer_EmoteEditing.BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripSeparator7.Type" xml:space="preserve">
+  <data name="&gt;&gt;ToolStripSeparator_ImportFromFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripMenuItem_Condition_PetIsMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="&gt;&gt;Panel_KeywordsTextBox.Name" xml:space="preserve">
+    <value>Panel_KeywordsTextBox</value>
   </data>
   <data name="ToolStripMenuItem_IsThirdCall.Text" xml:space="preserve">
     <value>Third part of emote</value>
@@ -2922,6 +2946,9 @@ one of the subordinary texts guaranteed.</value>
   <data name="ToolStripComboBox_Chance.Items3" xml:space="preserve">
     <value>125</value>
   </data>
+  <metadata name="ContextMenuStrip_ConfigurationsMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>218, 54</value>
+  </metadata>
   <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>361, 17</value>
   </metadata>
@@ -2946,16 +2973,13 @@ one of the subordinary texts guaranteed.</value>
   <metadata name="ContextMenuStrip_EmoteTree.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 54</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>English</value>
-  </metadata>
   <metadata name="ToolTip_Help.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>244, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="ContextMenuStrip_ConfigurationsMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>218, 54</value>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English</value>
   </metadata>
 </root>
