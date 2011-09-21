@@ -7,8 +7,8 @@ using System.IO;
 namespace PetEmote.Editor
 {
 	/// <summary>
-	/// Bietet die Möglichkeit, eine HTTP-Verbindung herzustellen,
-	/// um beliebige URLs unter Angabe von Parametern aufzurufen.
+	/// This is not yet used. The idea is to let the user send his XML file to
+    /// my server, so I can put his emotes into the addon.
 	/// </summary>
 	public class HttpResponder
 	{
@@ -40,7 +40,7 @@ namespace PetEmote.Editor
 		public string Result { get; private set; }
 
 		/// <summary>
-		/// Sendet eine Anfrage per HTTP und gibt die Antwort zurück.
+		/// Sends data by HTTP.
 		/// </summary>
 		public void SendResponse ()
 		{
